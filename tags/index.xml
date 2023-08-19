@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on 安和Blog</title>
+        <link>https://example.com/tags/</link>
+        <description>Recent content in Tags on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Sat, 02 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Galgame</title>
+        <link>https://example.com/tags/galgame/</link>
+        <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/galgame/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>短评</title>
+        <link>https://example.com/tags/%E7%9F%AD%E8%AF%84/</link>
+        <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E7%9F%AD%E8%AF%84/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>闲聊杂谈</title>
+        <link>https://example.com/tags/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
+        <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>番剧</title>
+        <link>https://example.com/tags/%E7%95%AA%E5%89%A7/</link>
+        <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E7%95%AA%E5%89%A7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>轻小说</title>
+        <link>https://example.com/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</link>
+        <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ACGN短评 on 安和Blog</title>
+        <link>https://example.com/categories/acg%E7%9F%AD%E8%AF%84/</link>
+        <description>Recent content in ACGN短评 on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright><atom:link href="https://example.com/categories/acg%E7%9F%AD%E8%AF%84/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
