@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E5%85%AC%E5%91%8A/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/test/</loc>
+    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/p/galgame-nora/</loc>
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/acgn%E7%9F%AD%E8%AF%84/</loc>
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/tags/galgame/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/</loc>
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E7%9F%AD%E8%AF%84/</loc>
@@ -41,18 +50,16 @@
     <loc>https://example.com/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2021-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/acg%E7%9F%AD%E8%AF%84/</loc>
+    <loc>https://example.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/links/</loc>
+    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
     <loc>https://example.com/search/</loc>
   </url><url>
-    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://example.com/%E5%8F%8B%E4%BA%BA/</loc>
   </url>
 </urlset>

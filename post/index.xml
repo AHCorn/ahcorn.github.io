@@ -7,7 +7,25 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sat, 02 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>临时公告</title>
+        <link>https://example.com/p/test/</link>
+        <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/test/</guid>
+        <description>&lt;p&gt;抱歉各位，由于服务器到期， nekocoffee.com 域名也将在下月到期并涨价的缘故，目前决定将博客迁至 Github Pages ，使用 Hugo 来继续维护，评论区什么的还没搞好，文章、友链还需要从老数据库导出一下。&lt;/p&gt;
+&lt;p&gt;评论什么的应该是没法恢复了，所以即便文章搬过来也都是空空如也的状态，不过刚好可以白嫖 Github 的存储，我就多把之前缺掉的图补回来吧。&lt;/p&gt;
+&lt;p&gt;目前几篇文章是我之前自己写的短评，一直没有发出来，日后可能会更新一些教程向的学习笔记（？）&lt;/p&gt;
+&lt;p&gt;博客从开始维护至今也快有七年啦，前前后后从一开始2016年的的非主流域名 k8j.top , cmd.kim，到后来2017年的 ahblog.net ，2018 年的 lolicorn.com，再到前年准备关站时靠卖掉域名买的 nekocoffee.com，虽然很多次差一点就放弃了，但几经波折和难得的小幸运，也还是坚持到了现在，维护这个博客，也算是我坚持的比较久的一件事了吧。&lt;/p&gt;
+&lt;p&gt;其实有时候我也会想，当时卖掉 lolicorn.com 真的值得吗？毕竟这个域名是我努力运营了两三年后才有相当的独立访客和SEO，甚至拿到了百度权重1，几百收录，也有排名顶掉百度汉语的时候，那时甚至还会每天回复访客的问题（&lt;/p&gt;
+&lt;p&gt;换到 nekocoffee.com 之后就冷清了许多啦，加上我也变成了本地写一些感想，连最简单的复制级的“写代码”都不想弄了，衰败也是自然而然的吧，当然，搜索引擎对我这个域名百般打压，也是我减少维护的重要原因&amp;hellip;&lt;/p&gt;
+&lt;p&gt;友链我会在这两天尽快的把大家加上的，也有劳大家看到的话能改下我的友链~因为这么多年来第一次用静态博客框架，实在是很不熟悉，光是把这个搭建好，弄懂怎么发文章什么的都花了我几个小时&amp;hellip;是我之前小看静态框架了（哭）&lt;/p&gt;
+&lt;p&gt;最后感谢友链的大家和时常来访的读者，接下来我会在这个免费的新博客高强度更新的！&lt;/p&gt;
+&lt;p&gt;如果近期有事需要联系我，欢迎发邮件~我会定期查看的&lt;/p&gt;
+&lt;p&gt;📧 Mail @ &lt;a class=&#34;link&#34; href=&#34;mailto:Ayanee@protonmail.com&#34; &gt;Ayanee@protonmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《野良与皇女与流浪猫之心》短评</title>
         <link>https://example.com/p/galgame-nora/</link>
         <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>

@@ -7,7 +7,25 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sat, 02 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>临时公告</title>
+        <link>https://example.com/p/test/</link>
+        <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/test/</guid>
+        <description>&lt;p&gt;抱歉各位，由于服务器到期， nekocoffee.com 域名也将在下月到期并涨价的缘故，目前决定将博客迁至 Github Pages ，使用 Hugo 来继续维护，评论区什么的还没搞好，文章、友链还需要从老数据库导出一下。&lt;/p&gt;
+&lt;p&gt;评论什么的应该是没法恢复了，所以即便文章搬过来也都是空空如也的状态，不过刚好可以白嫖 Github 的存储，我就多把之前缺掉的图补回来吧。&lt;/p&gt;
+&lt;p&gt;目前几篇文章是我之前自己写的短评，一直没有发出来，日后可能会更新一些教程向的学习笔记（？）&lt;/p&gt;
+&lt;p&gt;博客从开始维护至今也快有七年啦，前前后后从一开始2016年的的非主流域名 k8j.top , cmd.kim，到后来2017年的 ahblog.net ，2018 年的 lolicorn.com，再到前年准备关站时靠卖掉域名买的 nekocoffee.com，虽然很多次差一点就放弃了，但几经波折和难得的小幸运，也还是坚持到了现在，维护这个博客，也算是我坚持的比较久的一件事了吧。&lt;/p&gt;
+&lt;p&gt;其实有时候我也会想，当时卖掉 lolicorn.com 真的值得吗？毕竟这个域名是我努力运营了两三年后才有相当的独立访客和SEO，甚至拿到了百度权重1，几百收录，也有排名顶掉百度汉语的时候，那时甚至还会每天回复访客的问题（&lt;/p&gt;
+&lt;p&gt;换到 nekocoffee.com 之后就冷清了许多啦，加上我也变成了本地写一些感想，连最简单的复制级的“写代码”都不想弄了，衰败也是自然而然的吧，当然，搜索引擎对我这个域名百般打压，也是我减少维护的重要原因&amp;hellip;&lt;/p&gt;
+&lt;p&gt;友链我会在这两天尽快的把大家加上的，也有劳大家看到的话能改下我的友链~因为这么多年来第一次用静态博客框架，实在是很不熟悉，光是把这个搭建好，弄懂怎么发文章什么的都花了我几个小时&amp;hellip;是我之前小看静态框架了（哭）&lt;/p&gt;
+&lt;p&gt;最后感谢友链的大家和时常来访的读者，接下来我会在这个免费的新博客高强度更新的！&lt;/p&gt;
+&lt;p&gt;如果近期有事需要联系我，欢迎发邮件~我会定期查看的&lt;/p&gt;
+&lt;p&gt;📧 Mail @ &lt;a class=&#34;link&#34; href=&#34;mailto:Ayanee@protonmail.com&#34; &gt;Ayanee@protonmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《野良与皇女与流浪猫之心》短评</title>
         <link>https://example.com/p/galgame-nora/</link>
         <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
@@ -68,54 +86,11 @@
 </description>
         </item>
         <item>
-        <title>Archives</title>
+        <title>归档</title>
         <link>https://example.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Links</title>
-        <link>https://example.com/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://example.com/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/search/</guid>
         <description></description>
         </item>
         <item>
@@ -128,10 +103,32 @@
 &lt;p&gt;本博客建立于 2017 年 6 月，经历过五次域名更换，最近一次在2021年的9月；主要记录一些博主的学习笔记（会以教程的方式呈现）、日常、评价（有时候会是有感而发）等。&lt;/p&gt;
 &lt;h2 id=&#34;版权&#34;&gt;版权&lt;/h2&gt;
 &lt;p&gt;本站引用了大量来自 Pixiv 的插画作为题图，但并没有用于商业用途，会陆续为其添上出处。&lt;/p&gt;
+&lt;h2 id=&#34;程序&#34;&gt;程序&lt;/h2&gt;
+&lt;p&gt;本博客使用 Jimmy 设计的 Stack 主题&lt;/p&gt;
+&lt;p&gt;由 Hugo 强力驱动&lt;/p&gt;
+&lt;p&gt;免费部署在 Github Pages&lt;/p&gt;
 &lt;h2 id=&#34;鸣谢&#34;&gt;鸣谢&lt;/h2&gt;
-&lt;p&gt;头像为 景 老师的轻小说插画
-本博客由 Hugo 驱动
-本博客免费部署在 Github Pages&lt;/p&gt;
+&lt;p&gt;头像为 景 老师所绘的轻小说插画&lt;/p&gt;
+&lt;p&gt;感谢各位友链博主和读者们愿意来访！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://example.com/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友人</title>
+        <link>https://example.com/%E5%8F%8B%E4%BA%BA/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/%E5%8F%8B%E4%BA%BA/</guid>
+        <description>&lt;h2 id=&#34;维护中&#34;&gt;维护中&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;由于数据库导出和重制格式需要时间，友链的迁移工作预计于2023-8-23日前完成，如果您有看到这条消息，也有劳您将我的友链地址改为 &lt;a class=&#34;link&#34; href=&#34;https://ahcorn.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ahcorn.github.io&lt;/a&gt; ，非常感谢，给大家添麻烦了。&lt;/p&gt;
 </description>
         </item>
         
