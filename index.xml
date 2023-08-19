@@ -124,7 +124,14 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;h2 id=&#34;这个博客是干嘛的&#34;&gt;这个博客是干嘛的？&lt;/h2&gt;
+&lt;p&gt;本博客建立于 2017 年 6 月，经历过五次域名更换，最近一次在2021年的9月；主要记录一些博主的学习笔记（会以教程的方式呈现）、日常、评价（有时候会是有感而发）等。&lt;/p&gt;
+&lt;h2 id=&#34;版权&#34;&gt;版权&lt;/h2&gt;
+&lt;p&gt;本站引用了大量来自 Pixiv 的插画作为题图，但并没有用于商业用途，会陆续为其添上出处。&lt;/p&gt;
+&lt;h2 id=&#34;鸣谢&#34;&gt;鸣谢&lt;/h2&gt;
+&lt;p&gt;头像为 景 老师的轻小说插画
+本博客由 Hugo 驱动
+本博客免费部署在 Github Pages&lt;/p&gt;
 </description>
         </item>
         
