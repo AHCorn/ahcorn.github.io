@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/350/'>
 
-<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='谈谈网站防御'>
+<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='谈谈网站防御'>
 <meta property='og:description' content='建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。
 '>
 <meta property='og:url' content='https://example.com/p/350/'>
@@ -399,16 +399,16 @@ P.S 要注意不要设置默认站点，不然有几率会被谷歌收录，或�
 <h3 id="cloudflare">CloudFlare</h3>
 <p>CF最出名的就是它的五秒盾，但是我昨天被打的时候开了也没什么用（
 还是一样的，推荐从第三方接入，防火墙CC策略如下</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">规则ID：e536cd598ad1448189d65684a4965c6e 命名：屏蔽访问(屏蔽访问),权重:1:
-</span></span><span class="line"><span class="cl">规则：(http.request.full_uri contains &#34;域名&#34; and not ip.geoip.country in {&#34;CN&#34; &#34;IT&#34;})
-</span></span><span class="line"><span class="cl">后边的国家简称就是允许访问的国家
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>规则ID：e536cd598ad1448189d65684a4965c6e 命名：屏蔽访问(屏蔽访问),权重:1:
+</span></span><span style="display:flex;"><span>规则：(http.request.full_uri contains &#34;域名&#34; and not ip.geoip.country in {&#34;CN&#34; &#34;IT&#34;})
+</span></span><span style="display:flex;"><span>后边的国家简称就是允许访问的国家
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>[PIC1]</p>
@@ -447,12 +447,12 @@ APPNODE的加强模式我的配置如下</p>
 <p>这个实在是&hellip;下下策&hellip;
 就是通过PHP判定刷新频率，过快就重定向到其它网站，或者显示刷新过快，过会再访问&hellip;
 看起来比较有用的是这段，代理IP自动退出</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">empty</span><span class="p">(</span><span class="nv">$_SERVER</span><span class="p">[</span><span class="s1">&#39;HTTP_VIA&#39;</span><span class="p">])</span><span class="k">or</span> <span class="k">exit</span><span class="p">(</span><span class="s1">&#39;Access Denied&#39;</span><span class="p">);</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#c678dd">empty</span>(<span style="color:#e06c75">$_SERVER</span>[<span style="color:#98c379">&#39;HTTP_VIA&#39;</span>])<span style="color:#c678dd">or</span> <span style="color:#c678dd">exit</span>(<span style="color:#98c379">&#39;Access Denied&#39;</span>);
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>具体效果..我也不清楚，要完整的代码就直接去百度找吧 关键词 PHP防CC</p>

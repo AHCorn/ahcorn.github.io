@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/p/487/'>
 
-<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='为Typecho添加说说功能'>
+<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='为Typecho添加说说功能'>
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://example.com/p/487/'>
 <meta property='og:site_name' content='安和Blog'>
@@ -309,118 +309,118 @@
 <h2 id="自定义字段">自定义字段</h2>
 <p>说说其实就是文章，只是在主题的首页显示的时候会显示成“说说”的样式，那么也就是需要在发布文章的时候选择发布说说样式，这里就需要在 functions.php 里增加自定义字段的选择了。
 自定义字段是这段代码里的</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">themeFields</span><span class="p">(</span><span class="nv">$layout</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#c678dd">function</span> <span style="color:#61afef;font-weight:bold">themeFields</span>(<span style="color:#e06c75">$layout</span>) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后在里面添加一个选择发布样式的代码</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    	<span class="nv">$type</span><span class="o">=</span><span class="k">new</span> <span class="nx">Typecho_Widget_Helper_Form_Element_Select</span><span class="p">(</span><span class="s1">&#39;type&#39;</span><span class="p">,</span><span class="k">array</span><span class="p">(</span><span class="s1">&#39;0&#39;</span><span class="o">=&gt;</span><span class="s1">&#39;一般文章&#39;</span><span class="p">,</span><span class="s1">&#39;1&#39;</span><span class="o">=&gt;</span><span class="s1">&#39;说说&#39;</span><span class="p">),</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;文章类型&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$layout</span><span class="o">-&gt;</span><span class="na">addItem</span><span class="p">(</span><span class="nv">$type</span><span class="p">);</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>    	<span style="color:#e06c75">$type</span><span style="color:#56b6c2">=</span><span style="color:#c678dd">new</span> <span style="color:#e06c75">Typecho_Widget_Helper_Form_Element_Select</span>(<span style="color:#98c379">&#39;type&#39;</span>,<span style="color:#c678dd">array</span>(<span style="color:#98c379">&#39;0&#39;</span><span style="color:#56b6c2">=&gt;</span><span style="color:#98c379">&#39;一般文章&#39;</span>,<span style="color:#98c379">&#39;1&#39;</span><span style="color:#56b6c2">=&gt;</span><span style="color:#98c379">&#39;说说&#39;</span>),<span style="color:#98c379">&#39;0&#39;</span>,<span style="color:#98c379">&#39;文章类型&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$layout</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">addItem</span>(<span style="color:#e06c75">$type</span>);
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>这样就可以在发布时进行选择了，默认选择一般文章。</p>
 <h2 id="判定">判定</h2>
 <p>自定义字段弄完了，需要在首页弄个判定，你是选择的说说还是选择的一般文章，选择哪个就输出哪个的样式
 然后这个时候index.php就需要一个if字段</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;?php while($this-&gt;next()): ?&gt;//循环
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">&lt;?php if( $this-&gt;fields-&gt;type==&#39;1&#39; ): ?&gt;
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;?php while($this-&gt;next()): ?&gt;//循环
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;?php if( $this-&gt;fields-&gt;type==&#39;1&#39; ): ?&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后if字段底下就要写在type=1的时候输出的内容
 比如这段是我给Nexmoe写的内容</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">	 <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoe-post&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;typebox thebg&#34;</span> <span class="p">&gt;</span> 
-</span></span><span class="line"><span class="cl">       <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;margin-bottom: 0px;&#34;</span><span class="p">&gt;</span> 安和说：<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">article</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          	<span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;font-size:17px;&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">       <span class="cp">&lt;?php $this-&gt;content(&#39;&lt;/span&gt;&#39;); ?&gt;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">&lt;/</span><span class="nt">article</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          
-</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">hr</span><span class="p">&gt;&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;typeafter&#34;</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;avatar&#34;</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&lt;?php $this-&gt;options-&gt;logoUrl();?&gt;&#34;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;安和&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;50&#34;</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;col-md-11 col-xs-10&#34;</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">h4</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;type-title&#34;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;&lt;?php $this-&gt;permalink() ?&gt;&#34;</span> <span class="na">data-pjax</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span><span class="cp">&lt;?php $this-&gt;title() ?&gt;</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span> 
-</span></span><span class="line"><span class="cl">          
-</span></span><span class="line"><span class="cl">          
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;saying-info&#34;</span><span class="p">&gt;&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoe-post-meta&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">                    <span class="p">&lt;</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-calendar-fill&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span><span class="cp">&lt;?php $this-&gt;date(&#39;Y年n月d日&#39;);?&gt;</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">                   <span class="p">&lt;</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-areachart&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span><span class="cp">&lt;?php artCount($this-&gt;cid);?&gt;</span> 汉字<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">                
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">       <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>	 &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;nexmoe-post&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typebox thebg&#34;</span> &gt; 
+</span></span><span style="display:flex;"><span>       &lt;<span style="color:#e06c75">h2</span> <span style="color:#e06c75">style</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;margin-bottom: 0px;&#34;</span>&gt; 安和说：&lt;/<span style="color:#e06c75">h2</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#e06c75">article</span>&gt;
+</span></span><span style="display:flex;"><span>          	&lt;<span style="color:#e06c75">span</span> <span style="color:#e06c75">style</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;font-size:17px;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>       <span style="color:#7f848e">&lt;?php $this-&gt;content(&#39;&lt;/span&gt;&#39;); ?&gt;</span>
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#e06c75">article</span>&gt;
+</span></span><span style="display:flex;"><span>          
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#e06c75">hr</span>&gt;&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typeafter&#34;</span>&gt; &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;avatar&#34;</span>&gt; &lt;<span style="color:#e06c75">img</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;logoUrl();?&gt;&#34;</span> <span style="color:#e06c75">alt</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;安和&#34;</span> <span style="color:#e06c75">width</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;50&#34;</span> <span style="color:#e06c75">height</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;50&#34;</span>&gt; &lt;/<span style="color:#e06c75">div</span>&gt; &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-md-11 col-xs-10&#34;</span>&gt; &lt;<span style="color:#e06c75">h4</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;type-title&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;permalink() ?&gt;&#34;</span> <span style="color:#e06c75">data-pjax</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $this-&gt;title() ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">h4</span>&gt; 
+</span></span><span style="display:flex;"><span>          
+</span></span><span style="display:flex;"><span>          
+</span></span><span style="display:flex;"><span>          &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;saying-info&#34;</span>&gt;&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;nexmoe-post-meta&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#e06c75">a</span>&gt;&lt;<span style="color:#e06c75">i</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;nexmoefont icon-calendar-fill&#34;</span>&gt;&lt;/<span style="color:#e06c75">i</span>&gt;<span style="color:#7f848e">&lt;?php $this-&gt;date(&#39;Y年n月d日&#39;);?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;
+</span></span><span style="display:flex;"><span>                   &lt;<span style="color:#e06c75">a</span>&gt;&lt;<span style="color:#e06c75">i</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;nexmoefont icon-areachart&#34;</span>&gt;&lt;/<span style="color:#e06c75">i</span>&gt;<span style="color:#7f848e">&lt;?php artCount($this-&gt;cid);?&gt;</span> 汉字&lt;/<span style="color:#e06c75">a</span>&gt;
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#e06c75">div</span>&gt;  &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>       &lt;<span style="color:#e06c75">br</span> /&gt;&lt;<span style="color:#e06c75">br</span> /&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后输出完这些之后再来个</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span> <span class="k">else</span><span class="o">:</span> <span class="cp">?&gt;</span><span class="err">
-</span></span></span></code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">else</span><span style="color:#56b6c2">:</span> <span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>如果不是type=1就输出默认的文章样式（上文默认选择type0）
 这一部分直接粘贴你主题原先输出的部分就可以了
 最后</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span> <span class="k">endif</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err">&lt;?php endwhile; ?&gt;
-</span></span></span></code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">endif</span>; <span style="color:#7f848e">?&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;?php endwhile; ?&gt;
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>就大功告成啦</p>
 <p>举一反三，例如这个文章需不需要目录树呢，这个文章需不需要灯箱呢，都可以通过自定义字段选择，然后在输出位置用if字段判定即可。</p>

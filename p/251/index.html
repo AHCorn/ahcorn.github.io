@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/251/'>
 
-<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='Typecho无插件实现目录'>
+<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Typecho无插件实现目录'>
 <meta property='og:description' content='对网上的版本进行了个小修改~
 '>
 <meta property='og:url' content='https://example.com/p/251/'>
@@ -276,122 +276,122 @@
     
     <p>对网上的版本进行了个小修改~</p>
 <h2 id="代码">代码</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">48
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">createCatalog</span><span class="p">(</span><span class="nv">$obj</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$obj</span> <span class="o">=</span> <span class="nx">preg_replace_callback</span><span class="p">(</span><span class="s1">&#39;/&lt;h([1-6])(.*?)&gt;(.*?)&lt;\/h\1&gt;/i&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">(</span><span class="nv">$obj</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">global</span> <span class="nv">$catalog</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">global</span> <span class="nv">$catalog_count</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$catalog_count</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$catalog</span><span class="p">[]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;text&#39;</span> <span class="o">=&gt;</span> <span class="nx">trim</span><span class="p">(</span><span class="nx">strip_tags</span><span class="p">(</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">3</span><span class="p">])),</span> <span class="s1">&#39;depth&#39;</span> <span class="o">=&gt;</span> <span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s1">&#39;count&#39;</span> <span class="o">=&gt;</span> <span class="nv">$catalog_count</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s1">&#39;&lt;h&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&gt;&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&lt;/h&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&gt;&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="nv">$obj</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nv">$obj</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">getCatalog</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="nv">$catalog</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nv">$index</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$catalog</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$index</span> <span class="o">=</span> <span class="s1">&#39;&lt;ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$prev_depth</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$to_depth</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$catalog</span> <span class="k">as</span> <span class="nv">$catalog_item</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nv">$catalog_depth</span> <span class="o">=</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;depth&#39;</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="nv">$catalog_depth</span> <span class="o">==</span> <span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$catalog_depth</span> <span class="o">&gt;</span> <span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                    <span class="nv">$to_depth</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                    <span class="nv">$to_depth2</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$to_depth</span> <span class="o">&gt;</span> <span class="p">(</span><span class="nv">$prev_depth</span> <span class="o">-</span> <span class="nv">$catalog_depth</span><span class="p">))</span> <span class="o">?</span> <span class="p">(</span><span class="nv">$prev_depth</span> <span class="o">-</span> <span class="nv">$catalog_depth</span><span class="p">)</span> <span class="o">:</span> <span class="nv">$to_depth</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$to_depth2</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                        <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nv">$to_depth2</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span> <span class="o">.</span> <span class="s1">&#39;&lt;/ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                            <span class="nv">$to_depth</span><span class="o">--</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="p">}</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;li&gt;&lt;a href=&#34;#&#39;</span><span class="o">.</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span> <span class="o">.</span><span class="s1">&#39;&#34;&gt;&#39;</span> <span class="o">.</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;&lt;/a&gt;&#39;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="nv">$prev_depth</span> <span class="o">=</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;depth&#39;</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;=</span> <span class="nv">$to_depth</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span> <span class="o">.</span> <span class="s1">&#39;&lt;/ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">       
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">echo</span> <span class="nv">$index</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#c678dd">function</span> <span style="color:#61afef;font-weight:bold">createCatalog</span>(<span style="color:#e06c75">$obj</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$obj</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">preg_replace_callback</span>(<span style="color:#98c379">&#39;/&lt;h([1-6])(.*?)&gt;(.*?)&lt;\/h\1&gt;/i&#39;</span>, <span style="color:#c678dd">function</span> (<span style="color:#e06c75">$obj</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">global</span> <span style="color:#e06c75">$catalog</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">global</span> <span style="color:#e06c75">$catalog_count</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$catalog_count</span><span style="color:#56b6c2">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$catalog</span>[] <span style="color:#56b6c2">=</span> <span style="color:#c678dd">array</span>(<span style="color:#98c379">&#39;text&#39;</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#e06c75">trim</span>(<span style="color:#e06c75">strip_tags</span>(<span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">3</span>])), <span style="color:#98c379">&#39;depth&#39;</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">1</span>], <span style="color:#98c379">&#39;count&#39;</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#e06c75">$catalog_count</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">return</span> <span style="color:#98c379">&#39;&lt;h&#39;</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">1</span>]<span style="color:#56b6c2">.</span><span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">2</span>]<span style="color:#56b6c2">.</span><span style="color:#98c379">&#39;&gt;&#39;</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">3</span>]<span style="color:#56b6c2">.</span><span style="color:#98c379">&#39;&lt;/h&#39;</span><span style="color:#56b6c2">.</span><span style="color:#e06c75">$obj</span>[<span style="color:#d19a66">1</span>]<span style="color:#56b6c2">.</span><span style="color:#98c379">&#39;&gt;&#39;</span>;
+</span></span><span style="display:flex;"><span>    }, <span style="color:#e06c75">$obj</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">return</span> <span style="color:#e06c75">$obj</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">function</span> <span style="color:#61afef;font-weight:bold">getCatalog</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">global</span> <span style="color:#e06c75">$catalog</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">if</span> (<span style="color:#e06c75">$catalog</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;&lt;ul&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$prev_depth</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;&#39;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$to_depth</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">foreach</span> (<span style="color:#e06c75">$catalog</span> <span style="color:#c678dd">as</span> <span style="color:#e06c75">$catalog_item</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">$catalog_depth</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">$catalog_item</span>[<span style="color:#98c379">&#39;depth&#39;</span>];
+</span></span><span style="display:flex;"><span>            <span style="color:#c678dd">if</span> (<span style="color:#e06c75">$prev_depth</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#c678dd">if</span> (<span style="color:#e06c75">$catalog_depth</span> <span style="color:#56b6c2">==</span> <span style="color:#e06c75">$prev_depth</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;/li&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span>;
+</span></span><span style="display:flex;"><span>                } <span style="color:#c678dd">elseif</span> (<span style="color:#e06c75">$catalog_depth</span> <span style="color:#56b6c2">&gt;</span> <span style="color:#e06c75">$prev_depth</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e06c75">$to_depth</span><span style="color:#56b6c2">++</span>;
+</span></span><span style="display:flex;"><span>                    <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;ul&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span>;
+</span></span><span style="display:flex;"><span>                } <span style="color:#c678dd">else</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e06c75">$to_depth2</span> <span style="color:#56b6c2">=</span> (<span style="color:#e06c75">$to_depth</span> <span style="color:#56b6c2">&gt;</span> (<span style="color:#e06c75">$prev_depth</span> <span style="color:#56b6c2">-</span> <span style="color:#e06c75">$catalog_depth</span>)) <span style="color:#56b6c2">?</span> (<span style="color:#e06c75">$prev_depth</span> <span style="color:#56b6c2">-</span> <span style="color:#e06c75">$catalog_depth</span>) <span style="color:#56b6c2">:</span> <span style="color:#e06c75">$to_depth</span>;
+</span></span><span style="display:flex;"><span>                    <span style="color:#c678dd">if</span> (<span style="color:#e06c75">$to_depth2</span>) {
+</span></span><span style="display:flex;"><span>                        <span style="color:#c678dd">for</span> (<span style="color:#e06c75">$i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">$i</span> <span style="color:#56b6c2">&lt;</span> <span style="color:#e06c75">$to_depth2</span>; <span style="color:#e06c75">$i</span><span style="color:#56b6c2">++</span>) {
+</span></span><span style="display:flex;"><span>                            <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;/li&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#39;&lt;/ul&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span>;
+</span></span><span style="display:flex;"><span>                            <span style="color:#e06c75">$to_depth</span><span style="color:#56b6c2">--</span>;
+</span></span><span style="display:flex;"><span>                        }
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;/li&gt;&#39;</span>;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;li&gt;&lt;a href=&#34;#&#39;</span><span style="color:#56b6c2">.</span> <span style="color:#e06c75">$catalog_item</span>[<span style="color:#98c379">&#39;text&#39;</span>] <span style="color:#56b6c2">.</span><span style="color:#98c379">&#39;&#34;&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#e06c75">$catalog_item</span>[<span style="color:#98c379">&#39;text&#39;</span>] <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#39;&lt;/a&gt;&#39;</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">$prev_depth</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">$catalog_item</span>[<span style="color:#98c379">&#39;depth&#39;</span>];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">for</span> (<span style="color:#e06c75">$i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">$i</span> <span style="color:#56b6c2">&lt;=</span> <span style="color:#e06c75">$to_depth</span>; <span style="color:#e06c75">$i</span><span style="color:#56b6c2">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#e06c75">$index</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#39;&lt;/li&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#39;&lt;/ul&gt;&#39;</span> <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&#34;</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>       
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">echo</span> <span style="color:#e06c75">$index</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后Post.php中进行如下修改</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
+<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
-</span></span><span class="line"><span class="cl"><span class="nv">$content</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;h(.*?)&gt;(.*?)&lt;/h(.*?)&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;h$1 id=&#34;$2&#34;&gt;$2&lt;/h$3&gt;&#39;</span><span class="p">,</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">content</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">echo</span> <span class="nv">$content</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="cp">?&gt;</span><span class="err">
-</span></span></span></code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#e06c75">$content</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">preg_replace</span>(<span style="color:#98c379">&#39;#&lt;h(.*?)&gt;(.*?)&lt;/h(.*?)&gt;#&#39;</span>,<span style="color:#98c379">&#39;&lt;h$1 id=&#34;$2&#34;&gt;$2&lt;/h$3&gt;&#39;</span>,<span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">content</span>);
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">echo</span> <span style="color:#e06c75">$content</span>;
+</span></span><span style="display:flex;"><span><span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>我自己在使用<a class="link" href="https://www.offodd.com/76.html"  target="_blank" rel="noopener"
     >这个版本</a>的时候添加锚点出现了bug，所以就进行了这些修改。</p>
