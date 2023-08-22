@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/faq/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Typecho常见问题'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='Typecho常见问题'>
 <meta property='og:description' content='我会每日更新一下来自百度统计的奇奇怪怪的问题的答案hhhh
 '>
 <meta property='og:url' content='https://example.com/p/faq/'>
@@ -379,15 +379,8 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。</p>
 <blockquote>
 <p>typecho将图片http改为https</p>
 </blockquote>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span><span style="color:#c678dd">UPDATE</span> <span style="color:#56b6c2">`</span><span style="color:#e06c75">typecho_contents</span><span style="color:#56b6c2">`</span> <span style="color:#e5c07b">SET</span> <span style="color:#56b6c2">`</span><span style="color:#e5c07b">text</span><span style="color:#56b6c2">`</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">REPLACE</span>(<span style="color:#56b6c2">`</span><span style="color:#e5c07b">text</span><span style="color:#56b6c2">`</span>,<span style="color:#98c379">&#39;http://&#39;</span>,<span style="color:#98c379">&#39;https://&#39;</span>);
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>P.S 可以把http改成图床域名，否则会把文章内引用的链接也改成https</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#c678dd">UPDATE</span> <span style="color:#56b6c2">`</span><span style="color:#e06c75">typecho_contents</span><span style="color:#56b6c2">`</span> <span style="color:#e5c07b">SET</span> <span style="color:#56b6c2">`</span><span style="color:#e5c07b">text</span><span style="color:#56b6c2">`</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">REPLACE</span>(<span style="color:#56b6c2">`</span><span style="color:#e5c07b">text</span><span style="color:#56b6c2">`</span>,<span style="color:#98c379">&#39;http://&#39;</span>,<span style="color:#98c379">&#39;https://&#39;</span>);
+</span></span></code></pre></div><p>P.S 可以把http改成图床域名，否则会把文章内引用的链接也改成https</p>
 <h2 id="常见问题">常见问题</h2>
 <p>P.S 下面这些都来自之前写的<a class="link" href="https://lolicorn.com/74.html"  target="_blank" rel="noopener"
     >网站常见问题解决方案</a>，后续将在此基础上继续补充</p>
@@ -430,33 +423,12 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。</p>
 </blockquote>
 <p>你可能没有将80端口放行，以下是在Centos下的解决方案
 查看防火墙状态</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    firewall-cmd --state
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>停止firewall</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    systemctl stop firewalld.service
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>禁止firewall开机启动</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>systemctl disable firewalld.service
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>禁用后在面板防火墙配置中放行80端口即可。</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>    firewall-cmd --state
+</span></span></code></pre></div><p>停止firewall</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>    systemctl stop firewalld.service
+</span></span></code></pre></div><p>禁止firewall开机启动</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>systemctl disable firewalld.service
+</span></span></code></pre></div><p>禁用后在面板防火墙配置中放行80端口即可。</p>
 <blockquote>
 <p>我使用了又拍云CDN，开启HTTPS之后无法使用怎么办？</p>
 </blockquote>
@@ -742,6 +714,130 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。</p>
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

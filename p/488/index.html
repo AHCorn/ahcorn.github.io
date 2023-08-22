@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/p/488/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='为Typecho添加日记功能'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='为Typecho添加日记功能'>
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://example.com/p/488/'>
 <meta property='og:site_name' content='安和Blog'>
@@ -306,63 +306,28 @@
     
     <h2 id="前言">前言</h2>
 <p>跟上文一样，给你的主题添加个日记功能，其实也就是用</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">if</span>(<span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">user</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">hasLogin</span>())<span style="color:#56b6c2">:</span><span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>来判定是否要显示评论框罢了</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">if</span>(<span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">user</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">hasLogin</span>())<span style="color:#56b6c2">:</span><span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>来判定是否要显示评论框罢了</p>
 <h2 id="独立页面">独立页面</h2>
 <p>首先创建个独立页面模板，名字其实随便的，这里我创建的是 diary.php
 然后依旧是惯例的模板开头</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">8
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> 
-</span></span><span style="display:flex;"><span><span style="color:#98c379">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 日记
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * @package custom 
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#c678dd">if</span> (<span style="color:#56b6c2">!</span><span style="color:#e06c75">defined</span>(<span style="color:#98c379">&#39;__TYPECHO_ROOT_DIR__&#39;</span>)) <span style="color:#c678dd">exit</span>;<span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>创建完页面之后依旧是把主题的page页面复制过来
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span><span style="color:#98c379">/**
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3</span><span><span style="color:#98c379"> * 日记
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4</span><span><span style="color:#98c379"> * 
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5</span><span><span style="color:#98c379"> * @package custom 
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6</span><span><span style="color:#98c379"> * 
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7</span><span><span style="color:#98c379"> */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">8</span><span><span style="color:#c678dd">if</span> (<span style="color:#56b6c2">!</span><span style="color:#e06c75">defined</span>(<span style="color:#98c379">&#39;__TYPECHO_ROOT_DIR__&#39;</span>)) <span style="color:#c678dd">exit</span>;<span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>创建完页面之后依旧是把主题的page页面复制过来
 这个我就不演示了，大家自行复制就好
 但要注意，要删除掉主题的content输出部分（其实可以保留，看各位自己）</p>
 <h2 id="评论">评论</h2>
 <p>所谓日记页面就是在单独创建个独立页面，只有你可以在底下评论，因为我这边是个人博客，没有其他用户的，所以就直接弄登录了就显示评论框即可</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">if</span>(<span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">user</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">hasLogin</span>())<span style="color:#56b6c2">:</span><span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>注意，这个地方不是加在diary.php的，你需要单独创建一个评论文件，复制一个原先的评论文件就可以，起名成comments-diary.php就行，然后在评论框位置（邮箱名称那里）的上面加上haslogin，然后最后以一个</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">endif</span>; <span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>结束，但是评论样式总不能跟普通评论一样吧（如果不嫌弃其实也可以）
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">if</span>(<span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">user</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">hasLogin</span>())<span style="color:#56b6c2">:</span><span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>注意，这个地方不是加在diary.php的，你需要单独创建一个评论文件，复制一个原先的评论文件就可以，起名成comments-diary.php就行，然后在评论框位置（邮箱名称那里）的上面加上haslogin，然后最后以一个</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#c678dd">endif</span>; <span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>结束，但是评论样式总不能跟普通评论一样吧（如果不嫌弃其实也可以）
 你可以重新写一个评论样式或者用你给主题首页添加的说说样式（上文）
 如若大家都懒得写，可以评论告诉我，我可以把我在nexmoe写的那个贴上来hhh</p>
 </section>
@@ -629,6 +594,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

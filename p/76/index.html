@@ -9,7 +9,7 @@
 
 <link rel='canonical' href='https://example.com/p/76/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='侧边栏增加个人介绍'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='侧边栏增加个人介绍'>
 <meta property='og:description' content='本样式基于Violet主题的基础上修改，理论上兼容类似样式的侧边栏，小细节还是需要各位自行修改
 由于本人技术欠佳，本功能是靠着非常沙雕的方式实现的，所以很容易出现适配上的问题，即便是在Violet主题上使用，个性签名也要限制在11个字以内。
 如果您不是Typecho用户，请自行修改PHP调用。
@@ -328,103 +328,50 @@
 </code></pre>
 <p>Violet主题的用户为了美观您可以直接删掉导航文字，然后添加一个<br>即可，效果跟本站一样。
 然后是CSS样式</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-CSS" data-lang="CSS"><span style="display:flex;"><span>     .<span style="color:#e5c07b">about</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">box-shadow</span>:<span style="color:#d19a66">0</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">0</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#e5c07b">black</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">background</span>:<span style="color:#d19a66">#727cf5</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">height</span>:<span style="color:#d19a66">80</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">width</span>:<span style="color:#d19a66">100</span><span style="color:#e5c07b">%</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>      .<span style="color:#e5c07b">jojo</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">color</span>:<span style="color:#d19a66">#cedce4</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">border-radius</span>: <span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">border</span>: <span style="color:#d19a66">1</span><span style="color:#e5c07b">px</span> <span style="color:#e5c07b">solid</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">16</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">margin</span>: <span style="color:#d19a66">0</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">padding</span>: <span style="color:#d19a66">0</span> <span style="color:#d19a66">8</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">line-height</span>: <span style="color:#d19a66">26</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">float</span>:<span style="color:#e5c07b">left</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>      .<span style="color:#e5c07b">logo2</span> {
-</span></span><span style="display:flex;"><span>      <span style="color:#c678dd">border-radius</span>: <span style="color:#d19a66">30</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>      <span style="color:#c678dd">width</span>:<span style="color:#d19a66">60</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>      <span style="color:#c678dd">height</span>:<span style="color:#d19a66">60</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>      <span style="color:#c678dd">float</span>:<span style="color:#e5c07b">left</span>;
-</span></span><span style="display:flex;"><span>      <span style="color:#c678dd">margin</span>:<span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>      }
-</span></span><span style="display:flex;"><span>    .<span style="color:#e5c07b">p2</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">color</span>: <span style="color:#d19a66">#cedce4</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">top</span>: <span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">1.5</span><span style="color:#e5c07b">rem</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">position</span>: <span style="color:#e5c07b">relative</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">margin</span>:<span style="color:#d19a66">6</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>      .<span style="color:#e5c07b">p3</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">color</span>: <span style="color:#d19a66">#cedce4</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">top</span>: <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">.9</span><span style="color:#e5c07b">rem</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">position</span>: <span style="color:#e5c07b">relative</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>建议新建一个css文件后粘贴进去，然后在header.php文件中调用</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-CSS" data-lang="CSS"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span>     .<span style="color:#e5c07b">about</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span>        <span style="color:#c678dd">box-shadow</span>:<span style="color:#d19a66">0</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">0</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#e5c07b">black</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span>        <span style="color:#c678dd">background</span>:<span style="color:#d19a66">#727cf5</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span>        <span style="color:#c678dd">height</span>:<span style="color:#d19a66">80</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span>        <span style="color:#c678dd">width</span>:<span style="color:#d19a66">100</span><span style="color:#e5c07b">%</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span>    }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span>      .<span style="color:#e5c07b">jojo</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span>        <span style="color:#c678dd">color</span>:<span style="color:#d19a66">#cedce4</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span>        <span style="color:#c678dd">border-radius</span>: <span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span>        <span style="color:#c678dd">border</span>: <span style="color:#d19a66">1</span><span style="color:#e5c07b">px</span> <span style="color:#e5c07b">solid</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">16</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span>        <span style="color:#c678dd">margin</span>: <span style="color:#d19a66">0</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span> <span style="color:#d19a66">0</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13</span><span>        <span style="color:#c678dd">padding</span>: <span style="color:#d19a66">0</span> <span style="color:#d19a66">8</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14</span><span>        <span style="color:#c678dd">line-height</span>: <span style="color:#d19a66">26</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15</span><span>        <span style="color:#c678dd">float</span>:<span style="color:#e5c07b">left</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16</span><span>    }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17</span><span>      .<span style="color:#e5c07b">logo2</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18</span><span>      <span style="color:#c678dd">border-radius</span>: <span style="color:#d19a66">30</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19</span><span>      <span style="color:#c678dd">width</span>:<span style="color:#d19a66">60</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20</span><span>      <span style="color:#c678dd">height</span>:<span style="color:#d19a66">60</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21</span><span>      <span style="color:#c678dd">float</span>:<span style="color:#e5c07b">left</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22</span><span>      <span style="color:#c678dd">margin</span>:<span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23</span><span>      }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24</span><span>    .<span style="color:#e5c07b">p2</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25</span><span>        <span style="color:#c678dd">color</span>: <span style="color:#d19a66">#cedce4</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26</span><span>        <span style="color:#c678dd">top</span>: <span style="color:#d19a66">10</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27</span><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">1.5</span><span style="color:#e5c07b">rem</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28</span><span>        <span style="color:#c678dd">position</span>: <span style="color:#e5c07b">relative</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29</span><span>        <span style="color:#c678dd">margin</span>:<span style="color:#d19a66">6</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30</span><span>    }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31</span><span>      .<span style="color:#e5c07b">p3</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32</span><span>        <span style="color:#c678dd">color</span>: <span style="color:#d19a66">#cedce4</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33</span><span>        <span style="color:#c678dd">top</span>: <span style="color:#d19a66">5</span><span style="color:#e5c07b">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34</span><span>        <span style="color:#c678dd">font-size</span>: <span style="color:#d19a66">.9</span><span style="color:#e5c07b">rem</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35</span><span>        <span style="color:#c678dd">position</span>: <span style="color:#e5c07b">relative</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36</span><span>    }
+</span></span></code></pre></div><p>建议新建一个css文件后粘贴进去，然后在header.php文件中调用</p>
 <p>然后就是最后一步了，第一项当中使用的调用是不存在的，所以要在functions.php文件中加入以下代码</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>      <span style="color:#e06c75">$logoUrl</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">new</span> <span style="color:#e06c75">Typecho_Widget_Helper_Form_Element_Text</span>(<span style="color:#98c379">&#39;logoUrl&#39;</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;头像地址url&#39;</span>), <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;用于侧边栏头像显示，必须填写&#39;</span>));
-</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$form</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">addInput</span>(<span style="color:#e06c75">$logoUrl</span>); 
-</span></span><span style="display:flex;"><span>      
-</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$about</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">new</span> <span style="color:#e06c75">Typecho_Widget_Helper_Form_Element_Text</span>(<span style="color:#98c379">&#39;about&#39;</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;个人介绍&#39;</span>), <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;一个简短的个人介绍，由于适配原因仅支持11字以内，必须填写&#39;</span>));
-</span></span><span style="display:flex;"><span>        <span style="color:#e06c75">$form</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">addInput</span>(<span style="color:#e06c75">$about</span>);
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后就大功告成啦～
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>      <span style="color:#e06c75">$logoUrl</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">new</span> <span style="color:#e06c75">Typecho_Widget_Helper_Form_Element_Text</span>(<span style="color:#98c379">&#39;logoUrl&#39;</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;头像地址url&#39;</span>), <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;用于侧边栏头像显示，必须填写&#39;</span>));
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>        <span style="color:#e06c75">$form</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">addInput</span>(<span style="color:#e06c75">$logoUrl</span>); 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3</span><span>      
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4</span><span>        <span style="color:#e06c75">$about</span> <span style="color:#56b6c2">=</span> <span style="color:#c678dd">new</span> <span style="color:#e06c75">Typecho_Widget_Helper_Form_Element_Text</span>(<span style="color:#98c379">&#39;about&#39;</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#c678dd">NULL</span>, <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;个人介绍&#39;</span>), <span style="color:#e06c75">_t</span>(<span style="color:#98c379">&#39;一个简短的个人介绍，由于适配原因仅支持11字以内，必须填写&#39;</span>));
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5</span><span>        <span style="color:#e06c75">$form</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">addInput</span>(<span style="color:#e06c75">$about</span>);
+</span></span></code></pre></div><p>然后就大功告成啦～
 最后 送上效果图
 <img src="https://fly.ahblog.net/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-03%20%E4%B8%8B%E5%8D%8812.49.54.png"
 	
@@ -712,6 +659,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/598/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Instantclick无刷新'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='Instantclick无刷新'>
 <meta property='og:description' content='在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下
 '>
 <meta property='og:url' content='https://example.com/p/598/'>
@@ -312,90 +312,40 @@
     <p>在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下</p>
 <h2 id="instantclick实现无刷新">instantclick实现无刷新</h2>
 <p>在footer.php加入以下代码</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/instantclick/3.1.0/instantclick.min.js&#34;</span> <span style="color:#e06c75">data-no-instant</span>&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#56b6c2">&lt;</span><span style="color:#e06c75">script</span> <span style="color:#e06c75">data</span><span style="color:#56b6c2">-</span><span style="color:#e06c75">no</span><span style="color:#56b6c2">-</span><span style="color:#e06c75">instant</span><span style="color:#56b6c2">&gt;</span><span style="color:#e06c75">InstantClick</span>.<span style="color:#e06c75">init</span>(<span style="color:#98c379">&#39;mousedown&#39;</span>);&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>其中 mousedown 是加载方式，其它方式可以参照友人C大佬的 <a class="link" href="https://www.ihewro.com/archives/515/"  target="_blank" rel="noopener"
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/instantclick/3.1.0/instantclick.min.js&#34;</span> <span style="color:#e06c75">data-no-instant</span>&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span><span style="color:#56b6c2">&lt;</span><span style="color:#e06c75">script</span> <span style="color:#e06c75">data</span><span style="color:#56b6c2">-</span><span style="color:#e06c75">no</span><span style="color:#56b6c2">-</span><span style="color:#e06c75">instant</span><span style="color:#56b6c2">&gt;</span><span style="color:#e06c75">InstantClick</span>.<span style="color:#e06c75">init</span>(<span style="color:#98c379">&#39;mousedown&#39;</span>);&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span></code></pre></div><p>其中 mousedown 是加载方式，其它方式可以参照友人C大佬的 <a class="link" href="https://www.ihewro.com/archives/515/"  target="_blank" rel="noopener"
     >instantclick 中文文档</a></p>
 <h2 id="样式失效">样式失效</h2>
 <p>如果是在post.php内引用样式之类的话，请把所有的样式文件都移入头部或者尾部让样式文件在首页也可加载。</p>
 <h2 id="样式冲突">样式冲突</h2>
 <p>例如我在写友情链接页面时重写了 li 标签的样式，如果使用instantclick就会出现友情链接页面的样式替换掉其它页面的样式，我目前的解决方案是使用JS给友情链接页面关闭instantclick。</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>  &lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">data-no-instant</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#c678dd">let</span> <span style="color:#e06c75">target</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">document</span>.<span style="color:#e06c75">querySelectorAll</span>(<span style="color:#98c379">&#39;a&#39;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">//遍历页面里所有获取到的a标签并执行需求的事件
-</span></span></span><span style="display:flex;"><span><span style="color:#7f848e"></span><span style="color:#c678dd">for</span> (<span style="color:#c678dd">var</span> <span style="color:#e06c75">i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">i</span> <span style="color:#56b6c2">&lt;</span> <span style="color:#e06c75">target</span>.<span style="color:#e06c75">length</span>; <span style="color:#e06c75">i</span><span style="color:#56b6c2">++</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">target</span>[<span style="color:#e06c75">i</span>].<span style="color:#e06c75">setAttribute</span>(<span style="color:#98c379">&#39;target&#39;</span>,<span style="color:#98c379">&#39;_self&#39;</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="代码高亮失效">代码高亮失效</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>  &lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">data-no-instant</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span><span style="color:#c678dd">let</span> <span style="color:#e06c75">target</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">document</span>.<span style="color:#e06c75">querySelectorAll</span>(<span style="color:#98c379">&#39;a&#39;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3</span><span><span style="color:#7f848e">//遍历页面里所有获取到的a标签并执行需求的事件
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4</span><span><span style="color:#7f848e"></span><span style="color:#c678dd">for</span> (<span style="color:#c678dd">var</span> <span style="color:#e06c75">i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">i</span> <span style="color:#56b6c2">&lt;</span> <span style="color:#e06c75">target</span>.<span style="color:#e06c75">length</span>; <span style="color:#e06c75">i</span><span style="color:#56b6c2">++</span>) {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5</span><span>    <span style="color:#e06c75">target</span>[<span style="color:#e06c75">i</span>].<span style="color:#e06c75">setAttribute</span>(<span style="color:#98c379">&#39;target&#39;</span>,<span style="color:#98c379">&#39;_self&#39;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7</span><span>  &lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span></code></pre></div><h2 id="代码高亮失效">代码高亮失效</h2>
 <p>Nexmoe主题使用的是highlight.js，在原来的渲染代码下添加<a class="link" href="https://wor.io/2015/07/instantclick-and-highlight-js.html"  target="_blank" rel="noopener"
     >下面这段</a></p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">9
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">InstantClick</span>.<span style="color:#e06c75">on</span>(<span style="color:#98c379">&#39;change&#39;</span>, <span style="color:#c678dd">function</span>() {
-</span></span><span style="display:flex;"><span>  <span style="color:#c678dd">var</span> <span style="color:#e06c75">blocks</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">document</span>.<span style="color:#e06c75">querySelectorAll</span>(<span style="color:#98c379">&#39;pre code&#39;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#c678dd">for</span> (<span style="color:#c678dd">var</span> <span style="color:#e06c75">i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">i</span> <span style="color:#56b6c2">&lt;</span> <span style="color:#e06c75">blocks</span>.<span style="color:#e06c75">length</span>; <span style="color:#e06c75">i</span><span style="color:#56b6c2">++</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">hljs</span>.<span style="color:#e06c75">highlightBlock</span>(<span style="color:#e06c75">blocks</span>[<span style="color:#e06c75">i</span>]);
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>});
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>如果只保留这一段会导致手动刷新后代码高亮失效。</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>&lt;<span style="color:#e06c75">script</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span><span style="color:#e06c75">InstantClick</span>.<span style="color:#e06c75">on</span>(<span style="color:#98c379">&#39;change&#39;</span>, <span style="color:#c678dd">function</span>() {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3</span><span>  <span style="color:#c678dd">var</span> <span style="color:#e06c75">blocks</span> <span style="color:#56b6c2">=</span> <span style="color:#e5c07b">document</span>.<span style="color:#e06c75">querySelectorAll</span>(<span style="color:#98c379">&#39;pre code&#39;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">5</span><span>  <span style="color:#c678dd">for</span> (<span style="color:#c678dd">var</span> <span style="color:#e06c75">i</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">0</span>; <span style="color:#e06c75">i</span> <span style="color:#56b6c2">&lt;</span> <span style="color:#e06c75">blocks</span>.<span style="color:#e06c75">length</span>; <span style="color:#e06c75">i</span><span style="color:#56b6c2">++</span>) {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">6</span><span>    <span style="color:#e06c75">hljs</span>.<span style="color:#e06c75">highlightBlock</span>(<span style="color:#e06c75">blocks</span>[<span style="color:#e06c75">i</span>]);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">7</span><span>  }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">8</span><span>});
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">9</span><span>&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span></code></pre></div><p>如果只保留这一段会导致手动刷新后代码高亮失效。</p>
 <p>原始渲染代码</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span>&gt;<span style="color:#e06c75">hljs</span>.<span style="color:#e06c75">initHighlightingOnLoad</span>();&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="data-no-instant">data-no-instant</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>&lt;<span style="color:#e06c75">script</span>&gt;<span style="color:#e06c75">hljs</span>.<span style="color:#e06c75">initHighlightingOnLoad</span>();&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span></code></pre></div><h2 id="data-no-instant">data-no-instant</h2>
 <p>使用方式就是</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://lolicorn.com&#34;</span> <span style="color:#e06c75">data-no-instant</span>&gt; 回到首页 &lt;/<span style="color:#e06c75">a</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>这样点击这个链接时网页就会正常刷新</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://lolicorn.com&#34;</span> <span style="color:#e06c75">data-no-instant</span>&gt; 回到首页 &lt;/<span style="color:#e06c75">a</span>&gt;
+</span></span></code></pre></div><p>这样点击这个链接时网页就会正常刷新</p>
 </section>
 
 
@@ -660,6 +610,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/188/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='提升Typecho的访问速度'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='提升Typecho的访问速度'>
 <meta property='og:description' content='对首屏速度优化的一些经验。
 '>
 <meta property='og:url' content='https://example.com/p/188/'>
@@ -333,89 +333,45 @@
 <h2 id="首页静态化">首页静态化</h2>
 <p>我放弃了redis等缓存拓展，选择了最粗暴的首页静态化脚本。
 请将以下代码新建粘贴到cache.php文件中即可</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">37
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">38
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span>
-</span></span><span style="display:flex;"><span><span style="color:#98c379">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 首页静态化脚本
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * Author: Yusure
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * Blog: yusure.cn
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">ini_set</span>( <span style="color:#98c379">&#39;date.timezone&#39;</span>, <span style="color:#98c379">&#39;PRC&#39;</span> );
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">/* 缓存过期时间 单位：秒 */</span>
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">$expire</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">86400</span>;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">/* 主动刷新密码  格式：http://test.com/build_index.php?password=123456 */</span>
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">$password</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;123456&#39;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">$file_time</span> <span style="color:#56b6c2">=</span> <span style="color:#56b6c2">@</span><span style="color:#e06c75">filemtime</span>( <span style="color:#98c379">&#39;index.html&#39;</span> );
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">time</span>() <span style="color:#56b6c2">-</span> <span style="color:#e06c75">$file_time</span> <span style="color:#56b6c2">&gt;</span> <span style="color:#e06c75">$expire</span> <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">create_index</span>();
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">isset</span>( <span style="color:#e06c75">$_GET</span>[<span style="color:#98c379">&#39;password&#39;</span>] ) <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">$_GET</span>[<span style="color:#98c379">&#39;password&#39;</span>] <span style="color:#56b6c2">==</span> <span style="color:#e06c75">$password</span> <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">create_index</span>();
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span><span style="color:#98c379">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 生成 index.html
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#c678dd">function</span> <span style="color:#61afef;font-weight:bold">create_index</span>()
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">ob_start</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">include</span>( <span style="color:#98c379">&#39;index.php&#39;</span> );
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">ob_get_contents</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&lt;!-- Create time: &#34;</span> <span style="color:#56b6c2">.</span> <span style="color:#e06c75">date</span>( <span style="color:#98c379">&#39;Y-m-d H:i:s&#39;</span> ) <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34; --&gt;&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#7f848e">/* 调用更新 */</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&lt;script language=javascript src=&#39;cache.php&#39;&gt;&lt;/script&gt;&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">ob_clean</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">$res</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">file_put_contents</span>( <span style="color:#98c379">&#39;index.html&#39;</span>, <span style="color:#e06c75">$content</span> );
-</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">if</span> ( <span style="color:#e06c75">$res</span> <span style="color:#56b6c2">!==</span> <span style="color:#c678dd">false</span> )
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">die</span>( <span style="color:#98c379">&#39;Create successful&#39;</span> );
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">else</span>
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#c678dd">die</span>( <span style="color:#98c379">&#39;Create error&#39;</span> );
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>作者来源我就不再次注明了，代码中已经体现。</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span><span style="color:#98c379">/**
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span><span style="color:#98c379"> * 首页静态化脚本
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span><span style="color:#98c379"> * Author: Yusure
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span><span style="color:#98c379"> * Blog: yusure.cn
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span><span style="color:#98c379"> */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span><span style="color:#e06c75">ini_set</span>( <span style="color:#98c379">&#39;date.timezone&#39;</span>, <span style="color:#98c379">&#39;PRC&#39;</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span><span style="color:#7f848e">/* 缓存过期时间 单位：秒 */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span><span style="color:#e06c75">$expire</span> <span style="color:#56b6c2">=</span> <span style="color:#d19a66">86400</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span><span style="color:#7f848e">/* 主动刷新密码  格式：http://test.com/build_index.php?password=123456 */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span><span style="color:#e06c75">$password</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;123456&#39;</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13</span><span><span style="color:#e06c75">$file_time</span> <span style="color:#56b6c2">=</span> <span style="color:#56b6c2">@</span><span style="color:#e06c75">filemtime</span>( <span style="color:#98c379">&#39;index.html&#39;</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14</span><span><span style="color:#e06c75">time</span>() <span style="color:#56b6c2">-</span> <span style="color:#e06c75">$file_time</span> <span style="color:#56b6c2">&gt;</span> <span style="color:#e06c75">$expire</span> <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">create_index</span>();
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15</span><span><span style="color:#e06c75">isset</span>( <span style="color:#e06c75">$_GET</span>[<span style="color:#98c379">&#39;password&#39;</span>] ) <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">$_GET</span>[<span style="color:#98c379">&#39;password&#39;</span>] <span style="color:#56b6c2">==</span> <span style="color:#e06c75">$password</span> <span style="color:#56b6c2">&amp;&amp;</span> <span style="color:#e06c75">create_index</span>();
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16</span><span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17</span><span><span style="color:#98c379">/**
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18</span><span><span style="color:#98c379"> * 生成 index.html
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19</span><span><span style="color:#98c379"> */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20</span><span><span style="color:#c678dd">function</span> <span style="color:#61afef;font-weight:bold">create_index</span>()
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21</span><span>{
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22</span><span>    <span style="color:#e06c75">ob_start</span>();
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23</span><span>    <span style="color:#c678dd">include</span>( <span style="color:#98c379">&#39;index.php&#39;</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24</span><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">ob_get_contents</span>();
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25</span><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&lt;!-- Create time: &#34;</span> <span style="color:#56b6c2">.</span> <span style="color:#e06c75">date</span>( <span style="color:#98c379">&#39;Y-m-d H:i:s&#39;</span> ) <span style="color:#56b6c2">.</span> <span style="color:#98c379">&#34; --&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26</span><span>    <span style="color:#7f848e">/* 调用更新 */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27</span><span>    <span style="color:#e06c75">$content</span> <span style="color:#56b6c2">.=</span> <span style="color:#98c379">&#34;</span><span style="color:#98c379">\n</span><span style="color:#98c379">&lt;script language=javascript src=&#39;cache.php&#39;&gt;&lt;/script&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28</span><span>    <span style="color:#e06c75">ob_clean</span>();
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29</span><span>    <span style="color:#e06c75">$res</span> <span style="color:#56b6c2">=</span> <span style="color:#e06c75">file_put_contents</span>( <span style="color:#98c379">&#39;index.html&#39;</span>, <span style="color:#e06c75">$content</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30</span><span>    <span style="color:#c678dd">if</span> ( <span style="color:#e06c75">$res</span> <span style="color:#56b6c2">!==</span> <span style="color:#c678dd">false</span> )
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31</span><span>    {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32</span><span>        <span style="color:#c678dd">die</span>( <span style="color:#98c379">&#39;Create successful&#39;</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33</span><span>    }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34</span><span>    <span style="color:#c678dd">else</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35</span><span>    {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36</span><span>        <span style="color:#c678dd">die</span>( <span style="color:#98c379">&#39;Create error&#39;</span> );
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">37</span><span>    }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">38</span><span>}
+</span></span></code></pre></div><p>作者来源我就不再次注明了，代码中已经体现。</p>
 <h2 id="分离首页和文章css和js">分离首页和文章CSS和JS</h2>
 <p>有利有弊，会小幅度降低进入文章时的访问速度，但却可以大幅度提升首屏速度。
 举个例子，将灯箱，jQuery，文章排版css都单独列出来，然后在文章页面单独引用。
@@ -432,25 +388,11 @@
     >Typecho优化【主题】</a></p>
 <h2 id="dns预加载">DNS预加载</h2>
 <p>使用DNS Prefetching也就是dns预加载 直接使用link标签即可</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> &lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;dns-prefetch&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;这里改成云存储地址等&#34;</span>&gt; 
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="简化首页输出内容">简化首页输出内容</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span> &lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;dns-prefetch&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;这里改成云存储地址等&#34;</span>&gt; 
+</span></span></code></pre></div><h2 id="简化首页输出内容">简化首页输出内容</h2>
 <p>在index.php中找到</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">excerpt</span>(<span style="color:#d19a66">200</span>, <span style="color:#98c379">&#39;...&#39;</span>); <span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>把200改成80-150#字太少看着别扭 或者直接删掉这段 不输出摘要
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">excerpt</span>(<span style="color:#d19a66">200</span>, <span style="color:#98c379">&#39;...&#39;</span>); <span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>把200改成80-150#字太少看着别扭 或者直接删掉这段 不输出摘要
 当然，有些主题是默认全文输出的，比如我现在正在用的这个，记得要善用<!--more-->标签奥。</p>
 <h2 id="套cdn">套CDN</h2>
 <p>说完本机优化，就该说说CDN这些了。
@@ -726,6 +668,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/333/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Typecho主题案例—Admin主题'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='Typecho主题案例—Admin主题'>
 <meta property='og:description' content='看起来很难，但实际上手后你才会发现，这一切都很简单。
 '>
 <meta property='og:url' content='https://example.com/p/333/'>
@@ -315,291 +315,133 @@
 <p>直接 Ctrl+S 把Typecho的后台扒下来</p>
 <h2 id="主题化">主题化</h2>
 <p>然后在你的 Themes 文件夹内新建一个Admin文件夹，然后新建一个 index.php 把这段粘贴到开头</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span>
-</span></span><span style="display:flex;"><span><span style="color:#98c379">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 基于Typecho后台写的一款主题。
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * 
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * @package Admin
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * @author 安和
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * @version 1.0
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> * @link http://lolicorn.com
-</span></span></span><span style="display:flex;"><span><span style="color:#98c379"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#c678dd">if</span> (<span style="color:#56b6c2">!</span><span style="color:#e06c75">defined</span>(<span style="color:#98c379">&#39;__TYPECHO_ROOT_DIR__&#39;</span>)) <span style="color:#c678dd">exit</span>;<span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后出去新建个 head.php 粘贴刚刚复制到的头部代码，再把原来的这个路径改成调用主题地址，公共库有的就不要调用本地的，最后把标题改成调用当前页面</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">html</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;no-js&#34;</span>&gt;&lt;<span style="color:#e06c75">head</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">http-equiv</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;content-type&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;text/html; charset=UTF-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">charset</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;UTF-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">http-equiv</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;X-UA-Compatible&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;IE=edge&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">name</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;renderer&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;webkit&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">name</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;viewport&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;width=device-width, initial-scale=1&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">title</span>&gt;<span style="color:#7f848e">&lt;?php $this-&gt;archiveTitle(array( &#39;category&#39; =&gt; _t(&#39;分类 %s 下的文章&#39;), &#39;search&#39; =&gt; _t(&#39;包含关键字 %s 的文章&#39;), &#39;tag&#39; =&gt; _t(&#39;标签 %s 下的文章&#39;), &#39;author&#39; =&gt; _t(&#39;%s 发布的文章&#39;) ), &#39;&#39;, &#39; - &#39;); ?&gt;&lt;?php $this-&gt;options-&gt;title(); ?&gt;&lt;?php if($this-&gt;is(&#39;index&#39;)): ?&gt;</span> - <span style="color:#7f848e">&lt;?php $this-&gt;options-&gt;description() ?&gt;&lt;?php endif; ?&gt;</span>&lt;/<span style="color:#e06c75">title</span>&gt;<span style="color:#7f848e">&lt;!--输出当前标题 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/normalize/8.0.1/normalize.css&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;css/style.css&#39;); ?&gt;&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;css/grid.css&#39;); ?&gt;&#34;</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!--把调用的样式改成主题文件夹 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">style</span>&gt;@<span style="color:#c678dd">media</span> <span style="color:#e06c75">print</span> {#<span style="color:#e06c75">ghostery-purple-box</span> {<span style="color:#c678dd">display</span>:<span style="color:#e5c07b">none</span> <span style="color:#7f848e">!important</span>}}&lt;/<span style="color:#e06c75">style</span>&gt;&lt;/<span style="color:#e06c75">head</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后新建一个 header.php 把那个黑条条的代码弄进来
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span><span style="color:#98c379">/**
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span><span style="color:#98c379"> * 基于Typecho后台写的一款主题。
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span><span style="color:#98c379"> * 
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span><span style="color:#98c379"> * @package Admin
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span><span style="color:#98c379"> * @author 安和
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span><span style="color:#98c379"> * @version 1.0
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span><span style="color:#98c379"> * @link http://lolicorn.com
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span><span style="color:#98c379"> */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span><span style="color:#c678dd">if</span> (<span style="color:#56b6c2">!</span><span style="color:#e06c75">defined</span>(<span style="color:#98c379">&#39;__TYPECHO_ROOT_DIR__&#39;</span>)) <span style="color:#c678dd">exit</span>;<span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>然后出去新建个 head.php 粘贴刚刚复制到的头部代码，再把原来的这个路径改成调用主题地址，公共库有的就不要调用本地的，最后把标题改成调用当前页面</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span>&lt;<span style="color:#e06c75">html</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;no-js&#34;</span>&gt;&lt;<span style="color:#e06c75">head</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">http-equiv</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;content-type&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;text/html; charset=UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">charset</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">http-equiv</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;X-UA-Compatible&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;IE=edge&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">name</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;renderer&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;webkit&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span>&lt;<span style="color:#e06c75">meta</span> <span style="color:#e06c75">name</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;viewport&#34;</span> <span style="color:#e06c75">content</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;width=device-width, initial-scale=1&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span>&lt;<span style="color:#e06c75">title</span>&gt;<span style="color:#7f848e">&lt;?php $this-&gt;archiveTitle(array( &#39;category&#39; =&gt; _t(&#39;分类 %s 下的文章&#39;), &#39;search&#39; =&gt; _t(&#39;包含关键字 %s 的文章&#39;), &#39;tag&#39; =&gt; _t(&#39;标签 %s 下的文章&#39;), &#39;author&#39; =&gt; _t(&#39;%s 发布的文章&#39;) ), &#39;&#39;, &#39; - &#39;); ?&gt;&lt;?php $this-&gt;options-&gt;title(); ?&gt;&lt;?php if($this-&gt;is(&#39;index&#39;)): ?&gt;</span> - <span style="color:#7f848e">&lt;?php $this-&gt;options-&gt;description() ?&gt;&lt;?php endif; ?&gt;</span>&lt;/<span style="color:#e06c75">title</span>&gt;<span style="color:#7f848e">&lt;!--输出当前标题 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/normalize/8.0.1/normalize.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;css/style.css&#39;); ?&gt;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span>&lt;<span style="color:#e06c75">link</span> <span style="color:#e06c75">rel</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;stylesheet&#34;</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;css/grid.css&#39;); ?&gt;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span><span style="color:#7f848e">&lt;!--把调用的样式改成主题文件夹 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span>&lt;<span style="color:#e06c75">style</span>&gt;@<span style="color:#c678dd">media</span> <span style="color:#e06c75">print</span> {#<span style="color:#e06c75">ghostery-purple-box</span> {<span style="color:#c678dd">display</span>:<span style="color:#e5c07b">none</span> <span style="color:#7f848e">!important</span>}}&lt;/<span style="color:#e06c75">style</span>&gt;&lt;/<span style="color:#e06c75">head</span>&gt;
+</span></span></code></pre></div><p>然后新建一个 header.php 把那个黑条条的代码弄进来
 然后一样是需要做一些修改 删了控制台，然后把概要改成返回首页</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#7f848e">&lt;!--删掉多余的内容 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-head-nav clearfix&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;navigation&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">nav</span> <span style="color:#e06c75">id</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-nav-list&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;siteUrl(); ?&gt;&#34;</span>&gt;概要&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 概要改成返回首页 也可以直接改成首页这些hhh --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;siteUrl(); ?&gt;/post.html&#34;</span>&gt;文章&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 这里后续做一个独立页面 用来显示全部文章，一样的道理，直接扒后台的就行 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;?php $this-&gt;widget(&#39;Widget_Contents_Page_List&#39;)-&gt;to($pages); ?&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;?php while($pages-&gt;next()): ?&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $pages-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">title</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $pages-&gt;title(); ?&gt;&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $pages-&gt;title(); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span> <span style="color:#7f848e">&lt;!-- 输出自定义页面 --&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 把下面的用户删掉 有需要可以加点别的 或者弄个登录用户判断 我看到feed大佬那里是搞了个游客 --&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>这下顶栏OK之后直接搞首页内容就行了</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span><span style="color:#7f848e">&lt;!--删掉多余的内容 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-head-nav clearfix&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;navigation&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span>&lt;<span style="color:#e06c75">nav</span> <span style="color:#e06c75">id</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-nav-list&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;siteUrl(); ?&gt;&#34;</span>&gt;概要&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span><span style="color:#7f848e">&lt;!-- 概要改成返回首页 也可以直接改成首页这些hhh --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;siteUrl(); ?&gt;/post.html&#34;</span>&gt;文章&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span><span style="color:#7f848e">&lt;!-- 这里后续做一个独立页面 用来显示全部文章，一样的道理，直接扒后台的就行 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span><span style="color:#7f848e">&lt;?php $this-&gt;widget(&#39;Widget_Contents_Page_List&#39;)-&gt;to($pages); ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13</span><span><span style="color:#7f848e">&lt;?php while($pages-&gt;next()): ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14</span><span>&lt;<span style="color:#e06c75">ul</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;root&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15</span><span>&lt;<span style="color:#e06c75">li</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;parent&#34;</span>&gt;&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $pages-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">title</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $pages-&gt;title(); ?&gt;&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $pages-&gt;title(); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16</span><span>&lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17</span><span><span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span> <span style="color:#7f848e">&lt;!-- 输出自定义页面 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18</span><span><span style="color:#7f848e">&lt;!-- 把下面的用户删掉 有需要可以加点别的 或者弄个登录用户判断 我看到feed大佬那里是搞了个游客 --&gt;</span>
+</span></span></code></pre></div><p>这下顶栏OK之后直接搞首页内容就行了</p>
 <h2 id="加上两行调用">加上两行调用</h2>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;heade.php&#39;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;header.php&#39;</span>);
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="然后粘贴-并修改下首页">然后粘贴 并修改下首页</h2>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">37
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">38
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">39
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">40
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">41
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">42
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">43
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">44
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">45
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">46
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">47
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">48
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">49
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">50
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">51
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">52
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">53
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">54
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">55
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">56
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">57
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">58
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">59
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;main&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;container typecho-dashboard&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-page-title&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">h2</span>&gt;网站概要&lt;/<span style="color:#e06c75">h2</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 welcome-board&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;main&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>              <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Stat&#39;)-&gt;to($stat); ?&gt;</span>
-</span></span><span style="display:flex;"><span>               &lt;<span style="color:#e06c75">p</span>&gt;目前有 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;publishedPostsNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 篇文章, 并有 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;publishedCommentsNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 条评论在 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;categoriesNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 个分类中. &lt;/<span style="color:#e06c75">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#e06c75">h3</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;最近发布的文章&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">h3</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 调用Typecho自带的统计函数 --&gt;</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Contents_Post_Recent&#39;, &#39;pageSize=10&#39;)-&gt;to($posts); ?&gt;</span>
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php if($posts-&gt;have()): ?&gt;</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php while($posts-&gt;next()): ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#e06c75">span</span>&gt;<span style="color:#7f848e">&lt;?php $posts-&gt;date(&#39;n.j&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">span</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $posts-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;title&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $posts-&gt;title(); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php else: ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#e06c75">li</span>&gt;&lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;暂时没有文章&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                    <span style="color:#7f848e">&lt;?php endif; ?&gt;</span>
-</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#e06c75">section</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span> &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#e06c75">h3</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;最近得到的回复&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">h3</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Comments_Recent&#39;, &#39;pageSize=10&#39;)-&gt;to($comments); ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php if($comments-&gt;have()): ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php while($comments-&gt;next()): ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#e06c75">span</span>&gt;<span style="color:#7f848e">&lt;?php $comments-&gt;date(&#39;n.j&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">span</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $comments-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;title&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $comments-&gt;author(true); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;:
-</span></span><span style="display:flex;"><span>                            <span style="color:#7f848e">&lt;?php $comments-&gt;excerpt(35, &#39;...&#39;); ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php else: ?&gt;</span>
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#e06c75">li</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;暂时没有回复&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">li</span>&gt;
-</span></span><span style="display:flex;"><span>                        <span style="color:#7f848e">&lt;?php endif; ?&gt;</span>
-</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#e06c75">section</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">h3</span>&gt;友情链接&lt;/<span style="color:#e06c75">h3</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 这里需要友情链接插件的支持 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">id</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-message&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">ul</span>&gt;&lt;<span style="color:#e06c75">li</span>&gt;<span style="color:#7f848e">&lt;?php Links_Plugin::output(&#34;SHOW_TEXT&#34;, 10); ?&gt;</span>&lt;/<span style="color:#e06c75">li</span>&gt;&lt;/<span style="color:#e06c75">ul</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">section</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="页脚">页脚</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;heade.php&#39;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span><span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;header.php&#39;</span>);
+</span></span></code></pre></div><h2 id="然后粘贴-并修改下首页">然后粘贴 并修改下首页</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;main&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;container typecho-dashboard&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-page-title&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span>&lt;<span style="color:#e06c75">h2</span>&gt;网站概要&lt;/<span style="color:#e06c75">h2</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 welcome-board&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;main&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span>              <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Stat&#39;)-&gt;to($stat); ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span>               &lt;<span style="color:#e06c75">p</span>&gt;目前有 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;publishedPostsNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 篇文章, 并有 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;publishedCommentsNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 条评论在 &lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php $stat-&gt;categoriesNum() ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt; 个分类中. &lt;/<span style="color:#e06c75">p</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span>            &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span>                &lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span>                    &lt;<span style="color:#e06c75">h3</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;最近发布的文章&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">h3</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13</span><span><span style="color:#7f848e">&lt;!-- 调用Typecho自带的统计函数 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14</span><span>                    <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Contents_Post_Recent&#39;, &#39;pageSize=10&#39;)-&gt;to($posts); ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">15</span><span>                    &lt;<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">16</span><span>                    <span style="color:#7f848e">&lt;?php if($posts-&gt;have()): ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">17</span><span>                    <span style="color:#7f848e">&lt;?php while($posts-&gt;next()): ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">18</span><span>                        &lt;<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">19</span><span>                            &lt;<span style="color:#e06c75">span</span>&gt;<span style="color:#7f848e">&lt;?php $posts-&gt;date(&#39;n.j&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">span</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">20</span><span>                            &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $posts-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;title&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $posts-&gt;title(); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">21</span><span>                        &lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">22</span><span>                    <span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">23</span><span>                    <span style="color:#7f848e">&lt;?php else: ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">24</span><span>                        &lt;<span style="color:#e06c75">li</span>&gt;&lt;<span style="color:#e06c75">em</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;暂时没有文章&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">em</span>&gt;&lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">25</span><span>                    <span style="color:#7f848e">&lt;?php endif; ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">26</span><span>                    &lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">27</span><span>                &lt;/<span style="color:#e06c75">section</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">28</span><span>            &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">29</span><span> &lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">30</span><span>                &lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">31</span><span>                    &lt;<span style="color:#e06c75">h3</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;最近得到的回复&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">h3</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">32</span><span>                    &lt;<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">33</span><span>                        <span style="color:#7f848e">&lt;?php Typecho_Widget::widget(&#39;Widget_Comments_Recent&#39;, &#39;pageSize=10&#39;)-&gt;to($comments); ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">34</span><span>                        <span style="color:#7f848e">&lt;?php if($comments-&gt;have()): ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">35</span><span>                        <span style="color:#7f848e">&lt;?php while($comments-&gt;next()): ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">36</span><span>                        &lt;<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">37</span><span>                            &lt;<span style="color:#e06c75">span</span>&gt;<span style="color:#7f848e">&lt;?php $comments-&gt;date(&#39;n.j&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">span</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">38</span><span>                            &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $comments-&gt;permalink(); ?&gt;&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;title&#34;</span>&gt;<span style="color:#7f848e">&lt;?php $comments-&gt;author(true); ?&gt;</span>&lt;/<span style="color:#e06c75">a</span>&gt;:
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">39</span><span>                            <span style="color:#7f848e">&lt;?php $comments-&gt;excerpt(35, &#39;...&#39;); ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">40</span><span>                        &lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">41</span><span>                        <span style="color:#7f848e">&lt;?php endwhile; ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">42</span><span>                        <span style="color:#7f848e">&lt;?php else: ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">43</span><span>                        &lt;<span style="color:#e06c75">li</span>&gt;<span style="color:#7f848e">&lt;?php _e(&#39;暂时没有回复&#39;); ?&gt;</span>&lt;/<span style="color:#e06c75">li</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">44</span><span>                        <span style="color:#7f848e">&lt;?php endif; ?&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">45</span><span>                    &lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">46</span><span>                &lt;/<span style="color:#e06c75">section</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">47</span><span>            &lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">48</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;col-mb-12 col-tb-4&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;complementary&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">49</span><span>&lt;<span style="color:#e06c75">section</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;latest-link&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">50</span><span>&lt;<span style="color:#e06c75">h3</span>&gt;友情链接&lt;/<span style="color:#e06c75">h3</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">51</span><span><span style="color:#7f848e">&lt;!-- 这里需要友情链接插件的支持 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">52</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">id</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-message&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">53</span><span>&lt;<span style="color:#e06c75">ul</span>&gt;&lt;<span style="color:#e06c75">li</span>&gt;<span style="color:#7f848e">&lt;?php Links_Plugin::output(&#34;SHOW_TEXT&#34;, 10); ?&gt;</span>&lt;/<span style="color:#e06c75">li</span>&gt;&lt;/<span style="color:#e06c75">ul</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">54</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">55</span><span>&lt;/<span style="color:#e06c75">section</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">56</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">57</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">58</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">59</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span></code></pre></div><h2 id="页脚">页脚</h2>
 <p>把底下的版权信息和js调用弄到页脚
 新建一个footer.php</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 页脚 --&gt;</span>
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 版权声明 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-foot&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;contentinfo&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;copyright&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;http://typecho.org/&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;i-logo-s&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;Typecho&lt;/<span style="color:#e06c75">a</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">p</span>&gt;由 &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;http://typecho.org/&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;Typecho&lt;/<span style="color:#e06c75">a</span>&gt; 强力驱动&lt;/<span style="color:#e06c75">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">p</span>&gt;Theme By &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://lolicorn.com/&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;安和&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">p</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 改成自己的就行啦 反正我也没费多少功夫哈哈哈 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">div</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#7f848e">&lt;!-- 引用js文件 这里是在保存的后台页面的底下 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/jquery/3.4.1/jquery.js&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.js&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;/js/typecho.css&#39;);?&gt;&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后在index.php里调用</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;header.php&#39;</span>); <span style="color:#7f848e">?&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>这样 首页就OK了 （目前咕咕咕 有空再写</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 1</span><span><span style="color:#7f848e">&lt;!-- 页脚 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 2</span><span><span style="color:#7f848e">&lt;!-- 版权声明 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 3</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;typecho-foot&#34;</span> <span style="color:#e06c75">role</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;contentinfo&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 4</span><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;copyright&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 5</span><span>&lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;http://typecho.org/&#34;</span> <span style="color:#e06c75">class</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;i-logo-s&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;Typecho&lt;/<span style="color:#e06c75">a</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 6</span><span>&lt;<span style="color:#e06c75">p</span>&gt;由 &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;http://typecho.org/&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;Typecho&lt;/<span style="color:#e06c75">a</span>&gt; 强力驱动&lt;/<span style="color:#e06c75">p</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 7</span><span>&lt;<span style="color:#e06c75">p</span>&gt;Theme By &lt;<span style="color:#e06c75">a</span> <span style="color:#e06c75">href</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://lolicorn.com/&#34;</span> <span style="color:#e06c75">target</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;_blank&#34;</span>&gt;安和&lt;/<span style="color:#e06c75">a</span>&gt;&lt;/<span style="color:#e06c75">p</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 8</span><span><span style="color:#7f848e">&lt;!-- 改成自己的就行啦 反正我也没费多少功夫哈哈哈 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f"> 9</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">10</span><span>&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">11</span><span><span style="color:#7f848e">&lt;!-- 引用js文件 这里是在保存的后台页面的底下 --&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">12</span><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/jquery/3.4.1/jquery.js&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">13</span><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.js&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">14</span><span>&lt;<span style="color:#e06c75">script</span> <span style="color:#e06c75">src</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#34;&lt;?php $this-&gt;options-&gt;themeUrl(&#39;/js/typecho.css&#39;);?&gt;&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
+</span></span></code></pre></div><p>然后在index.php里调用</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span><span style="color:#56b6c2">&lt;?</span><span style="color:#e06c75">php</span> <span style="color:#e06c75">$this</span><span style="color:#56b6c2">-&gt;</span><span style="color:#e06c75">need</span>(<span style="color:#98c379">&#39;header.php&#39;</span>); <span style="color:#7f848e">?&gt;</span>
+</span></span></code></pre></div><p>这样 首页就OK了 （目前咕咕咕 有空再写</p>
 <h2 id="注明">注明</h2>
 <p>本主题创意来自 <a class="link" href="https://www.feed.cc/"  target="_blank" rel="noopener"
     >Feed</a> 但并未使用这位大佬的代码
@@ -869,6 +711,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

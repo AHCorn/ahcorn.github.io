@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/11/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Typecho全站启用HTTPS'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='Typecho全站启用HTTPS'>
 <meta property='og:description' content='前戏 因为我自己用的谷歌浏览器..每次都看到博客前面不安全三个字有点难受..于是就去七牛弄了个免费的SSL证书，又去又拍云强制了https访问，但访问时却发现并不是显示安全，提示页面内还有不安全的内容..
 '>
 <meta property='og:url' content='https://example.com/p/11/'>
@@ -314,34 +314,16 @@
 通过<a class="link" href="http://www.typechodev.com/plugins/%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6/typecho-url-replace.html"  target="_blank" rel="noopener"
     >Typecho全站HTTPS URL替换利器</a>将文章内所有的图片替换成https的，前提是你的图床/云存储绑定的域名已经启用了https
 重新访问，发现主页已经加密了，但是访问文章页面时却提示不安全，用F12查看后是评论表单的action地址还是HTTP..这个时候在<strong>config.inc.php</strong>下加入</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-PHP" data-lang="PHP"><span style="display:flex;"><span>    <span style="color:#98c379">/** 开启HTTPS */</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#e06c75">define</span>(<span style="color:#98c379">&#39;__TYPECHO_SECURE__&#39;</span>,<span style="color:#c678dd">true</span>);
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>刷新后应该就解决了，如果还是未解决，打开主题目录下的<strong>comments.php</strong>将文件内的<code>$this-&gt;commentUrl()</code>，将其替换为：<code>echo str_replace(&quot;http&quot;,&quot;https&quot;,$this-&gt;commentUrl());</code> 即可（部分主题没有
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-PHP" data-lang="PHP"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>    <span style="color:#98c379">/** 开启HTTPS */</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>    <span style="color:#e06c75">define</span>(<span style="color:#98c379">&#39;__TYPECHO_SECURE__&#39;</span>,<span style="color:#c678dd">true</span>);
+</span></span></code></pre></div><p>刷新后应该就解决了，如果还是未解决，打开主题目录下的<strong>comments.php</strong>将文件内的<code>$this-&gt;commentUrl()</code>，将其替换为：<code>echo str_replace(&quot;http&quot;,&quot;https&quot;,$this-&gt;commentUrl());</code> 即可（部分主题没有
 然后就是全站HTTPS了，我这里是通过又拍云的强制HTTPS实现的.你也可以在面板中直接设置
 或者在.htaccess下添加以下内容</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    RewriteEngine on
-</span></span><span style="display:flex;"><span>    RewriteBase /
-</span></span><span style="display:flex;"><span>    RewriteCond %{SERVER_PORT} !^443$
-</span></span><span style="display:flex;"><span>    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>然后访问http时就将直接跳转至https了</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>    RewriteEngine on
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>    RewriteBase /
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3</span><span>    RewriteCond %{SERVER_PORT} !^443$
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">4</span><span>    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+</span></span></code></pre></div><p>然后访问http时就将直接跳转至https了</p>
 <h2 id="结语">结语</h2>
 <p>最近准备把域名换到lolicorn.com了&hellip;所以到时候还要重新申请证书了，还有就是开学了嘛，更新频率可能会变成三天一更/五天一更，毕竟我没打算更新太多的闲聊..</p>
 </section>
@@ -608,6 +590,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>

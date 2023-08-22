@@ -4,24 +4,24 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。 选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。 虚拟机下安装后第一次启动会等很久，但启动之后也并没有消息提示，所以没反应可能只是启动完成了。 配置文件目录在/home/homeassistant/.homeassistant 是一个隐藏文件夹，一开始可能会找不到地方。
 官方安装文档 https://www.home-assistant.io/installation/
 可能需要的指令 默认的源下载很慢，可以切换到国内镜像 清华大学镜像站 配置指南
-临时使用 1 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
+临时使用 1pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
 设为默认 升级 pip 到最新的版本 (&amp;gt;=10.0.0) 后进行配置：
-1 2 python -m pip install --upgrade pip pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
-1 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1 2 export http_proxy=http://ip:port export https_proxy=http://ip:port 关闭代理
-1 2 unset http_proxy unset https_proxy '>
+1python -m pip install --upgrade pip 2pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
+1python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1export http_proxy=http://ip:port 2export https_proxy=http://ip:port 关闭代理
+1unset http_proxy 2unset https_proxy '>
 <title>Home Assistant避坑</title>
 
 <link rel='canonical' href='https://example.com/p/688/'>
 
-<link rel="stylesheet" href="/scss/style.min.ef61b99aaf3723cd7114929286e8a384012d99cc78f11f089e3639821c75cbb8.css"><meta property='og:title' content='Home Assistant避坑'>
+<link rel="stylesheet" href="/scss/style.min.fd6756071e14630f205147cc1feb600233e97a387cbddd71cbd2bc122393cd62.css"><meta property='og:title' content='Home Assistant避坑'>
 <meta property='og:description' content='折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。 选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。 虚拟机下安装后第一次启动会等很久，但启动之后也并没有消息提示，所以没反应可能只是启动完成了。 配置文件目录在/home/homeassistant/.homeassistant 是一个隐藏文件夹，一开始可能会找不到地方。
 官方安装文档 https://www.home-assistant.io/installation/
 可能需要的指令 默认的源下载很慢，可以切换到国内镜像 清华大学镜像站 配置指南
-临时使用 1 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
+临时使用 1pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
 设为默认 升级 pip 到最新的版本 (&amp;gt;=10.0.0) 后进行配置：
-1 2 python -m pip install --upgrade pip pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
-1 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1 2 export http_proxy=http://ip:port export https_proxy=http://ip:port 关闭代理
-1 2 unset http_proxy unset https_proxy '>
+1python -m pip install --upgrade pip 2pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
+1python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1export http_proxy=http://ip:port 2export https_proxy=http://ip:port 关闭代理
+1unset http_proxy 2unset https_proxy '>
 <meta property='og:url' content='https://example.com/p/688/'>
 <meta property='og:site_name' content='安和Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-07-11T17:32:00&#43;00:00'/><meta property='article:modified_time' content='2022-07-11T17:32:00&#43;00:00'/>
@@ -29,11 +29,11 @@
 <meta name="twitter:description" content="折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。 选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。 虚拟机下安装后第一次启动会等很久，但启动之后也并没有消息提示，所以没反应可能只是启动完成了。 配置文件目录在/home/homeassistant/.homeassistant 是一个隐藏文件夹，一开始可能会找不到地方。
 官方安装文档 https://www.home-assistant.io/installation/
 可能需要的指令 默认的源下载很慢，可以切换到国内镜像 清华大学镜像站 配置指南
-临时使用 1 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
+临时使用 1pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 注意，simple 不能少, 是 https 而不是 http
 设为默认 升级 pip 到最新的版本 (&amp;gt;=10.0.0) 后进行配置：
-1 2 python -m pip install --upgrade pip pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
-1 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1 2 export http_proxy=http://ip:port export https_proxy=http://ip:port 关闭代理
-1 2 unset http_proxy unset https_proxy ">
+1python -m pip install --upgrade pip 2pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
+1python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1export http_proxy=http://ip:port 2export https_proxy=http://ip:port 关闭代理
+1unset http_proxy 2unset https_proxy ">
     </head>
     <body class="
     article-page
@@ -340,59 +340,21 @@
 <a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/"  target="_blank" rel="noopener"
     >清华大学镜像站 配置指南</a></p>
 <h2 id="临时使用">临时使用</h2>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>注意，simple 不能少, 是 https 而不是 http</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+</span></span></code></pre></div><p>注意，simple 不能少, 是 https 而不是 http</p>
 <h2 id="设为默认">设为默认</h2>
 <p>升级 pip 到最新的版本 (&gt;=10.0.0) 后进行配置：</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>python -m pip install --upgrade pip
-</span></span><span style="display:flex;"><span>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="临时设置http代理https代理">临时设置http代理/https代理</h2>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>export http_proxy=http://ip:port
-</span></span><span style="display:flex;"><span>export https_proxy=http://ip:port
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>关闭代理</p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>unset http_proxy
-</span></span><span style="display:flex;"><span>unset https_proxy
-</span></span></code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>python -m pip install --upgrade pip
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+</span></span></code></pre></div><p>如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
+</span></span></code></pre></div><h2 id="临时设置http代理https代理">临时设置http代理/https代理</h2>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>export http_proxy=http://ip:port
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>export https_proxy=http://ip:port
+</span></span></code></pre></div><p>关闭代理</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1</span><span>unset http_proxy
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2</span><span>unset https_proxy
+</span></span></code></pre></div>
 </section>
 
 
@@ -657,6 +619,130 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+
+
+<script
+	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+	crossorigin="anonymous"></script>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+	crossorigin="anonymous" />
+<script>
+	NProgress.start();
+	document.addEventListener("readystatechange", () => {
+		if (document.readyState === "interactive") NProgress.inc(0.8);
+		if (document.readyState === "complete") NProgress.done();
+	});
+</script>
+
+
+
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+	#back-to-top {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		border-radius: 7px;
+		background-color: var(--back-to-top-background);
+		box-shadow: var(--shadow-l2);
+		font-size: 30px;
+		text-align: center;
+		line-height: 50px;
+		cursor: pointer;
+	}
+
+	#back-to-top:before {
+		content: " ";
+		display: inline-block;
+		position: relative;
+		top: 0;
+		transform: rotate(135deg);
+		height: 10px;
+		width: 10px;
+		border-width: 0 0 2px 2px;
+		border-color: var(--back-to-top-color);
+		border-style: solid;
+	}
+
+	#back-to-top:hover:before {
+		border-color: #2674e0;
+	}
+
+	 
+	@media screen and (max-width: 768px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			font-size: 10px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1024px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 40px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1280px) {
+		#back-to-top {
+			bottom: 20px;
+			right: 55px;
+		}
+	}
+
+	 
+	@media screen and (min-width: 1536px) {
+		#back-to-top {
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+<script>
+	function backToTop() {
+		document.documentElement.scrollIntoView({
+			behavior: "smooth",
+		});
+	}
+
+	window.onload = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop > 0) {
+			totopBtn.style.display = "inline";
+		} else {
+			totopBtn.style.display = "none";
+		}
+	};
+
+	window.onscroll = function () {
+		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
+		let totopBtn = this.document.getElementById("back-to-top");
+		if (scrollTop < 200) {
+			totopBtn.style.display = "none";
+		} else {
+			totopBtn.style.display = "inline";
+			totopBtn.addEventListener("click", backToTop, false);
+		}
+	};
 </script>
 
     </body>
