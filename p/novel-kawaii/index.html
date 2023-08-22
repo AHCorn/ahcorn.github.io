@@ -360,6 +360,54 @@
             
                 
 <article class="has-image">
+    <a href="/p/novel-tsurego/">
+        
+        
+            <div class="article-image">
+                <img src="/p/novel-tsurego/img.b567a9e1097a6573728ecaacce0084a7_hu133afa43f945b432bb77a1a3111f96db_1506053_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 《拖油瓶》短评"
+                        data-key="Novel-Tsurego" 
+                        data-hash="md5-tWep4Ql6ZXNyjsqszgCEpw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《拖油瓶》短评</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/novel-pig/">
+        
+        
+            <div class="article-image">
+                <img src="/p/novel-pig/img.e9acdadea02fb7cb31385669c4221ada_hu8e1f9f6f724336c41a49e33d7764deab_338905_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 《转生猪公爵》短评"
+                        data-key="Novel-Pig" 
+                        data-hash="md5-6aza3qAvt8sxOFZpxCIa2g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《转生猪公爵》短评</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/galgame-nora/">
         
         
@@ -406,6 +454,30 @@
 </article>
 
             
+                
+<article class="has-image">
+    <a href="/p/comic-masamune/">
+        
+        
+            <div class="article-image">
+                <img src="/p/comic-masamune/img.64f9d6b2eac01bcff5098dc319d88972_hu6da672301467a6d3b0c255ea17263c73_313842_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 《政宗君的复仇》漫画短评"
+                        data-key="Comic-Masamune" 
+                        data-hash="md5-ZPnWsurAG8/1CY3DGdiJcg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《政宗君的复仇》漫画短评</h2>
+        </div>
+    </a>
+</article>
+
+            
         </div>
     </div>
 </aside>
@@ -413,47 +485,51 @@
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+    <script src="https://utteranc.es/client.js" 
+        repo="Yasukazu-Blog-Comments"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
 
 <style>
-    .disqus-container {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
+    .utterances {
+        max-width: unset;
     }
 </style>
 
 <script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
         }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
     })
 </script>
+
 
     
 

@@ -55,6 +55,142 @@
         <guid>https://example.com/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</guid>
         <description></description>
         </item>
+        <item>
+        <title>漫画</title>
+        <link>https://example.com/tags/%E6%BC%AB%E7%94%BB/</link>
+        <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E6%BC%AB%E7%94%BB/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>干货</title>
+        <link>https://example.com/tags/%E5%B9%B2%E8%B4%A7/</link>
+        <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E5%B9%B2%E8%B4%A7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>闲聊</title>
+        <link>https://example.com/tags/%E9%97%B2%E8%81%8A/</link>
+        <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E9%97%B2%E8%81%8A/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>小功能</title>
+        <link>https://example.com/tags/%E5%B0%8F%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Mon, 09 Mar 2020 09:08:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E5%B0%8F%E5%8A%9F%E8%83%BD/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>typecho</title>
+        <link>https://example.com/tags/typecho/</link>
+        <pubDate>Sat, 03 Aug 2019 13:19:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/typecho/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>主题</title>
+        <link>https://example.com/tags/%E4%B8%BB%E9%A2%98/</link>
+        <pubDate>Sat, 03 Aug 2019 13:19:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E4%B8%BB%E9%A2%98/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Root</title>
+        <link>https://example.com/tags/root/</link>
+        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/root/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>XP框架</title>
+        <link>https://example.com/tags/xp%E6%A1%86%E6%9E%B6/</link>
+        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/xp%E6%A1%86%E6%9E%B6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搞机</title>
+        <link>https://example.com/tags/%E6%90%9E%E6%9C%BA/</link>
+        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E6%90%9E%E6%9C%BA/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mac OS</title>
+        <link>https://example.com/tags/mac-os/</link>
+        <pubDate>Wed, 22 Aug 2018 23:09:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/mac-os/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linux</title>
+        <link>https://example.com/tags/linux/</link>
+        <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Rec</title>
+        <link>https://example.com/tags/rec/</link>
+        <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/rec/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>软件推荐</title>
+        <link>https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+        <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>省电</title>
+        <link>https://example.com/tags/%E7%9C%81%E7%94%B5/</link>
+        <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E7%9C%81%E7%94%B5/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>无Root</title>
+        <link>https://example.com/tags/%E6%97%A0root/</link>
+        <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E6%97%A0root/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LG</title>
+        <link>https://example.com/tags/lg/</link>
+        <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/lg/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>发热</title>
+        <link>https://example.com/tags/%E5%8F%91%E7%83%AD/</link>
+        <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/%E5%8F%91%E7%83%AD/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

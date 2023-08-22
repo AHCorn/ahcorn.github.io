@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。
+'>
+<title>谈谈网站防御</title>
+
+<link rel='canonical' href='https://example.com/p/350/'>
+
+<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='谈谈网站防御'>
+<meta property='og:description' content='建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。
+'>
+<meta property='og:url' content='https://example.com/p/350/'>
+<meta property='og:site_name' content='安和Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='干货' /><meta property='article:tag' content='闲聊' /><meta property='article:published_time' content='2020-04-07T15:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-04-07T15:00:00&#43;00:00'/>
+<meta name="twitter:title" content="谈谈网站防御">
+<meta name="twitter:description" content="建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。
+">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hub84b9cbdc1df2fd5489fb9f8afe1c9bb_105672_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">安和Blog</a></h1>
+            <h2 class="site-description">看似寻常最奇崛，成如容易却艰辛。</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ahcorn'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E4%BA%BA/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友人</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#防御什么">防御什么？</a></li>
+    <li><a href="#ddos">DDOS</a></li>
+    <li><a href="#cc">CC</a>
+      <ol>
+        <li><a href="#又拍云">又拍云</a>
+          <ol>
+            <li><a href="#亲亲这边建议赶紧搬离又拍云">亲亲，这边建议赶紧搬离又拍云</a></li>
+          </ol>
+        </li>
+        <li><a href="#腾讯云">腾讯云</a></li>
+        <li><a href="#cloudflare">CloudFlare</a></li>
+        <li><a href="#本机防御">本机防御</a></li>
+        <li><a href="#代码防护">代码防护</a></li>
+      </ol>
+    </li>
+    <li><a href="#结语">结语</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/" >
+                折腾网站
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/350/">谈谈网站防御</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 07, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。</p>
+<p>从昨天开始，甚至出现了针对我友链的攻击行为，光是我知道的就有两位。</p>
+<p>还有小柠也被从我站友链过去的打了，真是绝了。
+一开始本来是开玩笑（ 在群里各种发链接 结果真来个大佬给我打爆了（（（</p>
+<p>[PIC2]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-29-33.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="CF"
+	
+	
+></p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-26-58.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="又拍云"
+	
+	
+></p>
+<p>[/PIC2]</p>
+<p>还有一个是加速乐的，由于没有洗掉CC攻击，直接跑了200G流量（我记得有几亿次请求）</p>
+<h2 id="防御什么">防御什么？</h2>
+<p>目前比较常见的就是CC&amp;DDOS攻击，Typecho的话是有17年那次版本更新出来的install漏洞，把install文件夹和install.php删掉就好了。</p>
+<h2 id="ddos">DDOS</h2>
+<p>由于我遭到的大部分都是CC攻击（16号的时候被D了一次，直接进黑洞一个上午），这里就不过多赘述了，只要记住保护好本机IP就不会被打，最方便的就是往上面套个CDN。
+P.S 要注意不要设置默认站点，不然有几率会被谷歌收录，或者被爪巴出来。</p>
+<h2 id="cc">CC</h2>
+<p>最简单的方法就是套个CDN，比如又拍云、腾讯云、Cloudflare</p>
+<h3 id="又拍云">又拍云</h3>
+<p><del>我在又拍云的防御设置如下</del></p>
+<h4 id="亲亲这边建议赶紧搬离又拍云">亲亲，这边建议赶紧搬离又拍云</h4>
+<p><strong>至于为什么？又拍云屏蔽IP后会使用HTTPS返回一个403状态码，而返回状态码消耗的流量和HTTPS加速的次数的费用是要由你来支付的，所以，只要人家一直刷（根本不需要什么成本，几块钱的学生机都可以刷），除非你把加速服务关了，不然你就等着余额欠费吧。</strong></p>
+<p>[PIC2]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-36-41.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="IP限制"
+	
+	
+></p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-36-31.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="CC防护"
+	
+	
+></p>
+<p>[/PIC2]</p>
+<p><del>其实关于防御，大部分设置都是在访问控制那个标签下完成的，如果没有特殊需求的话直接把除了中国大陆的IP全部拉黑了就行。</del></p>
+<p>[PIC1]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-38-40.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="地区控制"
+	
+	
+></p>
+<p>[/PIC1]</p>
+<p><del>P.S 拉黑地区以自己为准</del></p>
+<h3 id="腾讯云">腾讯云</h3>
+<p>腾讯云的话把那个IP访问限制设置个2秒5次就差不多了，要是静态资源过多的话就设置大点吧，请求静态资源也算在里边的</p>
+<h3 id="cloudflare">CloudFlare</h3>
+<p>CF最出名的就是它的五秒盾，但是我昨天被打的时候开了也没什么用（
+还是一样的，推荐从第三方接入，防火墙CC策略如下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">规则ID：e536cd598ad1448189d65684a4965c6e 命名：屏蔽访问(屏蔽访问),权重:1:
+</span></span><span class="line"><span class="cl">规则：(http.request.full_uri contains &#34;域名&#34; and not ip.geoip.country in {&#34;CN&#34; &#34;IT&#34;})
+</span></span><span class="line"><span class="cl">后边的国家简称就是允许访问的国家
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>[PIC1]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-43-31.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="页面规则"
+	
+	
+></p>
+<p>[/PIC1]</p>
+<p>P.S我自己不太懂这个设置怎么样（ 以自己为准吧</p>
+<p>然后是自动开盾，下载脚本之后用计划任务每分钟执行一次就行，当负载到100时自动开五秒盾。</p>
+<h3 id="本机防御">本机防御</h3>
+<p>最后还是提一嘴本机上的设置吧，如果实在套不了CDN也请设置下本机的防火墙；
+APPNODE的加强模式我的配置如下</p>
+<p>[PIC1]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-46-49.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="设置"
+	
+	
+></p>
+<p>[/PIC1]</p>
+<p>如果开了CDN这里就不要开了，不然会拉黑回源的节点IP的。</p>
+<p>然后就是白名单的设置，建议把蜘蛛白名单也去掉，我之前在群里被人用本地CC打死，就是因为给了百度蜘蛛白名单&hellip;</p>
+<p>宝塔这个防火墙做的很好，就是收费，勾上CDN就不用怕拉黑节点IP这种尴尬的事情了（</p>
+<h3 id="代码防护">代码防护</h3>
+<p>这个实在是&hellip;下下策&hellip;
+就是通过PHP判定刷新频率，过快就重定向到其它网站，或者显示刷新过快，过会再访问&hellip;
+看起来比较有用的是这段，代理IP自动退出</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">empty</span><span class="p">(</span><span class="nv">$_SERVER</span><span class="p">[</span><span class="s1">&#39;HTTP_VIA&#39;</span><span class="p">])</span><span class="k">or</span> <span class="k">exit</span><span class="p">(</span><span class="s1">&#39;Access Denied&#39;</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>具体效果..我也不清楚，要完整的代码就直接去百度找吧 关键词 PHP防CC</p>
+<h2 id="结语">结语</h2>
+<p>我也真的是无语了&hellip;.在刚刚写文时，我又被打了两次&hellip;.</p>
+<p>[PIC1]</p>
+<p><img src="https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-52-53.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="无语"
+	
+	
+></p>
+<p>[/PIC1]</p>
+<p>要不是有自动保存，我估计这篇文章各位也看不到了。
+我追求的是用最低的成本防御住攻击，所以CF和又拍云的代金券当然就是首选了，就我目前来看，我个人觉得又拍云的防御效果最好。
+最后还是那句因人而异，因机而异吧，配置够高你裸奔其实都没关系hhh 像我们这种1H2G还是得套个CDN啊</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%B9%B2%E8%B4%A7/">干货</a>
+        
+            <a href="/tags/%E9%97%B2%E8%81%8A/">闲聊</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/76/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">侧边栏增加个人介绍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/598/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Instantclick无刷新</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/552/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Nexmoe修改记录</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/488/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加日记功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/487/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加说说功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Yasukazu-Blog-Comments"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2017 - 
+        
+        2023 安和
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.18.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

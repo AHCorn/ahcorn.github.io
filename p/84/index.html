@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择 2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。
+本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。
+'>
+<title>服务器选购指南</title>
+
+<link rel='canonical' href='https://example.com/p/84/'>
+
+<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='服务器选购指南'>
+<meta property='og:description' content='全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择 2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。
+本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。
+'>
+<meta property='og:url' content='https://example.com/p/84/'>
+<meta property='og:site_name' content='安和Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2019-11-13T01:22:00&#43;00:00'/><meta property='article:modified_time' content='2019-11-13T01:22:00&#43;00:00'/>
+<meta name="twitter:title" content="服务器选购指南">
+<meta name="twitter:description" content="全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择 2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。
+本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。
+">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hub84b9cbdc1df2fd5489fb9f8afe1c9bb_105672_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">安和Blog</a></h1>
+            <h2 class="site-description">看似寻常最奇崛，成如容易却艰辛。</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ahcorn'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E4%BA%BA/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友人</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#海外amp国内服务器的好处与坏处">海外&amp;国内服务器的好处与坏处</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#海外服务器的好处">海外服务器的好处</a></li>
+            <li><a href="#海外服务器的坏处">海外服务器的坏处</a></li>
+            <li><a href="#国内服务器的好处">国内服务器的好处</a></li>
+            <li><a href="#国内服务器的坏处">国内服务器的坏处</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/" >
+                折腾网站
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/84/">服务器选购指南</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 13, 2019</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择  2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。</strong></p>
+<p>本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。</p>
+<p>前排提示：</p>
+<p>1.本文很可能出现错误言论</p>
+<p>2.本文很可能出现误导新人的情况</p>
+<p>3.排版原为html，在typecho的md语法下阅读体验很差。</p>
+<h1 id="什么是适合自己的服务器">什么是适合自己的服务器？</h1>
+<p><strong>本段速览 根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择 2H4G100M 等。</strong></p>
+<p>在了解什么服务器适合自己之前，<strong>你首先需要知道的是自己需要做什么，不然适合一词又该从何谈起呢；</strong></p>
+<p>为了让你更好的理解，我们就简单举几个例子，例如你想要做一个小型的个人博客，仅仅想的是自己和朋友们浏览，你可以选择 1H0.5G 的服务器，当然了，如果你有备案的话也可以选择国内服务器，不过大多数情况都是选择海外服务器的，而<strong>这两者的利弊我将在文末解释</strong>。再或者你想建一个导航站 or 资源站，并且希望有更多的访客，你就需要选择相对高配的服务器，但具体高配指的是什么配置依旧是要<strong>根据你自己的情况而定</strong>，相对于前者，有大访问量需求的站点还需要关注宽带的问题，例如 1M 的小水管在多人访问时就会承受不住，而我个人推荐配置为 2H4G100M 按量套 CDN 缓存#仅为个人推荐，更多的是要根据情况而定。</p>
+<h1 id="在哪买用什么价格买">在哪买？用什么价格买？</h1>
+<p>在哪买其实是一个争议很大的话题，所以本段的推荐也是仅供参考。</p>
+<p><strong>本段速览 选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五。</strong></p>
+<p>根据我个人的经验，<strong>国内购买服务器时我会首选阿里云，腾讯云</strong>，因为相对于随时跑路的小网站，他们更有可信度的同时也相对稳定。#我之前购买的某小站服务器时常将服务器迁移机房，导致我的解析 IP 常需要更换。<strong>海外的话因为我并没有多少经验，所以仅推荐我正在使用的搬瓦工</strong>。#如果搭建梯子的话被墙的概率很大，并且在上半年搬瓦工还取消了免费更换 IP 的服务，所以请谨慎购买。</p>
+<p>价格这一问题并不好说，因为到了 9102 年，同一配置在多个服务商的报价少的差几十，多的则差上千，所以我们不推荐盯死在一家服务商购买，如果是没有任何折扣时那就更不推荐了，<strong>所以这里推荐多家比价，在优惠活动时购买#国内例如各种节日都会折扣，而海外则是黑色星期五。</strong></p>
+<h1 id="如何减少成本">如何减少成本？</h1>
+<p><strong>本段速览 通过优化网站程序，套 CDN，来减少成本。#治标不治本，需求量大时依旧凉凉。</strong></p>
+<p>这一问题对于我们这些穷人来讲是很重要的，比如前文提到的 1H0.5G 的服务器，我们假设有一位用户购买了此配置的服务器搭建个人博客，但他又想更多的人来访问该怎么办呢？</p>
+<p><strong>首先你可以通过 <a class="link" href="http://lolicorn.com/14.html"  target="_blank" rel="noopener"
+    >Typecho优化合集 </a>这类文章来优化一下你的博客程序本身，然后再套一个 CDN 就基本解决问题了。#本地压缩、缓存加上 CDN 的压缩、缓存，减少服务器压力。</strong></p>
+<p>其实这一方法也通用于资源站，通过本地程序和 CDN 的优化减少服务器压力以达到用低配来达到高配的效果。#治标不治本，需求量大时依旧凉凉。</p>
+<h1 id="结语和一些解释">结语和一些解释</h1>
+<p>总结的话其实在速览中已经总结的很清楚了，对于看完了全文的各位只需要记住这样一句话就可以了**“选符合自己需求的配置，在靠谱的服务商的打折活动中购买该配置，资金和配置不符时通过优化和 CDN 解决”**不过还是要再三强调一下优化指标不治本的问题..</p>
+<h2 id="海外amp国内服务器的好处与坏处">海外&amp;国内服务器的好处与坏处</h2>
+<p><strong>本段内容为个人经验，所以出现错误也在所难免，希望各位能够理解，李姐万岁！</strong></p>
+<h4 id="海外服务器的好处">海外服务器的好处</h4>
+<p><strong>1 不需要备案</strong></p>
+<p>2 虽然相对国内的同配置服务器价格略高，但拿阿里云和搬瓦工比较就可以知道如何选择，阿里的是固宽1M或者按量计费，而**搬瓦工的是峰值 1000M **，每月 550G 流量#海外和国内宽带并不等于实际访问速度，因为与访客的地理位置和延迟的差距可不只是一点啊。</p>
+<p><strong>3 可以搭建梯子</strong></p>
+<h4 id="海外服务器的坏处">海外服务器的坏处</h4>
+<p><strong>1 容易被墙</strong>#大概率发生在搭建了梯子的服务器上</p>
+<p><strong>2 访问速度慢</strong>#只是总体比较，具体还是要看是哪里的海外服务器，什么配置的服务器</p>
+<h4 id="国内服务器的好处">国内服务器的好处</h4>
+<p><strong>1 访问速度快</strong>#还是要看具体配置啦，不过小水管有时候的确也比海外的快</p>
+<p>2 搜索引擎对国内服务器<strong>更加友好</strong></p>
+<p>3 国内的靠谱服务商相对海外<strong>更加稳定</strong>#个人观点，因为听闻了不少海外服务商跑路的事情。</p>
+<h4 id="国内服务器的坏处">国内服务器的坏处</h4>
+<p><strong>1 需要备案</strong>#虽然现在已经支持在线备案，但对于我们这些未成年来说真是太难了hhh</p>
+<p><strong>2 宽带贵</strong>#相同的价格搬瓦工是 1000M 峰值 550G 流量，国内是 1M 固宽或者是 100M 按量</p>
+<p>最后，我也不发表推荐 xxx 的 xxx 配置的服务器这种言论了，最重要的还是要看你自己的需求和选择；虽然本文长篇大论，但其实还是有很多没有提到的地方，甚至还有一些错误，如果各位发现了的话希望能在评论区中指出，谢谢各位的理解~#如果<strong>带佬们</strong>想喷的话也请口下留情~</p>
+<h1 id="一些相关链接">一些相关链接</h1>
+<p><a class="link" href="http://aliyun.gzjinaiyi.com/#B_vid=8651501002472342607"  target="_blank" rel="noopener"
+    >阿里云活动专区</a></p>
+<p><a class="link" href="http://lolicorn.com/14.html"  target="_blank" rel="noopener"
+    >Typecho优化合集#大部分内容通用与其它程序</a></p>
+<p><a class="link" href="http://lolicorn.com/23.html"  target="_blank" rel="noopener"
+    >如何选购适合自己的服务器？</a></p>
+<p>[info]本文已重置大部分内容，但在上面这篇文章中还是有些本文没有提到的东西，感兴趣的也可以去看看#与本文言论不符的地方以本文为准。</p>
+<h1 id="特别鸣谢">特别鸣谢</h1>
+<p>排版指导@<a class="link" href="https://miluzi.com"  target="_blank" rel="noopener"
+    >小小迷路资</a></p>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/598/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Instantclick无刷新</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/552/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Nexmoe修改记录</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/488/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加日记功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/487/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加说说功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/350/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">谈谈网站防御</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Yasukazu-Blog-Comments"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2017 - 
+        
+        2023 安和
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.18.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

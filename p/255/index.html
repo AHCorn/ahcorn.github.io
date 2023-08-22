@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='我就是 copy 怪hhh，大部分样式来自 Hexo 版本
+'>
+<title>Nexmoe移植记录</title>
+
+<link rel='canonical' href='https://example.com/p/255/'>
+
+<link rel="stylesheet" href="/scss/style.min.205860dfc1a8f853f03ee6c82075d2f3e4c957998f45d292b23b6fa418bb670c.css"><meta property='og:title' content='Nexmoe移植记录'>
+<meta property='og:description' content='我就是 copy 怪hhh，大部分样式来自 Hexo 版本
+'>
+<meta property='og:url' content='https://example.com/p/255/'>
+<meta property='og:site_name' content='安和Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2020-02-23T12:38:00&#43;00:00'/><meta property='article:modified_time' content='2020-02-23T12:38:00&#43;00:00'/>
+<meta name="twitter:title" content="Nexmoe移植记录">
+<meta name="twitter:description" content="我就是 copy 怪hhh，大部分样式来自 Hexo 版本
+">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hub84b9cbdc1df2fd5489fb9f8afe1c9bb_105672_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">安和Blog</a></h1>
+            <h2 class="site-description">看似寻常最奇崛，成如容易却艰辛。</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ahcorn'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E4%BA%BA/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友人</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#文章归档">文章归档</a></li>
+    <li><a href="#社交小部件">社交小部件</a></li>
+    <li><a href="#文章目录">文章目录</a></li>
+    <li><a href="#美化代码高亮">美化代码高亮</a></li>
+    <li><a href="#图片灯箱amp相册">图片灯箱&amp;相册</a></li>
+    <li><a href="#预览">预览</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/" >
+                折腾网站
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/255/">Nexmoe移植记录</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 23, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 7 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>我就是 copy 怪hhh，大部分样式来自 Hexo 版本</p>
+<h2 id="文章归档">文章归档</h2>
+<p>所有移植都要从文章归档页面开始说起，看到 Hexo 版本的文章归档页面感觉很好看，于是就开始移植了。
+先用 chrome 的F12看下折影大佬站上的有关样式 全部Copy下来
+<img src="https://fly.ahblog.net/blog/typecho/nexmoe-1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="nexmoe-1.png"
+	
+	
+>
+其实最主要的就是 ::before 样式，其它的抄来也用不了啊hhh
+然后整理下需要用到的样式，留下来了这些。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-archives</span> <span class="nt">li</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">padding</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-archives</span> <span class="nt">li</span><span class="p">::</span><span class="nd">before</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">width</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">height</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background</span><span class="p">:</span> <span class="mh">#ff4e6a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kc">inline-block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">vertical-align</span><span class="p">:</span> <span class="kc">middle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-top</span><span class="p">:</span> <span class="mi">-2</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-right</span><span class="p">:</span> <span class="mi">11</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">border-radius</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">border</span><span class="p">:</span> <span class="mi">3</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#fff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">z-index</span><span class="p">:</span> <span class="mi">100</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-archives</span> <span class="nt">ul</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">list-style</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">padding-left</span><span class="p">:</span> <span class="mi">0</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-archives</span> <span class="nt">li</span><span class="p">::</span><span class="nd">after</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">width</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">78</span><span class="p">,</span><span class="mi">106</span><span class="p">,</span><span class="mf">.2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">left</span><span class="p">:</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">top</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-archives</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-right</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>有了样式了，接下来就是创建归档模板了</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span> 
+</span></span><span class="line"><span class="cl"><span class="sd">/**
+</span></span></span><span class="line"><span class="cl"><span class="sd"> * 归档页面
+</span></span></span><span class="line"><span class="cl"><span class="sd"> *
+</span></span></span><span class="line"><span class="cl"><span class="sd"> * @package custom
+</span></span></span><span class="line"><span class="cl"><span class="sd"> */</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">defined</span><span class="p">(</span><span class="s1">&#39;__TYPECHO_ROOT_DIR__&#39;</span><span class="p">))</span> <span class="k">exit</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$this</span><span class="o">-&amp;</span><span class="nx">gt</span><span class="p">;</span><span class="nx">need</span><span class="p">(</span><span class="s1">&#39;layout/_partial/head.php&#39;</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="cp">?&gt;</span><span class="err">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后全部复制 page.php的内容粘贴到下边，删除掉这些</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">class</span><span class="o">=</span><span class="s2">&#34;nexmoe-post-cover mdui-ripple&#34;</span><span class="o">&gt;</span> 
+</span></span><span class="line"><span class="cl">                <span class="o">&lt;?</span><span class="nx">php</span> <span class="k">if</span> <span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">fields</span><span class="o">-&gt;</span><span class="na">Cover</span><span class="p">){</span> <span class="cp">?&gt;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">                    &lt;img src=&#34;&lt;?php echo $this-&gt;fields-&gt;Cover ?&gt;&#34;&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;?php }  else{ ?&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                    &lt;img src=&#34;&lt;?php echo $this-&gt;options-&gt;background ?&gt;&#34;&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;?php } ?&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;h1&gt;&lt;?php $this-&gt;title() ?&gt;&lt;/h1&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">            &lt;/div&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">            &lt;div class=&#34;nexmoe-post-meta&#34;&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;a&gt;&lt;i class=&#34;nexmoefont icon-calendar-fill&#34;&gt;&lt;/i&gt;&lt;?php $this-&gt;date(&#39;Y年n月d日&#39;);?&gt;&lt;/a&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;a&gt;&lt;?php artCount($this-&gt;cid);?&gt; 汉字&lt;/a&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;a&gt;&lt;?php post_view($this);?&gt; 围观&lt;/a&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">                &lt;a&gt;&lt;?php $this-&gt;commentsNum(&#39;%d&#39;); ?&gt; 评论&lt;/a&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">            &lt;/div&gt;
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后再把调用评论删掉</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;comments&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="cp">&lt;?php $this-&gt;need(&#39;comments.php&#39;); ?&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样我们就得到了个空的页面模板，加入typecho的归档，并仿照 Hexo 的日期输出方式进行修改，得到以下代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">              <span class="o">&lt;?</span><span class="nx">php</span> 
+</span></span><span class="line"><span class="cl">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">widget</span><span class="p">(</span><span class="s1">&#39;Widget_Contents_Post_Recent&#39;</span><span class="p">,</span> <span class="s1">&#39;pageSize=10000&#39;</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">to</span><span class="p">(</span><span class="nv">$archives</span><span class="p">);</span>   
+</span></span><span class="line"><span class="cl">    <span class="nv">$year</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nv">$mon</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nv">$j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">    <span class="nv">$output</span> <span class="o">=</span> <span class="s1">&#39;&lt;div id=&#34;archives&#34;&gt;&#39;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">    <span class="k">while</span><span class="p">(</span><span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">next</span><span class="p">())</span><span class="o">:</span>   
+</span></span><span class="line"><span class="cl">        <span class="nv">$year_tmp</span> <span class="o">=</span> <span class="nx">date</span><span class="p">(</span><span class="s1">&#39;Y&#39;</span><span class="p">,</span><span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">created</span><span class="p">);</span>   
+</span></span><span class="line"><span class="cl">        <span class="nv">$mon_tmp</span> <span class="o">=</span> <span class="nx">date</span><span class="p">(</span><span class="s1">&#39;m&#39;</span><span class="p">,</span><span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">created</span><span class="p">);</span>   
+</span></span><span class="line"><span class="cl">        <span class="nv">$y</span><span class="o">=</span><span class="nv">$year</span><span class="p">;</span> <span class="nv">$m</span><span class="o">=</span><span class="nv">$mon</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$mon</span> <span class="o">!=</span> <span class="nv">$mon_tmp</span> <span class="o">&amp;&amp;</span> <span class="nv">$mon</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="nv">$output</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/ul&gt;&lt;/li&gt;&#39;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$year</span> <span class="o">!=</span> <span class="nv">$year_tmp</span> <span class="o">&amp;&amp;</span> <span class="nv">$year</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="nv">$output</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/ul&gt;&#39;</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$year</span> <span class="o">!=</span> <span class="nv">$year_tmp</span><span class="p">)</span> <span class="p">{</span>   
+</span></span><span class="line"><span class="cl">            <span class="nv">$year</span> <span class="o">=</span> <span class="nv">$year_tmp</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">            <span class="nv">$output</span> <span class="o">.=</span> <span class="s1">&#39;&lt;h2 &gt;&#39;</span><span class="o">.</span> <span class="nv">$year</span> <span class="o">.</span><span class="s1">&#39; 年&lt;/h2&gt;&lt;ul class=&#34;article1&#34;&gt;&#39;</span><span class="p">;</span> <span class="c1">//输出年份   
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="p">}</span>   
+</span></span><span class="line"><span class="cl">        <span class="nv">$output</span> <span class="o">.=</span> <span class="s1">&#39;&lt;li&gt;&lt;span&gt;&#39;</span><span class="o">.</span><span class="nx">date</span><span class="p">(</span><span class="s1">&#39;n月d日    &#39;</span><span class="p">,</span><span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">created</span><span class="p">)</span><span class="o">.</span><span class="s1">&#39;&lt;/span&gt;&lt;a href=&#34;&#39;</span><span class="o">.</span><span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">permalink</span> <span class="o">.</span><span class="s1">&#39;&#34;&gt;&#39;</span><span class="o">.</span> <span class="nv">$archives</span><span class="o">-&gt;</span><span class="na">title</span> <span class="o">.</span><span class="s1">&#39;&lt;/a&gt;&lt;/li&gt;&#39;</span><span class="p">;</span> <span class="c1">//输出文章日期和标题   
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">endwhile</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">    <span class="nv">$output</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">echo</span> <span class="nv">$output</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">?&gt;</span><span class="err">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><pre><code>P.S 这里是把 &lt;?php $this-&gt;content(''); ?&gt;替换掉
+
+## 友情链接
+</code></pre>
+<p>这项功能是从原先的Catui上直接搞来的，实现其实很简单，就是把原先 catui 有关 link-area 的样式全都 copy 来，再把页面内的输出也改成 catui 友情链接的输出方式即可。
+但是使用后就发现，图片大小太小了。
+使用 F12 就可以看到是原先的样式定义了 max-width ，于是在 link-area 的样式上也加一行max-width:115px;</p>
+<p>图片是变大了，但发现在手机端时，所有友情链接都会出现偏左的现象。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">850px</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">link-area</span> <span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">width</span><span class="o">:</span> <span class="nt">calc</span><span class="o">(</span><span class="nt">33</span><span class="p">.</span><span class="nc">333333333333336</span><span class="o">%</span> <span class="nt">-</span> <span class="nt">8px</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>加一段自适应即可。
+但在写本博文时，发现了在 ipad 这种宽屏设备下出现了bug
+<img src="https://fly.ahblog.net/blog/typecho/nexmoe-2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="nexmoe-2.png"
+	
+	
+>
+于是为了省事，就直接放弃原先的样式，准备从Hexo版本直接Copy，但是输出部分还是需要修改成这样</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;</span><span class="err">`</span>                                                    <span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl">                            <span class="nv">$str</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;li&gt;(.*?)&lt;/li&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;li&gt;$1&lt;/li&gt;&#39;</span><span class="p">,</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">content</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                          <span class="nv">$str</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;li&gt;&lt;/li&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;li&gt;$1&lt;a href=&#34;$2&#34;&gt;&lt;p&gt;$3&lt;/p&gt;&lt;/a&gt;&#39;</span><span class="p">,</span><span class="nv">$str</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                            <span class="nv">$str</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;ul&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;ul&gt;&#39;</span><span class="p">,</span> <span class="nv">$str</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                            <span class="nv">$str</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;/ul&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;/ul&gt;&#39;</span><span class="p">,</span> <span class="nv">$str</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                         
+</span></span><span class="line"><span class="cl">                            <span class="nv">$str</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;a href=&#34;(.*?)&#34;&gt;(.*?)&lt;/a&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;a href=&#34;$1&#34; class=&#34;link-p&#34; target=&#34;_blank&#34; &gt;$2&lt;/a&gt;&#39;</span><span class="p">,</span><span class="nv">$str</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                            <span class="k">echo</span> <span class="nv">$str</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                            <span class="cp">?&gt;</span><span class="err">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后在页面顶部增加修改后的样式</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nt">style</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">article</span> <span class="nt">ul</span> <span class="nt">li</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">transition</span><span class="p">:</span> <span class="kc">all</span> <span class="mf">.03</span><span class="kt">s</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="nb">calc</span><span class="p">(</span><span class="mf">12.5</span><span class="kt">%</span> <span class="o">-</span> <span class="mi">10</span><span class="kt">px</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#eee</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">link-p</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"> <span class="k">top</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-size</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#606266</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kp">-webkit-</span><span class="k">transition</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">transition</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="k">margin-bottom</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">height</span><span class="p">:</span><span class="mi">30</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin-top</span><span class="p">:</span> <span class="mi">-2</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-align</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-overflow</span><span class="p">:</span> <span class="kc">ellipsis</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">white-space</span><span class="p">:</span> <span class="kc">nowrap</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">article</span> <span class="nt">ul</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">list-style-type</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">flex</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">flex-direction</span><span class="p">:</span> <span class="kc">row</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">flex-wrap</span><span class="p">:</span> <span class="kc">wrap</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin</span><span class="p">:</span> <span class="mi">-5</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">article</span> <span class="nt">ul</span> <span class="nt">li</span> <span class="nt">img</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">height</span><span class="p">:</span><span class="mi">110</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">@</span><span class="k">media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">768px</span><span class="o">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="nt">article</span> <span class="nt">ul</span> <span class="nt">li</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="nb">calc</span><span class="p">(</span><span class="mf">33.3333333333</span><span class="kt">%</span> <span class="o">-</span> <span class="mi">10</span><span class="kt">px</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="nt">style</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后就大功告成啦</p>
+<h2 id="社交小部件">社交小部件</h2>
+<p>搞完页面就该搞小部件了，首先可以看到这个主题设计思路很棒hhh，它是用这种方式调用侧边栏小部件的</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">aside</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;nexmoe-sidebar&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;?</span><span class="nx">php</span> 
+</span></span><span class="line"><span class="cl">    <span class="nv">$widget</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s2">&#34;,&#34;</span><span class="p">,</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">options</span><span class="o">-&gt;</span><span class="na">widget</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span><span class="p">(</span><span class="nv">$widget</span> <span class="k">as</span> <span class="nv">$item</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">need</span><span class="p">(</span><span class="s1">&#39;layout/_widget/&#39;</span><span class="o">.</span><span class="nv">$item</span><span class="o">.</span><span class="s1">&#39;.php&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">?&gt;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;/aside&gt;
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>我们只需要在layout/_widget/文件夹新建一个 social.php 文件即可。
+代码就直接 Copy Hexo版本的就行了</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoe-widget nexmoe-social&#34;</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://space.bilibili.com/20238211&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;哔哩哔哩&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#e76a8d;background-color:rgba(231,106,141,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-bilibili&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://github.com/nexmoe/&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;GitHub&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#191717;background-color:rgba(25,23,23,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-github&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://www.zhihu.com/people/chainwon/&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;知乎&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#1e88e5;background-color:rgba(30,136,229,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-zhihu&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://t.me/nexmoe&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;Telegram&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#27a7e5;background-color:rgba(39,167,229,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-telegram&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://twitter.com/nexmoe&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;Twitter&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#1da1f2;background-color:rgba(29,161,242,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-twitter&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://steamcommunity.com/id/nexmoe&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;Steam&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#0e47a1;background-color:rgba(14,71,161,.1)&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;external nofollow noopener noreferrer&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-steam&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;JavaScript:void(0)&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;折影轻梦#5789&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#3c57a4;background-color:rgba(60,87,164,.1)&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-battlenet&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span> <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mdui-ripple&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://nexmoe.com/atom.xml&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="na">mdui-tooltip</span><span class="o">=</span><span class="s">&#34;{content: &#39;RSS&#39;}&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;color:#f78422;background-color:rgba(247,132,34,.1)&#34;</span><span class="p">&gt;&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;nexmoefont icon-rss&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>但这乱七八糟的，没法动，格式化后插入从后台设置的调用</p>
+<pre><code>```html
+</code></pre>
+<div class="nexmoe-widget-wrap">
+   <h3 class="nexmoe-widget-title">社交按钮</h3> 
+   <div class="nexmoe-widget nexmoe-social"> 
+    <a class="mdui-ripple none1" href="<?php $this->options->bilibili(); ?>" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color:#e76a8d;background-color:rgba(231,106,141,.1)" rel="external nofollow noopener noreferrer"> <i class="nexmoefont icon-bilibili"></i> </a>
+    <a class="mdui-ripple none2" href="<?php $this->options->github(); ?>" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color:#191717;background-color:rgba(25,23,23,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-github"></i> </a>
+    <a class="mdui-ripple none3" href="<?php $this->options->zhihu(); ?>" target="_blank" mdui-tooltip="{content: '知乎'}" style="color:#1e88e5;background-color:rgba(30,136,229,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-zhihu"></i> </a>
+    <a class="mdui-ripple none4" href="<?php $this->options->telegram(); ?>" target="_blank" mdui-tooltip="{content: 'Telegram'}" style="color:#27a7e5;background-color:rgba(39,167,229,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-telegram"></i> </a>
+    <a class="mdui-ripple none5" href="<?php $this->options->twitter(); ?>" target="_blank" mdui-tooltip="{content: 'Twitter'}" style="color:#1da1f2;background-color:rgba(29,161,242,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-twitter"></i> </a>
+    <a class="mdui-ripple none6" href="<?php $this->options->steam(); ?>" target="_blank" mdui-tooltip="{content: 'Steam'}" style="color:#0e47a1;background-color:rgba(14,71,161,.1)" rel="external nofollow noopener noreferrer"><i class="nexmoefont icon-steam"></i> </a>
+    <a class="mdui-ripple none7" href="JavaScript:void(0)" target="_blank" mdui-tooltip="{content: '<?php $this->options->game(); ?>'}" style="color:#3c57a4;background-color:rgba(60,87,164,.1)"><i class="nexmoefont icon-battlenet"></i> </a>
+    <a class="mdui-ripple" href="<?php $this->options->siteUrl(); ?>/feed" target="_blank" mdui-tooltip="{content: 'RSS'}" style="color:#f78422;background-color:rgba(247,132,34,.1)"><i class="nexmoefont icon-rss"></i></a>
+   </div>
+  </div> 
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">但这些调用实际上是不存在的，所以要去 functions.php 增加以下代码
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  ```php
+</span></span><span class="line"><span class="cl">  $bilibili = new Typecho_Widget_Helper_Form_Element_Text(&#39;bilibili&#39;, NULL, NULL, _t(&#39;哔哩哔哩地址&#39;), _t(&#39;社交按钮部件-哔哩哔哩&#39;));
+</span></span><span class="line"><span class="cl">    $form-&gt;addInput($bilibili); 
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">    $github = new Typecho_Widget_Helper_Form_Element_Text(&#39;github&#39;, NULL, NULL, _t(&#39;github地址&#39;), _t(&#39;社交按钮部件-github&#39;));
+</span></span><span class="line"><span class="cl">    $form-&gt;addInput($github); 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    $zhihu = new Typecho_Widget_Helper_Form_Element_Text(&#39;zhihu&#39;, NULL, NULL, _t(&#39;知乎地址&#39;), _t(&#39;社交按钮部件-知乎&#39;));
+</span></span><span class="line"><span class="cl">    $form-&gt;addInput($zhihu); 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">     $telegram = new Typecho_Widget_Helper_Form_Element_Text(&#39;telegram&#39;, NULL, NULL, _t(&#39;telegram地址&#39;), _t(&#39;社交按钮部件-telegram&#39;));
+</span></span><span class="line"><span class="cl">        $form-&gt;addInput($telegram); 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">     $twitter = new Typecho_Widget_Helper_Form_Element_Text(&#39;twitter&#39;, NULL, NULL, _t(&#39;推特地址&#39;), _t(&#39;社交按钮部件-推特&#39;));
+</span></span><span class="line"><span class="cl">        $form-&gt;addInput($twitter); 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">         $steam = new Typecho_Widget_Helper_Form_Element_Text(&#39;steam&#39;, NULL, NULL, _t(&#39;steam地址&#39;), _t(&#39;社交按钮部件-steam&#39;));
+</span></span><span class="line"><span class="cl">        $form-&gt;addInput($steam); 
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">     $game = new Typecho_Widget_Helper_Form_Element_Text(&#39;game&#39;, NULL, NULL, _t(&#39;游戏ID&#39;), _t(&#39;社交按钮部件-游戏ID&#39;));
+</span></span><span class="line"><span class="cl">        $form-&gt;addInput($game); 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>最后的RSS调用，就直接以调用本站链接/feed的方式实现了。
+但是运行后发现，rss的图标消失了，我去mdui的图标库并没有找到和 Hexo 版本一样的RSS图标，所以判定是调用了第三方资源。
+最后在 Hexo 版本的代码中找到以下代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">@</span><span class="k">font-face</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">font-family</span><span class="p">:</span><span class="nd">nexmoefont</span><span class="o">;</span><span class="nt">src</span><span class="p">:</span><span class="nd">url</span><span class="o">(</span><span class="nt">iconfont</span><span class="p">.</span><span class="nc">eot</span><span class="o">?</span><span class="nt">t</span><span class="o">=</span><span class="nt">1581230946722</span><span class="o">);</span><span class="nt">src</span><span class="p">:</span><span class="nd">url</span><span class="o">(</span><span class="nt">iconfont</span><span class="p">.</span><span class="nc">eot</span><span class="o">?</span><span class="nt">t</span><span class="o">=</span><span class="nt">1581230946722</span><span class="p">#</span><span class="nn">iefix</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;embedded-opentype&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="s1">&#39;data:application/x-font-woff2;charset=utf-8;base64,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&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;woff2&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="nt">iconfont</span><span class="p">.</span><span class="nc">woff</span><span class="o">?</span><span class="nt">t</span><span class="o">=</span><span class="nt">1581230946722</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;woff&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="nt">iconfont</span><span class="p">.</span><span class="nc">ttf</span><span class="o">?</span><span class="nt">t</span><span class="o">=</span><span class="nt">1581230946722</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;truetype&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="nt">iconfont</span><span class="p">.</span><span class="nc">svg</span><span class="o">?</span><span class="nt">t</span><span class="o">=</span><span class="nt">1581230946722</span><span class="p">#</span><span class="nn">nexmoefont</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;svg&#39;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后问题又来了，在小尺寸设备，侧边栏收起后的按钮排列方式不怎么好看，于是我进行了如下修改</p>
+<pre><code>```css
+</code></pre>
+<p>@media screen and (max-width:599px){
+#nexmoe-header .nexmoe-social a {
+margin: 10px!important;
+width: 36px!important;
+height: 36px!important;
+line-height: 36px !important;
+}
+}
+@media screen and (max-width:1024px){
+#nexmoe-header .nexmoe-social a {
+margin: 10px;
+width: 45px;
+height: 45px;
+line-height: 45px;
+}
+}</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">到这里，社交小部件的修改也算是大功告成了。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## 搜索小部件
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">这个挺简单的，Copy 下Hexo的样式再加入Typecho的代码即可实现
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">```css
+</span></span><span class="line"><span class="cl">        #nexmoe-header .nexmoe-search input {
+</span></span><span class="line"><span class="cl">        border: none!important;
+</span></span><span class="line"><span class="cl">        background-color: transparent;
+</span></span><span class="line"><span class="cl">        padding: 20px;
+</span></span><span class="line"><span class="cl">        box-sizing: border-box;
+</span></span><span class="line"><span class="cl">        outline: 0;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">    [type=search] {
+</span></span><span class="line"><span class="cl">        -webkit-appearance: textfield;
+</span></span><span class="line"><span class="cl">        outline-offset: -2px;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">    button, input {
+</span></span><span class="line"><span class="cl">        overflow: visible;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">    button, input, optgroup, select, textarea {
+</span></span><span class="line"><span class="cl">        margin: 0;
+</span></span><span class="line"><span class="cl">        font-family: inherit;
+</span></span><span class="line"><span class="cl">        font-size: 100%;
+</span></span><span class="line"><span class="cl">        line-height: 1.15;
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">&lt;/style&gt;
+</span></span><span class="line"><span class="cl"> &lt;div class=&#34;nexmoe-widget-wrap&#34;&gt;
+</span></span><span class="line"><span class="cl">	&lt;div class=&#34;nexmoe-widget nexmoe-search&#34;&gt;
+</span></span><span class="line"><span class="cl">	        &lt;form class=&#34;search&#34; method=&#34;post&#34; action=&#34;./search&#34; role=&#34;search&#34; style=&#34;
+</span></span><span class="line"><span class="cl">    margin-bottom: 0px;
+</span></span><span class="line"><span class="cl">&#34;&gt; 
+</span></span><span class="line"><span class="cl">            &lt;input type=&#34;search&#34; placeholder=&#34;搜索&#34; name=&#34;s&#34; class=&#34;search-input&#34; &gt;
+</span></span><span class="line"><span class="cl">           &lt;/div&gt;&lt;/div&gt;&lt;/form&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="文章目录">文章目录</h2>
+<p>这个功能是做的最久的，毕竟太麻烦了。
+弄 PHP 之前先把 html 搞来，得到以下代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-valign</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kp">-webkit-</span><span class="n">box</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kp">-webkit-</span><span class="kc">flex</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kp">-ms-</span><span class="n">flexbox</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kc">flex</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kp">-webkit-</span><span class="n">box-align</span><span class="p">:</span> <span class="kc">center</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kp">-webkit-</span><span class="k">align-items</span><span class="p">:</span> <span class="kc">center</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kp">-ms-</span><span class="n">flex-align</span><span class="p">:</span> <span class="kc">center</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">align-items</span><span class="p">:</span> <span class="kc">center</span><span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="nc">mdui-tab-indicator</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="nc">mdui-tab</span> <span class="p">.</span><span class="nc">mdui-tab-active</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background</span><span class="p">:</span> <span class="mh">#f4a7b9</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-post-right</span> <span class="p">.</span><span class="nc">nexmoe-toc</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-left</span><span class="p">:</span> <span class="mi">16</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">width</span><span class="p">:</span> <span class="mi">240</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin-left</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">text-align</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-post-right</span> <span class="p">.</span><span class="nc">nexmoe-toc</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">ol</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">padding-left</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="nc">nexmoe-post-right</span> <span class="p">.</span><span class="nc">nexmoe-fixed</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">position</span><span class="p">:</span> <span class="kc">fixed</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">z-index</span><span class="p">:</span> <span class="mi">1000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">vh</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kc">inline-block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">top</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-post-right</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">-25</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">text-align</span><span class="p">:</span> <span class="kc">right</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-post-right</span> <span class="p">.</span><span class="nc">nexmoe-toc</span> <span class="nt">li</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">margin</span><span class="p">:</span> <span class="mi">1</span><span class="kt">em</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-toc</span> <span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">.6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nc">nexmoe-toc</span> <span class="o">*</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">list-style-type</span><span class="p">:</span> <span class="kc">decimal</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">.6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后我觉得再去把百度的Typecho目录弄来就ok了，但谁能想到那代码有Bug，还找不到其它的了，于是就自己改了改，具体方法已经写在上篇文章了<a class="link" href="https://lolicorn.com/252.html"  target="_blank" rel="noopener"
+    >Typecho无插件实现目录树</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">createCatalog</span><span class="p">(</span><span class="nv">$obj</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$obj</span> <span class="o">=</span> <span class="nx">preg_replace_callback</span><span class="p">(</span><span class="s1">&#39;/&lt;h([1-6])(.*?)&gt;(.*?)&lt;\/h\1&gt;/i&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">(</span><span class="nv">$obj</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">global</span> <span class="nv">$catalog</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">global</span> <span class="nv">$catalog_count</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$catalog_count</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$catalog</span><span class="p">[]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;text&#39;</span> <span class="o">=&gt;</span> <span class="nx">trim</span><span class="p">(</span><span class="nx">strip_tags</span><span class="p">(</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">3</span><span class="p">])),</span> <span class="s1">&#39;depth&#39;</span> <span class="o">=&gt;</span> <span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s1">&#39;count&#39;</span> <span class="o">=&gt;</span> <span class="nv">$catalog_count</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s1">&#39;&lt;h&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&gt;&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&lt;/h&#39;</span><span class="o">.</span><span class="nv">$obj</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;&gt;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="nv">$obj</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nv">$obj</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">getCatalog</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="nv">$catalog</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$index</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$catalog</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$index</span> <span class="o">=</span> <span class="s1">&#39;&lt;ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$prev_depth</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$to_depth</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$catalog</span> <span class="k">as</span> <span class="nv">$catalog_item</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$catalog_depth</span> <span class="o">=</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;depth&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="nv">$catalog_depth</span> <span class="o">==</span> <span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span> <span class="k">elseif</span> <span class="p">(</span><span class="nv">$catalog_depth</span> <span class="o">&gt;</span> <span class="nv">$prev_depth</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$to_depth</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$to_depth2</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$to_depth</span> <span class="o">&gt;</span> <span class="p">(</span><span class="nv">$prev_depth</span> <span class="o">-</span> <span class="nv">$catalog_depth</span><span class="p">))</span> <span class="o">?</span> <span class="p">(</span><span class="nv">$prev_depth</span> <span class="o">-</span> <span class="nv">$catalog_depth</span><span class="p">)</span> <span class="o">:</span> <span class="nv">$to_depth</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="nv">$to_depth2</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nv">$to_depth2</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span> <span class="o">.</span> <span class="s1">&#39;&lt;/ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                            <span class="nv">$to_depth</span><span class="o">--</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;li&gt;&lt;a href=&#34;#&#39;</span><span class="o">.</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span> <span class="o">.</span><span class="s1">&#39;&#34;&gt;&#39;</span> <span class="o">.</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="s1">&#39;&lt;/a&gt;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$prev_depth</span> <span class="o">=</span> <span class="nv">$catalog_item</span><span class="p">[</span><span class="s1">&#39;depth&#39;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;=</span> <span class="nv">$to_depth</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$index</span> <span class="o">.=</span> <span class="s1">&#39;&lt;/li&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span> <span class="o">.</span> <span class="s1">&#39;&lt;/ul&gt;&#39;</span> <span class="o">.</span> <span class="s2">&#34;</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">       
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">echo</span> <span class="nv">$index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后Post.php中进行如下修改</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$content</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span><span class="s1">&#39;#&lt;h(.*?)&gt;(.*?)&lt;/h(.*?)&gt;#&#39;</span><span class="p">,</span><span class="s1">&#39;&lt;h$1 id=&#34;$2&#34;&gt;$2&lt;/h$3&gt;&#39;</span><span class="p">,</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">content</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="k">echo</span> <span class="nv">$content</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">?&gt;</span><span class="err">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>上文提到的百度上的<a class="link" href="https://www.offodd.com/76.html"  target="_blank" rel="noopener"
+    >这个版本</a>我使用的时候添加锚点的地方出现了bug，所以就进行了这些修改。</p>
+<h2 id="美化代码高亮">美化代码高亮</h2>
+<p>这个代码高亮太丑了，真的太丑了&hellip;但是换成prism还要大改，于是就先加了一行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hljs {
+</span></span><span class="line"><span class="cl">      font-family: Consolas,Monaco,&#39;Andale Mono&#39;,&#39;Ubuntu Mono&#39;,monospace;
+</span></span><span class="line"><span class="cl">  }
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="图片灯箱amp相册">图片灯箱&amp;相册</h2>
+<p>这个是Catui的功能，毕竟以前是付费主题，所以就没直接开源放出来，我就先自用啦hhh</p>
+<h2 id="预览">预览</h2>
+<p><a class="link" href="https://cdn.ahblog.net/img/titu/nexmoe.png"  target="_blank" rel="noopener"
+    ><img src="https://cdn.ahblog.net/img/titu/nexmoe.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="预览"
+	
+	
+></a></p>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/598/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Instantclick无刷新</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/552/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Nexmoe修改记录</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/488/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加日记功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/487/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为Typecho添加说说功能</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/350/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">谈谈网站防御</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Yasukazu-Blog-Comments"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2017 - 
+        
+        2023 安和
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.18.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

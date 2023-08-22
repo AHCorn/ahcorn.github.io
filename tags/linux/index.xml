@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on 安和Blog</title>
+        <link>https://example.com/tags/linux/</link>
+        <description>Recent content in Linux on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Wed, 22 Aug 2018 21:43:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在Linux下刷入Rec</title>
+        <link>https://example.com/p/4/</link>
+        <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/4/</guid>
+        <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;
+&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
+&lt;p&gt;1.手机已解锁&lt;/p&gt;
+&lt;p&gt;2.Linux电脑&lt;/p&gt;
+&lt;p&gt;3.已开启允许USB调试&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://fly.ahblog.net/linuxrec.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+sudo apt-get install android-tools-adb android-tools-fastboot
+//安装adb和fastboot工具包
+若出现PPA源的问题 请先更新一下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;刷入&#34;&gt;刷入&lt;/h2&gt;
+&lt;p&gt;请连接手机 处于开机模式并已允许调试&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo adb reboot-bootloader
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;//重启手机进入fastboot模式&lt;/p&gt;
+&lt;h2 id=&#34;到存放rec的文件夹中选择从终端打开&#34;&gt;到存放Rec的文件夹中选择从终端打开&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;sudo fastboot flash recovery recovery.img
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;//写入recovery.img（会擦除官方recovery）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo fastboot reboot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　　　 //重启手机&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo adb reboot recovery
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　　　 //手机进入recovery模式
+也可以选择用以下命令替换&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo fastboot boot recovery.img
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　　　 //写入recovery后自动进入recovery模式&lt;/p&gt;
+&lt;p&gt;然后开机+音量-即可 这时Rec已经成功刷入了&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -16,12 +16,36 @@
         <description>&lt;img src="https://example.com/categories/%E5%85%AC%E5%91%8A/img.jpg" alt="Featured image of post 公告" /&gt;</description>
         </item>
         <item>
+        <title>闲聊杂谈</title>
+        <link>https://example.com/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
+        <pubDate>Mon, 11 Jul 2022 17:32:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>ACGN短评</title>
         <link>https://example.com/categories/acgn%E7%9F%AD%E8%AF%84/</link>
         <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/acgn%E7%9F%AD%E8%AF%84/</guid>
         <description>&lt;img src="https://example.com/categories/acgn%E7%9F%AD%E8%AF%84/img.jpg" alt="Featured image of post ACGN短评" /&gt;</description>
+        </item>
+        <item>
+        <title>折腾网站</title>
+        <link>https://example.com/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</link>
+        <pubDate>Sun, 04 Apr 2021 14:01:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>折腾手机</title>
+        <link>https://example.com/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
+        <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</guid>
+        <description></description>
         </item>
         
     </channel>

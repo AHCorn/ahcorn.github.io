@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>LG on 安和Blog</title>
+        <link>https://example.com/tags/lg/</link>
+        <description>Recent content in LG on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Wed, 22 Aug 2018 14:15:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/lg/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LG G5韩版发热解決方案</title>
+        <link>https://example.com/p/lg1/</link>
+        <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/lg1/</guid>
+        <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
+&lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
+&lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;
+&lt;h2 id=&#34;1石墨烯纸硅脂&#34;&gt;1.石墨烯纸＋硅脂&lt;/h2&gt;
+&lt;h2 id=&#34;2关闭lg-mlt服务&#34;&gt;拆开后先把硅脂涂在CPU部分，然后再贴上石墨烯纸，具体的教程不贴了，因为主要是讲从软件方面进行的优化。
+2.关闭LG MLT服务&lt;/h2&gt;
+&lt;p&gt;1 拨号键输入 *#546368#*700# 进入SVC MENU。 G4,G5 通用 868是G5国行型号 700韩版，G4 818.819&lt;/p&gt;
+&lt;p&gt;2 点击 SVC MENU&lt;/p&gt;
+&lt;p&gt;3 然后看到LDB 点击&lt;/p&gt;
+&lt;p&gt;4 最后看到 Enable 勾取消就OK了&lt;/p&gt;
+&lt;p&gt;里面的其他东西最好不要动， 觉得不好再改回来就是了&lt;/p&gt;
+&lt;p&gt;这个不会对手机有影响， G4 G5 都改过确实效果很好&lt;/p&gt;
+&lt;h2 id=&#34;3绿色守护-island&#34;&gt;这个具体的效果不知道怎么样 不过值得一试
+3.绿色守护＋ island&lt;/h2&gt;
+&lt;p&gt;将所有应用都弄出来一个工作空间，然后卸载掉原应用就可以了 然后一个一个加进绿色守护的深度休眠&lt;/p&gt;
+&lt;p&gt;注意！每个应用都要弄快捷方式 不然深度休眠了就没有图标了&lt;/p&gt;
+&lt;h2 id=&#34;4解除不需要的系统应用&#34;&gt;记得把绿色守护的全自动打开 即解决了发热也解决了续航#(咦)
+4.解除不需要的系统应用&lt;/h2&gt;
+&lt;p&gt;比如谷歌全家桶啊..环聊乱七八糟的哪个没用就都禁掉就好&lt;/p&gt;
+&lt;p&gt;另外我现在用的QQ微信都是play版&lt;/p&gt;
+&lt;h2 id=&#34;与标题内容不符的小提示&#34;&gt;经过一番折腾 日常使用已经基本感觉不到发热了
+与标题内容不符的小提示&lt;/h2&gt;
+&lt;p&gt;使用zone护眼可解决屏幕残影&lt;/p&gt;
+&lt;p&gt;使用qboost可以设置性能&lt;/p&gt;
+&lt;p&gt;![][1]
+[1]: &lt;a class=&#34;link&#34; href=&#34;http://fly.ahblog.net/lg.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://fly.ahblog.net/lg.jpg&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

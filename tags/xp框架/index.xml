@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>XP框架 on 安和Blog</title>
+        <link>https://example.com/tags/xp%E6%A1%86%E6%9E%B6/</link>
+        <description>Recent content in XP框架 on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Sun, 26 Aug 2018 16:47:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/xp%E6%A1%86%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Xposed会影响性能及耗电？</title>
+        <link>https://example.com/p/8/</link>
+        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/8/</guid>
+        <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
+&lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
+当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
+下面是我简单的分析及我个人对是否使用XP的看法&lt;/p&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
+&lt;p&gt;为什么每个用户给出的答案都不一样？
+因为每个人所使用的模块都不同，XP框架本身的占用资源不算多，而模块才是万恶之源，如重力工具箱等这种hook systemui的模块会明显导致系统反应缓慢，耗电也会随之增加
+但我们却在关于省电那篇文章中提到了使用XP模块(ó﹏ò｡)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://ahblog.net/index.php/archives/1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何解决耗电崩的问题？&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如上面所说，框架本身占用资源很少，安装了应用管理器，应用管理XP这类的模块后会让系统变慢，增加耗电吗？
+答案是不会，占用资源是事实 而我们使用它们压制毒瘤唤醒/自启动等所节省下来的资源远远比它们占用的要少&lt;/p&gt;
+&lt;p&gt;那么问题来了，既然如此，我们是不是可以一直依赖XP框架呢？去掉有些系统不支持XP的因素外，刷入XP后会明显导致开机变慢的情况发生，而运行需要某个模块支持的应用时会导致软件打开时间变长..但是如果是原生系统，那就很有必要使用框架了，例如凤凰OS，一晚上疯狂掉电..使用框架后反而更加省电@(真棒)&lt;/p&gt;
+&lt;p&gt;但就我个人而言的话，XP功能虽然强大，但是会导致很多兼容性的问题，例如应用闪退，以及前一段时间的微信大规模封XP用户的事情，对于一些“性能过剩”的手机来说，XP框架所占用的资源根本不足一提，但还是有些人的手机性能不足&amp;hellip;也有些功能可以使用magisk模块来实现@(滑稽)&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;好了..扯了这么多了 说结论吧
+对于一些原生 “性能过剩”的手机来说可以使用XP框架解决毒瘤的问题
+而其它的也可以通过XP框架来压制毒瘤 就我个人来说我推荐使用XP框架 但是没有需要的话不推荐使用如重力工具箱这样的模块，单纯的使用应用控制器来看，安XP框架的利是肯定大于弊的
+至于解决方案..是不存在那种完美解决的方案的，可以尝试使用空log文件替换xp的日志文件和少安装增加耗电的模块即可
+最后呢，还是我那句话
+因人而异 因机而异 你所使用的体验可能和别人完全不同 也没有必要去跟别人吵..毕竟..因人而异 因机而异嘛|´・ω・)ノ&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文内容综合本人实际体验及酷安用户回复所写 若有不足请大佬指出.
+&lt;img src=&#34;http://fly.ahblog.net/xp.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

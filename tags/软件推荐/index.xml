@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>软件推荐 on 安和Blog</title>
+        <link>https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+        <description>Recent content in 软件推荐 on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Wed, 22 Aug 2018 14:51:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>没有Root如何达到省电效果?</title>
+        <link>https://example.com/p/3/</link>
+        <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/3/</guid>
+        <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1系统自带&#34;&gt;1.系统自带&lt;/h2&gt;
+&lt;p&gt;尽管效果很差，但也没办法，没Root什么都要用啊 &lt;/p&gt;
+&lt;p&gt;在7.1大部分ROM中都已经加入了电池优化功能 可以在设置－电池中打开&lt;/p&gt;
+&lt;p&gt;应该是8. 0后的版本支持设置是否允许应用后台活动..这个.. 没用的后台就禁了吧&lt;/p&gt;
+&lt;p&gt;一些原生Rom有智能像素，LiveDisplay里的降低耗电这样的选项，在MIUI等国产ROM中也有类似的设置&lt;/p&gt;
+&lt;h2 id=&#34;2冻结毒瘤&#34;&gt;2.冻结毒瘤&lt;/h2&gt;
+&lt;p&gt;嘤 正文开始&lt;/p&gt;
+&lt;p&gt;通过adb使用冰箱App来冻结毒瘤 什么QQ浏览器QQ音乐全丢进去 :idea: 基本不需要后台的全丢进去就对了，设置个桌面快捷方式就好&lt;/p&gt;
+&lt;p&gt;没有电脑的话可以通过Island来达到效果 将所有应用都重新安装为工作模式 原应用可以选择卸载 这样就可以控制应用后台行为了&lt;/p&gt;
+&lt;p&gt;不过有个缺点就是不能使用非工作模式下保存的东西&amp;hellip;(应该有解决方案？&lt;/p&gt;
+&lt;h2 id=&#34;3绿色守护黑域&#34;&gt;3.绿色守护&amp;amp;黑域&lt;/h2&gt;
+&lt;p&gt;若不想使用第二条.. 可以试试黑域&lt;/p&gt;
+&lt;p&gt;不过还是要Adb 每次重启都要用Adb..(哦对..淘宝有黑域激活器..39包邮 土豪可以考虑下&lt;/p&gt;
+&lt;p&gt;将应用全部(可不添加通讯软件添加到黑域之后将黑域留在后台即可&lt;/p&gt;
+&lt;h2 id=&#34;绿色守护&#34;&gt;绿色守护&lt;/h2&gt;
+&lt;p&gt;这无疑是最好的选择了..不要adb设置辅助功能就可以使用&lt;/p&gt;
+&lt;p&gt;安装完成后 给绿色守护需要的权限后添加一些不需要后台的应用&lt;/p&gt;
+&lt;p&gt;之后再打开设置 根据自己需要设置&lt;/p&gt;
+&lt;p&gt;在通过快捷方式锁屏/清理 或者通过辅助功能中的长摁主页后就会开始清理你所添加应用的后台了&lt;/p&gt;
+&lt;h2 id=&#34;4待机耗电&#34;&gt;4.待机耗电&lt;/h2&gt;
+&lt;p&gt;说了半天,其实有个最简单的方法可以解决&amp;hellip;晚上待机耗电怎么办？设置个定时开关机吧 ;-)&lt;/p&gt;
+&lt;p&gt;如果没有消息的话 这估计是个不错的选择&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;本人没有特别多非Root省电经验 望各位谅解&amp;hellip;内容可能有很多错误..将在后面陆续完善一下..主要是有点水..
+&lt;img src=&#34;http://fly.ahblog.net/sd.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>如何解决耗电崩的问题？</title>
+        <link>https://example.com/p/1/</link>
+        <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/1/</guid>
+        <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
+&lt;p&gt;1.已Root&lt;/p&gt;
+&lt;p&gt;2.已安装XP框架&lt;/p&gt;
+&lt;p&gt;(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以参考)&lt;/p&gt;
+&lt;h2 id=&#34;1冻结毒瘤&#34;&gt;1.冻结毒瘤&lt;/h2&gt;
+&lt;p&gt;从QQ浏览器到QQ到微信，每个都是毒瘤，一不小心打开耗电列表..妈耶..每次都是微信第一..就算不是用的QQ浏览器等也紧随其后&lt;/p&gt;
+&lt;p&gt;那么.首推的就是冰箱App 可在coolapk(酷安)上下载 除了微信以外的毒瘤就可以禁掉了.&lt;/p&gt;
+&lt;p&gt;(不要把所有的应用放进去，每次启动应用都要调用冰箱和某app的话，反而会更加耗电)&lt;/p&gt;
+&lt;h2 id=&#34;2应用控制器&#34;&gt;2.应用控制器&lt;/h2&gt;
+&lt;p&gt;这无疑就是神器了啊，启用后把除了通讯软件的唤醒锁禁掉，锁屏后基本就0耗电了(我把微信QQ也禁了…不过我打开的很频繁也不怕漏收了)强制打盹这些我个人也不是很清楚，个人感觉使用后可能..耗电更大？望大佬指点&lt;/p&gt;
+&lt;h2 id=&#34;3系统问题&#34;&gt;3.系统问题&lt;/h2&gt;
+&lt;p&gt;各种臃肿的系统无疑是罪魁祸首，自带一堆软件，一堆没有必要的设置，这个时候就需要一个新的系统来取代了 (每个手机都有各自的包，在这里也不能多做评价&lt;/p&gt;
+&lt;p&gt;如果是一加五T的话第三方推荐Los15.1 官改推荐DK&lt;/p&gt;
+&lt;h2 id=&#34;4内核问题&#34;&gt;4.内核问题&lt;/h2&gt;
+&lt;p&gt;一个好的内核决定了你的耗电，有的是超频内核，而有的可以降频，用Ex内核降到最低还是很舒服可以用的，这里又来了 每款手机都有各自支持的内核 同样的一加五T推荐blu内核 ex内核 flash内核 但是最新版本已经不支持flash内核了…所以可以选择老一点的版本？取决于各位自己&lt;/p&gt;
+&lt;h2 id=&#34;5内核调校&#34;&gt;5.内核调校&lt;/h2&gt;
+&lt;p&gt;内核调校，在酷安中也可以找到，然后就是Yc大佬的调校可谓是神奇，可以说是十分省电了，各位可以选择自己相应的CPU型号去下载，也有不少工具箱支持了Yc打开的调校，并且在评论区也有卡刷包&lt;/p&gt;
+&lt;p&gt;我这里是一直在用yc0603 835的调度的&lt;/p&gt;
+&lt;h2 id=&#34;6通讯软件&#34;&gt;6.通讯软件&lt;/h2&gt;
+&lt;p&gt;这可能是耗电量最大的了，但是却又不能限制它的后台行为(虽然我对这个没感觉已经禁用了)但还是会有人需要用到的对吧，于是可以使用到应用管理XP，打开gcm代收，刷了全家桶之后从商店安装谷歌版的微信即可，记得登录 若有不懂可以在下方评论或者在酷安评论区提问&lt;/p&gt;
+&lt;h2 id=&#34;方案二&#34;&gt;方案二&lt;/h2&gt;
+&lt;p&gt;小米系统级推送 用magisk模块来实现伪装小米机型 注册应用成功后即可使用&lt;/p&gt;
+&lt;h2 id=&#34;7电池问题&#34;&gt;7.电池问题&lt;/h2&gt;
+&lt;p&gt;这个就没办法啦 大部分都是淘宝50-60包邮的，不过还是推荐去网点更换 就算要钱也是有个保障 自己弄坏了岂不是要哭一年啊&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;不过说到底，还是那句话，少装应用，省电还是靠关机。
+&lt;img src=&#34;http://fly.ahblog.net/sd.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
