@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>软件推荐 on 安和Blog</title>
-        <link>https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+        <link>https://ahcorn.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
         <description>Recent content in 软件推荐 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Wed, 22 Aug 2018 14:51:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Aug 2018 14:51:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>没有Root如何达到省电效果?</title>
-        <link>https://example.com/p/3/</link>
+        <link>https://ahcorn.github.io/p/3/</link>
         <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
         
-        <guid>https://example.com/p/3/</guid>
+        <guid>https://ahcorn.github.io/p/3/</guid>
         <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
@@ -52,10 +52,10 @@
         </item>
         <item>
         <title>如何解决耗电崩的问题？</title>
-        <link>https://example.com/p/1/</link>
+        <link>https://ahcorn.github.io/p/1/</link>
         <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1/</guid>
+        <guid>https://ahcorn.github.io/p/1/</guid>
         <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;

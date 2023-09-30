@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on 安和Blog</title>
-        <link>https://example.com/post/</link>
+        <link>https://ahcorn.github.io/post/</link>
         <description>Recent content in Posts on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>临时公告</title>
-        <link>https://example.com/p/test/</link>
+        <link>https://ahcorn.github.io/p/test/</link>
         <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/test/</guid>
+        <guid>https://ahcorn.github.io/p/test/</guid>
         <description>&lt;p&gt;抱歉各位，由于服务器到期， nekocoffee.com 域名也将在下月到期并涨价的缘故，目前决定将博客迁至 Github Pages ，使用 Hugo 来继续维护，评论区什么的还没搞好，文章、友链还需要从老数据库导出一下。&lt;/p&gt;
 &lt;p&gt;评论什么的应该是没法恢复了，所以即便文章搬过来也都是空空如也的状态，不过刚好可以白嫖 Github 的存储，我就多把之前缺掉的图补回来吧。&lt;/p&gt;
 &lt;p&gt;目前几篇文章是我之前自己写的短评，一直没有发出来，日后可能会更新一些教程向的学习笔记（？）&lt;/p&gt;
@@ -27,10 +27,10 @@
         </item>
         <item>
         <title>Home Assistant避坑</title>
-        <link>https://example.com/p/688/</link>
+        <link>https://ahcorn.github.io/p/688/</link>
         <pubDate>Mon, 11 Jul 2022 17:32:00 +0000</pubDate>
         
-        <guid>https://example.com/p/688/</guid>
+        <guid>https://ahcorn.github.io/p/688/</guid>
         <description>&lt;p&gt;折腾了两天，搭建Home Assistant时还是有不少地方踩坑。
 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。
 选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。
@@ -62,11 +62,11 @@
         </item>
         <item>
         <title>《野良与皇女与流浪猫之心》短评</title>
-        <link>https://example.com/p/galgame-nora/</link>
+        <link>https://ahcorn.github.io/p/galgame-nora/</link>
         <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/galgame-nora/</guid>
-        <description>&lt;img src="https://example.com/p/galgame-nora/2022-07-02_14-56-54.jpg" alt="Featured image of post 《野良与皇女与流浪猫之心》短评" /&gt;&lt;p&gt;野良与流浪猫之心这部作品我其实只是通过一首角色曲才了解到的，好听的配乐、感兴趣的设定——以及实际上并没有那么好的剧情。&lt;/p&gt;
+        <guid>https://ahcorn.github.io/p/galgame-nora/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/galgame-nora/2022-07-02_14-56-54.jpg" alt="Featured image of post 《野良与皇女与流浪猫之心》短评" /&gt;&lt;p&gt;野良与流浪猫之心这部作品我其实只是通过一首角色曲才了解到的，好听的配乐、感兴趣的设定——以及实际上并没有那么好的剧情。&lt;/p&gt;
 &lt;p&gt;在玩之前也大抵了解了下游戏的评价，虽称不上完美，但也多是好评，而我则是先玩了2才玩了1，所以对2的搞笑风格也印象颇佳。&lt;/p&gt;
 &lt;p&gt;真正看到主线剧情时，却几度玩到一半就关掉游戏，乃至第二天因为无聊才打开继续，第一部的共通线对于各女主可真谓雨露均沾，都保持着一种暧昧不清的关系，选择个人线后又突然在感情上有了转折，使得这部作品在感情上的刻画实在不尽人意。&lt;/p&gt;
 &lt;p&gt;在四位女主中，明日原的设定固然让人心生怜爱，但也不要忘了这又不是些沉重深刻的游戏，没有必要为了塑造一个可怜的形象而这么过分，至于黑木未知，我则是看了不少剧透，甚至直接看完了相关的CG，或许最后是HE，但中间的部分若真如大部分剧透所言的，充斥着令人厌恶的要素以及让角色人设崩坏的部分的话，即便这是由我喜欢的CV配音的，我也不想再亲自去体验这剧情了。妹妹和皇女线，虽然剧透不多，但看得出来吐槽的人也算少，不过就其他两条线对感情上的刻画来讲，我也不抱多大的期望。&lt;/p&gt;
@@ -75,11 +75,11 @@
         </item>
         <item>
         <title>《86-不存在的战区》短评</title>
-        <link>https://example.com/p/anime-86/</link>
+        <link>https://ahcorn.github.io/p/anime-86/</link>
         <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/anime-86/</guid>
-        <description>&lt;img src="https://example.com/p/anime-86/2023-08-20.jpg" alt="Featured image of post 《86-不存在的战区》短评" /&gt;&lt;p&gt;这是一部久违、亦或许是第一部，我看的战争向的动画作品，虽然整体上并没有过多的”整体“感，但却依然做出了精彩的战争一隅。&lt;/p&gt;
+        <guid>https://ahcorn.github.io/p/anime-86/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/anime-86/2023-08-20.jpg" alt="Featured image of post 《86-不存在的战区》短评" /&gt;&lt;p&gt;这是一部久违、亦或许是第一部，我看的战争向的动画作品，虽然整体上并没有过多的”整体“感，但却依然做出了精彩的战争一隅。&lt;/p&gt;
 &lt;p&gt;早在三年前，我就拿到了86战区的轻小说，但也如同其它入手的轻小说一样，我并没有去读，就算如此，对于其第一卷的赞赏也是有所耳闻，就我个人的动画观感来猜测，当蕾娜奔跑至街道时的那段，应该就是第一卷的结尾了。&lt;/p&gt;
 &lt;p&gt;是的，正如大部分评价所言，第一卷之后的剧情未免有些陷入平庸，不过也仍属上乘之作，彷佛现实和理想便是以此为分界，但倘若一直现实下去，我大概就不会在意这部作品了。&lt;/p&gt;
 &lt;p&gt;而完结的部分实在是令人赞叹，无论是叙事方式还是角色的表情、乃至配乐以及分镜，都称得上可以纳入经典的内容。&lt;/p&gt;
@@ -88,10 +88,10 @@
         </item>
         <item>
         <title>2021年总结</title>
-        <link>https://example.com/p/672/</link>
+        <link>https://ahcorn.github.io/p/672/</link>
         <pubDate>Sun, 09 Jan 2022 17:01:00 +0000</pubDate>
         
-        <guid>https://example.com/p/672/</guid>
+        <guid>https://ahcorn.github.io/p/672/</guid>
         <description>&lt;p&gt;迟来了一个多星期的总结，也并没有更多的内容。&lt;/p&gt;
 &lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
 &lt;p&gt;一共发布了 14 篇文章，比 2019 多了 9 篇。
@@ -121,11 +121,11 @@
         </item>
         <item>
         <title>《快跟超可爱的我交往吧》短评</title>
-        <link>https://example.com/p/novel-kawaii/</link>
+        <link>https://ahcorn.github.io/p/novel-kawaii/</link>
         <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/novel-kawaii/</guid>
-        <description>&lt;img src="https://example.com/p/novel-kawaii/cover.webp" alt="Featured image of post 《快跟超可爱的我交往吧》短评" /&gt;&lt;p&gt;两人的对话是我看过的恋爱轻小说中最好玩的了，然后女主在被告白的时候说的那段话我反复看了好几遍才大概明白什么意思，可见作品还是有一定思想深度的（脑补&lt;/p&gt;
+        <guid>https://ahcorn.github.io/p/novel-kawaii/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/novel-kawaii/cover.webp" alt="Featured image of post 《快跟超可爱的我交往吧》短评" /&gt;&lt;p&gt;两人的对话是我看过的恋爱轻小说中最好玩的了，然后女主在被告白的时候说的那段话我反复看了好几遍才大概明白什么意思，可见作品还是有一定思想深度的（脑补&lt;/p&gt;
 &lt;p&gt;败犬&amp;hellip;.还有一些胃疼的剧情之类的，一开始刚看见的时候不是很能接受，但是仔细看下去就觉得“很有道理”的样子，被 作者的逻辑 角色们的言行说服了。&lt;/p&gt;
 &lt;p&gt;没有刻意回避常见的套路，但有时候居然也会捉摸不透男女主的心思，这一点不足为奇，最后能圆回来才是最厉害的。&lt;/p&gt;
 &lt;p&gt;糖就无需多言啦，最近看的几部轻小说的女主都是醋坛子，看见男主和别的女生聊的开心就会气鼓鼓（我没有女性朋友！请直接找我！&lt;/p&gt;
@@ -137,10 +137,10 @@
 &lt;p&gt;什么？你问我在学校都在干什么？&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;在上课看《和非常可爱的我交往吧》&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&#34;晒&#34;&gt;晒！&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/novel-kawaii/2022-03-20.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://ahcorn.github.io/p/novel-kawaii/2022-03-20.jpg&#34;
 	width=&#34;1280&#34;
 	height=&#34;720&#34;
-	srcset=&#34;https://example.com/p/novel-kawaii/2022-03-20_hu1bc2d5c935879aba0ead91659110b0ba_187780_480x0_resize_q75_box.jpg 480w, https://example.com/p/novel-kawaii/2022-03-20_hu1bc2d5c935879aba0ead91659110b0ba_187780_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://ahcorn.github.io/p/novel-kawaii/2022-03-20_hu1bc2d5c935879aba0ead91659110b0ba_187780_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/novel-kawaii/2022-03-20_hu1bc2d5c935879aba0ead91659110b0ba_187780_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;日版1-3卷&#34;
@@ -155,10 +155,10 @@
         </item>
         <item>
         <title>掌阅 F1 使用体验</title>
-        <link>https://example.com/p/655/</link>
+        <link>https://ahcorn.github.io/p/655/</link>
         <pubDate>Sat, 02 Oct 2021 15:04:00 +0000</pubDate>
         
-        <guid>https://example.com/p/655/</guid>
+        <guid>https://ahcorn.github.io/p/655/</guid>
         <description>&lt;p&gt;因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。&lt;/p&gt;
 &lt;h2 id=&#34;显示效果&#34;&gt;显示效果&lt;/h2&gt;
 &lt;p&gt;虽然整体来说很不错，但是不得不提的一点是它的屏幕是一块完整的玻璃，并不是像 kindle 那样带一层磨砂，所以会出现反光的问题，听卖家说原来是有磨砂的出厂膜，可惜被他撕掉换成钢化膜了，他的意思是钢化膜会更清晰一点。但我觉得这种 2+16g 配置的手机，也就只能看看书，听听音乐了，清晰度是没那么重要的。&lt;/p&gt;
@@ -171,10 +171,10 @@
         </item>
         <item>
         <title>《朔与茉莉》摘选</title>
-        <link>https://example.com/p/657/</link>
+        <link>https://ahcorn.github.io/p/657/</link>
         <pubDate>Sat, 02 Oct 2021 13:07:00 +0000</pubDate>
         
-        <guid>https://example.com/p/657/</guid>
+        <guid>https://ahcorn.github.io/p/657/</guid>
         <description>&lt;p&gt;在阅读本书时记录的一些不错的句子，主要为环境描写&lt;/p&gt;
 &lt;p&gt;我感到了几分空虚，不仅仅是这份寒冷。&lt;/p&gt;
 &lt;p&gt;我急匆匆地离开灯火辉煌一片圣诞装扮的车站，向自己的公寓走去。&lt;/p&gt;
@@ -208,10 +208,10 @@
         </item>
         <item>
         <title>《解忧杂货店》阅读记录</title>
-        <link>https://example.com/p/651/</link>
+        <link>https://ahcorn.github.io/p/651/</link>
         <pubDate>Thu, 30 Sep 2021 20:17:00 +0000</pubDate>
         
-        <guid>https://example.com/p/651/</guid>
+        <guid>https://ahcorn.github.io/p/651/</guid>
         <description>&lt;p&gt;因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。&lt;/p&gt;
 &lt;h2 id=&#34;9月7日&#34;&gt;9月7日&lt;/h2&gt;
 &lt;p&gt;今天读了六十多页的《解忧杂货店》，一开始因为排版和字体的原因实在有些读不下去，但习惯之后发现其实别有一番风味；说回内容，剧情方面一开始也不是很吸引我，等到了三人组收到1980年后的兔子小姐回信时我才感觉有了不少兴趣，也开始期待起接下来的剧情了，可惜的是明天的历史我要参考，所以继续读的机会也只能推迟到后天以及周五了。&lt;/p&gt;
@@ -238,10 +238,10 @@
         </item>
         <item>
         <title>德业 DYD-612S 除湿机短评</title>
-        <link>https://example.com/p/650/</link>
+        <link>https://ahcorn.github.io/p/650/</link>
         <pubDate>Thu, 30 Sep 2021 19:07:00 +0000</pubDate>
         
-        <guid>https://example.com/p/650/</guid>
+        <guid>https://ahcorn.github.io/p/650/</guid>
         <description>&lt;p&gt;为了不让书受潮，所以买了台除湿机回来。&lt;/p&gt;
 &lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
 &lt;p&gt;这款除湿机效果实在是不太理想，在高风模式下也仅能将湿度保持在 60% 上下，但比较意外的是水满的却很快，2.5L的水箱基本上一天就要倒一次，不知道为什么会有这种情况。&lt;/p&gt;
@@ -256,11 +256,11 @@
         </item>
         <item>
         <title>《拖油瓶》短评</title>
-        <link>https://example.com/p/novel-tsurego/</link>
+        <link>https://ahcorn.github.io/p/novel-tsurego/</link>
         <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/novel-tsurego/</guid>
-        <description>&lt;img src="https://example.com/p/novel-tsurego/img.png" alt="Featured image of post 《拖油瓶》短评" /&gt;&lt;h2 id=&#34;短评&#34;&gt;短评&lt;/h2&gt;
+        <guid>https://ahcorn.github.io/p/novel-tsurego/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/novel-tsurego/img.png" alt="Featured image of post 《拖油瓶》短评" /&gt;&lt;h2 id=&#34;短评&#34;&gt;短评&lt;/h2&gt;
 &lt;p&gt;《继母的拖油瓶是我的前女友》目前更新至第六卷，男女主仍没有在一起，而新出的几卷也都得到了&amp;quot;胃疼&amp;quot;的评价。&lt;/p&gt;
 &lt;p&gt;在糖里混玻璃碴是目前的我所无法接受的，即便有诸如对&amp;quot;男女主双方心路历程&amp;quot;描写的好评，但我并不愿接受，根据目前的剧情走向来看，甚至到第七卷双方仍是所谓的&amp;quot;暗恋&amp;quot;，告白的部分可能要到第八卷才能看到。&lt;/p&gt;
 &lt;p&gt;我所读过的书实在是少得可怜，但凭我对于&amp;quot;轻小说&amp;quot;的定义&amp;quot;可轻松阅读的小说&amp;quot;的理解而言，我认为很多轻小说的阅读体验配不上&amp;quot;轻松&amp;quot;二字，无论是尴尬也好，胃疼也罢，阅读这些作品都称不上轻松，反倒是给心里添了几分堵。&lt;/p&gt;
@@ -272,11 +272,11 @@
         </item>
         <item>
         <title>《政宗君的复仇》漫画短评</title>
-        <link>https://example.com/p/comic-masamune/</link>
+        <link>https://ahcorn.github.io/p/comic-masamune/</link>
         <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/comic-masamune/</guid>
-        <description>&lt;img src="https://example.com/p/comic-masamune/img.jpg" alt="Featured image of post 《政宗君的复仇》漫画短评" /&gt;&lt;h2 id=&#34;短评&#34;&gt;短评&lt;/h2&gt;
+        <guid>https://ahcorn.github.io/p/comic-masamune/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/comic-masamune/img.jpg" alt="Featured image of post 《政宗君的复仇》漫画短评" /&gt;&lt;h2 id=&#34;短评&#34;&gt;短评&lt;/h2&gt;
 &lt;p&gt;今天看完了《政宗君的复仇》，总体来讲还可以吧，但与其说结局是皆大欢喜，倒不如说一切才刚刚开始，几经波折但也都算合理，动画最后几集的争议部分完全属于改编的责任，倘若按照漫画的叙事来就不会落得如此一个差评不断的下场。&lt;/p&gt;
 &lt;p&gt;不过我觉得这部作品称不上令人印象深刻，贯穿全剧的便是男女主间的误会，作者也在其中加入了吐槽自己内容的部分，即所谓“日式恋爱”的“卖关子”，当误会解开后的糖度也不是很足，个人认为属于可以一次性看完，但只是作为消遣的作品。&lt;/p&gt;
 &lt;h2 id=&#34;排雷&#34;&gt;排雷&lt;/h2&gt;
@@ -287,10 +287,10 @@
         </item>
         <item>
         <title>坚果 R2 使用体验</title>
-        <link>https://example.com/p/607/</link>
+        <link>https://ahcorn.github.io/p/607/</link>
         <pubDate>Sat, 01 May 2021 23:59:00 +0000</pubDate>
         
-        <guid>https://example.com/p/607/</guid>
+        <guid>https://ahcorn.github.io/p/607/</guid>
         <description>&lt;p&gt;说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。&lt;/p&gt;
 &lt;p&gt;印象最深刻的几点无非就是提升最大的几点&lt;/p&gt;
 &lt;ol&gt;
@@ -326,10 +326,10 @@
         </item>
         <item>
         <title>Instantclick无刷新</title>
-        <link>https://example.com/p/598/</link>
+        <link>https://ahcorn.github.io/p/598/</link>
         <pubDate>Sun, 04 Apr 2021 14:01:00 +0000</pubDate>
         
-        <guid>https://example.com/p/598/</guid>
+        <guid>https://ahcorn.github.io/p/598/</guid>
         <description>&lt;p&gt;在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下&lt;/p&gt;
 &lt;h2 id=&#34;instantclick实现无刷新&#34;&gt;instantclick实现无刷新&lt;/h2&gt;
 &lt;p&gt;在footer.php加入以下代码&lt;/p&gt;
@@ -370,11 +370,11 @@
         </item>
         <item>
         <title>《转生猪公爵》短评</title>
-        <link>https://example.com/p/novel-pig/</link>
+        <link>https://ahcorn.github.io/p/novel-pig/</link>
         <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/novel-pig/</guid>
-        <description>&lt;img src="https://example.com/p/novel-pig/img.jpg" alt="Featured image of post 《转生猪公爵》短评" /&gt;&lt;h2 id=&#34;前五卷&#34;&gt;前五卷&lt;/h2&gt;
+        <guid>https://ahcorn.github.io/p/novel-pig/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/novel-pig/img.jpg" alt="Featured image of post 《转生猪公爵》短评" /&gt;&lt;h2 id=&#34;前五卷&#34;&gt;前五卷&lt;/h2&gt;
 &lt;p&gt;猪公爵这部小说怎么说呢，看了一天了一直到现在，看完了第五卷，也就是第五卷开始猪公爵完全瘦下来了&amp;hellip;&lt;/p&gt;
 &lt;p&gt;剧情方面我比较在意的是前期作者对于艾莉西亚的感情描写，斯罗两次相救之后又是如何再次走上原作动画的男女主剧情路线呢？也就是我认为如果后面剧情要按照原作动画发展就完全没必要对艾莉西亚对斯罗的感情进行着重描写。&lt;/p&gt;
 &lt;p&gt;其余的便是关于夏洛特和斯罗之间的关系，正如上面所说，小说前期甚至营造出了一种后宫的氛围，但无论是名字还是男主的独白这都应该是一部纯爱向作品，虽然最后强行刹车但实在是刹的强硬、刹的不自然，或者可以直接说—离谱。&lt;/p&gt;
@@ -399,10 +399,10 @@
         </item>
         <item>
         <title>三星Buds Pro使用体验</title>
-        <link>https://example.com/p/567/</link>
+        <link>https://ahcorn.github.io/p/567/</link>
         <pubDate>Sun, 07 Feb 2021 13:53:00 +0000</pubDate>
         
-        <guid>https://example.com/p/567/</guid>
+        <guid>https://ahcorn.github.io/p/567/</guid>
         <description>&lt;p&gt;最新的三星耳机！&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;虽说耳机上个月 25 号就已经拿到了，但还是拖到了现在才把这篇使用体验写出来。&lt;/p&gt;
@@ -452,10 +452,10 @@
         </item>
         <item>
         <title>Nexmoe修改记录</title>
-        <link>https://example.com/p/552/</link>
+        <link>https://ahcorn.github.io/p/552/</link>
         <pubDate>Sun, 31 Jan 2021 16:43:00 +0000</pubDate>
         
-        <guid>https://example.com/p/552/</guid>
+        <guid>https://ahcorn.github.io/p/552/</guid>
         <description>&lt;p&gt;就是些随便改的东西啦&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;自完成折影大佬的 Nexmoe 主题的部分内容移植后我自己又修改了一些，似乎是效果还不错的缘故，已经有好几位博主表示想要了，故今天把整个修改的内容以及代码公布出来，稍后会贴上在 Github 上的完整开源分支。&lt;/p&gt;
@@ -1608,10 +1608,10 @@
         </item>
         <item>
         <title>2020年总结</title>
-        <link>https://example.com/p/535/</link>
+        <link>https://ahcorn.github.io/p/535/</link>
         <pubDate>Sat, 09 Jan 2021 15:13:00 +0000</pubDate>
         
-        <guid>https://example.com/p/535/</guid>
+        <guid>https://ahcorn.github.io/p/535/</guid>
         <description>&lt;p&gt;相比上一年的2019总结，感觉能说的事少了很多。
 实际上去年只是一时兴起，今年也不过是水篇文章。&lt;/p&gt;
 &lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
@@ -1642,10 +1642,10 @@
         </item>
         <item>
         <title>海贝WH3使用体验</title>
-        <link>https://example.com/p/503/</link>
+        <link>https://ahcorn.github.io/p/503/</link>
         <pubDate>Wed, 05 Aug 2020 11:32:00 +0000</pubDate>
         
-        <guid>https://example.com/p/503/</guid>
+        <guid>https://ahcorn.github.io/p/503/</guid>
         <description>&lt;p&gt;看中音质，图个方便。&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;本文并非专业测评，产品不购自海贝官方店铺，仅供参考。
@@ -1688,10 +1688,10 @@
         </item>
         <item>
         <title>聊聊B站会员购/早划算/魔力赏</title>
-        <link>https://example.com/p/497/</link>
+        <link>https://ahcorn.github.io/p/497/</link>
         <pubDate>Sat, 01 Aug 2020 10:36:00 +0000</pubDate>
         
-        <guid>https://example.com/p/497/</guid>
+        <guid>https://ahcorn.github.io/p/497/</guid>
         <description>&lt;p&gt;直接说结论吧，大部分情况下，我并不建议你继续使用会员购。
 删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
@@ -1736,10 +1736,10 @@
         </item>
         <item>
         <title>为Typecho添加日记功能</title>
-        <link>https://example.com/p/488/</link>
+        <link>https://ahcorn.github.io/p/488/</link>
         <pubDate>Wed, 29 Jul 2020 10:02:00 +0000</pubDate>
         
-        <guid>https://example.com/p/488/</guid>
+        <guid>https://ahcorn.github.io/p/488/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;跟上文一样，给你的主题添加个日记功能，其实也就是用&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#c678dd&#34;&gt;if&lt;/span&gt;(&lt;span style=&#34;color:#e06c75&#34;&gt;$this&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;hasLogin&lt;/span&gt;())&lt;span style=&#34;color:#56b6c2&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;?&amp;gt;&lt;/span&gt;
@@ -1769,10 +1769,10 @@
         </item>
         <item>
         <title>为Typecho添加说说功能</title>
-        <link>https://example.com/p/487/</link>
+        <link>https://ahcorn.github.io/p/487/</link>
         <pubDate>Wed, 29 Jul 2020 09:50:00 +0000</pubDate>
         
-        <guid>https://example.com/p/487/</guid>
+        <guid>https://ahcorn.github.io/p/487/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;发现这类文章很少有人写，大概是大家都会，只有我觉得很厉害吧（&lt;/p&gt;
 &lt;h2 id=&#34;自定义字段&#34;&gt;自定义字段&lt;/h2&gt;
@@ -1827,10 +1827,10 @@
         </item>
         <item>
         <title>小米手环5使用体验</title>
-        <link>https://example.com/p/481/</link>
+        <link>https://ahcorn.github.io/p/481/</link>
         <pubDate>Tue, 28 Jul 2020 13:55:00 +0000</pubDate>
         
-        <guid>https://example.com/p/481/</guid>
+        <guid>https://ahcorn.github.io/p/481/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;智能手表我已经买了不少了，中兴ZW10，MOTO360一代，三星gear sport以及三星gearS3，其中最让我满意的是ZW10，如果你在18年那会看过我的文章的话，可以发现我在很多文章中都有提及到这块表。
 手环至今为止只买过小米手环3的NFC版，后来嫌功能太少就直接送人了，最近在用的表是三星的Gear S3先锋版，除了续航之外..都还能接受吧，就是睡眠监测有点玄学了，毕竟睡六个小时有四个小时的深度睡眠我也不太敢相信。
@@ -1873,10 +1873,10 @@
         </item>
         <item>
         <title>HOI4打不开的解决方案</title>
-        <link>https://example.com/p/449/</link>
+        <link>https://ahcorn.github.io/p/449/</link>
         <pubDate>Sun, 28 Jun 2020 15:50:00 +0000</pubDate>
         
-        <guid>https://example.com/p/449/</guid>
+        <guid>https://ahcorn.github.io/p/449/</guid>
         <description>&lt;p&gt;最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用
 最后发现只要改下硬盘的所有者就可以了
 具体方法如下：
@@ -1886,10 +1886,10 @@
         </item>
         <item>
         <title>俺修罗短评</title>
-        <link>https://example.com/p/418/</link>
+        <link>https://ahcorn.github.io/p/418/</link>
         <pubDate>Tue, 05 May 2020 17:58:00 +0000</pubDate>
         
-        <guid>https://example.com/p/418/</guid>
+        <guid>https://ahcorn.github.io/p/418/</guid>
         <description>&lt;p&gt;由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;这部番剧的名字我早有耳闻，但也是迟迟没有去看。
@@ -1921,11 +1921,11 @@
         </item>
         <item>
         <title>《记录的地平线》安利</title>
-        <link>https://example.com/p/anime-loghorizon/</link>
+        <link>https://ahcorn.github.io/p/anime-loghorizon/</link>
         <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/anime-loghorizon/</guid>
-        <description>&lt;img src="https://example.com/p/anime-loghorizon/img.jpg" alt="Featured image of post 《记录的地平线》安利" /&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+        <guid>https://ahcorn.github.io/p/anime-loghorizon/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/anime-loghorizon/img.jpg" alt="Featured image of post 《记录的地平线》安利" /&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;记录的地平线是主角团公会的名字，我个人认为是取于城惠“放荡者的茶会”时和伙伴们一起看风景的那一段。
 “幻境神话”一款老牌MMORPG游戏，在最后一次更新之后，所有在线的玩家都穿越到了幻境神话的游戏中。
 两季总共50集，我概括的实在是过于简洁了，其魅力还是要待各位自行去发掘。&lt;/p&gt;
@@ -1943,10 +1943,10 @@
         </item>
         <item>
         <title>谈谈网站防御</title>
-        <link>https://example.com/p/350/</link>
+        <link>https://ahcorn.github.io/p/350/</link>
         <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/350/</guid>
+        <guid>https://ahcorn.github.io/p/350/</guid>
         <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;
 &lt;p&gt;从昨天开始，甚至出现了针对我友链的攻击行为，光是我知道的就有两位。&lt;/p&gt;
 &lt;p&gt;还有小柠也被从我站友链过去的打了，真是绝了。
@@ -2087,10 +2087,10 @@ APPNODE的加强模式我的配置如下&lt;/p&gt;
         </item>
         <item>
         <title>Typecho主题案例—Admin主题</title>
-        <link>https://example.com/p/333/</link>
+        <link>https://ahcorn.github.io/p/333/</link>
         <pubDate>Mon, 30 Mar 2020 14:02:00 +0000</pubDate>
         
-        <guid>https://example.com/p/333/</guid>
+        <guid>https://ahcorn.github.io/p/333/</guid>
         <description>&lt;p&gt;看起来很难，但实际上手后你才会发现，这一切都很简单。&lt;/p&gt;
 &lt;h2 id=&#34;扒后台&#34;&gt;扒后台&lt;/h2&gt;
 &lt;p&gt;直接 Ctrl+S 把Typecho的后台扒下来&lt;/p&gt;
@@ -2231,10 +2231,10 @@ APPNODE的加强模式我的配置如下&lt;/p&gt;
         </item>
         <item>
         <title>Typecho常见问题</title>
-        <link>https://example.com/p/faq/</link>
+        <link>https://ahcorn.github.io/p/faq/</link>
         <pubDate>Wed, 25 Mar 2020 19:28:00 +0000</pubDate>
         
-        <guid>https://example.com/p/faq/</guid>
+        <guid>https://ahcorn.github.io/p/faq/</guid>
         <description>&lt;p&gt;我会每日更新一下来自百度统计的奇奇怪怪的问题的答案hhhh&lt;/p&gt;
 &lt;h2 id=&#34;3月25日&#34;&gt;3月25日&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/3.25baidu.png&#34;
@@ -2375,10 +2375,10 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。&lt;/p&
         </item>
         <item>
         <title>更换Typecho的Gravatar头像源</title>
-        <link>https://example.com/p/261/</link>
+        <link>https://ahcorn.github.io/p/261/</link>
         <pubDate>Tue, 17 Mar 2020 10:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/261/</guid>
+        <guid>https://ahcorn.github.io/p/261/</guid>
         <description>&lt;p&gt;使用官方头像源会拖慢国内的访问速度&lt;/p&gt;
 &lt;h2 id=&#34;全站修改&#34;&gt;全站修改&lt;/h2&gt;
 &lt;p&gt;在网站根目录下的 config.inc.php 文件，加入以下代码。&lt;/p&gt;
@@ -2397,10 +2397,10 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。&lt;/p&
         </item>
         <item>
         <title>博客CDN推荐</title>
-        <link>https://example.com/p/256/</link>
+        <link>https://ahcorn.github.io/p/256/</link>
         <pubDate>Mon, 16 Mar 2020 23:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/256/</guid>
+        <guid>https://ahcorn.github.io/p/256/</guid>
         <description>&lt;p&gt;以下仅为个人意见，带有很多我的主观观点，仅供参考，请以自己的实际体验为准。&lt;/p&gt;
 &lt;h2 id=&#34;上海云盾&#34;&gt;上海云盾&lt;/h2&gt;
 &lt;p&gt;推荐度 ⭐⭐⭐⭐⭐⭐
@@ -2506,10 +2506,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>【B站早划算】期望越大，失望越大</title>
-        <link>https://example.com/p/302/</link>
+        <link>https://ahcorn.github.io/p/302/</link>
         <pubDate>Mon, 09 Mar 2020 11:05:00 +0000</pubDate>
         
-        <guid>https://example.com/p/302/</guid>
+        <guid>https://ahcorn.github.io/p/302/</guid>
         <description>&lt;p&gt;若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。
 不过，在此我需要提醒您，我并不建议您购买B站早划算，虽一开始还算良心，但到如今，早划算已不减免全部尾款，更弄出了验证码这种恶心的操作，加上质量本身不过关的问题，建议各位不要购买B站早划算商品。&lt;/p&gt;
 &lt;p&gt;老实说，我甚至不建议你继续使用会员购，我在B站600买的毛绒玩具（初音fufu）到处开线，刀疤脸，客服告诉我正常，不给予更换，成功更换的都是找消协什么的才弄好&amp;hellip;我就直接认栽了&lt;/p&gt;
@@ -2524,10 +2524,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Typecho登陆后显示内容</title>
-        <link>https://example.com/p/245/</link>
+        <link>https://ahcorn.github.io/p/245/</link>
         <pubDate>Mon, 09 Mar 2020 09:08:00 +0000</pubDate>
         
-        <guid>https://example.com/p/245/</guid>
+        <guid>https://ahcorn.github.io/p/245/</guid>
         <description>&lt;p&gt;硬核实现，只能加在content输出的下方或上方。&lt;/p&gt;
 &lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
 &lt;p&gt;下面这段加在 Post.php 中 content 输出的前面。&lt;/p&gt;
@@ -2553,10 +2553,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>浅谈《妄想破绽》</title>
-        <link>https://example.com/p/230/</link>
+        <link>https://ahcorn.github.io/p/230/</link>
         <pubDate>Sat, 29 Feb 2020 15:18:00 +0000</pubDate>
         
-        <guid>https://example.com/p/230/</guid>
+        <guid>https://ahcorn.github.io/p/230/</guid>
         <description>&lt;p&gt;玩通四条线后，很想写篇文章吐槽吐槽。&lt;/p&gt;
 &lt;h2 id=&#34;游戏背景&#34;&gt;游戏背景&lt;/h2&gt;
 &lt;p&gt;20XX年，随着科技的不断发展，地球资源逐渐枯竭，政治形势紧张。这时，一家以生物科技起家的新能源公司【瑞恩梅克生物科技】，研发出了【分子重构技术】。
@@ -2593,10 +2593,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Typecho首页样式</title>
-        <link>https://example.com/p/228/</link>
+        <link>https://ahcorn.github.io/p/228/</link>
         <pubDate>Sat, 29 Feb 2020 15:04:00 +0000</pubDate>
         
-        <guid>https://example.com/p/228/</guid>
+        <guid>https://ahcorn.github.io/p/228/</guid>
         <description>&lt;p&gt;基于紫罗兰主题修改，其它主题也可以使用。&lt;/p&gt;
 &lt;p&gt;本来是想写个鼠标悬停显示摘要的，但是我又要换回nexmoe了就直接弃坑了hhh
 &lt;img src=&#34;https://cdn.ahblog.net/img/violet.png&#34;
@@ -2787,10 +2787,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>坚果Pro3使用体验</title>
-        <link>https://example.com/p/223/</link>
+        <link>https://ahcorn.github.io/p/223/</link>
         <pubDate>Wed, 26 Feb 2020 12:28:00 +0000</pubDate>
         
-        <guid>https://example.com/p/223/</guid>
+        <guid>https://ahcorn.github.io/p/223/</guid>
         <description>&lt;p&gt;之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh&lt;/p&gt;
 &lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
 &lt;p&gt;游戏模式没有适配 例如少女前线&lt;/p&gt;
@@ -2825,10 +2825,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Nexmoe移植记录</title>
-        <link>https://example.com/p/255/</link>
+        <link>https://ahcorn.github.io/p/255/</link>
         <pubDate>Sun, 23 Feb 2020 12:38:00 +0000</pubDate>
         
-        <guid>https://example.com/p/255/</guid>
+        <guid>https://ahcorn.github.io/p/255/</guid>
         <description>&lt;p&gt;我就是 copy 怪hhh，大部分样式来自 Hexo 版本&lt;/p&gt;
 &lt;h2 id=&#34;文章归档&#34;&gt;文章归档&lt;/h2&gt;
 &lt;p&gt;所有移植都要从文章归档页面开始说起，看到 Hexo 版本的文章归档页面感觉很好看，于是就开始移植了。
@@ -3265,10 +3265,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Typecho无插件实现目录</title>
-        <link>https://example.com/p/251/</link>
+        <link>https://ahcorn.github.io/p/251/</link>
         <pubDate>Sat, 22 Feb 2020 06:26:00 +0000</pubDate>
         
-        <guid>https://example.com/p/251/</guid>
+        <guid>https://ahcorn.github.io/p/251/</guid>
         <description>&lt;p&gt;对网上的版本进行了个小修改~&lt;/p&gt;
 &lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#c678dd&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#61afef;font-weight:bold&#34;&gt;createCatalog&lt;/span&gt;(&lt;span style=&#34;color:#e06c75&#34;&gt;$obj&lt;/span&gt;) {
@@ -3329,10 +3329,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Typecho快速实现灯箱</title>
-        <link>https://example.com/p/206/</link>
+        <link>https://ahcorn.github.io/p/206/</link>
         <pubDate>Fri, 31 Jan 2020 12:05:00 +0000</pubDate>
         
-        <guid>https://example.com/p/206/</guid>
+        <guid>https://ahcorn.github.io/p/206/</guid>
         <description>&lt;p&gt;实现方法和一些注意事项。&lt;/p&gt;
 &lt;h2 id=&#34;引入jquery和fancybox&#34;&gt;引入jQuery和fancybox&lt;/h2&gt;
 &lt;p&gt;P.S 如果已经引入jQuery就不需要了
@@ -3369,10 +3369,10 @@ line-height: 45px;
         </item>
         <item>
         <title>提升Typecho的访问速度</title>
-        <link>https://example.com/p/188/</link>
+        <link>https://ahcorn.github.io/p/188/</link>
         <pubDate>Sat, 25 Jan 2020 21:16:00 +0000</pubDate>
         
-        <guid>https://example.com/p/188/</guid>
+        <guid>https://ahcorn.github.io/p/188/</guid>
         <description>&lt;p&gt;对首屏速度优化的一些经验。&lt;/p&gt;
 &lt;h2 id=&#34;gzip压缩&#34;&gt;GZIP压缩&lt;/h2&gt;
 &lt;p&gt;无论是宝塔还是appnode，都自带了gzip压缩这一功能，相对于appnode，前者明显将gzip的设置藏的更深一些，各位可以在软件商店-nginx-性能调整中找到gzip的相关设置。&lt;/p&gt;
@@ -3466,10 +3466,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Typecho优化</title>
-        <link>https://example.com/p/186/</link>
+        <link>https://ahcorn.github.io/p/186/</link>
         <pubDate>Sat, 25 Jan 2020 20:34:00 +0000</pubDate>
         
-        <guid>https://example.com/p/186/</guid>
+        <guid>https://ahcorn.github.io/p/186/</guid>
         <description>&lt;p&gt;从首屏速度到访客体验，总结下这三年从优化到写主题的一些小经验。&lt;/p&gt;
 &lt;h1 id=&#34;首屏速度&#34;&gt;首屏速度&lt;/h1&gt;
 &lt;p&gt;从始至终，我都热衷于让自己的博客首屏速度变的更快，这点，也在我之前的各类优化文章中有所体现。&lt;/p&gt;
@@ -3492,10 +3492,10 @@ line-height: 45px;
         </item>
         <item>
         <title>第一次去漫展</title>
-        <link>https://example.com/p/169/</link>
+        <link>https://ahcorn.github.io/p/169/</link>
         <pubDate>Sun, 19 Jan 2020 21:35:00 +0000</pubDate>
         
-        <guid>https://example.com/p/169/</guid>
+        <guid>https://ahcorn.github.io/p/169/</guid>
         <description>&lt;p&gt;感觉这是一件有必要记录下来的事（严肃脸&lt;/p&gt;
 &lt;p&gt;[PAGE1]&lt;/p&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
@@ -3705,10 +3705,10 @@ line-height: 45px;
         </item>
         <item>
         <title>再见，2019</title>
-        <link>https://example.com/p/2019/</link>
+        <link>https://ahcorn.github.io/p/2019/</link>
         <pubDate>Tue, 31 Dec 2019 23:57:00 +0000</pubDate>
         
-        <guid>https://example.com/p/2019/</guid>
+        <guid>https://ahcorn.github.io/p/2019/</guid>
         <description>&lt;p&gt;2019的最后三分钟，愿2020的我能做出些许改变。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
@@ -3856,10 +3856,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Magisk模块推荐</title>
-        <link>https://example.com/p/108/</link>
+        <link>https://ahcorn.github.io/p/108/</link>
         <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
         
-        <guid>https://example.com/p/108/</guid>
+        <guid>https://ahcorn.github.io/p/108/</guid>
         <description>&lt;h2 id=&#34;优化类模块&#34;&gt;优化类模块&lt;/h2&gt;
 &lt;p&gt;yc大佬的zram模块（优化运存用的~
 可以在sence工具箱的评论区或者yc大佬的动态里找到&lt;/p&gt;
@@ -3885,10 +3885,10 @@ line-height: 45px;
         </item>
         <item>
         <title>一加5T个人养老方案</title>
-        <link>https://example.com/p/104/</link>
+        <link>https://ahcorn.github.io/p/104/</link>
         <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
         
-        <guid>https://example.com/p/104/</guid>
+        <guid>https://ahcorn.github.io/p/104/</guid>
         <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;
 &lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
 &lt;p&gt;8G+128G版5T
@@ -3964,10 +3964,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>Data分区EXT4转F2FS</title>
-        <link>https://example.com/p/102/</link>
+        <link>https://ahcorn.github.io/p/102/</link>
         <pubDate>Sat, 28 Dec 2019 17:09:00 +0000</pubDate>
         
-        <guid>https://example.com/p/102/</guid>
+        <guid>https://ahcorn.github.io/p/102/</guid>
         <description>&lt;p&gt;说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦&lt;/p&gt;
 &lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
 &lt;p&gt;这里以&lt;strong&gt;一加5T的3.3.1REC作为教程基础&lt;/strong&gt;~请确认您&lt;strong&gt;已刷入第三方rec&lt;/strong&gt;
@@ -3986,10 +3986,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>刘步蟾是否倒置了人字阵型？</title>
-        <link>https://example.com/p/85/</link>
+        <link>https://ahcorn.github.io/p/85/</link>
         <pubDate>Sat, 23 Nov 2019 00:08:00 +0000</pubDate>
         
-        <guid>https://example.com/p/85/</guid>
+        <guid>https://ahcorn.github.io/p/85/</guid>
         <description>&lt;p&gt;在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中有这一说法，所以，希望能够找到有关于甲午海战的历史文献，了解当时的真相。&lt;/p&gt;
 &lt;h2 id=&#34;网络资料&#34;&gt;网络资料&lt;/h2&gt;
 &lt;p&gt;作为甲午战争中的一个重要人物，刘步蟾投学福建船政学堂，赴欧学习枪炮水雷技术，在北洋舰队历练，一路走来，一生的功名都付与海疆。刘步蟾为人称道也引起后人争议的是他在甲午战争中的表现。1894年9月17日，北洋舰队与日本联合舰队鏖战黄海，丁汝昌负伤后，刘步蟾代为督战，表现优异，发炮连伤日本数舰，特别是重创敌旗舰“松岛”号，使其丧失战斗力而驶逃。&lt;/p&gt;
@@ -4014,10 +4014,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>服务器选购指南</title>
-        <link>https://example.com/p/84/</link>
+        <link>https://ahcorn.github.io/p/84/</link>
         <pubDate>Wed, 13 Nov 2019 01:22:00 +0000</pubDate>
         
-        <guid>https://example.com/p/84/</guid>
+        <guid>https://ahcorn.github.io/p/84/</guid>
         <description>&lt;p&gt;&lt;strong&gt;全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择  2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。&lt;/p&gt;
 &lt;p&gt;前排提示：&lt;/p&gt;
@@ -4072,10 +4072,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>主题“简和”正式发布</title>
-        <link>https://example.com/p/82/</link>
+        <link>https://ahcorn.github.io/p/82/</link>
         <pubDate>Sat, 19 Oct 2019 21:40:00 +0000</pubDate>
         
-        <guid>https://example.com/p/82/</guid>
+        <guid>https://ahcorn.github.io/p/82/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;时隔一年，本主题分为极简版和普通版发布。&lt;/p&gt;
 &lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
@@ -4113,10 +4113,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>侧边栏增加个人介绍</title>
-        <link>https://example.com/p/76/</link>
+        <link>https://ahcorn.github.io/p/76/</link>
         <pubDate>Sat, 03 Aug 2019 13:19:00 +0000</pubDate>
         
-        <guid>https://example.com/p/76/</guid>
+        <guid>https://ahcorn.github.io/p/76/</guid>
         <description>&lt;p&gt;&lt;strong&gt;本样式基于Violet主题的基础上修改，理论上兼容类似样式的侧边栏，小细节还是需要各位自行修改&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;由于本人技术欠佳，本功能是靠着非常沙雕的方式实现的，所以很容易出现适配上的问题，即便是在Violet主题上使用，个性签名也要限制在11个字以内。&lt;/p&gt;
 &lt;p&gt;如果您不是Typecho用户，请自行修改PHP调用。&lt;/p&gt;
@@ -4191,10 +4191,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>网站常见问题解决方案</title>
-        <link>https://example.com/p/74/</link>
+        <link>https://ahcorn.github.io/p/74/</link>
         <pubDate>Thu, 14 Mar 2019 21:10:00 +0000</pubDate>
         
-        <guid>https://example.com/p/74/</guid>
+        <guid>https://ahcorn.github.io/p/74/</guid>
         <description>&lt;p&gt;一些常见问题的解决方案，持续更新中（咕咕咕&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我开启了缓存，在博客下评论不显示怎么办？&lt;/p&gt;
@@ -4278,10 +4278,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>什么是适合自己的服务器？</title>
-        <link>https://example.com/p/72/</link>
+        <link>https://ahcorn.github.io/p/72/</link>
         <pubDate>Mon, 11 Mar 2019 13:35:00 +0000</pubDate>
         
-        <guid>https://example.com/p/72/</guid>
+        <guid>https://ahcorn.github.io/p/72/</guid>
         <description>&lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
 &lt;p&gt;阅读本文前，请您注意以下几点:&lt;/p&gt;
 &lt;ol&gt;
@@ -4320,10 +4320,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>玩机达到极致省电</title>
-        <link>https://example.com/p/63/</link>
+        <link>https://ahcorn.github.io/p/63/</link>
         <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
         
-        <guid>https://example.com/p/63/</guid>
+        <guid>https://ahcorn.github.io/p/63/</guid>
         <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
 &lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
@@ -4399,10 +4399,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>主题“简和”开发日志</title>
-        <link>https://example.com/p/14/</link>
+        <link>https://ahcorn.github.io/p/14/</link>
         <pubDate>Sun, 21 Oct 2018 20:40:00 +0000</pubDate>
         
-        <guid>https://example.com/p/14/</guid>
+        <guid>https://ahcorn.github.io/p/14/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;http://fly.ahblog.net/psb.jpg&#34;
 	
 	
@@ -4533,10 +4533,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>Typecho优化【主题】</title>
-        <link>https://example.com/p/13/</link>
+        <link>https://ahcorn.github.io/p/13/</link>
         <pubDate>Mon, 24 Sep 2018 12:49:00 +0000</pubDate>
         
-        <guid>https://example.com/p/13/</guid>
+        <guid>https://ahcorn.github.io/p/13/</guid>
         <description>&lt;p&gt;更新频率变慢..提高文章质量，详情请看上篇公告，本文整合最简洁的主题优化方式，简短干货，上篇优化文章太多太长了..有酷友说太乱了&lt;/p&gt;
 &lt;h2 id=&#34;dns预解析&#34;&gt;DNS预解析&lt;/h2&gt;
 &lt;p&gt;在主题文件中的Header.php中找到&lt;/p&gt;
@@ -4560,10 +4560,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>Typecho全站启用HTTPS</title>
-        <link>https://example.com/p/11/</link>
+        <link>https://ahcorn.github.io/p/11/</link>
         <pubDate>Sat, 01 Sep 2018 13:58:00 +0000</pubDate>
         
-        <guid>https://example.com/p/11/</guid>
+        <guid>https://ahcorn.github.io/p/11/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;因为我自己用的谷歌浏览器..每次都看到博客前面不安全三个字有点难受..于是就去七牛弄了个免费的SSL证书，又去又拍云强制了https访问，但访问时却发现并不是显示安全，提示页面内还有不安全的内容..&lt;/p&gt;
 &lt;h2 id=&#34;解决&#34;&gt;解决&lt;/h2&gt;
@@ -4586,10 +4586,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>如何正确食用应用管理XP？</title>
-        <link>https://example.com/p/9/</link>
+        <link>https://ahcorn.github.io/p/9/</link>
         <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
         
-        <guid>https://example.com/p/9/</guid>
+        <guid>https://ahcorn.github.io/p/9/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;
 &lt;h2 id=&#34;回顾&#34;&gt;回顾&lt;/h2&gt;
@@ -4663,10 +4663,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>Xposed会影响性能及耗电？</title>
-        <link>https://example.com/p/8/</link>
+        <link>https://ahcorn.github.io/p/8/</link>
         <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
         
-        <guid>https://example.com/p/8/</guid>
+        <guid>https://ahcorn.github.io/p/8/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
@@ -4704,10 +4704,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>入手的第一款Galgame</title>
-        <link>https://example.com/p/7/</link>
+        <link>https://ahcorn.github.io/p/7/</link>
         <pubDate>Fri, 24 Aug 2018 17:48:00 +0000</pubDate>
         
-        <guid>https://example.com/p/7/</guid>
+        <guid>https://ahcorn.github.io/p/7/</guid>
         <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能背出来了&amp;hellip;但在最近不知怎么的突然想玩Galgame了，这时我又想起了这款游戏&amp;hellip;都在我淘宝收藏夹放了两年了&lt;/p&gt;
 &lt;h2 id=&#34;开箱&#34;&gt;开箱&lt;/h2&gt;
@@ -4731,10 +4731,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>MacOS丢失管理员权限</title>
-        <link>https://example.com/p/6/</link>
+        <link>https://ahcorn.github.io/p/6/</link>
         <pubDate>Wed, 22 Aug 2018 23:09:00 +0000</pubDate>
         
-        <guid>https://example.com/p/6/</guid>
+        <guid>https://ahcorn.github.io/p/6/</guid>
         <description>&lt;p&gt;因为自己想改个用户名..结果改了之后就失去管理权限了,所以找了以下两个办法来恢复
 P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&lt;/p&gt;
 &lt;p&gt;若您是双系统用户，请确认您是从Mac启动&lt;/p&gt;
@@ -4753,10 +4753,10 @@ reboot
         </item>
         <item>
         <title>在Linux下刷入Rec</title>
-        <link>https://example.com/p/4/</link>
+        <link>https://ahcorn.github.io/p/4/</link>
         <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
         
-        <guid>https://example.com/p/4/</guid>
+        <guid>https://ahcorn.github.io/p/4/</guid>
         <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;
 &lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;1.手机已解锁&lt;/p&gt;
@@ -4799,10 +4799,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>没有Root如何达到省电效果?</title>
-        <link>https://example.com/p/3/</link>
+        <link>https://ahcorn.github.io/p/3/</link>
         <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
         
-        <guid>https://example.com/p/3/</guid>
+        <guid>https://ahcorn.github.io/p/3/</guid>
         <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
@@ -4842,10 +4842,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>LG G5韩版发热解決方案</title>
-        <link>https://example.com/p/lg1/</link>
+        <link>https://ahcorn.github.io/p/lg1/</link>
         <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
         
-        <guid>https://example.com/p/lg1/</guid>
+        <guid>https://ahcorn.github.io/p/lg1/</guid>
         <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
 &lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
 &lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;
@@ -4876,10 +4876,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>如何解决耗电崩的问题？</title>
-        <link>https://example.com/p/1/</link>
+        <link>https://ahcorn.github.io/p/1/</link>
         <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1/</guid>
+        <guid>https://ahcorn.github.io/p/1/</guid>
         <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;

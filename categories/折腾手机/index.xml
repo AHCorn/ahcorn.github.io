@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>折腾手机 on 安和Blog</title>
-        <link>https://example.com/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
+        <link>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
         <description>Recent content in 折腾手机 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sat, 28 Dec 2019 17:56:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Dec 2019 17:56:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Magisk模块推荐</title>
-        <link>https://example.com/p/108/</link>
+        <link>https://ahcorn.github.io/p/108/</link>
         <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
         
-        <guid>https://example.com/p/108/</guid>
+        <guid>https://ahcorn.github.io/p/108/</guid>
         <description>&lt;h2 id=&#34;优化类模块&#34;&gt;优化类模块&lt;/h2&gt;
 &lt;p&gt;yc大佬的zram模块（优化运存用的~
 可以在sence工具箱的评论区或者yc大佬的动态里找到&lt;/p&gt;
@@ -38,10 +38,10 @@
         </item>
         <item>
         <title>一加5T个人养老方案</title>
-        <link>https://example.com/p/104/</link>
+        <link>https://ahcorn.github.io/p/104/</link>
         <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
         
-        <guid>https://example.com/p/104/</guid>
+        <guid>https://ahcorn.github.io/p/104/</guid>
         <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;
 &lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
 &lt;p&gt;8G+128G版5T
@@ -117,10 +117,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>Data分区EXT4转F2FS</title>
-        <link>https://example.com/p/102/</link>
+        <link>https://ahcorn.github.io/p/102/</link>
         <pubDate>Sat, 28 Dec 2019 17:09:00 +0000</pubDate>
         
-        <guid>https://example.com/p/102/</guid>
+        <guid>https://ahcorn.github.io/p/102/</guid>
         <description>&lt;p&gt;说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦&lt;/p&gt;
 &lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
 &lt;p&gt;这里以&lt;strong&gt;一加5T的3.3.1REC作为教程基础&lt;/strong&gt;~请确认您&lt;strong&gt;已刷入第三方rec&lt;/strong&gt;
@@ -139,10 +139,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>玩机达到极致省电</title>
-        <link>https://example.com/p/63/</link>
+        <link>https://ahcorn.github.io/p/63/</link>
         <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
         
-        <guid>https://example.com/p/63/</guid>
+        <guid>https://ahcorn.github.io/p/63/</guid>
         <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
 &lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
@@ -218,10 +218,10 @@ PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补
         </item>
         <item>
         <title>如何正确食用应用管理XP？</title>
-        <link>https://example.com/p/9/</link>
+        <link>https://ahcorn.github.io/p/9/</link>
         <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
         
-        <guid>https://example.com/p/9/</guid>
+        <guid>https://ahcorn.github.io/p/9/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;
 &lt;h2 id=&#34;回顾&#34;&gt;回顾&lt;/h2&gt;
@@ -295,10 +295,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>Xposed会影响性能及耗电？</title>
-        <link>https://example.com/p/8/</link>
+        <link>https://ahcorn.github.io/p/8/</link>
         <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
         
-        <guid>https://example.com/p/8/</guid>
+        <guid>https://ahcorn.github.io/p/8/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
@@ -336,10 +336,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>在Linux下刷入Rec</title>
-        <link>https://example.com/p/4/</link>
+        <link>https://ahcorn.github.io/p/4/</link>
         <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
         
-        <guid>https://example.com/p/4/</guid>
+        <guid>https://ahcorn.github.io/p/4/</guid>
         <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;
 &lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;1.手机已解锁&lt;/p&gt;
@@ -382,10 +382,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>没有Root如何达到省电效果?</title>
-        <link>https://example.com/p/3/</link>
+        <link>https://ahcorn.github.io/p/3/</link>
         <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
         
-        <guid>https://example.com/p/3/</guid>
+        <guid>https://ahcorn.github.io/p/3/</guid>
         <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
@@ -425,10 +425,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>LG G5韩版发热解決方案</title>
-        <link>https://example.com/p/lg1/</link>
+        <link>https://ahcorn.github.io/p/lg1/</link>
         <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
         
-        <guid>https://example.com/p/lg1/</guid>
+        <guid>https://ahcorn.github.io/p/lg1/</guid>
         <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
 &lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
 &lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;
@@ -459,10 +459,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>如何解决耗电崩的问题？</title>
-        <link>https://example.com/p/1/</link>
+        <link>https://ahcorn.github.io/p/1/</link>
         <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1/</guid>
+        <guid>https://ahcorn.github.io/p/1/</guid>
         <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>折腾网站 on 安和Blog</title>
-        <link>https://example.com/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</link>
+        <link>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</link>
         <description>Recent content in 折腾网站 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sun, 04 Apr 2021 14:01:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 04 Apr 2021 14:01:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Instantclick无刷新</title>
-        <link>https://example.com/p/598/</link>
+        <link>https://ahcorn.github.io/p/598/</link>
         <pubDate>Sun, 04 Apr 2021 14:01:00 +0000</pubDate>
         
-        <guid>https://example.com/p/598/</guid>
+        <guid>https://ahcorn.github.io/p/598/</guid>
         <description>&lt;p&gt;在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下&lt;/p&gt;
 &lt;h2 id=&#34;instantclick实现无刷新&#34;&gt;instantclick实现无刷新&lt;/h2&gt;
 &lt;p&gt;在footer.php加入以下代码&lt;/p&gt;
@@ -53,10 +53,10 @@
         </item>
         <item>
         <title>Nexmoe修改记录</title>
-        <link>https://example.com/p/552/</link>
+        <link>https://ahcorn.github.io/p/552/</link>
         <pubDate>Sun, 31 Jan 2021 16:43:00 +0000</pubDate>
         
-        <guid>https://example.com/p/552/</guid>
+        <guid>https://ahcorn.github.io/p/552/</guid>
         <description>&lt;p&gt;就是些随便改的东西啦&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;自完成折影大佬的 Nexmoe 主题的部分内容移植后我自己又修改了一些，似乎是效果还不错的缘故，已经有好几位博主表示想要了，故今天把整个修改的内容以及代码公布出来，稍后会贴上在 Github 上的完整开源分支。&lt;/p&gt;
@@ -1209,10 +1209,10 @@
         </item>
         <item>
         <title>为Typecho添加日记功能</title>
-        <link>https://example.com/p/488/</link>
+        <link>https://ahcorn.github.io/p/488/</link>
         <pubDate>Wed, 29 Jul 2020 10:02:00 +0000</pubDate>
         
-        <guid>https://example.com/p/488/</guid>
+        <guid>https://ahcorn.github.io/p/488/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;跟上文一样，给你的主题添加个日记功能，其实也就是用&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#c678dd&#34;&gt;if&lt;/span&gt;(&lt;span style=&#34;color:#e06c75&#34;&gt;$this&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;hasLogin&lt;/span&gt;())&lt;span style=&#34;color:#56b6c2&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;?&amp;gt;&lt;/span&gt;
@@ -1242,10 +1242,10 @@
         </item>
         <item>
         <title>为Typecho添加说说功能</title>
-        <link>https://example.com/p/487/</link>
+        <link>https://ahcorn.github.io/p/487/</link>
         <pubDate>Wed, 29 Jul 2020 09:50:00 +0000</pubDate>
         
-        <guid>https://example.com/p/487/</guid>
+        <guid>https://ahcorn.github.io/p/487/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;发现这类文章很少有人写，大概是大家都会，只有我觉得很厉害吧（&lt;/p&gt;
 &lt;h2 id=&#34;自定义字段&#34;&gt;自定义字段&lt;/h2&gt;
@@ -1300,10 +1300,10 @@
         </item>
         <item>
         <title>谈谈网站防御</title>
-        <link>https://example.com/p/350/</link>
+        <link>https://ahcorn.github.io/p/350/</link>
         <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/350/</guid>
+        <guid>https://ahcorn.github.io/p/350/</guid>
         <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;
 &lt;p&gt;从昨天开始，甚至出现了针对我友链的攻击行为，光是我知道的就有两位。&lt;/p&gt;
 &lt;p&gt;还有小柠也被从我站友链过去的打了，真是绝了。
@@ -1444,10 +1444,10 @@ APPNODE的加强模式我的配置如下&lt;/p&gt;
         </item>
         <item>
         <title>Typecho主题案例—Admin主题</title>
-        <link>https://example.com/p/333/</link>
+        <link>https://ahcorn.github.io/p/333/</link>
         <pubDate>Mon, 30 Mar 2020 14:02:00 +0000</pubDate>
         
-        <guid>https://example.com/p/333/</guid>
+        <guid>https://ahcorn.github.io/p/333/</guid>
         <description>&lt;p&gt;看起来很难，但实际上手后你才会发现，这一切都很简单。&lt;/p&gt;
 &lt;h2 id=&#34;扒后台&#34;&gt;扒后台&lt;/h2&gt;
 &lt;p&gt;直接 Ctrl+S 把Typecho的后台扒下来&lt;/p&gt;
@@ -1588,10 +1588,10 @@ APPNODE的加强模式我的配置如下&lt;/p&gt;
         </item>
         <item>
         <title>Typecho常见问题</title>
-        <link>https://example.com/p/faq/</link>
+        <link>https://ahcorn.github.io/p/faq/</link>
         <pubDate>Wed, 25 Mar 2020 19:28:00 +0000</pubDate>
         
-        <guid>https://example.com/p/faq/</guid>
+        <guid>https://ahcorn.github.io/p/faq/</guid>
         <description>&lt;p&gt;我会每日更新一下来自百度统计的奇奇怪怪的问题的答案hhhh&lt;/p&gt;
 &lt;h2 id=&#34;3月25日&#34;&gt;3月25日&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/3.25baidu.png&#34;
@@ -1732,10 +1732,10 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。&lt;/p&
         </item>
         <item>
         <title>更换Typecho的Gravatar头像源</title>
-        <link>https://example.com/p/261/</link>
+        <link>https://ahcorn.github.io/p/261/</link>
         <pubDate>Tue, 17 Mar 2020 10:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/261/</guid>
+        <guid>https://ahcorn.github.io/p/261/</guid>
         <description>&lt;p&gt;使用官方头像源会拖慢国内的访问速度&lt;/p&gt;
 &lt;h2 id=&#34;全站修改&#34;&gt;全站修改&lt;/h2&gt;
 &lt;p&gt;在网站根目录下的 config.inc.php 文件，加入以下代码。&lt;/p&gt;
@@ -1754,10 +1754,10 @@ P.S 可以通过更改面板的默认文档让 html 文件作为首页。&lt;/p&
         </item>
         <item>
         <title>博客CDN推荐</title>
-        <link>https://example.com/p/256/</link>
+        <link>https://ahcorn.github.io/p/256/</link>
         <pubDate>Mon, 16 Mar 2020 23:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/256/</guid>
+        <guid>https://ahcorn.github.io/p/256/</guid>
         <description>&lt;p&gt;以下仅为个人意见，带有很多我的主观观点，仅供参考，请以自己的实际体验为准。&lt;/p&gt;
 &lt;h2 id=&#34;上海云盾&#34;&gt;上海云盾&lt;/h2&gt;
 &lt;p&gt;推荐度 ⭐⭐⭐⭐⭐⭐
@@ -1863,10 +1863,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Typecho登陆后显示内容</title>
-        <link>https://example.com/p/245/</link>
+        <link>https://ahcorn.github.io/p/245/</link>
         <pubDate>Mon, 09 Mar 2020 09:08:00 +0000</pubDate>
         
-        <guid>https://example.com/p/245/</guid>
+        <guid>https://ahcorn.github.io/p/245/</guid>
         <description>&lt;p&gt;硬核实现，只能加在content输出的下方或上方。&lt;/p&gt;
 &lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
 &lt;p&gt;下面这段加在 Post.php 中 content 输出的前面。&lt;/p&gt;
@@ -1892,10 +1892,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Typecho首页样式</title>
-        <link>https://example.com/p/228/</link>
+        <link>https://ahcorn.github.io/p/228/</link>
         <pubDate>Sat, 29 Feb 2020 15:04:00 +0000</pubDate>
         
-        <guid>https://example.com/p/228/</guid>
+        <guid>https://ahcorn.github.io/p/228/</guid>
         <description>&lt;p&gt;基于紫罗兰主题修改，其它主题也可以使用。&lt;/p&gt;
 &lt;p&gt;本来是想写个鼠标悬停显示摘要的，但是我又要换回nexmoe了就直接弃坑了hhh
 &lt;img src=&#34;https://cdn.ahblog.net/img/violet.png&#34;
@@ -2086,10 +2086,10 @@ P.S 使用笨牛 CDN 可以使用 CNAME 接入。&lt;/p&gt;
         </item>
         <item>
         <title>Nexmoe移植记录</title>
-        <link>https://example.com/p/255/</link>
+        <link>https://ahcorn.github.io/p/255/</link>
         <pubDate>Sun, 23 Feb 2020 12:38:00 +0000</pubDate>
         
-        <guid>https://example.com/p/255/</guid>
+        <guid>https://ahcorn.github.io/p/255/</guid>
         <description>&lt;p&gt;我就是 copy 怪hhh，大部分样式来自 Hexo 版本&lt;/p&gt;
 &lt;h2 id=&#34;文章归档&#34;&gt;文章归档&lt;/h2&gt;
 &lt;p&gt;所有移植都要从文章归档页面开始说起，看到 Hexo 版本的文章归档页面感觉很好看，于是就开始移植了。
@@ -2526,10 +2526,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Typecho无插件实现目录</title>
-        <link>https://example.com/p/251/</link>
+        <link>https://ahcorn.github.io/p/251/</link>
         <pubDate>Sat, 22 Feb 2020 06:26:00 +0000</pubDate>
         
-        <guid>https://example.com/p/251/</guid>
+        <guid>https://ahcorn.github.io/p/251/</guid>
         <description>&lt;p&gt;对网上的版本进行了个小修改~&lt;/p&gt;
 &lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#c678dd&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#61afef;font-weight:bold&#34;&gt;createCatalog&lt;/span&gt;(&lt;span style=&#34;color:#e06c75&#34;&gt;$obj&lt;/span&gt;) {
@@ -2590,10 +2590,10 @@ line-height: 45px;
         </item>
         <item>
         <title>Typecho快速实现灯箱</title>
-        <link>https://example.com/p/206/</link>
+        <link>https://ahcorn.github.io/p/206/</link>
         <pubDate>Fri, 31 Jan 2020 12:05:00 +0000</pubDate>
         
-        <guid>https://example.com/p/206/</guid>
+        <guid>https://ahcorn.github.io/p/206/</guid>
         <description>&lt;p&gt;实现方法和一些注意事项。&lt;/p&gt;
 &lt;h2 id=&#34;引入jquery和fancybox&#34;&gt;引入jQuery和fancybox&lt;/h2&gt;
 &lt;p&gt;P.S 如果已经引入jQuery就不需要了
@@ -2630,10 +2630,10 @@ line-height: 45px;
         </item>
         <item>
         <title>提升Typecho的访问速度</title>
-        <link>https://example.com/p/188/</link>
+        <link>https://ahcorn.github.io/p/188/</link>
         <pubDate>Sat, 25 Jan 2020 21:16:00 +0000</pubDate>
         
-        <guid>https://example.com/p/188/</guid>
+        <guid>https://ahcorn.github.io/p/188/</guid>
         <description>&lt;p&gt;对首屏速度优化的一些经验。&lt;/p&gt;
 &lt;h2 id=&#34;gzip压缩&#34;&gt;GZIP压缩&lt;/h2&gt;
 &lt;p&gt;无论是宝塔还是appnode，都自带了gzip压缩这一功能，相对于appnode，前者明显将gzip的设置藏的更深一些，各位可以在软件商店-nginx-性能调整中找到gzip的相关设置。&lt;/p&gt;
@@ -2727,10 +2727,10 @@ line-height: 45px;
         </item>
         <item>
         <title>一加5T个人养老方案</title>
-        <link>https://example.com/p/104/</link>
+        <link>https://ahcorn.github.io/p/104/</link>
         <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
         
-        <guid>https://example.com/p/104/</guid>
+        <guid>https://ahcorn.github.io/p/104/</guid>
         <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;
 &lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
 &lt;p&gt;8G+128G版5T
@@ -2806,10 +2806,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>服务器选购指南</title>
-        <link>https://example.com/p/84/</link>
+        <link>https://ahcorn.github.io/p/84/</link>
         <pubDate>Wed, 13 Nov 2019 01:22:00 +0000</pubDate>
         
-        <guid>https://example.com/p/84/</guid>
+        <guid>https://ahcorn.github.io/p/84/</guid>
         <description>&lt;p&gt;&lt;strong&gt;全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择  2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。&lt;/p&gt;
 &lt;p&gt;前排提示：&lt;/p&gt;
@@ -2864,10 +2864,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>主题“简和”正式发布</title>
-        <link>https://example.com/p/82/</link>
+        <link>https://ahcorn.github.io/p/82/</link>
         <pubDate>Sat, 19 Oct 2019 21:40:00 +0000</pubDate>
         
-        <guid>https://example.com/p/82/</guid>
+        <guid>https://ahcorn.github.io/p/82/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;时隔一年，本主题分为极简版和普通版发布。&lt;/p&gt;
 &lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
@@ -2905,10 +2905,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>侧边栏增加个人介绍</title>
-        <link>https://example.com/p/76/</link>
+        <link>https://ahcorn.github.io/p/76/</link>
         <pubDate>Sat, 03 Aug 2019 13:19:00 +0000</pubDate>
         
-        <guid>https://example.com/p/76/</guid>
+        <guid>https://ahcorn.github.io/p/76/</guid>
         <description>&lt;p&gt;&lt;strong&gt;本样式基于Violet主题的基础上修改，理论上兼容类似样式的侧边栏，小细节还是需要各位自行修改&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;由于本人技术欠佳，本功能是靠着非常沙雕的方式实现的，所以很容易出现适配上的问题，即便是在Violet主题上使用，个性签名也要限制在11个字以内。&lt;/p&gt;
 &lt;p&gt;如果您不是Typecho用户，请自行修改PHP调用。&lt;/p&gt;
@@ -2983,10 +2983,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>网站常见问题解决方案</title>
-        <link>https://example.com/p/74/</link>
+        <link>https://ahcorn.github.io/p/74/</link>
         <pubDate>Thu, 14 Mar 2019 21:10:00 +0000</pubDate>
         
-        <guid>https://example.com/p/74/</guid>
+        <guid>https://ahcorn.github.io/p/74/</guid>
         <description>&lt;p&gt;一些常见问题的解决方案，持续更新中（咕咕咕&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我开启了缓存，在博客下评论不显示怎么办？&lt;/p&gt;
@@ -3070,10 +3070,10 @@ XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
         </item>
         <item>
         <title>什么是适合自己的服务器？</title>
-        <link>https://example.com/p/72/</link>
+        <link>https://ahcorn.github.io/p/72/</link>
         <pubDate>Mon, 11 Mar 2019 13:35:00 +0000</pubDate>
         
-        <guid>https://example.com/p/72/</guid>
+        <guid>https://ahcorn.github.io/p/72/</guid>
         <description>&lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
 &lt;p&gt;阅读本文前，请您注意以下几点:&lt;/p&gt;
 &lt;ol&gt;
@@ -3112,10 +3112,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>玩机达到极致省电</title>
-        <link>https://example.com/p/63/</link>
+        <link>https://ahcorn.github.io/p/63/</link>
         <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
         
-        <guid>https://example.com/p/63/</guid>
+        <guid>https://ahcorn.github.io/p/63/</guid>
         <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
 &lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
@@ -3191,10 +3191,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>主题“简和”开发日志</title>
-        <link>https://example.com/p/14/</link>
+        <link>https://ahcorn.github.io/p/14/</link>
         <pubDate>Sun, 21 Oct 2018 20:40:00 +0000</pubDate>
         
-        <guid>https://example.com/p/14/</guid>
+        <guid>https://ahcorn.github.io/p/14/</guid>
         <description>&lt;p&gt;&lt;img src=&#34;http://fly.ahblog.net/psb.jpg&#34;
 	
 	
@@ -3325,10 +3325,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>Typecho优化【主题】</title>
-        <link>https://example.com/p/13/</link>
+        <link>https://ahcorn.github.io/p/13/</link>
         <pubDate>Mon, 24 Sep 2018 12:49:00 +0000</pubDate>
         
-        <guid>https://example.com/p/13/</guid>
+        <guid>https://ahcorn.github.io/p/13/</guid>
         <description>&lt;p&gt;更新频率变慢..提高文章质量，详情请看上篇公告，本文整合最简洁的主题优化方式，简短干货，上篇优化文章太多太长了..有酷友说太乱了&lt;/p&gt;
 &lt;h2 id=&#34;dns预解析&#34;&gt;DNS预解析&lt;/h2&gt;
 &lt;p&gt;在主题文件中的Header.php中找到&lt;/p&gt;
@@ -3352,10 +3352,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>Typecho全站启用HTTPS</title>
-        <link>https://example.com/p/11/</link>
+        <link>https://ahcorn.github.io/p/11/</link>
         <pubDate>Sat, 01 Sep 2018 13:58:00 +0000</pubDate>
         
-        <guid>https://example.com/p/11/</guid>
+        <guid>https://ahcorn.github.io/p/11/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;因为我自己用的谷歌浏览器..每次都看到博客前面不安全三个字有点难受..于是就去七牛弄了个免费的SSL证书，又去又拍云强制了https访问，但访问时却发现并不是显示安全，提示页面内还有不安全的内容..&lt;/p&gt;
 &lt;h2 id=&#34;解决&#34;&gt;解决&lt;/h2&gt;
@@ -3378,10 +3378,10 @@ P.S 阿里云目前支付宝实名在24岁以下的用户将自动获得学生�
         </item>
         <item>
         <title>如何正确食用应用管理XP？</title>
-        <link>https://example.com/p/9/</link>
+        <link>https://ahcorn.github.io/p/9/</link>
         <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
         
-        <guid>https://example.com/p/9/</guid>
+        <guid>https://ahcorn.github.io/p/9/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;
 &lt;h2 id=&#34;回顾&#34;&gt;回顾&lt;/h2&gt;
@@ -3455,10 +3455,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>Xposed会影响性能及耗电？</title>
-        <link>https://example.com/p/8/</link>
+        <link>https://ahcorn.github.io/p/8/</link>
         <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
         
-        <guid>https://example.com/p/8/</guid>
+        <guid>https://ahcorn.github.io/p/8/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
@@ -3496,10 +3496,10 @@ DENY * com.tencent.tim
         </item>
         <item>
         <title>MacOS丢失管理员权限</title>
-        <link>https://example.com/p/6/</link>
+        <link>https://ahcorn.github.io/p/6/</link>
         <pubDate>Wed, 22 Aug 2018 23:09:00 +0000</pubDate>
         
-        <guid>https://example.com/p/6/</guid>
+        <guid>https://ahcorn.github.io/p/6/</guid>
         <description>&lt;p&gt;因为自己想改个用户名..结果改了之后就失去管理权限了,所以找了以下两个办法来恢复
 P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&lt;/p&gt;
 &lt;p&gt;若您是双系统用户，请确认您是从Mac启动&lt;/p&gt;
@@ -3518,10 +3518,10 @@ reboot
         </item>
         <item>
         <title>在Linux下刷入Rec</title>
-        <link>https://example.com/p/4/</link>
+        <link>https://ahcorn.github.io/p/4/</link>
         <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
         
-        <guid>https://example.com/p/4/</guid>
+        <guid>https://ahcorn.github.io/p/4/</guid>
         <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;
 &lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;1.手机已解锁&lt;/p&gt;
@@ -3564,10 +3564,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>没有Root如何达到省电效果?</title>
-        <link>https://example.com/p/3/</link>
+        <link>https://ahcorn.github.io/p/3/</link>
         <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
         
-        <guid>https://example.com/p/3/</guid>
+        <guid>https://ahcorn.github.io/p/3/</guid>
         <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
@@ -3607,10 +3607,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>LG G5韩版发热解決方案</title>
-        <link>https://example.com/p/lg1/</link>
+        <link>https://ahcorn.github.io/p/lg1/</link>
         <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
         
-        <guid>https://example.com/p/lg1/</guid>
+        <guid>https://ahcorn.github.io/p/lg1/</guid>
         <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
 &lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
 &lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;
@@ -3641,10 +3641,10 @@ sudo apt-get install android-tools-adb android-tools-fastboot
         </item>
         <item>
         <title>如何解决耗电崩的问题？</title>
-        <link>https://example.com/p/1/</link>
+        <link>https://ahcorn.github.io/p/1/</link>
         <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
         
-        <guid>https://example.com/p/1/</guid>
+        <guid>https://ahcorn.github.io/p/1/</guid>
         <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;

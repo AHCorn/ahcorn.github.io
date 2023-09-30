@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mac OS on 安和Blog</title>
-        <link>https://example.com/tags/mac-os/</link>
+        <link>https://ahcorn.github.io/tags/mac-os/</link>
         <description>Recent content in Mac OS on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Wed, 22 Aug 2018 23:09:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/mac-os/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Aug 2018 23:09:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/tags/mac-os/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MacOS丢失管理员权限</title>
-        <link>https://example.com/p/6/</link>
+        <link>https://ahcorn.github.io/p/6/</link>
         <pubDate>Wed, 22 Aug 2018 23:09:00 +0000</pubDate>
         
-        <guid>https://example.com/p/6/</guid>
+        <guid>https://ahcorn.github.io/p/6/</guid>
         <description>&lt;p&gt;因为自己想改个用户名..结果改了之后就失去管理权限了,所以找了以下两个办法来恢复
 P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&lt;/p&gt;
 &lt;p&gt;若您是双系统用户，请确认您是从Mac启动&lt;/p&gt;
