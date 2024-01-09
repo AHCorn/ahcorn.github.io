@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>总结 on 安和Blog</title>
+        <link>https://ahcorn.github.io/tags/%E6%80%BB%E7%BB%93/</link>
+        <description>Recent content in 总结 on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2023年度总结</title>
+        <link>https://ahcorn.github.io/p/2023/</link>
+        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://ahcorn.github.io/p/2023/</guid>
+        <description>&lt;img src="https://ahcorn.github.io/p/2023/Cover.jpg" alt="Featured image of post 2023年度总结" /&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=399 height=86 src=&#34;//music.163.com/outchain/player?type=2&amp;id=2034186551&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;2023年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。&lt;/p&gt;
+&lt;p&gt;至于为什么一月九号才写年终总结&amp;hellip;以前或许是因为这个时候才想起来，今年就是纯粹因为看到前几年都是一月九号发年终总结，就干脆以后都这个点儿发了。&lt;/p&gt;
+&lt;p&gt;今天其实都天黑了才想起来，或者说下午才起床的我到现在才有空写这个年终总结。&lt;/p&gt;
+&lt;p&gt;不过也可以等明天写完了我把日期改成今天发布的，可惜现在用Github pages有发布记录（&lt;/p&gt;
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
+&lt;p&gt;丢了域名也没了服务器，现在虽然有个服务器来着，刚买来就是用来搭个数据库的，没备案域名也是没什么用。&lt;/p&gt;
+&lt;p&gt;换了Hugo之后发了几篇？公告算文章吗？好，决定了，算上公告和年终总结，今年我们发布了两篇文章！&lt;/p&gt;
+&lt;p&gt;比2022年，少了 2 篇，居然才两篇吗？我2022算上我后来补的那些观后感原来才4篇啊。（蚌&lt;/p&gt;
+&lt;p&gt;呃..评论的话，都丢了，说到这个我想起来我有不少文章都丢了，回头再整吧。&lt;/p&gt;
+&lt;p&gt;这个Hugo还是需要本地go环境去构建然后再提交到GitHub，所以倒也没那么方便啊，这也是为什么说好了要多多更新结果一直不更新的原因（确信&lt;/p&gt;
+&lt;p&gt;或许将来还是会回到Typecho？&lt;/p&gt;
+&lt;h2 id=&#34;学业&#34;&gt;学业&lt;/h2&gt;
+&lt;p&gt;今年就是完整的度过了大学两个学期了，上学期的话挂了离散数学和高等数学，意料之中，只是今年需要重修了，也还是一点都不会。&lt;/p&gt;
+&lt;p&gt;什么C语言暑假班，面向对象程序设计？对不起，真不熟，考完就丢到一边去了，课程安排的还是有些问题的。&lt;/p&gt;
+&lt;p&gt;我不知道行为学分这种东西有什么意义&amp;hellip;.给70分初始，然后大头还是靠宿舍加分，纳入绩点，对于我这种没选好宿舍的来说还是有些头痛的。&lt;/p&gt;
+&lt;p&gt;大二的这个学期虽然分还没出完，但整体做的还不错的，除了工作室没报上以外，成绩都很满意。&lt;/p&gt;
+&lt;p&gt;大体都在八九十分，绩点也蹭蹭涨了0.2，平均分也涨了很多，如果这学期大排名我估计都能排到中间靠前了。&lt;/p&gt;
+&lt;p&gt;不过似乎大部分人期末分都挺高的，听说至少有六七十个人在作弊，分出来六个群，一个专业一个年级才几个人啊&amp;hellip;&lt;/p&gt;
+&lt;p&gt;平稳考完后的最后一科物理我本来也想藏手机的，说是良心发现倒不如说是害怕被发现的后果，所以最后依然被迫保住了我的良心（&lt;/p&gt;
+&lt;p&gt;上学期挂的那两科都是坐在老师不想逛的最后一排，但依旧是盯着白卷发呆，以至于到后面暑假实训的时候被搭话问看到我交白卷，是不是挂科了的时候，我还会反问回去是不是他也挂了，结果得到的答复是 “我有手机啊”&lt;/p&gt;
+&lt;p&gt;我不知道我这样的选择到底是不是对的，毕竟大学成绩，真的就是只看你最终的成绩罢了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/1.png&#34;
+	width=&#34;512&#34;
+	height=&#34;512&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/1_hu7125d34b835b91048c3990c61d6e372c_167359_480x0_resize_box_3.png 480w, https://ahcorn.github.io/p/2023/1_hu7125d34b835b91048c3990c61d6e372c_167359_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;我想有颗清白的良心&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;小插曲&#34;&gt;小插曲&lt;/h2&gt;
+&lt;p&gt;写到这里我去看除了学业还要写什么的时候，我发现我的2022年终总结在转移数据库的时候被我弄丢了&amp;hellip;&lt;/p&gt;
+&lt;p&gt;然后我在&lt;a class=&#34;link&#34; href=&#34;https://github.com/saveweb/review-2022&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个 Github 项目&lt;/a&gt;里居然找到了我之前文章的存档，惊讶之余表示下感谢。&lt;/p&gt;
+&lt;p&gt;然后我又发现我之前是2023年1月7号写的总结，呃呃呃，咋办，篡改下时间吧，反正年终总结是几号发的，也所谓&amp;hellip;对吧？&lt;/p&gt;
+&lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
+&lt;p&gt;说到底把阅读加入我的年终总结是不是有些多此一举？看小说也能算阅读吗！（暴论&lt;/p&gt;
+&lt;p&gt;今年，小说都懒得看了，图书馆也没去，一本也没借，漫画也没怎么看，大家有什么推荐的吗？&lt;/p&gt;
+&lt;h2 id=&#34;数码&#34;&gt;数码&lt;/h2&gt;
+&lt;p&gt;从SE3又来到了红米Note13Pro+，但说好的IP69防水，结果摄像头起雾散不掉了，上课扫码都费劲。&lt;/p&gt;
+&lt;p&gt;然后在我逛的时候发现了Flyme似乎口碑很好，于是想买个12turbo了，结果被闲鱼贩子卖家恶心了一波，卖给我还重新上架，退款还等24小时自动退款。&lt;/p&gt;
+&lt;p&gt;最后买了个魅族20pro，拿到手的时候觉得，真棒，质感真好，用了半个月又觉得，Flyme怎么还不如MIUI，这系统稳定性认真的吗？这续航配的上这电池吗？&lt;/p&gt;
+&lt;p&gt;买了个Watch SE，卖了；买了个三星Scr 01，卖了，买了个海信Touch lite，正准备卖了，Apple Pencil算是卖了，换了支不好用的杂牌笔。&lt;/p&gt;
+&lt;p&gt;最后还是决定重回苹果生态，不过我觉得不应该在这里展开来讲的，应该单独出个文章讲讲使用苹果和安卓我这两年的感受。&lt;/p&gt;
+&lt;p&gt;平板多了个联想的，说实话，Mini6的使用率完全不如联想，在ipad上，只要你不学习，苹果生态永远比不上安卓生态带给你的快乐，光一个存储空间的价格和看漫画小说软件的覆盖上，安卓已经赢太多了。&lt;/p&gt;
+&lt;p&gt;电脑多了一个Mac Mini，一个ITX主机，还有继杂牌显示器坏了以后的新杂牌显示器。&lt;/p&gt;
+&lt;p&gt;还有个软路由来着，这个我愿称之为2023最佳数码单品，400块的价格，光给我挂机赚京豆都有好几十了，更别提arm架构轻巧便携，我直接抱着来回走，在家根本不需要各种软件助我与国际接轨，直接旁路由网关分流。&lt;/p&gt;
+&lt;h2 id=&#34;游戏&#34;&gt;游戏&lt;/h2&gt;
+&lt;p&gt;哇哦，今年居然会写游戏这么不正经的东西（捧读&lt;/p&gt;
+&lt;p&gt;火山的女儿应该是23年玩的，很棒，5个小时通关，画风好是我玩下去的最大动力。&lt;/p&gt;
+&lt;p&gt;尤其要提的是八方旅人2，在阿根廷区离我而去的几天前，我买了这款游戏，随后玩了60多个小时。&lt;/p&gt;
+&lt;p&gt;真的很好玩，好玩到我回家带不了电脑都会觉得很可惜，回到学校又立马打开开始玩的程度。&lt;/p&gt;
+&lt;p&gt;因为这个游戏我都想买Switch了，然后发现没有看得上的游戏，大部分都是Steam有，而且我还买了的。&lt;/p&gt;
+&lt;p&gt;回归了明日方舟和碧蓝航线，也就是每天打个卡的程度，完全不想多花时间玩。&lt;/p&gt;
+&lt;h2 id=&#34;应用年度报告&#34;&gt;应用年度报告&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_6_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_6_2024-01-09_21-35-18_hub7d1cb943dde73e46b461f39338ede1f_120759_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_6_2024-01-09_21-35-18_hub7d1cb943dde73e46b461f39338ede1f_120759_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;B站&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/th&gt;
+&lt;th&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_4_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_4_2024-01-09_21-35-18_hu6ece4af879424ab46c6282ad3cc75683_95666_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_4_2024-01-09_21-35-18_hu6ece4af879424ab46c6282ad3cc75683_95666_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;B站&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/th&gt;
+&lt;th&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_5_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_5_2024-01-09_21-35-18_hu5839093177095855258fae7fcc4b34fe_100844_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_5_2024-01-09_21-35-18_hu5839093177095855258fae7fcc4b34fe_100844_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;B站&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-18_hu0b682493c4559d77adf4f7241d0f04e6_110601_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-18_hu0b682493c4559d77adf4f7241d0f04e6_110601_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;B站&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-18_hu6fb10ce32cdd331d2f40d3e669255d2e_62800_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-18_hu6fb10ce32cdd331d2f40d3e669255d2e_62800_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-23.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-23_hu9ff5f71ebefadb0070df5f037df276e0_45717_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-23_hu9ff5f71ebefadb0070df5f037df276e0_45717_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-23.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-23_hu91f7ff2092f336e127cb3fbf846e6e62_65424_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_2_2024-01-09_21-35-23_hu91f7ff2092f336e127cb3fbf846e6e62_65424_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-23.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-23_hu16423923d495d823838e010990105833_44565_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_3_2024-01-09_21-35-23_hu16423923d495d823838e010990105833_44565_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_7_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_7_2024-01-09_21-35-18_hue6779a7e2a3b350533fd0d839c088af8_58015_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_7_2024-01-09_21-35-18_hue6779a7e2a3b350533fd0d839c088af8_58015_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_8_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_8_2024-01-09_21-35-18_hufe89676eb419717c8fd4af1a33fe5a02_73964_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_8_2024-01-09_21-35-18_hufe89676eb419717c8fd4af1a33fe5a02_73964_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_2024-01-09_22-17-41.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_2024-01-09_22-17-41_hu06ca9e19056d5a9b48385bc491ab56cc_84998_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_2024-01-09_22-17-41_hu06ca9e19056d5a9b48385bc491ab56cc_84998_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-18.jpg&#34;
+	width=&#34;591&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-18_hu57e0cc57cbf2102e6bc15eb4dc52dab8_97849_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_1_2024-01-09_21-35-18_hu57e0cc57cbf2102e6bc15eb4dc52dab8_97849_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网易&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;随手拍&#34;&gt;随手拍&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_23-26-41.jpg&#34;
+	width=&#34;960&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_3_2024-01-09_23-26-41_hu05e8690a8ee0a9ef1b08d2cc57f3c453_359776_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_3_2024-01-09_23-26-41_hu05e8690a8ee0a9ef1b08d2cc57f3c453_359776_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;photo_3_2024-01-09_23-26-41&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/th&gt;
+&lt;th&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_5_2024-01-09_23-26-41.jpg&#34;
+	width=&#34;960&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_5_2024-01-09_23-26-41_huc52cd367d9c4ea12177eb13efceed214_172170_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_5_2024-01-09_23-26-41_huc52cd367d9c4ea12177eb13efceed214_172170_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;photo_5_2024-01-09_23-26-41&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_23-26-41.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_2_2024-01-09_23-26-41_hu292f7bec8d077f86fb8c589e4cdd5303_158952_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_2_2024-01-09_23-26-41_hu292f7bec8d077f86fb8c589e4cdd5303_158952_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;photo_2_2024-01-09_23-26-41&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_23-26-41.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://ahcorn.github.io/p/2023/photo_1_2024-01-09_23-26-41_hu629a5c39d0a82072657a7542d52fbfea_200947_480x0_resize_q75_box.jpg 480w, https://ahcorn.github.io/p/2023/photo_1_2024-01-09_23-26-41_hu629a5c39d0a82072657a7542d52fbfea_200947_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;photo_1_2024-01-09_23-26-41&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;p&gt;今年真是写的最丰富的一次年终总结，但也不是因为我过的很精彩，应该是因为可以在博客里面随心所欲的加图片了罢（&lt;/p&gt;
+&lt;p&gt;2023虽然不是很满意，但人总归是要向前看的，是要乐观的向前走的。&lt;/p&gt;
+&lt;p&gt;技术方面我不抱期望，但必须要动手做些什么了，不然毕业也即失业。&lt;/p&gt;
+&lt;p&gt;学业方面，补上落下的，跟上现有的，争取未来的，不然该怎么毕业呢？&lt;/p&gt;
+&lt;p&gt;乐观些，阳光些，健康些，死气沉沉的，对谁有好处呢？&lt;/p&gt;
+&lt;video width=&#34;100%&#34; height=&#34;30%&#34; controls&gt;
+    &lt;source src=&#34;2024.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;新的一年，愿真的是新的开始吧，拾起过去的激情，找到奋斗的目标吧！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

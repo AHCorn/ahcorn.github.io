@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ahcorn.github.io/p/2023/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ahcorn.github.io/categories/</loc>
-    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/post/</loc>
-    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/tags/</loc>
-    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/</loc>
-    <lastmod>2023-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ahcorn.github.io/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ahcorn.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/</loc>
     <lastmod>2023-08-19T00:00:00+00:00</lastmod>
@@ -24,9 +33,6 @@
     <lastmod>2023-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/p/688/</loc>
-    <lastmod>2022-07-11T17:32:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ahcorn.github.io/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2022-07-11T17:32:00+00:00</lastmod>
   </url><url>
     <loc>https://ahcorn.github.io/p/galgame-nora/</loc>
