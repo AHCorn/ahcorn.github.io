@@ -13,7 +13,14 @@
         <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://ahcorn.github.io/p/2023/</guid>
-        <description>&lt;img src="https://ahcorn.github.io/p/2023/Cover.jpg" alt="Featured image of post 2023年度总结" /&gt;&lt;p&gt;2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。&lt;/p&gt;
+        <description>&lt;img src="https://ahcorn.github.io/p/2023/Cover.jpg" alt="Featured image of post 2023年度总结" /&gt;&lt;style&gt;
+    .table-wrapper {
+margin-left: calc((var(--card-padding)) * -1)!important;
+    margin-right: calc((var(--card-padding)) * -1)!important;
+    width: calc(100% + var(--card-padding) * 2)!important;
+    }
+    &lt;/style&gt;
+&lt;p&gt;2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。&lt;/p&gt;
 &lt;p&gt;至于为什么一月九号才写年终总结&amp;hellip;以前或许是因为这个时候才想起来，今年就是纯粹因为看到前几年都是一月九号发年终总结，就干脆以后都这个点儿发了。&lt;/p&gt;
 &lt;p&gt;今天其实都天黑了才想起来，或者说下午才起床的我到现在才有空写这个年终总结。&lt;/p&gt;
 &lt;p&gt;不过倒也可以等明天写完了我把日期改成今天发布的，但现在用的 Github pages 有提交记录（&lt;/p&gt;
