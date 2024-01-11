@@ -20,7 +20,7 @@
     margin-right: calc((var(--card-padding)) * -1)!important;
     width: calc(100% + var(--card-padding) * 2)!important;
     }
-.article-content th {
+.article-content th, .article-content td {
     padding: 0px!important;
     border: none!important;
 }
