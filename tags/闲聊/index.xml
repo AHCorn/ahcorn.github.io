@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>闲聊 on 安和Blog</title>
-        <link>https://ahcorn.github.io/tags/%E9%97%B2%E8%81%8A/</link>
+        <link>https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/</link>
         <description>Recent content in 闲聊 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Tue, 07 Apr 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Apr 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>谈谈网站防御</title>
-        <link>https://ahcorn.github.io/p/350/</link>
+        <link>https://blog.anhe.one/p/350/</link>
         <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/p/350/</guid>
+        <guid>https://blog.anhe.one/p/350/</guid>
         <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;
 &lt;p&gt;从昨天开始，甚至出现了针对我友链的攻击行为，光是我知道的就有两位。&lt;/p&gt;
 &lt;p&gt;还有小柠也被从我站友链过去的打了，真是绝了。

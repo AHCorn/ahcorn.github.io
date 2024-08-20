@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 安和Blog</title>
-        <link>https://ahcorn.github.io/page/</link>
+        <link>https://blog.anhe.one/page/</link>
         <description>Recent content in Pages on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://ahcorn.github.io/archives/</link>
+        <link>https://blog.anhe.one/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/archives/</guid>
+        <guid>https://blog.anhe.one/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://ahcorn.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://blog.anhe.one/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://blog.anhe.one/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;h2 id=&#34;这个博客是干嘛的&#34;&gt;这个博客是干嘛的？&lt;/h2&gt;
 &lt;p&gt;本博客建立于 2017 年 6 月，经历过五次域名更换，最近一次在2021年的9月；主要记录一些博主的学习笔记（会以教程的方式呈现）、日常、评价（有时候会是有感而发）等。&lt;/p&gt;
 &lt;h2 id=&#34;版权&#34;&gt;版权&lt;/h2&gt;
@@ -36,18 +36,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://ahcorn.github.io/search/</link>
+        <link>https://blog.anhe.one/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/search/</guid>
+        <guid>https://blog.anhe.one/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友人</title>
-        <link>https://ahcorn.github.io/%E5%8F%8B%E4%BA%BA/</link>
+        <link>https://blog.anhe.one/%E5%8F%8B%E4%BA%BA/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/%E5%8F%8B%E4%BA%BA/</guid>
+        <guid>https://blog.anhe.one/%E5%8F%8B%E4%BA%BA/</guid>
         <description>&lt;h2 id=&#34;友链信息&#34;&gt;友链信息&lt;/h2&gt;
 &lt;p&gt;名称：安和Blog&lt;/p&gt;
 &lt;p&gt;头像：https://ahcorn.github.io/img/avatar.png&lt;/p&gt;

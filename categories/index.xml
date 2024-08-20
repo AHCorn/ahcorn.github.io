@@ -2,49 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 安和Blog</title>
-        <link>https://ahcorn.github.io/categories/</link>
+        <link>https://blog.anhe.one/categories/</link>
         <description>Recent content in Categories on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>折腾电脑</title>
+        <link>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/</link>
+        <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>闲聊杂谈</title>
-        <link>https://ahcorn.github.io/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
+        <link>https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
         <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</guid>
+        <guid>https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</guid>
         <description></description>
         </item>
         <item>
         <title>公告</title>
-        <link>https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/</link>
+        <link>https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/</link>
         <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/</guid>
-        <description>&lt;img src="https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/img.jpg" alt="Featured image of post 公告" /&gt;</description>
+        <guid>https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/</guid>
+        <description>&lt;img src="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/img.jpg" alt="Featured image of post 公告" /&gt;</description>
         </item>
         <item>
         <title>ACGN短评</title>
-        <link>https://ahcorn.github.io/categories/acgn%E7%9F%AD%E8%AF%84/</link>
+        <link>https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/</link>
         <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/categories/acgn%E7%9F%AD%E8%AF%84/</guid>
-        <description>&lt;img src="https://ahcorn.github.io/categories/acgn%E7%9F%AD%E8%AF%84/img.jpg" alt="Featured image of post ACGN短评" /&gt;</description>
+        <guid>https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/</guid>
+        <description>&lt;img src="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/img.jpg" alt="Featured image of post ACGN短评" /&gt;</description>
         </item>
         <item>
         <title>折腾网站</title>
-        <link>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</link>
+        <link>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</link>
         <pubDate>Sun, 04 Apr 2021 14:01:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</guid>
+        <guid>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/</guid>
         <description></description>
         </item>
         <item>
         <title>折腾手机</title>
-        <link>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
+        <link>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
         <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</guid>
+        <guid>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</guid>
         <description></description>
         </item>
         

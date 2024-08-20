@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>公告 on 安和Blog</title>
-        <link>https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/</link>
+        <link>https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/</link>
         <description>Recent content in 公告 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/categories/%E5%85%AC%E5%91%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>临时公告</title>
-        <link>https://ahcorn.github.io/p/test/</link>
+        <link>https://blog.anhe.one/p/test/</link>
         <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/p/test/</guid>
+        <guid>https://blog.anhe.one/p/test/</guid>
         <description>&lt;p&gt;抱歉各位，由于服务器到期， nekocoffee.com 域名也将在下月到期并涨价的缘故，目前决定将博客迁至 Github Pages ，使用 Hugo 来继续维护，评论区什么的还没搞好，文章、友链还需要从老数据库导出一下。&lt;/p&gt;
 &lt;p&gt;评论什么的应该是没法恢复了，所以即便文章搬过来也都是空空如也的状态，不过刚好可以白嫖 Github 的存储，我就多把之前缺掉的图补回来吧。&lt;/p&gt;
 &lt;p&gt;目前几篇文章是我之前自己写的短评，一直没有发出来，日后可能会更新一些教程向的学习笔记（？）&lt;/p&gt;

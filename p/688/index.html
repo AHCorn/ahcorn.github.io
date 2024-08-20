@@ -11,7 +11,7 @@
 1unset http_proxy 2unset https_proxy '>
 <title>Home Assistant避坑</title>
 
-<link rel='canonical' href='https://ahcorn.github.io/p/688/'>
+<link rel='canonical' href='https://blog.anhe.one/p/688/'>
 
 <link rel="stylesheet" href="/scss/style.min.6e34ab5df8e78439255f32faf23c4626a09028e3a966d0710aa65442ef90253a.css"><meta property='og:title' content='Home Assistant避坑'>
 <meta property='og:description' content='折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。 选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。 虚拟机下安装后第一次启动会等很久，但启动之后也并没有消息提示，所以没反应可能只是启动完成了。 配置文件目录在/home/homeassistant/.homeassistant 是一个隐藏文件夹，一开始可能会找不到地方。
@@ -22,7 +22,7 @@
 1python -m pip install --upgrade pip 2pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：
 1python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip 临时设置http代理/https代理 1export http_proxy=http://ip:port 2export https_proxy=http://ip:port 关闭代理
 1unset http_proxy 2unset https_proxy '>
-<meta property='og:url' content='https://ahcorn.github.io/p/688/'>
+<meta property='og:url' content='https://blog.anhe.one/p/688/'>
 <meta property='og:site_name' content='安和Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-07-11T17:32:00&#43;00:00'/><meta property='article:modified_time' content='2022-07-11T17:32:00&#43;00:00'/>
 <meta name="twitter:title" content="Home Assistant避坑">

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>XP框架 on 安和Blog</title>
-        <link>https://ahcorn.github.io/tags/xp%E6%A1%86%E6%9E%B6/</link>
+        <link>https://blog.anhe.one/tags/xp%E6%A1%86%E6%9E%B6/</link>
         <description>Recent content in XP框架 on 安和Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>安和</copyright>
-        <lastBuildDate>Sun, 26 Aug 2018 16:47:00 +0000</lastBuildDate><atom:link href="https://ahcorn.github.io/tags/xp%E6%A1%86%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Aug 2018 16:47:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/xp%E6%A1%86%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Xposed会影响性能及耗电？</title>
-        <link>https://ahcorn.github.io/p/8/</link>
+        <link>https://blog.anhe.one/p/8/</link>
         <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
         
-        <guid>https://ahcorn.github.io/p/8/</guid>
+        <guid>https://blog.anhe.one/p/8/</guid>
         <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象

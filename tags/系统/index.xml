@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>系统 on 安和Blog</title>
+        <link>https://blog.anhe.one/tags/%E7%B3%BB%E7%BB%9F/</link>
+        <description>Recent content in 系统 on 安和Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>安和</copyright>
+        <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>微软账户登录时闪退 解决方案</title>
+        <link>https://blog.anhe.one/p/system-error1/</link>
+        <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.anhe.one/p/system-error1/</guid>
+        <description>&lt;img src="https://blog.anhe.one/p/system-error1/Windows11.jpeg" alt="Featured image of post 微软账户登录时闪退 解决方案" /&gt;&lt;p&gt;我个人的网络环境是良好的，所以请在确保这一前提下，查看以下报错信息是否和我的一致。&lt;/p&gt;
+&lt;p&gt;我原先使用23H2版本，下载了24H2镜像，选择了只保留文件进行了重装，随后在登录微软账号时遇到如下报错：&lt;/p&gt;
+&lt;p&gt;在设置内点击登录按钮，弹出灰色登录框后立即闪退：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.anhe.one/p/system-error1/set.png&#34;
+	width=&#34;2549&#34;
+	height=&#34;1842&#34;
+	srcset=&#34;https://blog.anhe.one/p/system-error1/set_hu8bd14659034d14fbd7f658ac2fe3a4d8_262144_480x0_resize_box_3.png 480w, https://blog.anhe.one/p/system-error1/set_hu8bd14659034d14fbd7f658ac2fe3a4d8_262144_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;设置&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在 Xbox 内点击登录，来回弹窗口最终未响应；&lt;/p&gt;
+&lt;p&gt;在微软商店内登录，提示遇到错误，请稍后重试登录：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.anhe.one/p/system-error1/store.png&#34;
+	width=&#34;747&#34;
+	height=&#34;334&#34;
+	srcset=&#34;https://blog.anhe.one/p/system-error1/store_hu82e1e30a4107c4c12cde88950c1364e2_57897_480x0_resize_box_3.png 480w, https://blog.anhe.one/p/system-error1/store_hu82e1e30a4107c4c12cde88950c1364e2_57897_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;微软商店登录报错&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;223&#34;
+		data-flex-basis=&#34;536px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在 Onedrive 内登录时提示：Error Tag 7q6ca Error Code 1067&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.anhe.one/p/system-error1/onedrive.png&#34;
+	width=&#34;2040&#34;
+	height=&#34;1860&#34;
+	srcset=&#34;https://blog.anhe.one/p/system-error1/onedrive_huf96aac6e24637e35a59eeaa81237d401_646054_480x0_resize_box_3.png 480w, https://blog.anhe.one/p/system-error1/onedrive_huf96aac6e24637e35a59eeaa81237d401_646054_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Onedrive登录报错&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;263px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在 Edge 内登录，提示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前无法使你登录 Microsoft Edge 团队已通知此问题。请稍后再试。 错误代码：3、15、1067&lt;/p&gt;
+&lt;p&gt;且扫描修复、重装系统均未能解决。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;使用以下命令成功修复&#34;&gt;使用以下命令成功修复&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;Get-AppxPackage Microsoft.Windows.CloudExperienceHost -AllUsers | Reset-AppxPackage   
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;解决流程&#34;&gt;解决流程&lt;/h2&gt;
+&lt;p&gt;出现这个问题之后我尝试了微软技术支持提供的修复命令，乃至先后找了两个镜像进行重装，仍然是无法登录，所以我在想有没有应用能抓取前台运行的程序名称，好让我找到这个登录程序究竟是哪一个。&lt;/p&gt;
+&lt;p&gt;在网上搜索了下，找到了这篇文章：&lt;a class=&#34;link&#34; href=&#34;https://www.cooc.me/article/8e924b5e-0a02-4ad9-9a40-05906f67a816&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;修复Windows/Microsoft账户登录窗口闪退&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;里面提到了微软账户的登录与这两个应用有关&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;Microsoft.AccountsControl_cw5n1h2txyewy
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;3&lt;/span&gt;&lt;span&gt;Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第一步是从AppData里删除这两个应用，但不知道是否是系统版本不一致的缘故，我并没有在指定目录里看到这两个程序，它们只存在于 SystemApps 中。&lt;/p&gt;
+&lt;p&gt;进而我尝试删除 SystemApps 内的这两个应用，再尝试扫描、修复、重装，然而还是没能解决。&lt;/p&gt;
+&lt;img style=&#34;width:200px;&#34; src=&#34;8.png&#34;&gt;
+&lt;p&gt;这个时候已经折腾了一晚上了，头都有点大了，这时候突然想到如果是这个程序未能正常运行，Windows 的事件查看器里是会有报错的，打开之后果然看到了其中一个登录有关应用的报错：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;无法作为 不可用/不可用 启动 DCOM 服务器:
+Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy!App.AppXe35aa078nkgkdbkbrk5tjm2xds5rwz5q.wwa。错误:
+“2147958031”
+在启动该命令时发生:
+&amp;ldquo;C:\WINDOWS\system32\wwahost.exe&amp;rdquo; -ServerName:App.wwa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在网上搜了下发现没有来自同一程序的报错，但有相同原因的 &lt;a class=&#34;link&#34; href=&#34;https://answers.microsoft.com/zh-hans/windows/forum/all/%E6%97%A0%E6%B3%95%E4%BD%9C%E4%B8%BA/b6b1f8ed-c29c-4c47-979d-ea9dad77db0f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;无法作为 不可用/不可用 启动 DCOM 服务器 错误: “2147942405”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;问答中提到，尝试使用以下命令来重置报错的程序：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;于是把其中的 &lt;code&gt;Microsoft.SecHealthUI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;替换成我这里报错的 &lt;code&gt;Microsoft.Windows.CloudExperienceHost&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;Get-AppxPackage Microsoft.Windows.CloudExperienceHost -AllUsers | Reset-AppxPackage 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 以管理员运行的 Powershell 中输入并执行，立刻就能使用并登录了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.anhe.one/p/system-error1/ok.png&#34;
+	width=&#34;2464&#34;
+	height=&#34;1136&#34;
+	srcset=&#34;https://blog.anhe.one/p/system-error1/ok_huad2af63320293de6ce4a6e027fedc7ce_640959_480x0_resize_box_3.png 480w, https://blog.anhe.one/p/system-error1/ok_huad2af63320293de6ce4a6e027fedc7ce_640959_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;进入登录界面&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;520px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;皆大欢喜~&lt;/p&gt;
+&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
+&lt;p&gt;找修复方法的时候也看到了B站的很多教程，有着“百分百解决所有微软登录问题”的视频标题吸引我点了进去，但把一切登录问题归咎于网络、指着114和8888叫阿里DNS的作者，让我默默关上了视频&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;故本文也是仅供参考，希望为后来者提供些许便利，不至于像我一样摸不着头脑，但毕竟各自使用环境不同，报错、异常原因也不尽相同，所以这只是针对我以上提及的系统环境背景的方案，下面补充一些可能会有所帮助的链接。&lt;/p&gt;
+&lt;h2 id=&#34;相关链接&#34;&gt;相关链接&lt;/h2&gt;
+&lt;p&gt;可能适用于您当前系统的教程：&lt;a class=&#34;link&#34; href=&#34;https://www.cooc.me/article/8e924b5e-0a02-4ad9-9a40-05906f67a816&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;修复Windows/Microsoft账户登录窗口闪退&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载镜像、重装能够解决的情况：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1cR4y1j72S/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;微软账户闪退解决办法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;类似报错参考：&lt;a class=&#34;link&#34; href=&#34;https://answers.microsoft.com/zh-hans/windows/forum/all/%E6%97%A0%E6%B3%95%E4%BD%9C%E4%B8%BA/b6b1f8ed-c29c-4c47-979d-ea9dad77db0f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;无法作为 不可用/不可用 启动 DCOM 服务器 错误: “2147942405”&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
