@@ -1,0 +1,110 @@
+.timeline-container {
+    position: relative;
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 120px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, 
+        transparent 0%,
+        rgba(100, 181, 246, 0.4) 10%,
+        rgba(100, 181, 246, 0.4) 90%,
+        transparent 100%
+    );
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-year {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    padding: 6px 0;
+    text-align: center;
+    background: rgba(100, 181, 246, 0.1);
+    border-radius: 20px;
+    font-weight: bold;
+    color: #64b5f6;
+    font-size: 0.95em;
+    z-index: 1;
+}
+
+.timeline-content {
+    position: relative;
+    margin-left: 160px;
+    padding-bottom: 10px;
+}
+
+.timeline-event {
+    position: relative;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.timeline-event:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+}
+
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    background: #64b5f6;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 0 4px rgba(100, 181, 246, 0.2);
+    transition: all 0.3s ease;
+}
+
+.timeline-event:hover::before {
+    background: #90caf9;
+    box-shadow: 0 0 0 6px rgba(100, 181, 246, 0.3);
+}
+
+@media (max-width: 768px) {
+    .timeline-container::before {
+        left: 80px;
+    }
+    
+    .timeline-year {
+        width: 70px;
+        font-size: 0.9em;
+        padding: 4px 0;
+    }
+    
+    .timeline-content {
+        margin-left: 100px;
+    }
+    
+    .timeline-event::before {
+        left: -20px;
+        width: 10px;
+        height: 10px;
+    }
+} 

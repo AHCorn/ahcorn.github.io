@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>漫画 on 安和Blog</title>
-        <link>https://blog.anhe.one/tags/%E6%BC%AB%E7%94%BB/</link>
-        <description>Recent content in 漫画 on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E6%BC%AB%E7%94%BB/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>《政宗君的复仇》漫画短评</title>
-        <link>https://blog.anhe.one/p/comic-masamune/</link>
-        <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/comic-masamune/</guid>
-        <description>&lt;img src="https://blog.anhe.one/p/comic-masamune/img.jpg" alt="Featured image of post 《政宗君的复仇》漫画短评" /&gt;&lt;h2 id=&#34;短评&#34;&gt;短评&lt;/h2&gt;
-&lt;p&gt;今天看完了《政宗君的复仇》，总体来讲还可以吧，但与其说结局是皆大欢喜，倒不如说一切才刚刚开始，几经波折但也都算合理，动画最后几集的争议部分完全属于改编的责任，倘若按照漫画的叙事来就不会落得如此一个差评不断的下场。&lt;/p&gt;
-&lt;p&gt;不过我觉得这部作品称不上令人印象深刻，贯穿全剧的便是男女主间的误会，作者也在其中加入了吐槽自己内容的部分，即所谓“日式恋爱”的“卖关子”，当误会解开后的糖度也不是很足，个人认为属于可以一次性看完，但只是作为消遣的作品。&lt;/p&gt;
-&lt;h2 id=&#34;排雷&#34;&gt;排雷&lt;/h2&gt;
-&lt;p&gt;关于需要排雷的部分，我觉得倒没有什么需要特意指出的，只要接着往下看，前面剧情埋的雷都以相对合理的方式在后面排掉了。&lt;/p&gt;
-&lt;h2 id=&#34;后日谈&#34;&gt;后日谈&lt;/h2&gt;
-&lt;p&gt;当时我是一口气看完了这部漫画，可惜的是最后也没有等到我所期待的发糖time，至于为什么要加一个排雷？因为很多看过动画的观众是很讨厌这部作品的，为什么的话，我在这里也不再剧透了，我这边建议看完动画之后直接接漫画来看，不然的话如果以动画的结局作为结局的话真的是灾难啊。&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>漫画 on 安和Blog</title>
+    <link>https://blog.anhe.one/tags/%E6%BC%AB%E7%94%BB/</link>
+    <description>Recent content in 漫画 on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E6%BC%AB%E7%94%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《政宗君的复仇》漫画短评</title>
+      <link>https://blog.anhe.one/p/comic-masamune/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/comic-masamune/</guid>
+      <description>短评 今天看完了《政宗君的复仇》，总体来讲还可以吧，但与其说结局是皆大欢喜，倒不如说一切才刚刚开始，几经波折但也都算合理，动画最后几集的争议部</description>
+    </item>
+    
+  </channel>
 </rss>

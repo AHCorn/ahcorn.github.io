@@ -1,0 +1,124 @@
+.post-content a:has(img) {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.post-content a:has(img):hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+/* 表情包消息气泡样式 */
+.emoji-bubble {
+    display: flex;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    justify-content: flex-start;
+    max-width: 85%;
+}
+
+.emoji-bubble .image-container {
+    margin: 0 !important;
+}
+
+.emoji-avatar {
+    display: none;
+    flex-shrink: 0;
+    margin-right: 15px;
+    line-height: 0 !important;
+    font-size: 0 !important;
+}
+
+.emoji-avatar img {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+    opacity: 0.9 !important;
+}
+
+.emoji-content {
+    position: relative !important;
+    background: rgba(47, 47, 47, 0.95) !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+    line-height: 0 !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    margin-left: 8px !important;
+}
+
+.emoji-content::before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 8px 6px 0;
+    border-color: transparent rgba(47, 47, 47, 0.95) transparent transparent;
+}
+
+.emoji-content img {
+    display: block !important;
+    max-width: 200px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    transition: transform 0.2s ease !important;
+}
+
+.emoji-content:hover img {
+    transform: scale(1.02) !important;
+}
+
+/* 手机端样式 */
+@media screen and (max-width: 768px) {
+    .emoji-bubble {
+        justify-content: center;
+        margin: 1.5rem auto;
+    }
+    
+    .emoji-avatar {
+        display: block;
+    }
+} 
+
+/* 图片标题样式 */
+.image-caption {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 1rem;
+}
+
+.post-content figure {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.post-content figure img {
+    margin-bottom: 0.3rem;
+} 
+
+/* 文章内容文字间距控制 */
+.post-content {
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    word-break: normal !important;
+}
+
+.post-content p {
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    word-break: normal !important;
+} 

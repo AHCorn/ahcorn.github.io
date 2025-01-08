@@ -1,62 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Pages on 安和Blog</title>
-        <link>https://blog.anhe.one/page/</link>
-        <description>Recent content in Pages on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>归档</title>
-        <link>https://blog.anhe.one/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>关于</title>
-        <link>https://blog.anhe.one/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;h2 id=&#34;这个博客是干嘛的&#34;&gt;这个博客是干嘛的？&lt;/h2&gt;
-&lt;p&gt;本博客建立于 2017 年 6 月，经历过五次域名更换，最近一次在2021年的9月；主要记录一些博主的学习笔记（会以教程的方式呈现）、日常、评价（有时候会是有感而发）等。&lt;/p&gt;
-&lt;h2 id=&#34;版权&#34;&gt;版权&lt;/h2&gt;
-&lt;p&gt;本站引用了大量来自 Pixiv 的插画作为题图，但并没有用于商业用途，会陆续为其添上出处。&lt;/p&gt;
-&lt;h2 id=&#34;程序&#34;&gt;程序&lt;/h2&gt;
-&lt;p&gt;本博客使用 Jimmy 设计的 Stack 主题&lt;/p&gt;
-&lt;p&gt;由 Hugo 强力驱动&lt;/p&gt;
-&lt;p&gt;免费部署在 Github Pages&lt;/p&gt;
-&lt;h2 id=&#34;鸣谢&#34;&gt;鸣谢&lt;/h2&gt;
-&lt;p&gt;头像为 景 老师所绘的轻小说插画&lt;/p&gt;
-&lt;p&gt;感谢各位友链博主和读者们愿意来访！&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://blog.anhe.one/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>友人</title>
-        <link>https://blog.anhe.one/%E5%8F%8B%E4%BA%BA/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/%E5%8F%8B%E4%BA%BA/</guid>
-        <description>&lt;h2 id=&#34;友链信息&#34;&gt;友链信息&lt;/h2&gt;
-&lt;p&gt;名称：安和Blog&lt;/p&gt;
-&lt;p&gt;头像：https://ahcorn.github.io/img/avatar.png&lt;/p&gt;
-&lt;p&gt;描述：万物安和&lt;/p&gt;
-&lt;h2 id=&#34;友链说明&#34;&gt;友链说明&lt;/h2&gt;
-&lt;p&gt;由于本站多次的域名更换，导致SEO和访客数量相差百倍，所以如果本站在更换域名后未达到贵站的SEO要求，您可以通知我进行友链的删除，抱歉给各位添麻烦。&lt;/p&gt;
-&lt;p&gt;如果您是之前和我交换过友链，但长时间未能访问，最近才恢复的，请和我联系重新添加~感谢&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Pages on 安和Blog</title>
+    <link>https://blog.anhe.one/page/</link>
+    <description>Recent content in Pages on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>归档</title>
+      <link>https://blog.anhe.one/page/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/page/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://blog.anhe.one/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/page/about/</guid>
+      <description>关于我 🌱 2017 年时因为做博客开始接触前端，不过至今水平依然很差 :( 🎓 2022 级计算机科学与技术专业 💻 最近在学习 Python 和 Javascript ✏️ 使用 Hugo 构建了 安和Blog 个人经历</description>
+    </item>
+    
+    <item>
+      <title>搜索</title>
+      <link>https://blog.anhe.one/page/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/page/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>友人</title>
+      <link>https://blog.anhe.one/page/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/page/links/</guid>
+      <description>由于本站多次的域名更换，导致SEO和访客数量相差百倍，所以如果本站在更换域名后未达到贵站的SEO要求，您可以通知我进行友链的删除，抱歉给诸位</description>
+    </item>
+    
+  </channel>
 </rss>

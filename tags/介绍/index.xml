@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>介绍 on 安和Blog</title>
+    <link>https://blog.anhe.one/tags/%E4%BB%8B%E7%BB%8D/</link>
+    <description>Recent content in 介绍 on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你好，简和</title>
+      <link>https://blog.anhe.one/p/%E4%BD%A0%E5%A5%BD%E7%AE%80%E5%92%8C/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/%E4%BD%A0%E5%A5%BD%E7%AE%80%E5%92%8C/</guid>
+      <description>欢迎使用简和主题！这是一个示例文章，用于测试主题的各项功能是否正常工作。 主题特点 简洁优雅的设计 响应式布局 支持文章缩略图 支持自定义摘要 支持分类</description>
+    </item>
+    
+  </channel>
+</rss>

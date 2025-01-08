@@ -1,503 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>折腾手机 on 安和Blog</title>
-        <link>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
-        <description>Recent content in 折腾手机 on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Sat, 28 Dec 2019 17:56:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Magisk模块推荐</title>
-        <link>https://blog.anhe.one/p/108/</link>
-        <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/108/</guid>
-        <description>&lt;h2 id=&#34;优化类模块&#34;&gt;优化类模块&lt;/h2&gt;
-&lt;p&gt;yc大佬的zram模块（优化运存用的~
-可以在sence工具箱的评论区或者yc大佬的动态里找到&lt;/p&gt;
-&lt;h2 id=&#34;被需要的模块&#34;&gt;被需要的模块&lt;/h2&gt;
-&lt;p&gt;这个分类名太硬核了hhh&lt;/p&gt;
-&lt;p&gt;Riu-Core（存储空间重定向增强模式必备
-可以直接从模块仓库下载&lt;/p&gt;
-&lt;p&gt;镧工具箱开机自启模块（捐赠版用的，有能力的话捐赠几块钱就能用啦
-镧工具箱捐赠后即可安装&lt;/p&gt;
-&lt;p&gt;Taichi（太极阳模块，相对与edxposed我还是比较喜欢太极
-可以直接从模块仓库下载&lt;/p&gt;
-&lt;h2 id=&#34;玄学类模块&#34;&gt;玄学类模块&lt;/h2&gt;
-&lt;p&gt;XTREMEMusic玄学音质模块（玄学，玄学，玩玩就好
-从Play商店的该应用中下载&lt;/p&gt;
-&lt;p&gt;高通WIFI优化（是优化嘛？我记得是开启5Gwifi之类的
-可以直接从模块仓库下载&lt;/p&gt;
-&lt;p&gt;gms doze（谷歌框架休眠emm..不知道有多大用
-可以直接从模块仓库下载&lt;/p&gt;
-&lt;h2 id=&#34;美化类模块&#34;&gt;美化类模块&lt;/h2&gt;
-&lt;p&gt;宁静之雨公众号拿的字体模块~（好康就完事了！自己喜欢哪个就安哪个&lt;/p&gt;
-&lt;p&gt;过渡动画模块（其实我自己没用，PE的动画难道不香嘛？&lt;/p&gt;
-&lt;p&gt;持续更新中&amp;hellip;(依旧是从养老方案提出来的水文hhh&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>一加5T个人养老方案</title>
-        <link>https://blog.anhe.one/p/104/</link>
-        <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/104/</guid>
-        <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;
-&lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
-&lt;p&gt;8G+128G版5T
-中电扩容电池（损耗到3000了，过年有意换个新的&lt;/p&gt;
-&lt;h2 id=&#34;系统&#34;&gt;系统&lt;/h2&gt;
-&lt;p&gt;PE系统 12月20日版本
-Data分区转F2FS&lt;/p&gt;
-&lt;h2 id=&#34;内核&#34;&gt;内核&lt;/h2&gt;
-&lt;p&gt;提取的AEX超频内核（最低200hz频率&lt;/p&gt;
-&lt;p&gt;通过镧工具箱2.0降低激进（一直满频怕不是要炸&lt;/p&gt;
-&lt;h2 id=&#34;软件&#34;&gt;软件&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://lolicorn.com/107.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;实用软件推荐&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;其实我之前是搞了个应用集的..&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coolapk.com/album/13478940&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;酷安应用集传送门&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;存储重定向（让存储空间干净点&lt;/p&gt;
-&lt;p&gt;存储空间清理（清清垃圾 感觉128G都不够我用了&lt;/p&gt;
-&lt;p&gt;绿色守护（比黑鱼更舒服，休眠再打开很方便，黑鱼直接把后台杀了&lt;/p&gt;
-&lt;p&gt;太极阳（用来替代edxposed&lt;/p&gt;
-&lt;p&gt;应用管理Xposed（解决毒瘤耗电问题，顺便绿色化下，开个代收&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;具体怎么食用可以看看这个~&lt;a class=&#34;link&#34; href=&#34;http://lolicorn.com/9.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;如何正确食用应用管理XP？&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;哔哩布丁（只支持到5.39.0版本，难受哇&lt;/p&gt;
-&lt;p&gt;哔哩漫游（装着玩的吧，失效的很频繁&lt;/p&gt;
-&lt;p&gt;核心破解（降级，覆盖安装&lt;/p&gt;
-&lt;p&gt;小米系统级推送（大概是折腾着玩的，哔哩哔哩网易云这些可以用小米push推送些消息过来&lt;/p&gt;
-&lt;p&gt;Z Launcher（诺基亚出的桌面，手势写字幕就能出来软件，感觉&lt;del&gt;还是挺方便&lt;/del&gt;，有时候挺方便hhh&lt;/p&gt;
-&lt;p&gt;锤子桌面（挺喜欢锤子的拟物风，因为之前缺钱就把坚果Pro卖了，忍痛割爱啊QAQ&lt;/p&gt;
-&lt;p&gt;NFC卡模拟（模拟下我爸单位的门禁卡..公交卡是复制不了的&lt;/p&gt;
-&lt;p&gt;XTREMEMusic（玄学音质提升APP，搭配magisk模块食用更佳哦 大雾&lt;/p&gt;
-&lt;p&gt;Blocker/写轮眼（禁用不必要的服务，减少些耗电，减少些内存占用&lt;/p&gt;
-&lt;p&gt;focus/锤子阅读/kindle/微信读书（还是要多看点东西鸭~光玩可不好&lt;/p&gt;
-&lt;p&gt;镧工具箱/sence（开些优化？大概&lt;/p&gt;
-&lt;p&gt;TickTick/evernote（清单我现在当愿望单在用..笔记的话想弄个evenpen，但感觉有点鸡肋&lt;/p&gt;
-&lt;p&gt;MXPlayer/哔哩哔哩（前者可以导入字幕看番..但我还是不会调他的字幕大小，后者是快乐源泉？hhh&lt;/p&gt;
-&lt;p&gt;闪电下载/ADM PRO魔改（下载东西用的，闪电下载搞磁力还是挺快的&lt;/p&gt;
-&lt;p&gt;Via/Chrome（平时就用这俩，感觉还是挺方便的，就是via有时候会有bug&lt;/p&gt;
-&lt;p&gt;网易云音乐（本地播放器放弃啦，玄学优化加个解码线推氧气感觉还行..吧&lt;/p&gt;
-&lt;p&gt;snapseed（修图用的，我居然经常打开&lt;/p&gt;
-&lt;p&gt;Papago/谷歌翻译（翻译软件，&lt;del&gt;英语作业必备&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;Moxy Icons/Meeye/Pure轻雨（好康的图标包&lt;/p&gt;
-&lt;p&gt;米家/小爱音响/小米运动（小米三连，因为我搞了套智能家居&lt;/p&gt;
-&lt;p&gt;ZaRchiver Pro/RAR（解压压缩包用的&lt;/p&gt;
-&lt;p&gt;百度网盘/腾讯微云（一个下东西，一个存东西&lt;/p&gt;
-&lt;p&gt;谷歌全家桶（刷机不丢记录太舒服了，感觉离不开谷歌了hhhs&lt;/p&gt;
-&lt;h2 id=&#34;magisk模块&#34;&gt;Magisk模块&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://lolicorn.com/108.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Magisk模块推荐&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;###优化类模块###&lt;/p&gt;
-&lt;p&gt;yc大佬的zram模块（优化运存用的~&lt;/p&gt;
-&lt;h3 id=&#34;被需要的模块&#34;&gt;被需要的模块&lt;/h3&gt;
-&lt;p&gt;这个分类名太硬核了hhh&lt;/p&gt;
-&lt;p&gt;Riu-Core（存储空间重定向增强模式必备&lt;/p&gt;
-&lt;p&gt;镧工具箱开机自启模块（捐赠版用的，有能力的话捐赠几块钱就能用啦&lt;/p&gt;
-&lt;p&gt;Taichi（支持太极阳的模块，相对与edxposed我还是比较喜欢太极&lt;/p&gt;
-&lt;p&gt;###玄学类模块 ###
-XTREMEMusic玄学模块（玄学，玄学，玩玩就好&lt;/p&gt;
-&lt;p&gt;高通WIFI优化（是优化嘛？我记得是开启5Gwifi之类的&lt;/p&gt;
-&lt;p&gt;gms doze（谷歌框架休眠emm..不知道有多大用&lt;/p&gt;
-&lt;p&gt;###美化类模块###&lt;/p&gt;
-&lt;p&gt;宁静之雨公众号拿的字体模块~（好康就完事了！自己喜欢哪个就安哪个&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;我的5T已经开始超频裸奔屏幕了hhh距离gg也不远了吧&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Data分区EXT4转F2FS</title>
-        <link>https://blog.anhe.one/p/102/</link>
-        <pubDate>Sat, 28 Dec 2019 17:09:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/102/</guid>
-        <description>&lt;p&gt;说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦&lt;/p&gt;
-&lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
-&lt;p&gt;这里以&lt;strong&gt;一加5T的3.3.1REC作为教程基础&lt;/strong&gt;~请确认您&lt;strong&gt;已刷入第三方rec&lt;/strong&gt;
-首先确认您正在使用的&lt;strong&gt;ROM是否支持F2FS&lt;/strong&gt;，&lt;del&gt;比如一加官方系统就不支持&lt;/del&gt;刷下补丁就可以啦，如果长时间卡在开机界面进不去就是不支持啦
-F2FS相对于EXT4的提升说法不一，有的说提升好几倍，有的则说没有差别，更有会出现很多Bug这种说法，不过最终还是要以各位的实际体验为主。
-&lt;strong&gt;该操作会格式化您的Data分区 转换为F2FS后将不能加密手机&lt;/strong&gt;
-~~（system vendor cache分区能否改成F2FS的问题我也很想知道，因为我折腾这么久的原因就是把这几个分区也变成F2FS了..)~~破案了，不可以改&lt;/p&gt;
-&lt;h2 id=&#34;操作过程&#34;&gt;操作过程&lt;/h2&gt;
-&lt;p&gt;首先在关机状态下按住电源键和音量减进入REC
-然后点击清除 高级清除 选中Data分区
-点击高级选项 然后选择更改文件系统
-选择F2FS 滑动确定即可 如果报错可以试试重新挂载Data分区&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;我也是瞎跟风搞的..具体的就玄学大法好吧，目前我试了半天知道了这几个ROM是支持F2FS的（一加5T）
-PE系统，进化X，aosip系统，如果还有其它的各位也可以帮忙补充在评论区~&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>玩机达到极致省电</title>
-        <link>https://blog.anhe.one/p/63/</link>
-        <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/63/</guid>
-        <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
-&lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;本文是继上次的省电方案的完全版，你们就不要管我一个题材可以水几篇了好8，总之就是一时水文一时爽，一直水文一直爽；先不提这些，我找了找大部分的所谓的省电方案，省电推荐，同时也包括我的前几篇在内，除了无ROOT那篇实在是没什么说的给了个ISLAND方案以外，感觉都毫无意义，就比如应用管理，应用控制器，全都推荐了，但是我装上反而会更耗电，这里提到一位酷友的文章，他同时推荐了黑域和绿色守护以及应用管理XP，而且并没有指出它们三个的互斥性，将它们放到一起使用反而是适得其反，本文也将作为我本人关于省电方面的最后一篇文章，也许后期将做一些小改动，但也不会太大&lt;/p&gt;
-&lt;h2 id=&#34;应用管理xposed&#34;&gt;应用管理Xposed&lt;/h2&gt;
-&lt;p&gt;该模块我已经在前文多次提及，甚至发过文章专门说过他的乖巧规则的使用，效果很不错，今天就完善一下整合在本文。&lt;/p&gt;
-&lt;p&gt;在激活该模块之后再乖巧模式中加入QQ，微信，网易云音乐这三个APP，相信大部分酷友都是常用这三个APP吧，加入后再乖巧规则添加以下几条规则。&lt;/p&gt;
-&lt;p&gt;前排提示:&lt;/p&gt;
-&lt;p&gt;1.在复制时请不要复制//后面的注释信息 注意分条添加&lt;/p&gt;
-&lt;p&gt;2.以下微信以及网易云音乐乖巧规则内容来自酷安评论区&lt;/p&gt;
-&lt;p&gt;3.&lt;del&gt;微信的乖巧规则原来是关联启动规则 放到乖巧后测试可以使用(我也不确定！不要找我咳咳咳 这里可以通过KEEP微信服务代替) 不过不搞内存常驻的话有时候会掉的&lt;/del&gt;不能用的奥，要加到关联启动&lt;/p&gt;
-&lt;p&gt;微信关联启动规则&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-CSS&#34; data-lang=&#34;CSS&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;ALLOW&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;android&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mm&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;ALLOW&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mm&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mm&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;3&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;DENY&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mm&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;QQ乖巧规则&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-CSS&#34; data-lang=&#34;CSS&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;KEEP&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mobileqq&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;mobileqq&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;/&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;service&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;MsfService&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;TIM乖巧规则&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-CSS&#34; data-lang=&#34;CSS&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;KEEP&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tim&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tencent&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;tim&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;/&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;service&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;MsfService&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;网易云乖巧规则&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-CSS&#34; data-lang=&#34;CSS&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#e06c75&#34;&gt;KEEP&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;netease&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;cloudmusic&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;com&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;netease&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;cloudmusic&lt;/span&gt;&lt;span style=&#34;color:#56b6c2&#34;&gt;/&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;service&lt;/span&gt;.&lt;span style=&#34;color:#e5c07b&#34;&gt;PlayService&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;乖巧规则制作方法&lt;/p&gt;
-&lt;p&gt;KEEP 应用包名 应用包名/.service.主服务 //可以在写轮眼评论区找到
-打盹&lt;/p&gt;
-&lt;p&gt;我这边正在使用应用管理代替绿色守护和黑域的待机打盹，但其实我个人是认为应用管理不如前面两者的，为了使用更少的软件达到更高的效果我就选择了应用管理，实际效果我也没有具体观察，后面我会继续根据我的使用体验跟进文章更新的&lt;/p&gt;
-&lt;p&gt;打开打盹后请将下面的强制进入也打开，禁用运动检测请看个人需求，在电池忽略名单中加入微信，QQ，网易云，不过目前不添加好像也没有什么问题出现&lt;/p&gt;
-&lt;p&gt;应用绿色化&lt;/p&gt;
-&lt;p&gt;在进阶设置中可以看到一个绿色化的选项，在当中可以禁用一些没有必要的软件的唤醒权限，比如快看漫画，一些游戏等等 不过这里并不推荐禁用网易云音乐 哔哩哔哩这样的 在你打开链接调用APP时会无法唤醒 我们为了省电但也不想给日常使用中带来不便&lt;/p&gt;
-&lt;p&gt;绿色化前排提示&lt;/p&gt;
-&lt;p&gt;1.不要禁用社交类APP的唤醒锁&lt;/p&gt;
-&lt;p&gt;2.不要禁用输入法的唤醒锁&lt;/p&gt;
-&lt;p&gt;3.不要禁用需要链接调用APP的唤醒锁&lt;/p&gt;
-&lt;p&gt;小结&lt;/p&gt;
-&lt;p&gt;我个人认为该模块最重要的则是它的乖巧模式功能了，我也是主要使用该功能，各位可以通过写轮眼复制过来的主服务内容替换我在文章那段代码的内容达到自己写一个新的乖巧规则的目的&lt;/p&gt;
-&lt;p&gt;打盹方面我个人也不是很确定 我还在徘徊ing 感觉绿色守护的打盹可能会更好一些？&lt;/p&gt;
-&lt;p&gt;绿色化方面我更喜欢应用控制器那样的界面，只需要点一下就好了，相对于应用控制器，应用管理就有点复杂了，需要点开再关上..&lt;/p&gt;
-&lt;h2 id=&#34;安卓写轮眼&#34;&gt;安卓写轮眼&lt;/h2&gt;
-&lt;p&gt;相信各位经常搞基，，搞机的朋友对其也不是很陌生，相信看到这篇文章的大佬们大部分都正在使用该APP。&lt;/p&gt;
-&lt;p&gt;它的主要禁用方案在酷安的写轮眼评论区就可以找到，所以这里就不多提了，在这里主要是说一下QQ/TIM 服务直接只留MsfService就好了，还可以减少内存占用hhhh，其余的我这里说不准的也就不提了，因为本人在写这篇文章时正处于断网状态（哭唧唧&lt;/p&gt;
-&lt;p&gt;前排提示&lt;/p&gt;
-&lt;p&gt;1.大部分的APP在评论区都可以找到禁用方案，没必要自己一个一个试的&lt;/p&gt;
-&lt;p&gt;2.只有一个主服务的APP可以弄到乖巧模式 配合应用管理XP食用&lt;/p&gt;
-&lt;h2 id=&#34;ex内核降频&#34;&gt;EX内核降频&lt;/h2&gt;
-&lt;p&gt;我本人现在不怎么打手机游戏，而且就算降频到1401打个崩坏和刺激战场画质低一点是完全没有问题的，所以请各位游戏用户也不用担心。&lt;/p&gt;
-&lt;p&gt;但EX内核并不是每个机型都适配的，所以这里只是提供给部分用户的一个选择&lt;/p&gt;
-&lt;p&gt;在下载EX管理APP后，在EX内核界面安装，选择自定义，在自定义两个频率的时候全部都选到最低，然后重启即可&lt;/p&gt;
-&lt;p&gt;前排提示&lt;/p&gt;
-&lt;p&gt;1.如果你无法刷EX内核降频也可以尝试其它内核，必要时也可以使用EX内核APP的省电模式（只要有ROOT的话是不限机型的吧）&lt;/p&gt;
-&lt;p&gt;2.刷入EX内核后他会有一个自动的向左滑动自动锁屏需要注意以下，可以在EX内核APP内关闭，但无法做到永久关闭&lt;/p&gt;
-&lt;h2 id=&#34;精简版app&#34;&gt;精简版APP&lt;/h2&gt;
-&lt;p&gt;我目前使用的精简版有TIM(IK大佬修改)，微信(老版本酷友修改分享)&lt;/p&gt;
-&lt;p&gt;他们都去掉了一些毒瘤服务和一些不必要的唤醒，配合应用管理XP使用无论是在前台还是后台耗电都很理想&lt;/p&gt;
-&lt;p&gt;前排提示&lt;/p&gt;
-&lt;p&gt;1.安装微信时 一定要使用低版本的微信再用核心破解覆盖安装，千万不要降级安装，登录错误后重新登录就凉凉了，我目前因为这样被封号过一次了&lt;/p&gt;
-&lt;p&gt;2.QQ冻结最近好像不是很频繁，但毕竟是个修改版，还是要小心点的，可以试试跟微信一样的方法看看如何&lt;/p&gt;
-&lt;h2 id=&#34;压住毒瘤&#34;&gt;压住毒瘤&lt;/h2&gt;
-&lt;p&gt;我目前正在使用冰箱APP冻结一些不必要的APP，如应用宝，QQ浏览器这些，毕竟王卡全免，删了不用感觉怪可惜的&amp;hellip;&lt;/p&gt;
-&lt;p&gt;因为使用频率不高的缘故，将他们添加到了桌面体验无差别但实际上已经压住了(记得改成锁屏自动冻结)&lt;/p&gt;
-&lt;p&gt;前排提示&lt;/p&gt;
-&lt;p&gt;1.千万不要把所有APP都整到冰箱里，常用APP也进去，既违背了我们不影响日常使用的前提还没有达到省电的效果&lt;/p&gt;
-&lt;p&gt;2.这里不局限于冰箱 有很多APP都可以做到冻结功能&lt;/p&gt;
-&lt;h2 id=&#34;杂项配置&#34;&gt;杂项配置&lt;/h2&gt;
-&lt;p&gt;以下内容都是些系统设置了 相信大部分酷友已经弄好了&lt;/p&gt;
-&lt;p&gt;电池优化——在电池优化中把没有优化的全都勾上&lt;/p&gt;
-&lt;p&gt;NFC ——作为一只肥宅不知道平时在家一直开着有什么用&lt;/p&gt;
-&lt;p&gt;GPS——如上 在有需要的时候打开即可&lt;/p&gt;
-&lt;p&gt;蓝牙——其实这个不说你也关了..对吧&lt;/p&gt;
-&lt;p&gt;自动同步——同步什么！刷机不备份还要什么同步？ //这里仅仅是我的个人观点 请自行判断&lt;/p&gt;
-&lt;p&gt;亮度——尽量调低 不过还是以眼睛健康为第一位 亮度条该拉满还是拉满&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;好的，这里就真的结束了，以上内容全部在未联网状态下完成编写，可能会出现差错，我将在后续更正修改。&lt;/p&gt;
-&lt;p&gt;最后 祝各位的续航能够有所提升[受虐滑稽]&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>如何正确食用应用管理XP？</title>
-        <link>https://blog.anhe.one/p/9/</link>
-        <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/9/</guid>
-        <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
-&lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;
-&lt;h2 id=&#34;回顾&#34;&gt;回顾&lt;/h2&gt;
-&lt;p&gt;本文内容同样适用于“省电”这一话题，但没有心思再去修改原文，且这个模块也值得我专门来写一篇文章来介绍.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://ahblog.net/index.php/archives/1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;如何解决耗电崩的问题&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果你正在使用XP框架 但认为XP框架会占用系统资源，增加耗电，甚至说拖慢系统性能，你可以参考这篇文章&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://ahblog.net/index.php/archives/8.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Xposed会影响性能及耗电？&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;将qq微信加入缓存&#34;&gt;将QQ微信加入缓存&lt;/h2&gt;
-&lt;p&gt;加入乖巧模式后台几乎0耗电的&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;请先确认你的手机里已经安装了Xposed框架及应用控制器+应用管理XP模块/捐赠版&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;打开基础-关联启动限制并开启后在右上角找到关联启动规则后添加以下规则&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;//微信规则
-ALLOW android com.tencent.mm
-ALLOW com.tencent.mm com.tencent.mm
-DENY * com.tencent.mm
-
-//QQ规则
-ALLOW android com.tencent.mobileqq
-ALLOW com.tencent.mobileqq com.tencent.mobileqq
-DENY * com.tencent.mobileqq
-
-//tim规则
-ALLOW android com.tencent.tim
-ALLOW com.tencent.tim com.tencent.tim
-DENY * com.tencent.tim
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;再回到上一页面 找到右下角的+号 选择微信/TIM/QQ 加入后选中 配置单项配置
-&lt;img src=&#34;http://fly.ahblog.net/gl01.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;然后回到主页-基础-自启限制 打开
-主页-进阶-乖巧模式-启用&lt;/p&gt;
-&lt;p&gt;到这里还没有结束 接下来打开应用控制器
-在侧边栏中找到-应用锁、启动控制、常驻内存后找到微信/TIM/QQ的内存常驻打开#如果你使用的是应用管理XP捐赠版可以直接在基础中找到后台保护功能&lt;/p&gt;
-&lt;p&gt;之后就可以体验划卡秒进占用内存减少 但消息却不会延迟的操作啦&lt;/p&gt;
-&lt;h2 id=&#34;待机耗电&#34;&gt;待机耗电&lt;/h2&gt;
-&lt;p&gt;在状态中找到内存清理后打开 添加所有应用
-在右上角的设置中选择”休眠代替强行停止“即可&lt;/p&gt;
-&lt;p&gt;然后再找到-进阶-打盹 启用
-在下面配置中找到强行进入并打开即可&lt;/p&gt;
-&lt;p&gt;再配合应用控制器的所有应用全部禁唤醒锁【通知应用除外】效果显著&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://fly.ahblog.net/gl02.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;gcm代收&#34;&gt;GCM代收&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;添加以上规则后请确定已安装谷歌服务并已经登录 已经安装谷歌版微信&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在进阶中开启GCM代收即可
-但经过上面的配置我个人认为没什么特别大的作用了&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;本文并未结束 如移花接木等功能还是需要我自己学会用学会配置以后才会更新嘛&amp;hellip;&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Xposed会影响性能及耗电？</title>
-        <link>https://blog.anhe.one/p/8/</link>
-        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/8/</guid>
-        <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
+  <channel>
+    <title>折腾手机 on 安和Blog</title>
+    <link>https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/</link>
+    <description>Recent content in 折腾手机 on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 17:56:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magisk模块推荐</title>
+      <link>https://blog.anhe.one/p/108/</link>
+      <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/108/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一加5T个人养老方案</title>
+      <link>https://blog.anhe.one/p/104/</link>
+      <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/104/</guid>
+      <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data分区EXT4转F2FS</title>
+      <link>https://blog.anhe.one/p/102/</link>
+      <pubDate>Sat, 28 Dec 2019 17:09:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/102/</guid>
+      <description>&lt;p&gt;说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>玩机达到极致省电</title>
+      <link>https://blog.anhe.one/p/63/</link>
+      <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/63/</guid>
+      <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
+&lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何正确食用应用管理XP？</title>
+      <link>https://blog.anhe.one/p/9/</link>
+      <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/9/</guid>
+      <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
+&lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Xposed会影响性能及耗电？</title>
+      <link>https://blog.anhe.one/p/8/</link>
+      <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/8/</guid>
+      <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
-下面是我简单的分析及我个人对是否使用XP的看法&lt;/p&gt;
-&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
-&lt;p&gt;为什么每个用户给出的答案都不一样？
-因为每个人所使用的模块都不同，XP框架本身的占用资源不算多，而模块才是万恶之源，如重力工具箱等这种hook systemui的模块会明显导致系统反应缓慢，耗电也会随之增加
-但我们却在关于省电那篇文章中提到了使用XP模块(ó﹏ò｡)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://ahblog.net/index.php/archives/1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;如何解决耗电崩的问题？&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如上面所说，框架本身占用资源很少，安装了应用管理器，应用管理XP这类的模块后会让系统变慢，增加耗电吗？
-答案是不会，占用资源是事实 而我们使用它们压制毒瘤唤醒/自启动等所节省下来的资源远远比它们占用的要少&lt;/p&gt;
-&lt;p&gt;那么问题来了，既然如此，我们是不是可以一直依赖XP框架呢？去掉有些系统不支持XP的因素外，刷入XP后会明显导致开机变慢的情况发生，而运行需要某个模块支持的应用时会导致软件打开时间变长..但是如果是原生系统，那就很有必要使用框架了，例如凤凰OS，一晚上疯狂掉电..使用框架后反而更加省电@(真棒)&lt;/p&gt;
-&lt;p&gt;但就我个人而言的话，XP功能虽然强大，但是会导致很多兼容性的问题，例如应用闪退，以及前一段时间的微信大规模封XP用户的事情，对于一些“性能过剩”的手机来说，XP框架所占用的资源根本不足一提，但还是有些人的手机性能不足&amp;hellip;也有些功能可以使用magisk模块来实现@(滑稽)&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;好了..扯了这么多了 说结论吧
-对于一些原生 “性能过剩”的手机来说可以使用XP框架解决毒瘤的问题
-而其它的也可以通过XP框架来压制毒瘤 就我个人来说我推荐使用XP框架 但是没有需要的话不推荐使用如重力工具箱这样的模块，单纯的使用应用控制器来看，安XP框架的利是肯定大于弊的
-至于解决方案..是不存在那种完美解决的方案的，可以尝试使用空log文件替换xp的日志文件和少安装增加耗电的模块即可
-最后呢，还是我那句话
-因人而异 因机而异 你所使用的体验可能和别人完全不同 也没有必要去跟别人吵..毕竟..因人而异 因机而异嘛|´・ω・)ノ&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文内容综合本人实际体验及酷安用户回复所写 若有不足请大佬指出.
-&lt;img src=&#34;http://fly.ahblog.net/xp.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-        </item>
-        <item>
-        <title>在Linux下刷入Rec</title>
-        <link>https://blog.anhe.one/p/4/</link>
-        <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/4/</guid>
-        <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;
-&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
-&lt;p&gt;1.手机已解锁&lt;/p&gt;
-&lt;p&gt;2.Linux电脑&lt;/p&gt;
-&lt;p&gt;3.已开启允许USB调试&lt;/p&gt;
-&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://fly.ahblog.net/linuxrec.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;
-sudo apt-get install android-tools-adb android-tools-fastboot
-//安装adb和fastboot工具包
-若出现PPA源的问题 请先更新一下&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get update
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;刷入&#34;&gt;刷入&lt;/h2&gt;
-&lt;p&gt;请连接手机 处于开机模式并已允许调试&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo adb reboot-bootloader
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;//重启手机进入fastboot模式&lt;/p&gt;
-&lt;h2 id=&#34;到存放rec的文件夹中选择从终端打开&#34;&gt;到存放Rec的文件夹中选择从终端打开&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;sudo fastboot flash recovery recovery.img
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;//写入recovery.img（会擦除官方recovery）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo fastboot reboot
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;　　　　 //重启手机&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo adb reboot recovery
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;　　　　 //手机进入recovery模式
-也可以选择用以下命令替换&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo fastboot boot recovery.img
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;　　　　 //写入recovery后自动进入recovery模式&lt;/p&gt;
-&lt;p&gt;然后开机+音量-即可 这时Rec已经成功刷入了&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>没有Root如何达到省电效果?</title>
-        <link>https://blog.anhe.one/p/3/</link>
-        <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/3/</guid>
-        <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
+下面是我简单的分析及我个人对是否使用XP的看法&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Linux下刷入Rec</title>
+      <link>https://blog.anhe.one/p/4/</link>
+      <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/4/</guid>
+      <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>没有Root如何达到省电效果?</title>
+      <link>https://blog.anhe.one/p/3/</link>
+      <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/3/</guid>
+      <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;1系统自带&#34;&gt;1.系统自带&lt;/h2&gt;
-&lt;p&gt;尽管效果很差，但也没办法，没Root什么都要用啊 &lt;/p&gt;
-&lt;p&gt;在7.1大部分ROM中都已经加入了电池优化功能 可以在设置－电池中打开&lt;/p&gt;
-&lt;p&gt;应该是8. 0后的版本支持设置是否允许应用后台活动..这个.. 没用的后台就禁了吧&lt;/p&gt;
-&lt;p&gt;一些原生Rom有智能像素，LiveDisplay里的降低耗电这样的选项，在MIUI等国产ROM中也有类似的设置&lt;/p&gt;
-&lt;h2 id=&#34;2冻结毒瘤&#34;&gt;2.冻结毒瘤&lt;/h2&gt;
-&lt;p&gt;嘤 正文开始&lt;/p&gt;
-&lt;p&gt;通过adb使用冰箱App来冻结毒瘤 什么QQ浏览器QQ音乐全丢进去 :idea: 基本不需要后台的全丢进去就对了，设置个桌面快捷方式就好&lt;/p&gt;
-&lt;p&gt;没有电脑的话可以通过Island来达到效果 将所有应用都重新安装为工作模式 原应用可以选择卸载 这样就可以控制应用后台行为了&lt;/p&gt;
-&lt;p&gt;不过有个缺点就是不能使用非工作模式下保存的东西&amp;hellip;(应该有解决方案？&lt;/p&gt;
-&lt;h2 id=&#34;3绿色守护黑域&#34;&gt;3.绿色守护&amp;amp;黑域&lt;/h2&gt;
-&lt;p&gt;若不想使用第二条.. 可以试试黑域&lt;/p&gt;
-&lt;p&gt;不过还是要Adb 每次重启都要用Adb..(哦对..淘宝有黑域激活器..39包邮 土豪可以考虑下&lt;/p&gt;
-&lt;p&gt;将应用全部(可不添加通讯软件添加到黑域之后将黑域留在后台即可&lt;/p&gt;
-&lt;h2 id=&#34;绿色守护&#34;&gt;绿色守护&lt;/h2&gt;
-&lt;p&gt;这无疑是最好的选择了..不要adb设置辅助功能就可以使用&lt;/p&gt;
-&lt;p&gt;安装完成后 给绿色守护需要的权限后添加一些不需要后台的应用&lt;/p&gt;
-&lt;p&gt;之后再打开设置 根据自己需要设置&lt;/p&gt;
-&lt;p&gt;在通过快捷方式锁屏/清理 或者通过辅助功能中的长摁主页后就会开始清理你所添加应用的后台了&lt;/p&gt;
-&lt;h2 id=&#34;4待机耗电&#34;&gt;4.待机耗电&lt;/h2&gt;
-&lt;p&gt;说了半天,其实有个最简单的方法可以解决&amp;hellip;晚上待机耗电怎么办？设置个定时开关机吧 ;-)&lt;/p&gt;
-&lt;p&gt;如果没有消息的话 这估计是个不错的选择&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;本人没有特别多非Root省电经验 望各位谅解&amp;hellip;内容可能有很多错误..将在后面陆续完善一下..主要是有点水..
-&lt;img src=&#34;http://fly.ahblog.net/sd.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>LG G5韩版发热解決方案</title>
-        <link>https://blog.anhe.one/p/lg1/</link>
-        <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/lg1/</guid>
-        <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G5韩版发热解決方案</title>
+      <link>https://blog.anhe.one/p/lg1/</link>
+      <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/lg1/</guid>
+      <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
 &lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
-&lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;
-&lt;h2 id=&#34;1石墨烯纸硅脂&#34;&gt;1.石墨烯纸＋硅脂&lt;/h2&gt;
-&lt;h2 id=&#34;2关闭lg-mlt服务&#34;&gt;拆开后先把硅脂涂在CPU部分，然后再贴上石墨烯纸，具体的教程不贴了，因为主要是讲从软件方面进行的优化。
-2.关闭LG MLT服务&lt;/h2&gt;
-&lt;p&gt;1 拨号键输入 *#546368#*700# 进入SVC MENU。 G4,G5 通用 868是G5国行型号 700韩版，G4 818.819&lt;/p&gt;
-&lt;p&gt;2 点击 SVC MENU&lt;/p&gt;
-&lt;p&gt;3 然后看到LDB 点击&lt;/p&gt;
-&lt;p&gt;4 最后看到 Enable 勾取消就OK了&lt;/p&gt;
-&lt;p&gt;里面的其他东西最好不要动， 觉得不好再改回来就是了&lt;/p&gt;
-&lt;p&gt;这个不会对手机有影响， G4 G5 都改过确实效果很好&lt;/p&gt;
-&lt;h2 id=&#34;3绿色守护-island&#34;&gt;这个具体的效果不知道怎么样 不过值得一试
-3.绿色守护＋ island&lt;/h2&gt;
-&lt;p&gt;将所有应用都弄出来一个工作空间，然后卸载掉原应用就可以了 然后一个一个加进绿色守护的深度休眠&lt;/p&gt;
-&lt;p&gt;注意！每个应用都要弄快捷方式 不然深度休眠了就没有图标了&lt;/p&gt;
-&lt;h2 id=&#34;4解除不需要的系统应用&#34;&gt;记得把绿色守护的全自动打开 即解决了发热也解决了续航#(咦)
-4.解除不需要的系统应用&lt;/h2&gt;
-&lt;p&gt;比如谷歌全家桶啊..环聊乱七八糟的哪个没用就都禁掉就好&lt;/p&gt;
-&lt;p&gt;另外我现在用的QQ微信都是play版&lt;/p&gt;
-&lt;h2 id=&#34;与标题内容不符的小提示&#34;&gt;经过一番折腾 日常使用已经基本感觉不到发热了
-与标题内容不符的小提示&lt;/h2&gt;
-&lt;p&gt;使用zone护眼可解决屏幕残影&lt;/p&gt;
-&lt;p&gt;使用qboost可以设置性能&lt;/p&gt;
-&lt;p&gt;![][1]
-[1]: &lt;a class=&#34;link&#34; href=&#34;http://fly.ahblog.net/lg.jpg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://fly.ahblog.net/lg.jpg&lt;/a&gt;&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>如何解决耗电崩的问题？</title>
-        <link>https://blog.anhe.one/p/1/</link>
-        <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/1/</guid>
-        <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
+&lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何解决耗电崩的问题？</title>
+      <link>https://blog.anhe.one/p/1/</link>
+      <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/1/</guid>
+      <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;
-&lt;p&gt;(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以参考)&lt;/p&gt;
-&lt;h2 id=&#34;1冻结毒瘤&#34;&gt;1.冻结毒瘤&lt;/h2&gt;
-&lt;p&gt;从QQ浏览器到QQ到微信，每个都是毒瘤，一不小心打开耗电列表..妈耶..每次都是微信第一..就算不是用的QQ浏览器等也紧随其后&lt;/p&gt;
-&lt;p&gt;那么.首推的就是冰箱App 可在coolapk(酷安)上下载 除了微信以外的毒瘤就可以禁掉了.&lt;/p&gt;
-&lt;p&gt;(不要把所有的应用放进去，每次启动应用都要调用冰箱和某app的话，反而会更加耗电)&lt;/p&gt;
-&lt;h2 id=&#34;2应用控制器&#34;&gt;2.应用控制器&lt;/h2&gt;
-&lt;p&gt;这无疑就是神器了啊，启用后把除了通讯软件的唤醒锁禁掉，锁屏后基本就0耗电了(我把微信QQ也禁了…不过我打开的很频繁也不怕漏收了)强制打盹这些我个人也不是很清楚，个人感觉使用后可能..耗电更大？望大佬指点&lt;/p&gt;
-&lt;h2 id=&#34;3系统问题&#34;&gt;3.系统问题&lt;/h2&gt;
-&lt;p&gt;各种臃肿的系统无疑是罪魁祸首，自带一堆软件，一堆没有必要的设置，这个时候就需要一个新的系统来取代了 (每个手机都有各自的包，在这里也不能多做评价&lt;/p&gt;
-&lt;p&gt;如果是一加五T的话第三方推荐Los15.1 官改推荐DK&lt;/p&gt;
-&lt;h2 id=&#34;4内核问题&#34;&gt;4.内核问题&lt;/h2&gt;
-&lt;p&gt;一个好的内核决定了你的耗电，有的是超频内核，而有的可以降频，用Ex内核降到最低还是很舒服可以用的，这里又来了 每款手机都有各自支持的内核 同样的一加五T推荐blu内核 ex内核 flash内核 但是最新版本已经不支持flash内核了…所以可以选择老一点的版本？取决于各位自己&lt;/p&gt;
-&lt;h2 id=&#34;5内核调校&#34;&gt;5.内核调校&lt;/h2&gt;
-&lt;p&gt;内核调校，在酷安中也可以找到，然后就是Yc大佬的调校可谓是神奇，可以说是十分省电了，各位可以选择自己相应的CPU型号去下载，也有不少工具箱支持了Yc打开的调校，并且在评论区也有卡刷包&lt;/p&gt;
-&lt;p&gt;我这里是一直在用yc0603 835的调度的&lt;/p&gt;
-&lt;h2 id=&#34;6通讯软件&#34;&gt;6.通讯软件&lt;/h2&gt;
-&lt;p&gt;这可能是耗电量最大的了，但是却又不能限制它的后台行为(虽然我对这个没感觉已经禁用了)但还是会有人需要用到的对吧，于是可以使用到应用管理XP，打开gcm代收，刷了全家桶之后从商店安装谷歌版的微信即可，记得登录 若有不懂可以在下方评论或者在酷安评论区提问&lt;/p&gt;
-&lt;h2 id=&#34;方案二&#34;&gt;方案二&lt;/h2&gt;
-&lt;p&gt;小米系统级推送 用magisk模块来实现伪装小米机型 注册应用成功后即可使用&lt;/p&gt;
-&lt;h2 id=&#34;7电池问题&#34;&gt;7.电池问题&lt;/h2&gt;
-&lt;p&gt;这个就没办法啦 大部分都是淘宝50-60包邮的，不过还是推荐去网点更换 就算要钱也是有个保障 自己弄坏了岂不是要哭一年啊&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;不过说到底，还是那句话，少装应用，省电还是靠关机。
-&lt;img src=&#34;http://fly.ahblog.net/sd.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
+&lt;p&gt;(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以参考)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

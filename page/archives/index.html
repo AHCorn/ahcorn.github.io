@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>归档 - 安和Blog</title>
+    <link rel="stylesheet" href="/css/jianhe.css?v=1736334510">
+    <link rel="stylesheet" href="/css/1.0.css?v=1736334510">
+    <link rel="stylesheet" href="/css/timeline.css?v=1736334510">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <link rel="stylesheet" href="/css/archive.css?v=1736334510">
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
+    <link rel="stylesheet" href="/css/post.css?v=1736334510">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+    <style>
+        body {
+            text-shadow: black 0.1em 0.1em 0.2em;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #262525;
+        }
+        .main {
+            flex: 1;
+            background-color: #262525;
+            display: flex;
+            justify-content: center;
+        }
+        .main-container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-right: 20px;
+            padding-left:20px;
+        }
+        .boxa {
+            display: flex;
+            position: relative;
+            margin-top: 20px;
+        }
+        .sidebar-container {
+            width: 170px;
+            flex-shrink: 0;
+            padding-top: 60px;
+        }
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            width: 100%;
+        }
+        .box {
+            flex: 1;
+            margin: 0 !important;
+            padding-left: 20px;
+            max-width: calc(100% - 150px);
+        }
+        @media (max-width: 1024px) {
+            .sidebar-container {
+                display: none;
+            }
+            .box {
+                max-width: 100%;
+                padding-left: 0;
+            }
+            .pctitle {
+                display: none !important;
+            }
+            .peside {
+                display: block !important;
+            }
+            .tag-list {
+                text-align: left;
+            }
+            .tag-list a {
+                display: inline-block !important;
+                margin-right: 10px;
+                padding: 5px;
+            }
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        @media (min-width: 1025px) {
+            .peside {
+                display: none !important;
+            }
+            .pctitle {
+                display: block !important;
+            }
+            .tag-list a {
+                display: block;
+            }
+        }
+        @media (max-width: 768px) {
+            .main {
+                padding: 0;
+            }
+            .main-container {
+                padding: 0 10px;
+            }
+        }
+         
+        .box {
+            margin-right: 0 !important;
+        }
+        @media only screen and (max-width: 1500px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 1000px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 650px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        .social-links {
+            margin: 25px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.9) !important;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+            padding: 6px 12px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .social-link:hover {
+            color: #fff !important;
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        .social-link i {
+            margin-right: 8px;
+            font-size: 1.1em;
+        }
+        @media (max-width: 650px) {
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        .peside {
+            width: 100%;
+        }
+        .cardshow {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: 8000px) {
+            .cardboxshow {
+                float: left;
+                width: calc(50% - 10px);
+            }
+            .cardboxshow:nth-child(2n) {
+                margin-right: 0;
+            }
+            .cardboxshow:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+        @media only screen and (max-width: 1024px) {
+            .cardboxshow {
+                float: none;
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        .lazyloaded {
+            opacity: 1 !important;
+            min-height: 200px;
+            position: relative;
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .titlecard {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        .titlecard a {
+            text-decoration: none;
+            color: #fff !important;
+        }
+        .titlecard a:hover {
+            color: rgba(255, 255, 255, 0.8) !important;
+        }
+        .titlecard hr {
+            border: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 15px 0;
+        }
+        .petitle {
+            display: block !important;
+        }
+        .petitle h1 {
+            margin: 0;
+        }
+        .petitle p {
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+        .tag-list {
+            margin-top: 15px;
+        }
+        .tag-list a {
+            color: rgba(255, 255, 255, 0.8) !important;
+            text-decoration: none;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+        .tag-list a:hover {
+            color: #fff !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="main-container">
+            <div class="peside">
+                <div class="cardshow">
+                    <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+                        <div class="titlecard">
+                            <a href="https://blog.anhe.one">
+                                <div class="petitle">
+                                    <h1>安和Blog</h1>
+                                    <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                                </div>
+                            </a>
+                            <div class="social-links">
+                                
+                                <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                    <i class="ri-github-fill"></i>
+                                    <span>Github</span>
+                                </a>
+                                
+                                
+                                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                    <i class="ri-code-box-fill"></i>
+                                    <span>Greasyfork</span>
+                                </a>
+                                
+                                
+                                <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                    <i class="ri-mail-fill"></i>
+                                    <span>Email</span>
+                                </a>
+                                
+                            </div>
+                            <hr>
+                            <div class="tag-list">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/about/">关于</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/links/">友人</a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxa">
+                <div class="sidebar-container">
+                    <div class="sidebar">
+                        <div class="side-bar" style="margin-top:25px;">
+    <div class="nav" style="padding-top: 5px;padding-right: 10px;padding-left: 10px;">
+        <a href="https://blog.anhe.one">
+            <img class="logo2" style="margin-top: 27px;" src="/images/avatar.jpg" alt="安和Blog">
+            <hr>
+            <div class="tag-list displaynone">
+                
+                
+                
+                
+                
+                
+                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/about/">关于</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/links/">友人</a>
+                
+                
+            </div>
+            <hr>
+            <div class="tag-list displaynone">
+                
+                <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                
+                <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                
+                <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="peside">
+    <div class="cardshow">
+        <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+            <div class="titlecard">
+                <a href="https://blog.anhe.one">
+                    <div class="petitle">
+                        <h1>安和Blog</h1>
+                        <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                    </div>
+                </a>
+                <hr>
+                <div class="tag-list">
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/archives/">归档</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/about/">关于</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/search/">搜索</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/links/">友人</a>
+                    
+                    
+                </div>
+                <hr>
+                <div class="tag-list displaynone">
+                    
+                    <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pctitle">
+                        <h1 style="color:#fff;margin-top:0px;margin-bottom:0px;">安和Blog</h1>
+                        <p style="color:#fff; margin-top:0px;">看似寻常最奇崛，成如容易却艰辛。</p>
+                        <div class="social-links">
+                            
+                            <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                <i class="ri-github-fill"></i>
+                                <span>Github</span>
+                            </a>
+                            
+                            
+                            <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                <i class="ri-code-box-fill"></i>
+                                <span>Greasyfork</span>
+                            </a>
+                            
+                            
+                            <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                <i class="ri-mail-fill"></i>
+                                <span>Email</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+<div class="archive-container">
+    <div class="archive-timeline">
+        
+        
+        <div class="archive-year">
+            <h2 class="year-title">2024</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/system-error1/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/system-error1/Windows11.jpeg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-18</div>
+                                <h3 class="card-title">微软账户登录时闪退 解决方案</h3>
+                                
+                                <p class="card-desc">Error Tag 7q6ca Error Code 1067 /  错误代码：3、15、1067</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/2023/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/2023/Cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-09</div>
+                                <h3 class="card-title">2023年度总结</h3>
+                                
+                                <p class="card-desc">再不写的话，是不是就赶不上了？</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2023</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/test/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-19</div>
+                                <h3 class="card-title">临时公告</h3>
+                                
+                                <p class="card-desc">关于域名更换、文章迁移、以及友链补全</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/2022/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/2022/banner.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-07</div>
+                                <h3 class="card-title">2022年度总结</h3>
+                                
+                                <p class="card-desc">又是迟来了一个星期的总结...</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2022</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/novel-coffee/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/novel-coffee/banner.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">11-21</div>
+                                <h3 class="card-title">《异世界咖啡厅》短评</h3>
+                                
+                                <p class="card-desc">每个人都曾有过这样的时刻吧，当翻过书的最后一页时，独自感受着那内心中五味杂陈的情感。
+其中自然有着对故事的共情，也有着莫名的寂寞。
+《解忧杂货店》是第一次让我有 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/home-assistant-2022/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/home-assistant-2022/ha.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">07-11</div>
+                                <h3 class="card-title">Home Assistant避坑</h3>
+                                
+                                <p class="card-desc">折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/galgame-nora/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/galgame-nora/2022-07-02_14-56-54.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">07-02</div>
+                                <h3 class="card-title">《野良与皇女与流浪猫之心》短评</h3>
+                                
+                                <p class="card-desc">中规中矩，但似乎又少了些什么。</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/anime-86/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/anime-86/2023-08-20.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">06-20</div>
+                                <h3 class="card-title">《86-不存在的战区》短评</h3>
+                                
+                                <p class="card-desc">86战区这部动画，其实我在看前便已得知了结局，所以在看的时候难免少了些“提心吊胆”的感觉。</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/2021/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/2021/banner.webp') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-09</div>
+                                <h3 class="card-title">2021年总结</h3>
+                                
+                                <p class="card-desc">迟来了一个多星期的总结，也并没有更多的内容。
+博客 一共发布了 14 篇文章，比 2019 多了 9 篇。 因为更换域名，所有的收录都已经归零了。 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2021</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/novel-kawaii/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/novel-kawaii/cover.webp') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">12-25</div>
+                                <h3 class="card-title">《快跟超可爱的我交往吧》短评</h3>
+                                
+                                <p class="card-desc">两人的对话是我看过的恋爱轻小说中最好玩的了~</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/655/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">10-02</div>
+                                <h3 class="card-title">掌阅 F1 使用体验</h3>
+                                
+                                <p class="card-desc">因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。
+显示效果 虽然整体来说很不错，但是不得不提的一点是它的屏幕是一块完整的玻璃， …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/657/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">10-02</div>
+                                <h3 class="card-title">《朔与茉莉》摘选</h3>
+                                
+                                <p class="card-desc">在阅读本书时记录的一些不错的句子，主要为环境描写
+我感到了几分空虚，不仅仅是这份寒冷。
+我急匆匆地离开灯火辉煌一片圣诞装扮的车站，向自己的公寓走去。
+随着离城市 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/651/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">09-30</div>
+                                <h3 class="card-title">《解忧杂货店》阅读记录</h3>
+                                
+                                <p class="card-desc">因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。
+9月7日 今天读了六十多页的《解忧杂货店》，一开始因为排版和字体的原因实在有些读不下去，但习惯 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/650/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">09-30</div>
+                                <h3 class="card-title">德业 DYD-612S 除湿机短评</h3>
+                                
+                                <p class="card-desc">为了不让书受潮，所以买了台除湿机回来。
+效果 这款除湿机效果实在是不太理想，在高风模式下也仅能将湿度保持在 60% 上下，但比较意外的是水满的却很快，2.5L的 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/novel-tsurego/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/novel-tsurego/img.png') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">05-25</div>
+                                <h3 class="card-title">《拖油瓶》短评</h3>
+                                
+                                <p class="card-desc">或许是我太急于求成了吧，这种七八卷都还在僵持的轻小说不适合我...</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/comic-masamune/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/comic-masamune/img.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">05-25</div>
+                                <h3 class="card-title">《政宗君的复仇》漫画短评</h3>
+                                
+                                <p class="card-desc">相比于动画的改编，漫画在一些细节部分的处理远胜于动画。</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/607/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">05-01</div>
+                                <h3 class="card-title">坚果 R2 使用体验</h3>
+                                
+                                <p class="card-desc">说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。
+印象最深刻 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/598/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">04-04</div>
+                                <h3 class="card-title">Instantclick无刷新</h3>
+                                
+                                <p class="card-desc">在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下
+instantclick实现无刷新 在footer.php …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/novel-pig/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/novel-pig/img.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-21</div>
+                                <h3 class="card-title">《转生猪公爵》短评</h3>
+                                
+                                <p class="card-desc">这本书我是年初的时候看完的，所以本文内容就是将当时频道里的有感而发连成一篇文章。</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/567/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-07</div>
+                                <h3 class="card-title">三星Buds Pro使用体验</h3>
+                                
+                                <p class="card-desc">最新的三星耳机！
+前言 虽说耳机上个月 25 号就已经拿到了，但还是拖到了现在才把这篇使用体验写出来。
+起因就是之前的海贝 WH3 已经没法再正常使用了，不知道 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/552/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-31</div>
+                                <h3 class="card-title">Nexmoe修改记录</h3>
+                                
+                                <p class="card-desc">就是些随便改的东西啦
+前言 自完成折影大佬的 Nexmoe 主题的部分内容移植后我自己又修改了一些，似乎是效果还不错的缘故，已经有好几位博主表示想要了，故今天把 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/535/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-09</div>
+                                <h3 class="card-title">2020年总结</h3>
+                                
+                                <p class="card-desc">相比上一年的2019总结，感觉能说的事少了很多。 实际上去年只是一时兴起，今年也不过是水篇文章。
+博客 一共发布了 24 篇文章，比 2019 多了 9 篇。  …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2020</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/503/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-05</div>
+                                <h3 class="card-title">海贝WH3使用体验</h3>
+                                
+                                <p class="card-desc">看中音质，图个方便。
+前言 本文并非专业测评，产品不购自海贝官方店铺，仅供参考。 自去年2K整了个氧气耳机之后也算是入了耳机坑，但整体来讲还是个小白，所以本文只 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/497/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-01</div>
+                                <h3 class="card-title">聊聊B站会员购/早划算/魔力赏</h3>
+                                
+                                <p class="card-desc">直接说结论吧，大部分情况下，我并不建议你继续使用会员购。 删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。
+前言 如果 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/488/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">07-29</div>
+                                <h3 class="card-title">为Typecho添加日记功能</h3>
+                                
+                                <p class="card-desc">前言 跟上文一样，给你的主题添加个日记功能，其实也就是用
+&amp;lt;?php if($this-&amp;gt;user-&amp;gt;hasLogin()):?&amp;gt; 来判 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/487/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">07-29</div>
+                                <h3 class="card-title">为Typecho添加说说功能</h3>
+                                
+                                <p class="card-desc">前言 发现这类文章很少有人写，大概是大家都会，只有我觉得很厉害吧（
+自定义字段 说说其实就是文章，只是在主题的首页显示的时候会显示成“说说”的样式，那么也就是需 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/481/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">07-28</div>
+                                <h3 class="card-title">小米手环5使用体验</h3>
+                                
+                                <p class="card-desc">前言 智能手表我已经买了不少了，中兴ZW10，MOTO360一代，三星gear sport以及三星gearS3，其中最让我满意的是ZW10，如果你在18年那会看 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/449/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">06-28</div>
+                                <h3 class="card-title">HOI4打不开的解决方案</h3>
+                                
+                                <p class="card-desc">最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用 最后发现只要改下硬盘的所有者就可以了 具体方法如下： 计算机-右键磁盘-属性-安全-高 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/418/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">05-05</div>
+                                <h3 class="card-title">俺修罗短评</h3>
+                                
+                                <p class="card-desc">由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。
+前言 这部番剧的名字我早有耳闻，但也是迟迟没有去看。 最近想找一些比较甜的番吃狗粮，在看到了白 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/anime-loghorizon/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('https://blog.anhe.one/p/anime-loghorizon/img.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">04-27</div>
+                                <h3 class="card-title">《记录的地平线》安利</h3>
+                                
+                                <p class="card-desc">作为和刀剑、樱花庄同一时期的作品，记录的地平线既没有刀剑般酷炫的打斗，也没有樱花庄精美的画风，在当时已然是一部偏小众的作品，而到了现在显然更不符合潮流了。</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/350/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">04-07</div>
+                                <h3 class="card-title">谈谈网站防御</h3>
+                                
+                                <p class="card-desc">建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。
+从昨天开始，甚至出现了针对我友链的攻击行为，光是我知 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/333/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-30</div>
+                                <h3 class="card-title">Typecho主题案例—Admin主题</h3>
+                                
+                                <p class="card-desc">看起来很难，但实际上手后你才会发现，这一切都很简单。
+扒后台 直接 Ctrl+S 把Typecho的后台扒下来
+主题化 然后在你的 Themes 文件夹内新建一 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/faq/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-25</div>
+                                <h3 class="card-title">Typecho常见问题</h3>
+                                
+                                <p class="card-desc">我会每日更新一下来自百度统计的奇奇怪怪的问题的答案hhhh
+3月25日 typecho 自定义头像、typecho改头像
+答：Typecho本身不支持自定义头 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/261/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-17</div>
+                                <h3 class="card-title">更换Typecho的Gravatar头像源</h3>
+                                
+                                <p class="card-desc">使用官方头像源会拖慢国内的访问速度
+全站修改 在网站根目录下的 config.inc.php 文件，加入以下代码。 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/256/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-16</div>
+                                <h3 class="card-title">博客CDN推荐</h3>
+                                
+                                <p class="card-desc">以下仅为个人意见，带有很多我的主观观点，仅供参考，请以自己的实际体验为准。
+上海云盾 推荐度 ⭐⭐⭐⭐⭐⭐ 墙裂推荐接入上海云盾服务，除了速度稍慢（国 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/302/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-09</div>
+                                <h3 class="card-title">【B站早划算】期望越大，失望越大</h3>
+                                
+                                <p class="card-desc">若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。 不过，在此我需要提醒您，我并不建议您购买B站早划算，虽一开始还算良心，但到如今，早划算已不减免全 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/245/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-09</div>
+                                <h3 class="card-title">Typecho登陆后显示内容</h3>
+                                
+                                <p class="card-desc">硬核实现，只能加在content输出的下方或上方。
+代码 下面这段加在 Post.php 中 content 输出的前面。
+&amp;lt;?php if …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/230/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-29</div>
+                                <h3 class="card-title">浅谈《妄想破绽》</h3>
+                                
+                                <p class="card-desc">玩通四条线后，很想写篇文章吐槽吐槽。
+游戏背景 20XX年，随着科技的不断发展，地球资源逐渐枯竭，政治形势紧张。这时，一家以生物科技起家的新能源公司【瑞恩梅克生 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/228/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-29</div>
+                                <h3 class="card-title">Typecho首页样式</h3>
+                                
+                                <p class="card-desc">基于紫罗兰主题修改，其它主题也可以使用。
+本来是想写个鼠标悬停显示摘要的，但是我又要换回nexmoe了就直接弃坑了hhh 紫罗兰用户 如果你是紫罗兰用户，只需要 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/223/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-26</div>
+                                <h3 class="card-title">坚果Pro3使用体验</h3>
+                                
+                                <p class="card-desc">之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh
+缺点 游戏模式没有适配 例如少女前线
+长截屏不知道截到哪了
+一步3.0无法单独开 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/255/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-23</div>
+                                <h3 class="card-title">Nexmoe移植记录</h3>
+                                
+                                <p class="card-desc">我就是 copy 怪hhh，大部分样式来自 Hexo 版本
+文章归档 所有移植都要从文章归档页面开始说起，看到 Hexo 版本的文章归档页面感觉很好看，于是就开 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/251/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">02-22</div>
+                                <h3 class="card-title">Typecho无插件实现目录</h3>
+                                
+                                <p class="card-desc">对网上的版本进行了个小修改~
+代码 function createCatalog($obj) { $obj = …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/206/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-31</div>
+                                <h3 class="card-title">Typecho快速实现灯箱</h3>
+                                
+                                <p class="card-desc">实现方法和一些注意事项。
+引入jQuery和fancybox P.S 如果已经引入jQuery就不需要了 加入header.php 前
+&amp;lt;link …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/188/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-25</div>
+                                <h3 class="card-title">提升Typecho的访问速度</h3>
+                                
+                                <p class="card-desc">对首屏速度优化的一些经验。
+GZIP压缩 无论是宝塔还是appnode，都自带了gzip压缩这一功能，相对于appnode，前者明显将gzip的设置藏的更深一 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/186/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-25</div>
+                                <h3 class="card-title">Typecho优化</h3>
+                                
+                                <p class="card-desc">从首屏速度到访客体验，总结下这三年从优化到写主题的一些小经验。
+首屏速度 从始至终，我都热衷于让自己的博客首屏速度变的更快，这点，也在我之前的各类优化文章中有所 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/169/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">01-19</div>
+                                <h3 class="card-title">第一次去漫展</h3>
+                                
+                                <p class="card-desc">感觉这是一件有必要记录下来的事（严肃脸
+[PAGE1]
+写在前面 其实一直都很想去漫展啦，但是一直不知道怎么去，多亏了哔哩哔哩会员购才知道怎么买票，去年看到刚好 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2019</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/2019/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">12-31</div>
+                                <h3 class="card-title">再见，2019</h3>
+                                
+                                <p class="card-desc">2019的最后三分钟，愿2020的我能做出些许改变。
+博客 在 2019 年： 我一共发布了 15 篇文章，其中 2 篇因为特殊原因而被删除。 百度收录从 10 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/108/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">12-28</div>
+                                <h3 class="card-title">Magisk模块推荐</h3>
+                                
+                                <p class="card-desc">优化类模块 yc大佬的zram模块（优化运存用的~ 可以在sence工具箱的评论区或者yc大佬的动态里找到
+被需要的模块 这个分类名太硬核了hhh …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/104/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">12-28</div>
+                                <h3 class="card-title">一加5T个人养老方案</h3>
+                                
+                                <p class="card-desc">养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动
+硬件 8G+128G版5T 中电扩容电池（损耗到3000了，过年有意换个新的
+系统 PE …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/102/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">12-28</div>
+                                <h3 class="card-title">Data分区EXT4转F2FS</h3>
+                                
+                                <p class="card-desc">说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦
+注意事项 这里以一加5T的3.3.1REC作为教程基础~请确认您 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/85/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">11-23</div>
+                                <h3 class="card-title">刘步蟾是否倒置了人字阵型？</h3>
+                                
+                                <p class="card-desc">在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/84/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">11-13</div>
+                                <h3 class="card-title">服务器选购指南</h3>
+                                
+                                <p class="card-desc">全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择 2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/82/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">10-19</div>
+                                <h3 class="card-title">主题“简和”正式发布</h3>
+                                
+                                <p class="card-desc">前言 时隔一年，本主题分为极简版和普通版发布。
+简介 简和从两方面贯彻极简风格，一是代码，二是界面；不需要繁杂的设置，更不需要为各种Bug发愁。 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/76/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-03</div>
+                                <h3 class="card-title">侧边栏增加个人介绍</h3>
+                                
+                                <p class="card-desc">本样式基于Violet主题的基础上修改，理论上兼容类似样式的侧边栏，小细节还是需要各位自行修改
+由于本人技术欠佳，本功能是靠着非常沙雕的方式实现的，所以很容易出 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/74/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-14</div>
+                                <h3 class="card-title">网站常见问题解决方案</h3>
+                                
+                                <p class="card-desc">一些常见问题的解决方案，持续更新中（咕咕咕
+我开启了缓存，在博客下评论不显示怎么办？
+使用相关缓存插件配置，如Tpcache，将文章和页面缓存关闭即可。
+我开启 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/72/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-11</div>
+                                <h3 class="card-title">什么是适合自己的服务器？</h3>
+                                
+                                <p class="card-desc">注意 阅读本文前，请您注意以下几点:
+本文并非专业推荐，纯属个人见解。 本人对此没有什么研究，可能会出现误导新人的情况我将在发现错误后立即纠正。 前言 其实一开 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/63/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-10</div>
+                                <h3 class="card-title">玩机达到极致省电</h3>
+                                
+                                <p class="card-desc">碎碎念 说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="archive-year">
+            <h2 class="year-title">2018</h2>
+            <div class="archive-posts">
+                
+                <div class="archive-card">
+                    <a href="/p/14/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">10-21</div>
+                                <h3 class="card-title">主题“简和”开发日志</h3>
+                                
+                                <p class="card-desc"> 10月24日 持续摸鱼中#学业紧张 我才没有开少女前线的坑
+11月17日凌晨 主题正式宣告..停更 极简版将在完善后月底发布 10月15日 Beta0.1 完 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/13/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">09-24</div>
+                                <h3 class="card-title">Typecho优化【主题】</h3>
+                                
+                                <p class="card-desc">更新频率变慢..提高文章质量，详情请看上篇公告，本文整合最简洁的主题优化方式，简短干货，上篇优化文章太多太长了..有酷友说太乱了
+DNS预解析 在主题文件中 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/11/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">09-01</div>
+                                <h3 class="card-title">Typecho全站启用HTTPS</h3>
+                                
+                                <p class="card-desc">前戏 因为我自己用的谷歌浏览器..每次都看到博客前面不安全三个字有点难受..于是就去七牛弄了个免费的SSL证书，又去又拍云强制了https访问，但访问时却发现并 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/9/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-27</div>
+                                <h3 class="card-title">如何正确食用应用管理XP？</h3>
+                                
+                                <p class="card-desc">前戏 用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能
+回顾 本文内容同样适用于“省电”这一话题，但没有心思 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/8/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-26</div>
+                                <h3 class="card-title">Xposed会影响性能及耗电？</h3>
+                                
+                                <p class="card-desc">前戏 我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/7/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-24</div>
+                                <h3 class="card-title">入手的第一款Galgame</h3>
+                                
+                                <p class="card-desc">起因 2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/6/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-22</div>
+                                <h3 class="card-title">MacOS丢失管理员权限</h3>
+                                
+                                <p class="card-desc">因为自己想改个用户名..结果改了之后就失去管理权限了,所以找了以下两个办法来恢复 P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法
+若您是双系 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/4/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-22</div>
+                                <h3 class="card-title">在Linux下刷入Rec</h3>
+                                
+                                <p class="card-desc">因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧
+前戏 1.手机已解锁
+2.Linux …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/3/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-22</div>
+                                <h3 class="card-title">没有Root如何达到省电效果?</h3>
+                                
+                                <p class="card-desc">在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧
+本人小白，若有错误望大佬指出
+1.系统自带 尽管效果很差，但也没办 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/lg1/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">08-22</div>
+                                <h3 class="card-title">LG G5韩版发热解決方案</h3>
+                                
+                                <p class="card-desc">lg g5韩版日常发热解决方案
+韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？
+摸索了一个多月 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="archive-card">
+                    <a href="/p/1/" class="card-link">
+                        <div class="card-image">
+                            
+                            <div class="image-bg" style="background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div class="card-overlay">
+                                <div class="card-date">03-10</div>
+                                <h3 class="card-title">如何解决耗电崩的问题？</h3>
+                                
+                                <p class="card-desc">设备要求: 1.已Root
+2.已安装XP框架
+(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以 …</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    <div class="footer-card">
+        <div class="footer-content">
+            <span class="site-name">安和Blog</span>
+            <span class="divider">·</span>
+            <span class="copyright">© 2025</span>
+            <span class="divider">·</span>
+            <span class="theme-info">Theme by JianHe</span>
+            <span class="divider">·</span>
+            <span class="built-info">Built with Hugo</span>
+            
+            <span class="divider">·</span>
+            <span class="runtime" id="runtime"></span>
+            
+            
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.staticfile.org/lazysizes/5.2.0/lazysizes.min.js"></script> 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages = document.getElementsByClassName("lazyload");
+    for (var i = 0; i < lazyloadImages.length; i++) {
+        lazyloadImages[i].style.opacity = "1";
+    }
+
+    function updateRuntime() {
+        var runtimeElement = document.getElementById('runtime');
+        if (runtimeElement) {
+            var startTime = new Date('2017-06-30');
+            var currentTime = new Date();
+            var timeDiff = currentTime - startTime;
+            
+            var years = Math.floor(timeDiff / (365 * 24 * 60 * 60 * 1000));
+            var days = Math.floor((timeDiff % (365 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+            
+            runtimeElement.textContent = `本站已运行 ${years}年${days}天`;
+        }
+    }
+    
+    if (document.getElementById('runtime')) {
+        updateRuntime();
+        setInterval(updateRuntime, 86400000); 
+    }
+});
+</script>
+
+<style>
+footer {
+    padding: 1rem 0;
+    background-color: #262525;
+}
+
+.footer-card {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.divider {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.site-name {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.built-info, .runtime, .theme-info, .copyright {
+    color: rgba(255, 255, 255, 0.71) !important;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .divider {
+        display: none;
+    }
+}
+</style> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html> 

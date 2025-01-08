@@ -1,156 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>闲聊 on 安和Blog</title>
-        <link>https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/</link>
-        <description>Recent content in 闲聊 on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Tue, 07 Apr 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>谈谈网站防御</title>
-        <link>https://blog.anhe.one/p/350/</link>
-        <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/350/</guid>
-        <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;
-&lt;p&gt;从昨天开始，甚至出现了针对我友链的攻击行为，光是我知道的就有两位。&lt;/p&gt;
-&lt;p&gt;还有小柠也被从我站友链过去的打了，真是绝了。
-一开始本来是开玩笑（ 在群里各种发链接 结果真来个大佬给我打爆了（（（&lt;/p&gt;
-&lt;p&gt;[PIC2]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-29-33.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;CF&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-26-58.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;又拍云&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC2]&lt;/p&gt;
-&lt;p&gt;还有一个是加速乐的，由于没有洗掉CC攻击，直接跑了200G流量（我记得有几亿次请求）&lt;/p&gt;
-&lt;h2 id=&#34;防御什么&#34;&gt;防御什么？&lt;/h2&gt;
-&lt;p&gt;目前比较常见的就是CC&amp;amp;DDOS攻击，Typecho的话是有17年那次版本更新出来的install漏洞，把install文件夹和install.php删掉就好了。&lt;/p&gt;
-&lt;h2 id=&#34;ddos&#34;&gt;DDOS&lt;/h2&gt;
-&lt;p&gt;由于我遭到的大部分都是CC攻击（16号的时候被D了一次，直接进黑洞一个上午），这里就不过多赘述了，只要记住保护好本机IP就不会被打，最方便的就是往上面套个CDN。
-P.S 要注意不要设置默认站点，不然有几率会被谷歌收录，或者被爪巴出来。&lt;/p&gt;
-&lt;h2 id=&#34;cc&#34;&gt;CC&lt;/h2&gt;
-&lt;p&gt;最简单的方法就是套个CDN，比如又拍云、腾讯云、Cloudflare&lt;/p&gt;
-&lt;h3 id=&#34;又拍云&#34;&gt;又拍云&lt;/h3&gt;
-&lt;p&gt;&lt;del&gt;我在又拍云的防御设置如下&lt;/del&gt;&lt;/p&gt;
-&lt;h4 id=&#34;亲亲这边建议赶紧搬离又拍云&#34;&gt;亲亲，这边建议赶紧搬离又拍云&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;至于为什么？又拍云屏蔽IP后会使用HTTPS返回一个403状态码，而返回状态码消耗的流量和HTTPS加速的次数的费用是要由你来支付的，所以，只要人家一直刷（根本不需要什么成本，几块钱的学生机都可以刷），除非你把加速服务关了，不然你就等着余额欠费吧。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;[PIC2]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-36-41.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;IP限制&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-36-31.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;CC防护&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC2]&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;其实关于防御，大部分设置都是在访问控制那个标签下完成的，如果没有特殊需求的话直接把除了中国大陆的IP全部拉黑了就行。&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-38-40.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;地区控制&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;P.S 拉黑地区以自己为准&lt;/del&gt;&lt;/p&gt;
-&lt;h3 id=&#34;腾讯云&#34;&gt;腾讯云&lt;/h3&gt;
-&lt;p&gt;腾讯云的话把那个IP访问限制设置个2秒5次就差不多了，要是静态资源过多的话就设置大点吧，请求静态资源也算在里边的&lt;/p&gt;
-&lt;h3 id=&#34;cloudflare&#34;&gt;CloudFlare&lt;/h3&gt;
-&lt;p&gt;CF最出名的就是它的五秒盾，但是我昨天被打的时候开了也没什么用（
-还是一样的，推荐从第三方接入，防火墙CC策略如下&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;规则ID：e536cd598ad1448189d65684a4965c6e 命名：屏蔽访问(屏蔽访问),权重:1:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;规则：(http.request.full_uri contains &amp;#34;域名&amp;#34; and not ip.geoip.country in {&amp;#34;CN&amp;#34; &amp;#34;IT&amp;#34;})
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;3&lt;/span&gt;&lt;span&gt;后边的国家简称就是允许访问的国家
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-43-31.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;页面规则&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;P.S我自己不太懂这个设置怎么样（ 以自己为准吧&lt;/p&gt;
-&lt;p&gt;然后是自动开盾，下载脚本之后用计划任务每分钟执行一次就行，当负载到100时自动开五秒盾。&lt;/p&gt;
-&lt;h3 id=&#34;本机防御&#34;&gt;本机防御&lt;/h3&gt;
-&lt;p&gt;最后还是提一嘴本机上的设置吧，如果实在套不了CDN也请设置下本机的防火墙；
-APPNODE的加强模式我的配置如下&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-46-49.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;设置&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;如果开了CDN这里就不要开了，不然会拉黑回源的节点IP的。&lt;/p&gt;
-&lt;p&gt;然后就是白名单的设置，建议把蜘蛛白名单也去掉，我之前在群里被人用本地CC打死，就是因为给了百度蜘蛛白名单&amp;hellip;&lt;/p&gt;
-&lt;p&gt;宝塔这个防火墙做的很好，就是收费，勾上CDN就不用怕拉黑节点IP这种尴尬的事情了（&lt;/p&gt;
-&lt;h3 id=&#34;代码防护&#34;&gt;代码防护&lt;/h3&gt;
-&lt;p&gt;这个实在是&amp;hellip;下下策&amp;hellip;
-就是通过PHP判定刷新频率，过快就重定向到其它网站，或者显示刷新过快，过会再访问&amp;hellip;
-看起来比较有用的是这段，代理IP自动退出&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#c678dd&#34;&gt;empty&lt;/span&gt;(&lt;span style=&#34;color:#e06c75&#34;&gt;$_SERVER&lt;/span&gt;[&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;HTTP_VIA&amp;#39;&lt;/span&gt;])&lt;span style=&#34;color:#c678dd&#34;&gt;or&lt;/span&gt; &lt;span style=&#34;color:#c678dd&#34;&gt;exit&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;Access Denied&amp;#39;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;具体效果..我也不清楚，要完整的代码就直接去百度找吧 关键词 PHP防CC&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;我也真的是无语了&amp;hellip;.在刚刚写文时，我又被打了两次&amp;hellip;.&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/post/Snipaste_2020-04-07_15-52-53.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;无语&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;要不是有自动保存，我估计这篇文章各位也看不到了。
-我追求的是用最低的成本防御住攻击，所以CF和又拍云的代金券当然就是首选了，就我目前来看，我个人觉得又拍云的防御效果最好。
-最后还是那句因人而异，因机而异吧，配置够高你裸奔其实都没关系hhh 像我们这种1H2G还是得套个CDN啊&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>闲聊 on 安和Blog</title>
+    <link>https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/</link>
+    <description>Recent content in 闲聊 on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Tue, 07 Apr 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谈谈网站防御</title>
+      <link>https://blog.anhe.one/p/350/</link>
+      <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/350/</guid>
+      <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

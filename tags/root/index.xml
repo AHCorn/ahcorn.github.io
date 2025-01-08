@@ -1,94 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Root on 安和Blog</title>
-        <link>https://blog.anhe.one/tags/root/</link>
-        <description>Recent content in Root on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Sun, 26 Aug 2018 16:47:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/root/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Xposed会影响性能及耗电？</title>
-        <link>https://blog.anhe.one/p/8/</link>
-        <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/8/</guid>
-        <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
+  <channel>
+    <title>Root on 安和Blog</title>
+    <link>https://blog.anhe.one/tags/root/</link>
+    <description>Recent content in Root on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Sun, 26 Aug 2018 16:47:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/root/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xposed会影响性能及耗电？</title>
+      <link>https://blog.anhe.one/p/8/</link>
+      <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/8/</guid>
+      <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
-下面是我简单的分析及我个人对是否使用XP的看法&lt;/p&gt;
-&lt;h2 id=&#34;原因分析&#34;&gt;原因分析&lt;/h2&gt;
-&lt;p&gt;为什么每个用户给出的答案都不一样？
-因为每个人所使用的模块都不同，XP框架本身的占用资源不算多，而模块才是万恶之源，如重力工具箱等这种hook systemui的模块会明显导致系统反应缓慢，耗电也会随之增加
-但我们却在关于省电那篇文章中提到了使用XP模块(ó﹏ò｡)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://ahblog.net/index.php/archives/1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;如何解决耗电崩的问题？&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如上面所说，框架本身占用资源很少，安装了应用管理器，应用管理XP这类的模块后会让系统变慢，增加耗电吗？
-答案是不会，占用资源是事实 而我们使用它们压制毒瘤唤醒/自启动等所节省下来的资源远远比它们占用的要少&lt;/p&gt;
-&lt;p&gt;那么问题来了，既然如此，我们是不是可以一直依赖XP框架呢？去掉有些系统不支持XP的因素外，刷入XP后会明显导致开机变慢的情况发生，而运行需要某个模块支持的应用时会导致软件打开时间变长..但是如果是原生系统，那就很有必要使用框架了，例如凤凰OS，一晚上疯狂掉电..使用框架后反而更加省电@(真棒)&lt;/p&gt;
-&lt;p&gt;但就我个人而言的话，XP功能虽然强大，但是会导致很多兼容性的问题，例如应用闪退，以及前一段时间的微信大规模封XP用户的事情，对于一些“性能过剩”的手机来说，XP框架所占用的资源根本不足一提，但还是有些人的手机性能不足&amp;hellip;也有些功能可以使用magisk模块来实现@(滑稽)&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;好了..扯了这么多了 说结论吧
-对于一些原生 “性能过剩”的手机来说可以使用XP框架解决毒瘤的问题
-而其它的也可以通过XP框架来压制毒瘤 就我个人来说我推荐使用XP框架 但是没有需要的话不推荐使用如重力工具箱这样的模块，单纯的使用应用控制器来看，安XP框架的利是肯定大于弊的
-至于解决方案..是不存在那种完美解决的方案的，可以尝试使用空log文件替换xp的日志文件和少安装增加耗电的模块即可
-最后呢，还是我那句话
-因人而异 因机而异 你所使用的体验可能和别人完全不同 也没有必要去跟别人吵..毕竟..因人而异 因机而异嘛|´・ω・)ノ&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文内容综合本人实际体验及酷安用户回复所写 若有不足请大佬指出.
-&lt;img src=&#34;http://fly.ahblog.net/xp.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-        </item>
-        <item>
-        <title>如何解决耗电崩的问题？</title>
-        <link>https://blog.anhe.one/p/1/</link>
-        <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/1/</guid>
-        <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
+下面是我简单的分析及我个人对是否使用XP的看法&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何解决耗电崩的问题？</title>
+      <link>https://blog.anhe.one/p/1/</link>
+      <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/1/</guid>
+      <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;
-&lt;p&gt;(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以参考)&lt;/p&gt;
-&lt;h2 id=&#34;1冻结毒瘤&#34;&gt;1.冻结毒瘤&lt;/h2&gt;
-&lt;p&gt;从QQ浏览器到QQ到微信，每个都是毒瘤，一不小心打开耗电列表..妈耶..每次都是微信第一..就算不是用的QQ浏览器等也紧随其后&lt;/p&gt;
-&lt;p&gt;那么.首推的就是冰箱App 可在coolapk(酷安)上下载 除了微信以外的毒瘤就可以禁掉了.&lt;/p&gt;
-&lt;p&gt;(不要把所有的应用放进去，每次启动应用都要调用冰箱和某app的话，反而会更加耗电)&lt;/p&gt;
-&lt;h2 id=&#34;2应用控制器&#34;&gt;2.应用控制器&lt;/h2&gt;
-&lt;p&gt;这无疑就是神器了啊，启用后把除了通讯软件的唤醒锁禁掉，锁屏后基本就0耗电了(我把微信QQ也禁了…不过我打开的很频繁也不怕漏收了)强制打盹这些我个人也不是很清楚，个人感觉使用后可能..耗电更大？望大佬指点&lt;/p&gt;
-&lt;h2 id=&#34;3系统问题&#34;&gt;3.系统问题&lt;/h2&gt;
-&lt;p&gt;各种臃肿的系统无疑是罪魁祸首，自带一堆软件，一堆没有必要的设置，这个时候就需要一个新的系统来取代了 (每个手机都有各自的包，在这里也不能多做评价&lt;/p&gt;
-&lt;p&gt;如果是一加五T的话第三方推荐Los15.1 官改推荐DK&lt;/p&gt;
-&lt;h2 id=&#34;4内核问题&#34;&gt;4.内核问题&lt;/h2&gt;
-&lt;p&gt;一个好的内核决定了你的耗电，有的是超频内核，而有的可以降频，用Ex内核降到最低还是很舒服可以用的，这里又来了 每款手机都有各自支持的内核 同样的一加五T推荐blu内核 ex内核 flash内核 但是最新版本已经不支持flash内核了…所以可以选择老一点的版本？取决于各位自己&lt;/p&gt;
-&lt;h2 id=&#34;5内核调校&#34;&gt;5.内核调校&lt;/h2&gt;
-&lt;p&gt;内核调校，在酷安中也可以找到，然后就是Yc大佬的调校可谓是神奇，可以说是十分省电了，各位可以选择自己相应的CPU型号去下载，也有不少工具箱支持了Yc打开的调校，并且在评论区也有卡刷包&lt;/p&gt;
-&lt;p&gt;我这里是一直在用yc0603 835的调度的&lt;/p&gt;
-&lt;h2 id=&#34;6通讯软件&#34;&gt;6.通讯软件&lt;/h2&gt;
-&lt;p&gt;这可能是耗电量最大的了，但是却又不能限制它的后台行为(虽然我对这个没感觉已经禁用了)但还是会有人需要用到的对吧，于是可以使用到应用管理XP，打开gcm代收，刷了全家桶之后从商店安装谷歌版的微信即可，记得登录 若有不懂可以在下方评论或者在酷安评论区提问&lt;/p&gt;
-&lt;h2 id=&#34;方案二&#34;&gt;方案二&lt;/h2&gt;
-&lt;p&gt;小米系统级推送 用magisk模块来实现伪装小米机型 注册应用成功后即可使用&lt;/p&gt;
-&lt;h2 id=&#34;7电池问题&#34;&gt;7.电池问题&lt;/h2&gt;
-&lt;p&gt;这个就没办法啦 大部分都是淘宝50-60包邮的，不过还是推荐去网点更换 就算要钱也是有个保障 自己弄坏了岂不是要哭一年啊&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;不过说到底，还是那句话，少装应用，省电还是靠关机。
-&lt;img src=&#34;http://fly.ahblog.net/sd.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
+&lt;p&gt;(若不满足其中一个条件可以继续往下看，若是非root用户请参考上一篇LG G5韩版日常发热解决方案，部分内容可以参考)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

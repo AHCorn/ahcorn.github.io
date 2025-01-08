@@ -1,1353 +1,225 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>闲聊杂谈 on 安和Blog</title>
-        <link>https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
-        <description>Recent content in 闲聊杂谈 on 安和Blog</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>安和</copyright>
-        <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2023年度总结</title>
-        <link>https://blog.anhe.one/p/2023/</link>
-        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/2023/</guid>
-        <description>&lt;img src="https://blog.anhe.one/p/2023/Cover.jpg" alt="Featured image of post 2023年度总结" /&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;music.css&#34;&gt;
-&lt;style&gt;
-.table-wrapper {
-    margin-left: calc((var(--card-padding)) * -1)!important;
-    margin-right: calc((var(--card-padding)) * -1)!important;
-    width: calc(100% + var(--card-padding) * 2)!important;
-    }
-.article-content th, .article-content td {
-    padding: 2px!important;
-    border: none!important;
-}
-&lt;/style&gt;
-&lt;div music Title=&#34;明日への旅路（明日的旅途）&#34; Img=&#34;music.jpg&#34; File=&#34;明日への旅路.mp3&#34;&gt;&lt;/div&gt;
-&lt;p&gt;2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。&lt;/p&gt;
-&lt;p&gt;至于为什么一月九号才写年终总结&amp;hellip;以前或许是因为这个时候才想起来，今年就是纯粹因为看到前几年都是一月九号发年终总结，就干脆以后都这个点儿发了。&lt;/p&gt;
-&lt;p&gt;今天其实都天黑了才想起来，或者说下午才起床的我到现在才有空写这个年终总结。&lt;/p&gt;
-&lt;p&gt;不过倒也可以等明天写完了我把日期改成今天发布的，但现在用的 Github pages 有提交记录（&lt;/p&gt;
-&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
-&lt;p&gt;卖了域名也没了服务器，现在虽然有个服务器来着，但就是用来搭个数据库的，没备案域名也是没什么用。&lt;/p&gt;
-&lt;p&gt;换了 Hugo 之后发了几篇？公告算文章吗？好，决定了，算上公告和年终总结，今年我们发布了两篇文章！&lt;/p&gt;
-&lt;p&gt;比 2022 年少发布了 2 篇&amp;hellip;才两篇吗？我 2022 算上我后来补的那些观后感原来才 4 篇啊。（蚌&lt;/p&gt;
-&lt;p&gt;评论的话，都丢了，说到这个我想起来我有不少文章都丢了，回头再整吧。&lt;/p&gt;
-&lt;p&gt;这个 Hugo 还是需要本地 Go 环境去构建然后再提交到 GitHub，所以倒也没那么方便啊，这也是为什么说好了要多多更新结果一直不更新的原因（确信&lt;/p&gt;
-&lt;p&gt;或许将来还是会回到 Typecho ？&lt;/p&gt;
-&lt;h2 id=&#34;学业&#34;&gt;学业&lt;/h2&gt;
-&lt;p&gt;今年就是完整的度过了大学两个学期了，上学期的话挂了离散数学和高等数学，意料之中，只是今年需要重修了，也还是一点都不会。&lt;/p&gt;
-&lt;p&gt;什么C语言暑假班，面向对象程序设计？对不起，真不熟，考完就丢到一边去了，课程安排的还是有些问题的。&lt;/p&gt;
-&lt;p&gt;我不知道行为学分这种东西有什么意义&amp;hellip;.给 70 分初始，然后大头还是靠宿舍加分，纳入绩点，对于我这种没选好宿舍的来说还是有些头痛的。&lt;/p&gt;
-&lt;p&gt;大二的这个学期虽然分还没出完，但整体做的还不错的，除了工作室没报上以外，成绩都很满意。&lt;/p&gt;
-&lt;p&gt;大体都在八九十分，绩点也蹭蹭涨了 0.2，平均分也涨了很多，如果这学期大排名我估计都能排到中间靠前了。&lt;/p&gt;
-&lt;p&gt;不过似乎大部分人期末分都挺高的，听说至少有六七十个人在作弊，分出来六个群，一个专业一个年级才几个人啊&amp;hellip;&lt;/p&gt;
-&lt;p&gt;平稳考完后的最后一科物理我本来也想藏手机的，说是良心发现倒不如说是害怕被发现的后果，所以最后依然被迫保住了我的良心（&lt;/p&gt;
-&lt;p&gt;上学期挂的那两科都是坐在老师不想逛的最后一排，但依旧是盯着白卷发呆，以至于到后面暑假实训的时候被搭话问看到我交白卷，是不是挂科了的时候，我还会反问回去是不是他也挂了，结果得到的答复是 “我有手机啊”&lt;/p&gt;
-&lt;p&gt;我不知道我这样的选择到底是不是对的，毕竟大学成绩，真的就是只看你最终的成绩罢了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/1.png&#34;
-	width=&#34;512&#34;
-	height=&#34;512&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/1_hu7125d34b835b91048c3990c61d6e372c_167359_480x0_resize_box_3.png 480w, https://blog.anhe.one/p/2023/1_hu7125d34b835b91048c3990c61d6e372c_167359_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;我想有颗清白的良心&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;100&#34;
-		data-flex-basis=&#34;240px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;小插曲&#34;&gt;小插曲&lt;/h2&gt;
-&lt;p&gt;写到这里我去看除了学业还要写什么的时候，我发现我的 2022 年终总结在转移数据库的时候被我弄丢了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;然后我在&lt;a class=&#34;link&#34; href=&#34;https://github.com/saveweb/review-2022&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这个 Github 项目&lt;/a&gt;里居然找到了我之前文章的存档，惊讶之余表示下感谢。&lt;/p&gt;
-&lt;p&gt;我又发现我之前是 2023 年 1 月 7 号写的总结，呃呃呃，咋办，篡改下时间吧，反正年终总结是几号发的，也无所谓&amp;hellip;对吧？&lt;/p&gt;
-&lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
-&lt;p&gt;说到底把阅读加入我的年终总结是不是有些多此一举？看小说也能算阅读吗！（暴论&lt;/p&gt;
-&lt;p&gt;今年，小说都懒得看了，图书馆也没去，一本也没借，漫画也没怎么看，大家有什么推荐的吗？&lt;/p&gt;
-&lt;h2 id=&#34;数码&#34;&gt;数码&lt;/h2&gt;
-&lt;p&gt;这一部分我其实想单独写一篇文章分享下，所以这里就大概想到什么说什么吧~&lt;/p&gt;
-&lt;p&gt;从 SE3 又来到了红米 Note 13 Pro+，但说好的 IP69 防水，结果一入冬，摄像头就起雾而且散不掉了，上课扫码都费劲，于是只能找找下家。&lt;/p&gt;
-&lt;p&gt;逛的时候发现了 Flyme 似乎口碑很好，于是想买个 12Turbo 刷 Flyme 了，结果被闲鱼贩子卖家耍了，卖给我还重新上架，退款还让我等 24 小时自动退款。&lt;/p&gt;
-&lt;p&gt;最后直接买了个魅族 20 pro，拿到手的时候觉得，体验真棒，质感真好，用了半个月又觉得，Flyme 怎么还不如 MIUI，这系统稳定性认真的吗？这续航配的上这电池吗？顺带一提，不知道为什么我魅族一到，红米就突然自己复活了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;买了个 Watch SE，卖了，买了个三星 Scr 01，卖了，买了个海信 Touch lite，正准备卖了，Apple Pencil 算是卖了，换了支不好用的杂牌笔。&lt;/p&gt;
-&lt;p&gt;最后还是决定重回苹果生态，不过我觉得不应该在这里展开来讲的，应该单独出个文章讲讲使用苹果和安卓我这两年的感受。&lt;/p&gt;
-&lt;p&gt;平板多了个联想的，说实话，Mini6 的使用率完全不如联想，在 Ipad 上，只要你不学习，苹果生态永远比不上安卓生态带给你的快乐，光一个存储空间的价格和看漫画和小说软件的覆盖上，安卓已经赢太多了。&lt;/p&gt;
-&lt;p&gt;电脑多了一个 Mac Mini，一个 ITX 主机，还有继杂牌显示器坏了以后的新杂牌显示器。&lt;/p&gt;
-&lt;p&gt;还有个软路由来着，这个我愿称之为 2023 最佳数码单品，400 块的价格，光是给我挂机赚的京豆都有好几十了，更别提 Arm 架构轻巧便携，我直接抱着来回走；旁路由网关分流，在家根本不需要各种软件就能助我与国际接轨。&lt;/p&gt;
-&lt;h2 id=&#34;游戏&#34;&gt;游戏&lt;/h2&gt;
-&lt;p&gt;哇哦，今年居然会写游戏这么不正经的东西（捧读&lt;/p&gt;
-&lt;p&gt;火山的女儿应该是 23 年玩的，很棒，5个小时通关，画风好是我玩下去的最大动力。&lt;/p&gt;
-&lt;p&gt;尤其要提的是八方旅人 2，在阿根廷区离我而去的几天前，我买了这款游戏，随后玩了 60 多个小时。&lt;/p&gt;
-&lt;p&gt;真的很好玩，好玩到我回家带不了电脑都会觉得很可惜，回到学校又立马打开开始玩的程度。&lt;/p&gt;
-&lt;p&gt;因为这个游戏我都想买 Switch 了，然后发现没有看得上的游戏，大部分都是 Steam 有，而且我还买了的。&lt;/p&gt;
-&lt;p&gt;回归了明日方舟和碧蓝航线，也就是每天打个卡的程度，完全不想多花时间玩。&lt;/p&gt;
-&lt;h2 id=&#34;应用年度报告&#34;&gt;应用年度报告&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_6_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_6_2024-01-09_21-35-18_hub7d1cb943dde73e46b461f39338ede1f_120759_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_6_2024-01-09_21-35-18_hub7d1cb943dde73e46b461f39338ede1f_120759_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;B站&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/th&gt;
-&lt;th&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_4_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_4_2024-01-09_21-35-18_hu6ece4af879424ab46c6282ad3cc75683_95666_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_4_2024-01-09_21-35-18_hu6ece4af879424ab46c6282ad3cc75683_95666_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;B站&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/th&gt;
-&lt;th&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_5_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_5_2024-01-09_21-35-18_hu5839093177095855258fae7fcc4b34fe_100844_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_5_2024-01-09_21-35-18_hu5839093177095855258fae7fcc4b34fe_100844_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;B站&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-18_hu0b682493c4559d77adf4f7241d0f04e6_110601_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-18_hu0b682493c4559d77adf4f7241d0f04e6_110601_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;B站&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-18_hu6fb10ce32cdd331d2f40d3e669255d2e_62800_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-18_hu6fb10ce32cdd331d2f40d3e669255d2e_62800_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-23.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-23_hu9ff5f71ebefadb0070df5f037df276e0_45717_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-23_hu9ff5f71ebefadb0070df5f037df276e0_45717_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-23.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-23_hu91f7ff2092f336e127cb3fbf846e6e62_65424_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_2_2024-01-09_21-35-23_hu91f7ff2092f336e127cb3fbf846e6e62_65424_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-23.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-23_hu16423923d495d823838e010990105833_44565_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_3_2024-01-09_21-35-23_hu16423923d495d823838e010990105833_44565_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_7_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_7_2024-01-09_21-35-18_hue6779a7e2a3b350533fd0d839c088af8_58015_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_7_2024-01-09_21-35-18_hue6779a7e2a3b350533fd0d839c088af8_58015_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_8_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_8_2024-01-09_21-35-18_hufe89676eb419717c8fd4af1a33fe5a02_73964_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_8_2024-01-09_21-35-18_hufe89676eb419717c8fd4af1a33fe5a02_73964_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_2024-01-09_22-17-41.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_2024-01-09_22-17-41_hu06ca9e19056d5a9b48385bc491ab56cc_84998_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_2024-01-09_22-17-41_hu06ca9e19056d5a9b48385bc491ab56cc_84998_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-18.jpg&#34;
-	width=&#34;591&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-18_hu57e0cc57cbf2102e6bc15eb4dc52dab8_97849_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_1_2024-01-09_21-35-18_hu57e0cc57cbf2102e6bc15eb4dc52dab8_97849_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;网易&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;46&#34;
-		data-flex-basis=&#34;110px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;随手拍&#34;&gt;随手拍&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_23-26-41.jpg&#34;
-	width=&#34;960&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_3_2024-01-09_23-26-41_hu05e8690a8ee0a9ef1b08d2cc57f3c453_359776_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_3_2024-01-09_23-26-41_hu05e8690a8ee0a9ef1b08d2cc57f3c453_359776_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;花&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;75&#34;
-		data-flex-basis=&#34;180px&#34;
-	
-&gt;&lt;/th&gt;
-&lt;th&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_5_2024-01-09_23-26-41.jpg&#34;
-	width=&#34;960&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_5_2024-01-09_23-26-41_huc52cd367d9c4ea12177eb13efceed214_172170_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_5_2024-01-09_23-26-41_huc52cd367d9c4ea12177eb13efceed214_172170_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;花&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;75&#34;
-		data-flex-basis=&#34;180px&#34;
-	
-&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_23-26-41.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;960&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_2_2024-01-09_23-26-41_hu292f7bec8d077f86fb8c589e4cdd5303_158952_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_2_2024-01-09_23-26-41_hu292f7bec8d077f86fb8c589e4cdd5303_158952_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;东直门&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;133&#34;
-		data-flex-basis=&#34;320px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_23-26-41.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;960&#34;
-	srcset=&#34;https://blog.anhe.one/p/2023/photo_1_2024-01-09_23-26-41_hu629a5c39d0a82072657a7542d52fbfea_200947_480x0_resize_q75_box.jpg 480w, https://blog.anhe.one/p/2023/photo_1_2024-01-09_23-26-41_hu629a5c39d0a82072657a7542d52fbfea_200947_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;东直门&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;133&#34;
-		data-flex-basis=&#34;320px&#34;
-	
-&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
-&lt;p&gt;今年真是写的最丰富的一次年终总结，但也不是因为我过的很精彩，应该是因为可以在博客里面随心所欲的加图片了罢（&lt;/p&gt;
-&lt;p&gt;2023 虽然不是很满意，但人总归是要向前看的，是要乐观的向前走的。&lt;/p&gt;
-&lt;p&gt;技术方面我不抱期望，但必须要动手做些什么了，不然毕业也即失业。&lt;/p&gt;
-&lt;p&gt;学业方面，补上落下的，跟上现有的，争取未来的，不然该怎么毕业呢？&lt;/p&gt;
-&lt;p&gt;乐观些，阳光些，健康些！死气沉沉的，对谁有好处呢？&lt;/p&gt;
-&lt;video width=&#34;100%&#34; height=&#34;30%&#34; controls&gt;
-    &lt;source src=&#34;2024.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    这是一个视频~
-&lt;/video&gt;
-&lt;p&gt;新的一年，愿真的是新的开始吧，拾起过去的激情，找到奋斗的目标吧！&lt;/p&gt;
-&lt;script src=&#34;music.js&#34;&gt;&lt;/script&gt;
-</description>
-        </item>
-        <item>
-        <title>Home Assistant避坑</title>
-        <link>https://blog.anhe.one/p/688/</link>
-        <pubDate>Mon, 11 Jul 2022 17:32:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/688/</guid>
-        <description>&lt;p&gt;折腾了两天，搭建Home Assistant时还是有不少地方踩坑。
-官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker for mac并不支持host模式，也就是安装之后不能被局域网内扫描到，所以安装教程依赖于原生docker的教程都不是针对要使用homekit组件的。
-选择虚拟机的与Mac共享网络没法连接到ssh，可能是和Mac有冲突，所以选择了WiFi模式，在局域网下新建一个设备，然后路由器设置下Mac地址和IP绑定即可。
-虚拟机下安装后第一次启动会等很久，但启动之后也并没有消息提示，所以没反应可能只是启动完成了。
-配置文件目录在/home/homeassistant/.homeassistant 是一个隐藏文件夹，一开始可能会找不到地方。&lt;/p&gt;
-&lt;h2 id=&#34;官方安装文档&#34;&gt;官方安装文档&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.home-assistant.io/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.home-assistant.io/installation/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;可能需要的指令&#34;&gt;可能需要的指令&lt;/h2&gt;
-&lt;p&gt;默认的源下载很慢，可以切换到国内镜像
-&lt;a class=&#34;link&#34; href=&#34;https://mirrors.tuna.tsinghua.edu.cn/help/pypi/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;清华大学镜像站 配置指南&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;临时使用&#34;&gt;临时使用&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;注意，simple 不能少, 是 https 而不是 http&lt;/p&gt;
-&lt;h2 id=&#34;设为默认&#34;&gt;设为默认&lt;/h2&gt;
-&lt;p&gt;升级 pip 到最新的版本 (&amp;gt;=10.0.0) 后进行配置：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;python -m pip install --upgrade pip
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果您到 pip 默认源的网络连接较差，临时使用本镜像站来升级 pip：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;临时设置http代理https代理&#34;&gt;临时设置http代理/https代理&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;export http_proxy=http://ip:port
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;export https_proxy=http://ip:port
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;关闭代理&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&lt;/span&gt;&lt;span&gt;unset http_proxy
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&lt;/span&gt;&lt;span&gt;unset https_proxy
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>2021年总结</title>
-        <link>https://blog.anhe.one/p/672/</link>
-        <pubDate>Sun, 09 Jan 2022 17:01:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/672/</guid>
-        <description>&lt;p&gt;迟来了一个多星期的总结，也并没有更多的内容。&lt;/p&gt;
-&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
-&lt;p&gt;一共发布了 14 篇文章，比 2019 多了 9 篇。
-因为更换域名，所有的收录都已经归零了。
-共收到 100+ 条来自访客的评论，比 2020 年少了 1 倍。
-自己的主题几经波折，最后基于 Nexmoe 主题的功能样式总算是能凑合用了。&lt;/p&gt;
-&lt;h2 id=&#34;学业&#34;&gt;学业&lt;/h2&gt;
-&lt;p&gt;成绩一落千丈，政治历史什么的虽然学校还能保持前几名，但在全区乃至全市，依旧是垫底的那些人。
-搞不明白为何而学，最后干脆放弃了学习，相信未来，或者说明年的总结中，我会无比的后悔吧。&lt;/p&gt;
-&lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
-&lt;p&gt;无论是轻小说还是今年靠着自习读过的文学作品，多多少少都改变了我的思想。
-如果放下知识不提，轻小说带给我的片刻欢乐与温暖依然是难以忘记的感受。
-算上漫画这种读物的话，今年也看了有100多本了。&lt;/p&gt;
-&lt;h2 id=&#34;开心的事&#34;&gt;开心的事&lt;/h2&gt;
-&lt;p&gt;年初为了买周边卖掉坚果Pro3后买了一部坚果Pro过渡，之后又换上了现在的坚果R2。
-比去年多买了几百本轻小说，现在书多的都只能放进衣柜里了。
-看了很多的轻小说，也买了很多的周边，以至于我今年大部分的时间里都是在这些选、买当中度过的。
-买了一台新电脑，也买了台显示器，年末又拿到了买平板的钱，虽说是为了学习，但 Mini6 的屏幕实在是有些小。&lt;/p&gt;
-&lt;h2 id=&#34;伤心的事&#34;&gt;伤心的事&lt;/h2&gt;
-&lt;p&gt;学业上的下坡路已经提到，但更多的是对未来的无望。
-亏着钱卖了很多东西，买回来的东西不久又开始降价，看来我实在是没什么选东西的眼光。
-丢了不少东西，坏了不少东西，以至于不想再一一回忆，在痛苦中罗列了。&lt;/p&gt;
-&lt;h2 id=&#34;其它&#34;&gt;其它&lt;/h2&gt;
-&lt;p&gt;年度报告什么的也懒得上传了，这一年的生活其实大部分都记录在了Tg里面，也没有再往博客发了。
-域名卖了，流量自然少了很多，到现在也没有人愿意来评论交流了。
-希望明年的这个时候，我还能这样悠哉的写着年终总结吧。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>掌阅 F1 使用体验</title>
-        <link>https://blog.anhe.one/p/655/</link>
-        <pubDate>Sat, 02 Oct 2021 15:04:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/655/</guid>
-        <description>&lt;p&gt;因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。&lt;/p&gt;
-&lt;h2 id=&#34;显示效果&#34;&gt;显示效果&lt;/h2&gt;
-&lt;p&gt;虽然整体来说很不错，但是不得不提的一点是它的屏幕是一块完整的玻璃，并不是像 kindle 那样带一层磨砂，所以会出现反光的问题，听卖家说原来是有磨砂的出厂膜，可惜被他撕掉换成钢化膜了，他的意思是钢化膜会更清晰一点。但我觉得这种 2+16g 配置的手机，也就只能看看书，听听音乐了，清晰度是没那么重要的。&lt;/p&gt;
-&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
-&lt;p&gt;用来读书的体验其实还可以，我用的是 阅读，配上轻小说的书源进行搜索，或者说直接导入 epub 文件来看，屏幕比 kindle 小了不少，但也提升了它的便携性，虽然阅读体验有所下降，但我相信这是值得的，设计上则是把音量键挪到了下方，整体的握持手感不能说很好，只能说是中规中矩吧，不过至少是比 R2 强上不少的；比较遗憾的就是它的可视角度会比较差，相比 kindle 更容易受到光源直射的影响。不过话又说回来在掌阅 F1 无法阅读的光源条件下，Kindle 的阅读体验其实也并没有好到那里去，只能说是勉强能看，但根本没有人会长时间在这种环境下去阅读。&lt;/p&gt;
-&lt;h2 id=&#34;续航&#34;&gt;续航&lt;/h2&gt;
-&lt;p&gt;续航对于 Kindle 来说还是差了不少，但其实原因在于他会 24 小时一直刷新屏幕，而因此，他也成功的取代了小米的那款大的温湿度计成为了我桌上的小时钟，也不必去拿一些旧的手机去做一个桌面时钟了；在实际使用过程当中，它的续航其实也没有很好，因为安卓系统的缘故，后台还是还是会运行一些软件，如果每天两小时左右的连续阅读，我觉得会在一周左右就会没电，当然，如果开启飞行模式和省电模式以及关闭后台应用的话，这个续航应该会更加持久，因为在纯待机模式下大概用了近一个月才需要充一次电。&lt;/p&gt;
-&lt;h2 id=&#34;性价比&#34;&gt;性价比&lt;/h2&gt;
-&lt;p&gt;388 元的价格可以说是相当实惠了，同款机型配置的设备大概需要 400~500 元，虽然没有前置摄像头，也没有充电头，但这些都不是最必要的，毕竟两者都没有的 Kindle 也并没有在体验上损失什么。4+32G 或者说更高配置的这款机型，我觉得是完全没有必要的，除非是真的准备拿它当做主力机来使用。它本身支持 SD 卡的拓展，所以不用担心 16G 会不会不够用的问题，而且只是单纯看电子书的话 16G 也是完全够用的，毕竟一本书大概也只有 2～3M。总的来说，对于掌阅 F1 这款机型的配置上的选择，我觉得 2+16G 这对于电子书的阅读来说是完全够用的，如果你想能拿来读漫画的话，是非常不推荐购买的，除非是一般的条漫，不然的话用它来看实在是相当吃力。但也不必过于拘泥于用 400 元以下价格购买到，我觉得 400~450 之间其实也还算合理，当然，如果不是很想用的话也可以观望一下，看看能不能等到有卖家便宜出售吧。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>《朔与茉莉》摘选</title>
-        <link>https://blog.anhe.one/p/657/</link>
-        <pubDate>Sat, 02 Oct 2021 13:07:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/657/</guid>
-        <description>&lt;p&gt;在阅读本书时记录的一些不错的句子，主要为环境描写&lt;/p&gt;
-&lt;p&gt;我感到了几分空虚，不仅仅是这份寒冷。&lt;/p&gt;
-&lt;p&gt;我急匆匆地离开灯火辉煌一片圣诞装扮的车站，向自己的公寓走去。&lt;/p&gt;
-&lt;p&gt;随着离城市中心越来越远，灯光也愈来愈少。只有空中的那轮凛冽的银白色圆月散发着自己的光辉。在明月的照映下一条长长的影子从我的脚边延伸开来。那影子看起来似乎只需一口气就会摇曳消失一般。就像是现在这般无能的自己。对穷苦之人而言，颓废都是一种奢望。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;从车站延展出去的马路上，尽管是白天，周边的斑斓灯饰却已经闪耀着光辉。&lt;/p&gt;
-&lt;p&gt;路上的行人们无一不是高兴喜悦、轻松自在的模样。&lt;/p&gt;
-&lt;p&gt;早上，在出门前看的天气预报说今天傍晚会下雪。天空被厚实的云层覆盖，呼出的空气一瞬化作了白雾。深吸一口气，就像是吸入了玻璃碎片一般让喉咙隐隐作痛。让人不禁意识到直抵肺部深处的，正是冬季才有的凛冽气息。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;“现在”的一瞬终将成为“过去”，但若是以某种形式将其记录下来的话，对“未来”的我们而言那便是“曾经”的证明。&lt;/p&gt;
-&lt;p&gt;大概，此刻的须臾即是永恒，又或许，两者截然不同。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;地球是圆的，就这样直直地往前走的话说不定还会有再次见面的时候吧。但是，这基本是不可能的。我们那短暂的寿命，会在绕地球一圈之前耗尽吧。这小小的邂逅，是一瞬的奇迹，它终会如春雪一般消失于无形。&lt;/p&gt;
-&lt;p&gt;融化之后人就会把雪的事情忘记吧，忘得一干二净。&lt;/p&gt;
-&lt;p&gt;接着到来的会是春天的温暖，让人目眩。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;如艺术品般美丽、又如大众娱乐作品一般普遍，就像天空中的群星一样，任谁都会伸手、欲求、憧憬，却无论如何都无法接近。它的那份强大，扯下了用蜡固定住的娇小翅膀，让人只得坠落。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;窗外无限延伸的蓝空让人有种被吸入的深邃感，天空之王般的航迹云则是悠闲地漂浮着，刺眼的阳光灼烧着皮肤。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;认真闯入的盛夏，冲淡了天空的湛蓝。也不知该说是轮廓变得模糊，还是没对上焦。天空看上去就像拍立得拍出来的照片一样。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;打开的窗户外，传来了小学生们大喊大叫的声音。他们脚下的影子也一定在拼命地追赶着吧。就像我们小时候一样，无视滑落下来的汗水，眼眸里所映照的唯有那一片湛蓝的天空。&lt;/p&gt;
-&lt;p&gt;脚步声逐渐逐远，蝉鸣愈发地响彻。最终，那些声音融化在了摇曳着的艳阳之下。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;「度过一个永不会忘的夏天吧」&lt;/p&gt;
-&lt;p&gt;「一定,会成为一个愉快的暑假呢」&lt;/p&gt;
-&lt;p&gt;好好享受吧。&lt;/p&gt;
-&lt;p&gt;让我们将永不褪色的耀眼光芒印在心里。&lt;/p&gt;
-&lt;p&gt;与茉莉度过的第一个夏天，才刚刚开始。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>《解忧杂货店》阅读记录</title>
-        <link>https://blog.anhe.one/p/651/</link>
-        <pubDate>Thu, 30 Sep 2021 20:17:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/651/</guid>
-        <description>&lt;p&gt;因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。&lt;/p&gt;
-&lt;h2 id=&#34;9月7日&#34;&gt;9月7日&lt;/h2&gt;
-&lt;p&gt;今天读了六十多页的《解忧杂货店》，一开始因为排版和字体的原因实在有些读不下去，但习惯之后发现其实别有一番风味；说回内容，剧情方面一开始也不是很吸引我，等到了三人组收到1980年后的兔子小姐回信时我才感觉有了不少兴趣，也开始期待起接下来的剧情了，可惜的是明天的历史我要参考，所以继续读的机会也只能推迟到后天以及周五了。&lt;/p&gt;
-&lt;h2 id=&#34;9月9日&#34;&gt;9月9日&lt;/h2&gt;
-&lt;p&gt;今天没怎么专注于读书，所以也就只看了十五页左右，主要原因还是本书的叙事的方式有点令我意外，在三人组收到另一封信接第二章时却是更换了视角，剧情也枯燥了几分，不过我也在这篇中找到了书签“重生”二字的来源，也就是第二篇中的男主所创作的曲子。&lt;/p&gt;
-&lt;h2 id=&#34;9月10日&#34;&gt;9月10日&lt;/h2&gt;
-&lt;p&gt;“有人会因为你的乐曲得到救赎，你创作的音乐一定会流传下来。”&lt;/p&gt;
-&lt;p&gt;“请你务必要相信这件事到最后，直到最后的最后，都要相信这件事。”&lt;/p&gt;
-&lt;p&gt;他没有继承“鱼松”，也未能实现梦想，他是一个会在孤儿院弹唱的驻唱歌手，他也是会冲进火海救人的音乐人。&lt;/p&gt;
-&lt;p&gt;在最后的最后，他留下了自己的足迹，有人因此得到救赎，有人因此得到重生。&lt;/p&gt;
-&lt;p&gt;他打了一场胜仗。&lt;/p&gt;
-&lt;h2 id=&#34;9月28日&#34;&gt;9月28日&lt;/h2&gt;
-&lt;p&gt;昨天自习的三个小时，以及之前开学测时的自习，大概五六个小时的时间，终于是把这本书读完了，一开始认为的“枯燥”最后终化为了无以言表的感动与震撼，在翻过最后的回信时，仍有一种意犹未尽的感觉，以至于直到今天也仍在闲时翻看，最后也正如作者所期望那样，我也不得不感叹道“我从未读过这样的小说！”&lt;/p&gt;
-&lt;h2 id=&#34;回信&#34;&gt;回信&lt;/h2&gt;
-&lt;p&gt;致无名氏：&lt;/p&gt;
-&lt;p&gt;我这个老头子绞劲脑汁思考了你寄给我空白信纸的理由，我觉得一定是很重要的事，不能随便回答。&lt;/p&gt;
-&lt;p&gt;我用快不中用的脑袋想了半天，认为这代表没有地图的意思。&lt;/p&gt;
-&lt;p&gt;如果说，来找我咨商烦恼的人是迷路的羔羊，通常他们手上都有地图，却没有看地图，或是不知道自己目前的位置。&lt;/p&gt;
-&lt;p&gt;但我相信你不属于任何一种情况，你的地图是一张白纸，所以，即使想决定目的地，也不知道路在哪里。&lt;/p&gt;
-&lt;p&gt;地图是白纸当然很伤脑筋，任何人都会不知所措。&lt;/p&gt;
-&lt;p&gt;但是，不妨换一个角度思考，正因为是白纸，所以可以画任何地图，一切都掌握在你自己手上。你很自由，充满了无限可能。这是很棒的事情。我衷心祈祷你可以相信自己，无悔地燃烧自己的人生。&lt;/p&gt;
-&lt;p&gt;这可能是我最后一次针对烦恼咨商进行回答，谢谢你在最后提供了我这么出色的难题。&lt;/p&gt;
-&lt;p&gt;浪矢杂货店&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>德业 DYD-612S 除湿机短评</title>
-        <link>https://blog.anhe.one/p/650/</link>
-        <pubDate>Thu, 30 Sep 2021 19:07:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/650/</guid>
-        <description>&lt;p&gt;为了不让书受潮，所以买了台除湿机回来。&lt;/p&gt;
-&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
-&lt;p&gt;这款除湿机效果实在是不太理想，在高风模式下也仅能将湿度保持在 60% 上下，但比较意外的是水满的却很快，2.5L的水箱基本上一天就要倒一次，不知道为什么会有这种情况。&lt;/p&gt;
-&lt;h2 id=&#34;外观体验&#34;&gt;外观&amp;amp;体验&lt;/h2&gt;
-&lt;p&gt;说完具体效果，再看看外观设计以及使用体验吧，背部是进风口，顶部是出风口，因为出风口完全暴露在外部的缘故导致很容易积灰，目前也不知道有什么可以快速清灰的办法。&lt;/p&gt;
-&lt;h3 id=&#34;功能&#34;&gt;功能&lt;/h3&gt;
-&lt;p&gt;功能方面，有【负离子】【高风】【低风】【定时】几个按钮，支持连接 WIFI 后的 远程控制，但是会有一定的延迟，其湿度检测相当不准，开机时能显示出 80% 左右的湿度，几分钟后又回到 60% 左右，就算在正常情况下，也与两个小米家的温湿度计差出 5 %左右。&lt;/p&gt;
-&lt;h3 id=&#34;噪音&#34;&gt;噪音&lt;/h3&gt;
-&lt;p&gt;噪音方面，低风模式下比空调的声音稍大一点，不会有特别大的影响，高风模式就比较吵了，所以平时没有特别潮的情况下还是低风模式比较好，另外，如果设置了指定湿度，每次暂停时压缩机都会开关一次，会有点小动静，个人认为对其使用寿命也会有一定的影响。&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;整体来讲，聊胜于无，我是440元的价格购入了这款抽湿机，淘宝上的价格目前是599元，历史最低价488元，效果应该在同价位还算不错的，但比起我之前那台亚都除湿机还是差的太多了，但是那款也实在是太老，上次在闲鱼看到有人450元在卖，且不考虑滤芯和重量运费等问题，光是里面积了近十年的灰尘这一点也让我打消了再买一台老机型的念头。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>坚果 R2 使用体验</title>
-        <link>https://blog.anhe.one/p/607/</link>
-        <pubDate>Sat, 01 May 2021 23:59:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/607/</guid>
-        <description>&lt;p&gt;说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。&lt;/p&gt;
-&lt;p&gt;印象最深刻的几点无非就是提升最大的几点&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;屏幕&lt;/li&gt;
-&lt;li&gt;性能&lt;/li&gt;
-&lt;li&gt;相机&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;屏幕&#34;&gt;屏幕&lt;/h2&gt;
-&lt;p&gt;先从屏幕说起吧，上一代的，坚果Pro3搭载的是一块1080P60hz的国产屏，在从垂直角度观察时可以发现屏幕是发红的，甚至连1080P也没有达到，字体发虚，横屏下的观感只剩下了可怜的720P。&lt;/p&gt;
-&lt;p&gt;R2使用的是1080P90Hz的组合，但实际上它的效果实在不尽人意，绿屏、烧屏等现象都可以在论坛上找到，而我是在闲鱼2900购入的首发机型，没有遇到这些问题。&lt;/p&gt;
-&lt;p&gt;90Hz相比60Hz的提升是肉眼可见的，而屏幕整体成像的提升也让坚果的屏幕不再那么辣眼，四面等宽和微曲面的设计也让使用体验上舒适了不少。&lt;/p&gt;
-&lt;h2 id=&#34;性能&#34;&gt;性能&lt;/h2&gt;
-&lt;p&gt;存储性能和处理器性能我选择放在一起说，因为这实在不是什么惊艳的升级，只是一次技术迭代罢了&amp;hellip;.但这对使用体验上的提升也是实实在在的。&lt;/p&gt;
-&lt;p&gt;举一个很直观的例子，便是在多个多线程下载时不再会出现 Pro3 的软重启，在搜索文件等操作上也是快坚果Pro3一步。&lt;/p&gt;
-&lt;h2 id=&#34;相机&#34;&gt;相机&lt;/h2&gt;
-&lt;p&gt;坚果Pro3的麻将牌设计延续到了坚果R2，但整体颜值我感觉R2是比Pro3好看的，因为Pro3的摄像头大小实在有些不协调。&lt;/p&gt;
-&lt;p&gt;成像方面，一亿像素总算是能拍点东西了，坚果Pro3那画质实在是一言难尽，但广角和微距我感觉非常一般，只是达到能用的级别。&lt;/p&gt;
-&lt;h2 id=&#34;杂项&#34;&gt;杂项&lt;/h2&gt;
-&lt;p&gt;别的升级&amp;hellip;.无非就是WiFi6这些了，得益于搭载了WiFi6的R2已经可以正常使用无线TNT了，不过实际体验上在各评测视频中也是可以看到那肉眼可见的延迟。&lt;/p&gt;
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-&lt;p&gt;首先是它对不起它的价格，5499的发售价和这样的一个配置我觉得是不匹配的，最后我对于我2900的入手价还是相对满意的。&lt;/p&gt;
-&lt;p&gt;其次是它的重量，单手握持久了会很不适，即便是放在口袋里它的存在感也是相当强的。&lt;/p&gt;
-&lt;p&gt;最后便是它的系统，它的系统是卖点，其实也是缺点，它虽然有着无与伦比的细节，但还是缺失了很多基础功能，没有黑暗模式、阉割了许多安卓特性、闹钟没法设置渐响、TNT不能竖屏使用等等&amp;hellip;.其中最令人遗憾的就是无法竖屏使用TNT，它与平板之间真的就差了这么一步，但坚果团队就是没有把这么简单的功能给做出来。&lt;/p&gt;
-&lt;h3 id=&#34;2021年6月13日更新&#34;&gt;2021年6月13日更新&lt;/h3&gt;
-&lt;p&gt;1.拍照模糊，背景乱虚化
-2.发热问题严重，什么都不干都发热
-3.发热后限制屏幕帧率，个人感觉比一般的60Hz的手机还要卡不少，之后疯狂杀后台，即便是锁后台的应用也会杀
-4.花屏问题，我的这部已经开始花屏了，这两天去线下售后折腾，最后才搞好&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;大爆炸是我最常用的Smartisan里的功能，闪念胶囊就充当了随手的便签和待办清单，通知栏的操作界面简单直观，随处可见的细节也令人舒适&amp;hellip;.但它并不是完美的，它缺失了很多细节，打着人性化的旗号却没有把一些简单的功能做好。&lt;/p&gt;
-&lt;p&gt;TNT终究不能替代电脑，但作为娱乐消遣的平板，它又不能竖屏供我看漫画，甚至可以说，它的大部分替代电脑的部分都是通过浏览器来实现的。&lt;/p&gt;
-&lt;p&gt;硬件外观也不必多说了，倘若放在去年年初，它可以称之为旗舰，但拿到现在来看，它又显得不够用了，在确定没有SOS9.0发布的今天，在确定坚果手机消逝的今天，这部手机成为了坚果团队最后一部作品，它的降价让第一时间入手它的老粉唏嘘不已，系统和质量又让新人望而却步，它终究无法成为“工匠的骄傲”，更无法让坚果团队自信地贴上那句“工匠的遗憾”。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>三星Buds Pro使用体验</title>
-        <link>https://blog.anhe.one/p/567/</link>
-        <pubDate>Sun, 07 Feb 2021 13:53:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/567/</guid>
-        <description>&lt;p&gt;最新的三星耳机！&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;虽说耳机上个月 25 号就已经拿到了，但还是拖到了现在才把这篇使用体验写出来。&lt;/p&gt;
-&lt;p&gt;起因就是之前的海贝 WH3 已经没法再正常使用了，不知道是什么原因，使用大概 20 分钟后就没电了。&lt;/p&gt;
-&lt;p&gt;这次买也是吸取了上次的教训，从 Buds+ 到 Live 的评测都看了一遍，因为我拿到的时候要早于大部分国行发货，所以国内的评测还是比较少的，斟酌一番后还是选择了入手这款三星 Buds Pro。&lt;/p&gt;
-&lt;h2 id=&#34;价格&#34;&gt;价格&lt;/h2&gt;
-&lt;p&gt;实在是不好说，因为这款耳机实际上是随机赠送的，闲鱼目前的价格已经有低于 1000 的了。&lt;/p&gt;
-&lt;h2 id=&#34;外观&#34;&gt;外观&lt;/h2&gt;
-&lt;p&gt;两颗豆子，体积比海贝 WH3 小了不少，续航却翻了几倍，在此基础上还支持了 IPX7 级的防水，意味着终于可以洗澡戴耳机啦~&lt;/p&gt;
-&lt;p&gt;耳机盒比较小，虽然支持无线充电但实际上包装内并没有附赠无线充电器（可以放在三星手机上进行充电）&lt;/p&gt;
-&lt;p&gt;客户端 UI 和动画做的很不错，比如打开盖子，或者拿出耳机都会有一个显示动画。&lt;/p&gt;
-&lt;h2 id=&#34;配对&#34;&gt;配对&lt;/h2&gt;
-&lt;p&gt;拿到三星后我才知道，原来海贝的 TWS+ 一直是关闭状态，而客户端里我反复开启后也没用，这也是我在上篇文章评测海贝 WH3 时说它左右耳连接质量差的原因了。&lt;/p&gt;
-&lt;p&gt;相比于海贝，三星的配套软件是相当的多，因为我并不是三星设备，所以要安大概 2-3 个三星应用才可以完成客户端的配对，但不得不说，整体的 UI 界面以及完善程度肯定是远高于海贝的。&lt;/p&gt;
-&lt;p&gt;首先是配对自动开启了 TWS+ 无需配对两次，另外就是连接质量非常好，只要不是离着几米远，无论是左右耳都没有出现断连的问题。&lt;/p&gt;
-&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
-&lt;p&gt;在海贝 WH3 上我其实并没有过多赘述它的功能，其实是因为根本没什么好说的&amp;hellip;相比之下三星这款的功能是多了不少。&lt;/p&gt;
-&lt;h3 id=&#34;降噪&#34;&gt;降噪&lt;/h3&gt;
-&lt;p&gt;可以看到对前代几款的降噪效果的评价大多数都是负面的，但在 Buds Pro 上这一功能得到了明显的改善，降噪效果十分明显，但由于我在此之前没有使用过任何降噪耳机，就不多做评价了，但可以肯定的是，降噪肯定是有用的。&lt;/p&gt;
-&lt;p&gt;举个前几天打扫房间的例子，我家里那个吸尘器是 1200W 的，加上已经算是比较老的型号，声音非常大，平时用一会耳朵就不舒服了，但这次戴上 Buds Pro 开启降噪功能，播放音乐之后会发现噪音小了六七成，即便是用了一个多小时吸尘器我也没感觉有多少不适。&lt;/p&gt;
-&lt;h3 id=&#34;环境音&#34;&gt;环境音&lt;/h3&gt;
-&lt;p&gt;有降噪，自然也少不了环境音模式，三星 Buds Pro 在此基础上还支持了语音检测功能，即检测到说话就自动从降噪模式切换到环境音模式，但实际使用下来还是有点割裂感，所以我平时都是直接关掉降噪模式的。&lt;/p&gt;
-&lt;p&gt;说回环境音本身，我个人感觉还是不错的，跟上面一样，我在此之前也没有用过这个功能，也自然谈不上跟其它耳机对比好坏，因为耳机本身的隔音效果就很不错，所以戴着耳机对话总归是有些不适，开启环境音后可以明显改善这个问题。&lt;/p&gt;
-&lt;h3 id=&#34;读出通知&#34;&gt;读出通知&lt;/h3&gt;
-&lt;p&gt;这个功能其实不是很新奇，但确实可以省去每次都打开手机去看一些无用的通知的麻烦。&lt;/p&gt;
-&lt;p&gt;说回设置，我的手机是坚果 Pro3 ，所以各种对原生功能的支持都十分的&amp;hellip;.差劲，读出语音坚果手机默认使用的是讯飞的语音，但和三星的该功能并不兼容，所以需要切换成谷歌的 TTS 后下载中文语音包就可以了。&lt;/p&gt;
-&lt;h3 id=&#34;无缝切换&#34;&gt;无缝切换&lt;/h3&gt;
-&lt;p&gt;其实这个功能我还没用过，大致就是可以在几台设备当中无缝切换，但都需要安装三星客户端，至于我为什么没用这个功能&amp;hellip;因为我根本就没几台设备。&lt;/p&gt;
-&lt;h3 id=&#34;查找耳机&#34;&gt;查找耳机&lt;/h3&gt;
-&lt;p&gt;耳机本体属于比较小的一类，所以如果拿下来乱放的话还是有一定几率不见的，这个时候这个功能便是以最大音量播放出提示音来帮你找到耳机，目前我也只用过一次。&lt;/p&gt;
-&lt;h3 id=&#34;长按单击双击&#34;&gt;长按、单击、双击&lt;/h3&gt;
-&lt;p&gt;长按分别可以设置成语音命令、切换噪音控制、以及音量加减，左右耳都需要设置成一套设置，例如左耳设置成音量 -，右耳就会自动改成音量 +&lt;/p&gt;
-&lt;p&gt;双击和单击并不能设置，默认是切换上、下首和暂停播放。&lt;/p&gt;
-&lt;h2 id=&#34;舒适度&#34;&gt;舒适度&lt;/h2&gt;
-&lt;p&gt;佩戴上后基本没有感觉，官方给出的佩戴方式是戴上后左右拧几下调整。&lt;/p&gt;
-&lt;p&gt;P.S 个人认为没有感觉才是最好的（&lt;/p&gt;
-&lt;p&gt;但我个人一开始不是很适应这个降噪模式，总感觉有一种无形的压力，感觉有点胸闷，习惯之后便好了不少。&lt;/p&gt;
-&lt;h2 id=&#34;质量续航&#34;&gt;质量&amp;amp;续航&lt;/h2&gt;
-&lt;p&gt;质量方面是真的没话说，强就对了，相比海贝 WH3 的一摔就裂，再也合不上，三星 Buds Pro 在我拿到手以来是摔了好几次了，有几次甚至是在水泥地上弹跳好几次，但目前只有一点点的掉漆而已，所以这个质量真的是值得单拿出来说。&lt;/p&gt;
-&lt;p&gt;因为降噪和环境音的添加以及体积的缩小，续航相比于前几代是略有降低的，但整体使用上还是不错，单耳续航官方给出的数据是 6 小时，配上有效 500 毫安的耳机盒的续航数据也算是相当可观&lt;/p&gt;
-&lt;p&gt;顺带一提，充电速度也很快，充电五分钟，听歌一小时。&lt;/p&gt;
-&lt;h2 id=&#34;音质&#34;&gt;音质&lt;/h2&gt;
-&lt;p&gt;又到了玄学环节，以下内容仅供参考&lt;/p&gt;
-&lt;p&gt;相比于海贝 WH3，三星 Buds Pro 并不支持 aptx、ldac 等协议，但音质其实也并不逊色于前者，虽然在一开始换到三星 Buds Pro 时有些许失望，但习惯之后其实也算不上差，声场相对较广，低音不轰头但也不会软绵无力，但高音部分还是海贝 WH3 略胜一筹。&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;这款三星 Buds Pro 是我目前最喜欢的一款耳机了，音质不差，体验极佳，在此基础上甚至支持了 IPX7 级的防水，鉴于上篇对海贝 WH3 的推荐实在是过于草莽，这次便不再说是否建议购买了，具体的上手评测现在也应该有不少了，各位可以去看看评测再去下单#(不出所料)&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>2020年总结</title>
-        <link>https://blog.anhe.one/p/535/</link>
-        <pubDate>Sat, 09 Jan 2021 15:13:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/535/</guid>
-        <description>&lt;p&gt;相比上一年的2019总结，感觉能说的事少了很多。
-实际上去年只是一时兴起，今年也不过是水篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
-&lt;p&gt;一共发布了 24 篇文章，比 2019 多了 9 篇。
-百度收录从 69 涨到 554 收录。
-本博客共收到 200+ 条来自访客的评论,比 2019 年多了 20+ 倍。
-自己的主题搁置了，目前一直在用 Nexmoe 主题。&lt;/p&gt;
-&lt;h2 id=&#34;学业&#34;&gt;学业&lt;/h2&gt;
-&lt;p&gt;年初期末喜提文科第一，却又在疫情结束后只剩下历史第一。
-疫情期间的学习就是糊弄，时间一分一秒的被浪费。
-理科落的越来越远，可能真的要学纯文了。&lt;/p&gt;
-&lt;h2 id=&#34;开心的事&#34;&gt;开心的事&lt;/h2&gt;
-&lt;p&gt;接去年一加被摔碎，在年初买了一部坚果Pro3。
-比去年多买了 50 多本轻小说，塞满了整整两个书架。
-买了 20 多个手办，也是有生以来第一次让桌子如此“二刺螈”。
-第一次全身心投入的去玩了 Galgame，也通过代购在日本买了不少周边。&lt;/p&gt;
-&lt;h2 id=&#34;伤心的事&#34;&gt;伤心的事&lt;/h2&gt;
-&lt;p&gt;天使吉米的氧气耳机坏了又修，修了又坏，如今基本不能再用了。
-抽奖，充钱之类的浪费了不少钱，但总是不长记性。
-买东西遇到几件残次品，最后都扔掉了。
-去年年末拿到的电脑坏掉了，显卡也修不好了。
-&amp;hellip; &amp;hellip;
-说到开心的事想不起来几件，伤心的事那确实是没完没了了。&lt;/p&gt;
-&lt;h2 id=&#34;其它&#34;&gt;其它&lt;/h2&gt;
-&lt;p&gt;网易云啊..哔哩哔哩之类，今年有很长一段时间都替换成了本地播放和 Youtube ，所以之后就不会再放这些的年终总结了。
-随手拍？今年除了去漫展..基本没拍什么，如果想看漫展的照片，&lt;a class=&#34;link&#34; href=&#34;https://lolicorn.com/169.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;可以直接来这里看&lt;/a&gt;。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>海贝WH3使用体验</title>
-        <link>https://blog.anhe.one/p/503/</link>
-        <pubDate>Wed, 05 Aug 2020 11:32:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/503/</guid>
-        <description>&lt;p&gt;看中音质，图个方便。&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;本文并非专业测评，产品不购自海贝官方店铺，仅供参考。
-自去年2K整了个氧气耳机之后也算是入了耳机坑，但整体来讲还是个小白，所以本文只从我个人的角度出发来对这款真无线蓝牙耳机做个简单的评价。&lt;/p&gt;
-&lt;h2 id=&#34;价格&#34;&gt;价格&lt;/h2&gt;
-&lt;p&gt;官方目前标价1098，8月6号优惠可到998元，而我则是以900元的价格入手的（非二手）。&lt;/p&gt;
-&lt;h2 id=&#34;赠品&#34;&gt;赠品&lt;/h2&gt;
-&lt;p&gt;一个长得跟电池一样的“充电宝”，一个无线充电底座。
-还有一个帆布袋，上面印着“别发了 没人买的”&lt;/p&gt;
-&lt;h2 id=&#34;附带&#34;&gt;附带&lt;/h2&gt;
-&lt;p&gt;一根Type C充电线，两幅耳套（加上耳机上的一共三套），一个小刷子，保修卡以及说明书。&lt;/p&gt;
-&lt;h2 id=&#34;外观&#34;&gt;外观&lt;/h2&gt;
-&lt;p&gt;其实并不符合我个人的审美，那个银牌牌有点掉价的感觉&amp;hellip;
-然后是耳机盒，翻盖式的设计，耳机盖有轻微的晃动，内部耳机没有晃动的现象。
-耳机的外观的话中规中矩吧，毕竟人家也不是专门做外观的。&lt;/p&gt;
-&lt;h2 id=&#34;配对&#34;&gt;配对&lt;/h2&gt;
-&lt;p&gt;最主要的就是配对方面，我是第一次购买真无线蓝牙耳机，关于配对方面是一窍不通，最后折腾了一两个小时才弄出点门道来。
-官方的客户端是海贝Blue（Hiby Blue）客户端比较简陋，有时候会出现卡死的情况
-遇到的一点小问题就是配对之后只有一个耳机有声音，最后折腾出来了解决方案：
-保证两只耳机电量充足的情况下，把耳机放回耳机盒，按五下配对键，两只耳机会闪烁蓝光，然后让右耳靠近左耳，两只耳机就配对完成了，然后再打开手机，连接左耳（Hiby WH3 Left），随后会出现右耳配对的请求，然后点击配对即可。
-（客户端可开启TWS+ 应该是需要骁龙855以上的CPU才支持）&lt;/p&gt;
-&lt;h2 id=&#34;连接质量&#34;&gt;连接质量&lt;/h2&gt;
-&lt;p&gt;这方面不敢恭维，跟手机的连接质量还是可以的，但是左右耳经常断连，比如倾斜下头、换个姿势等等就会出现右耳没有声音的情况，我因此还升级了固件（放弃了ldac）蛮后悔的hhh，不知道是不是我个人的问题，如果各位出现这种状况可以不考虑升级，升级之后并没有什么改善，反倒丢了ldac功能。&lt;/p&gt;
-&lt;h2 id=&#34;舒适度&#34;&gt;舒适度&lt;/h2&gt;
-&lt;p&gt;我是常年戴着入耳式的，所以对我来说是无感的，如果耳朵疼之类的可以尝试换个耳套。&lt;/p&gt;
-&lt;h2 id=&#34;手势&#34;&gt;手势&lt;/h2&gt;
-&lt;p&gt;支持双击，和三击手势，目前有上一曲、下一曲、音量+、音量-、唤醒语音助手功能。灵敏度还行吧，其实这个功能我不怎么用的。&lt;/p&gt;
-&lt;h2 id=&#34;音质&#34;&gt;音质&lt;/h2&gt;
-&lt;p&gt;前文提到了，买它看重的就是音质，但可惜的是，我并不是什么专业测评，说不出低频高音怎样怎样的，只能说说我直观的感受，所以仅供参考。
-我之前使用的氧气耳机的调音应该是属于声场宽敞一点的，所以当我用回以前的耳机（Final e2000c）以及使用同学的耳机（铁三角ckr100+Sony Z300a）时都感觉会很闷，海贝也不例外，戴上之后感觉声音比较闷，用了一两个小时之后也算是习惯了吧。
-由于上文提到的，我的连接出现了问题，所以放弃了ldac升级到了新版本，但实际上并不是版本的问题，但ldac也确实是没有了（我升级之前有一次是配对上ldac的，其实我听不出来特别大的差别）
-支持数字分频，我选的默认的圈铁模式，动圈模式听人声的话鼓点会盖过人声，而动铁模式则会人声盖过鼓点，所以我还是喜欢圈铁折中的声音。
-（40Hz-19000Hz可自定义调节）&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;分情况吧，如果你对音质很有追求，这款应该还是可以满足的，但要只是买个方便点的蓝牙耳机就没必要了。
-客户端偏简陋，有时出现卡死等问题也是需要改进的，不过就算不改进，其实也已经完全够用了。
-连接质量耳机和手机没问题，左耳和右耳之间的连接质量是有问题的，比如换个姿势（只要左耳或右耳被遮挡就会断掉，例如歪个脖子，右耳要贴到肩膀时，就莫得声音了）
-音质不好多做评价，至少我现在听着不至于说很想用回之前的耳机，如果买来不升级的话（不确定官方现在卖的是不是最新固件版本），还是支持ldac的，我去问了下官方店的客服，他们的回复是“等索尼新真无线认证出来了就可以了”，期待后续的更新能写上支持ldac吧。（包装盒的背面印有ldac标志）（主要还是我这手机没了3.5mm接口，加上这破手机充电太慢，被迫买了个蓝牙耳机）
-我自己其实也没对比太多蓝牙耳机，只是听说音质不错所以就直接下单了，各位就仁者见仁，智者见智了，&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>聊聊B站会员购/早划算/魔力赏</title>
-        <link>https://blog.anhe.one/p/497/</link>
-        <pubDate>Sat, 01 Aug 2020 10:36:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/497/</guid>
-        <description>&lt;p&gt;直接说结论吧，大部分情况下，我并不建议你继续使用会员购。
-删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;如果你通过百度来到这篇文章，说明我排名还是不错的 :xwx17:
-我本人通过哔哩哔哩会员购一共下了30多单手办了，魔力赏前前后后扔了几千进去，早划算也抢了不少次，所以本文是综合我的经验所写，各位无需把这篇文章作为标准，仅供参考罢了。&lt;/p&gt;
-&lt;h2 id=&#34;会员购&#34;&gt;会员购&lt;/h2&gt;
-&lt;h3 id=&#34;景品&#34;&gt;景品&lt;/h3&gt;
-&lt;p&gt;景品方面，B站所有的景品定价都在99及以上，还需要15R的运费，当你换到淘宝的时候就会发现同样一款手办，淘宝卖的49块钱，满199还包邮，所以在B站买景品有多亏我就不多赘述了。&lt;/p&gt;
-&lt;h3 id=&#34;普通手办&#34;&gt;普通手办&lt;/h3&gt;
-&lt;p&gt;价格稍贵一点的加上B站的优惠券是更便宜的，但问题就在于下文提到的另一个问题，售后。&lt;/p&gt;
-&lt;h3 id=&#34;售后&#34;&gt;售后&lt;/h3&gt;
-&lt;p&gt;我在7月初是购买了初音50cm的大毛绒玩具（没有抢早划算，最后入手价是原价），到手之后我都服了&amp;hellip;fufu满身的线头，各种开线，还有刀疤脸，最后把这些问题给客服反应，客服告诉我这是属于正常做工，绝了&amp;hellip;.
-于是我花了600买了个毛绒玩具还要自己缝缝补补，弄了一下午才算是勉强能看，毛绒玩具如此，手办的售后就更别提了，在B站，售后服务无论是态度还是解决方案，跟淘宝店家都相差甚远。&lt;/p&gt;
-&lt;h3 id=&#34;删评&#34;&gt;删评&lt;/h3&gt;
-&lt;p&gt;B站会员购综合了下单，补款，收货，评价，但这一切全都掌握在B站手里，所以当我给fufu毛绒玩具给出一个三星评价时（我都没怎么骂&amp;hellip;就说中奖了）一天还没过去，我的评论莫名消失了，然后找到评论区发现很多人的评论都被删除了，向客服询问的时候客服故意避而不谈，绝了。&lt;/p&gt;
-&lt;h2 id=&#34;早划算&#34;&gt;早划算&lt;/h2&gt;
-&lt;p&gt;这个其实我挺中意的，毕竟抢到过两次了，但最恶心的其实是B站之前连着发布了几个初音手办那回，下单时突然出现了验证码，并且很多用户都出现了即使拼对也无法通过的情况，最后包括我在内，有不少人的支付成功时间都已超出10S，和早划算无缘了。
-&lt;img src=&#34;https://fly.ahblog.net/photo_2020-12-29_21-35-22.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;请输入图片描述&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h3 id=&#34;备注&#34;&gt;备注&lt;/h3&gt;
-&lt;p&gt;其实大手办的抢到之后还算良心（给同学抢白色相簿手办，最后减免了好几百来着），景品的就省省吧，常常会抢不到，更何况现在还搞了验证码这种东西&lt;/p&gt;
-&lt;p&gt;（早划算不和优惠券叠加）&lt;/p&gt;
-&lt;h2 id=&#34;魔力赏&#34;&gt;魔力赏&lt;/h2&gt;
-&lt;p&gt;这东西不多说，别碰就对了，除非你真觉得那万分之一的一是你就行。
-（B站会故意把抽中的评论放到会员购首页，别上钩哦 :xwx22: ）
-不过，我就是个智障（ :xwx3:  连着三次上了钩，每次砸了500-600最后也是什么都没出，之前第一次是过年那会，砸了500多最后给了我六个钥匙扣（回收 重抽） &lt;del&gt;（7月的我：话说六个钥匙扣才500）&lt;/del&gt;
-（我上钩了 但___ 这值得吗 :xwx25: ）&lt;/p&gt;
-&lt;h3 id=&#34;抽到赶紧溜&#34;&gt;抽到赶紧溜&lt;/h3&gt;
-&lt;p&gt;第三次其实我应该能赚的，花了200多抽到个300的粘土人，但是后面上头了，又砸了500进去，最后花了700买了个粘土人草（&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;并不是说会员购一无是处，但的确是有无法避而不谈的问题，这些问题在我眼里已经大过了它的优点。
-且不谈别的，光是把所有差评都删了这点我都不准备再用了（奈何还有15个尾款&amp;hellip;.
-总之就是景品别在B站买，大手办可以吃个减免但还是要提心吊胆的注意下中奖问题，因为客服和售后是真的神仙。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>小米手环5使用体验</title>
-        <link>https://blog.anhe.one/p/481/</link>
-        <pubDate>Tue, 28 Jul 2020 13:55:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/481/</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;智能手表我已经买了不少了，中兴ZW10，MOTO360一代，三星gear sport以及三星gearS3，其中最让我满意的是ZW10，如果你在18年那会看过我的文章的话，可以发现我在很多文章中都有提及到这块表。
-手环至今为止只买过小米手环3的NFC版，后来嫌功能太少就直接送人了，最近在用的表是三星的Gear S3先锋版，除了续航之外..都还能接受吧，就是睡眠监测有点玄学了，毕竟睡六个小时有四个小时的深度睡眠我也不太敢相信。
-至于为什么是从OPPO和小米中选择，也就不用多说了，毕竟最新的两款就是这两家的了；OPPO我看中的是血氧监测和有个EVA限定版，小米则是看重能和家里的米家设备联动。&lt;/p&gt;
-&lt;h2 id=&#34;价格&#34;&gt;价格&lt;/h2&gt;
-&lt;p&gt;我最终的入手价是224元（淘宝苏宁店），后续不知道会不会降价。&lt;/p&gt;
-&lt;h2 id=&#34;开箱&#34;&gt;开箱&lt;/h2&gt;
-&lt;p&gt;图片我是没拍，整体来讲还行吧，我是凌晨一点多下的单，最后在下午三四点钟拿到了。
-200块钱的包装也好不到哪去，相比之下OPPO的包装倒是显得挺不错的。
-一个磁吸充电器（不带充电头），手环本体（开机状态），一个说明书。&lt;/p&gt;
-&lt;h2 id=&#34;外观&#34;&gt;外观&lt;/h2&gt;
-&lt;p&gt;我觉得OPPO那个镂空设计挺不错的，就是带个OPPO的LOGO不怎么好看，小米的话就没有LOGO了，相对OPPO更细长一些，谈不上很好看也说不上难看。&lt;/p&gt;
-&lt;h2 id=&#34;配对&#34;&gt;配对&lt;/h2&gt;
-&lt;p&gt;这方面我是绝对要给差评的，小米运动最新版目前无法正常配对小米手环5，虽不确定是不是我的问题，但另一位博主的米环4也出现了同样的状况；好在最后用上了小米穿戴这个APP，UI相对也很不错&amp;hellip;.但事情并没有结束
-戴着手环睡了三天之后，发现小米穿戴APP的睡眠分析明显有问题，每次睡眠的后半段都自动忽略掉，全部记为浅度睡眠，同样情况下，在第三方应用程序Notify下显然可以正常分析，且多了翻身次数的显示。
-用不惯小米穿戴的我准备换到隔壁的amazift（据说是是给华米设备用的），但问题又来了，我把手环恢复出厂后配对不上才发现，这个APP是不支持小米手环5的&amp;hellip;.
-反复折腾了几次，最后在play商店下的小米运动APP是可以正常配对的，现在也正在使用。&lt;/p&gt;
-&lt;h2 id=&#34;佩戴&#34;&gt;佩戴&lt;/h2&gt;
-&lt;p&gt;这个表带有点勒手，时不时扒开来一看就会发现很明显的印（我是那种带松了很难受的那种），如果换成磁吸表带之类的会更舒适一点吧。&lt;/p&gt;
-&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
-&lt;p&gt;（并不是罗列已有功能，只是列出我知道，并且在用的功能）
-抬腕亮屏没什么稀奇的，主要是灵敏度，小米这个可以单独调，用下来还是不错的。
-发布之前本来以为会有血氧监测的，但可惜最后发布时并没有这个功能。
-小爱同学开空调、开灯等等都可以满足（小爱同学依然不会说话）
-压力检测，PAI，更大的彩色屏幕什么的我其实有点无感，能用就行 :xwx17: （
-公交卡目前支持北京一卡通就没有什么好说的了，值得一提的是，如果你习惯用左手佩戴，刷卡的时候会很别扭。
-门卡模拟功能我目前是用不到的，也就不好评价了。
-支持屏幕解锁（笔记本、安卓smart lock），但为了安全起见我依然没有开启这个功能。
-全天睡眠监测可以点个赞，但是还是晚上睡好了比较好吧（最近买了俩手机睡眠app :xwx3: ）
-久坐提醒..通知提醒和手环切歌加音量就没什么好说的了，正常操作。
-而远程拍照这类功能对我来说则是可有可无的。
-（在第三方APP中可以开启智能闹钟功能，超过30分钟浅睡后再唤醒，听起来很厉害，但是每次都是准时叫我起来的..很迷）&lt;/p&gt;
-&lt;h2 id=&#34;续航&#34;&gt;续航&lt;/h2&gt;
-&lt;p&gt;充的快用的慢，我一天大概用百分之十多吧（全天连手机+心率检测，我是属于重度使用的，时不时看看时间，切个歌..开个空调开个灯什么的）&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;价格挺便宜的，&lt;del&gt;还没个钥匙扣贵&lt;/del&gt;，这几天使用下来挺不错的，值得入手，但看了下参数，综合下来对比米环4升级也不是很大，所以已有米环4的其实没必要跟新一代了，我戴上之后基本就不离手了，家里虽然有小爱同学，但是每次都要叫就很麻烦，现在抬起手腕一滑，就可以直接控制家里的空调台灯挺爽的（
-手机客户端方面，小米穿戴UI不错，但数据分析有点问题（不知道是不是我个人问题），目前只能使用Play版的小米运动（不知道数据分析怎么样，换过来之后还没有睡），Notify的话可以进行一些很细致的设置，例如带有NSFW关键词的通知就不传到手环上什么的hhhh（这个APP我也没玩明白，而且它是可以配对米家体重称的，可以正常分析，目前正版也就400日元左右吧，大家有能力可以直接去买正版）
-功能方面对我来说足矣，如果后续几代能增加血氧和提升下监测算法什么的就再好不过了，运动方面，作为死宅的我就没什么发言权了 :xwx16:
-也就这么多吧，后面如果有什么新的内容会及时更新到本文的~&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>HOI4打不开的解决方案</title>
-        <link>https://blog.anhe.one/p/449/</link>
-        <pubDate>Sun, 28 Jun 2020 15:50:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/449/</guid>
-        <description>&lt;p&gt;最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用
-最后发现只要改下硬盘的所有者就可以了
-具体方法如下：
-计算机-右键磁盘-属性-安全-高级-所有者-更改-输入你的用户ID
-然后记得勾上应用到所有文件就可以启动HOI4的启动器了~~&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>俺修罗短评</title>
-        <link>https://blog.anhe.one/p/418/</link>
-        <pubDate>Tue, 05 May 2020 17:58:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/418/</guid>
-        <description>&lt;p&gt;由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;这部番剧的名字我早有耳闻，但也是迟迟没有去看。
-最近想找一些比较甜的番吃狗粮，在看到了白毛和男主发糖的片段后便开始补番了。
-当然，有些问题还是要写在前面的：
-我不是很喜欢这部番的剧情，所以弃番了，在这里也仅为表达我的感受，这并不妨碍你喜欢这部番。&lt;/p&gt;
-&lt;h2 id=&#34;弃番&#34;&gt;弃番&lt;/h2&gt;
-&lt;p&gt;前面两话的整体观感还可以，除了有点尬以外都是可以接受的，但也仅限于前两话罢了。
-剧情稀烂，即便再好的画风也无法挽救，于我而言，这部番的观感可谓差到一定境界。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;追番起于真凉，弃番弃于真凉，她在第四话的话或许暗示着什么，但我依旧很讨厌她。
-莫名其妙的搅乱锐太的生活、故意让千和出丑等等&amp;hellip; &amp;hellip;这就是我对她的印象。&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;本人文笔不佳，稀烂一词也照样可以用来形容这篇杂乱无章的文章。
-与其说是番剧短评，倒不如说是想表达我看番的一种倾向吧，慢热番的代入感无与伦比，SS，恋爱小行星这样的百合日常番也别有一番风味&amp;hellip; &amp;hellip;发糖也好，刀子也罢，也都是可以接受的；但俺修罗则截然不同，我不知制作组是有意还是无意的将真凉塑造成一个令人厌恶的形象，或许是想欲扬先抑？亦或者背后有什么隐情？我个人认为在观众对其产生好感前这样搞未免有些仓促了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;正在气头上的我想吃口糖，结果糖纸还没撕开就给我把糖给扔了&amp;hellip; 这也就是我为什么会写这篇文章的原因。
-虽说现在没看完，但相信我过几天就会印证“真香”定理了吧。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/img/titu/df7e0de02694c64f0f32c769f5cdadfe5a618d72_s2_n2.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;俺修罗&#34;
-	
-	
-&gt;&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>【B站早划算】期望越大，失望越大</title>
-        <link>https://blog.anhe.one/p/302/</link>
-        <pubDate>Mon, 09 Mar 2020 11:05:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/302/</guid>
-        <description>&lt;p&gt;若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。
+  <channel>
+    <title>闲聊杂谈 on 安和Blog</title>
+    <link>https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
+    <description>Recent content in 闲聊杂谈 on 安和Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>安和</copyright>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年度总结</title>
+      <link>https://blog.anhe.one/p/2023/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/2023/</guid>
+      <description>2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。 至于为什么一月九号才写年终总结&amp;hellip;以前或</description>
+    </item>
+    
+    <item>
+      <title>2022年度总结</title>
+      <link>https://blog.anhe.one/p/2022/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/2022/</guid>
+      <description>博客 一共发布了 4 篇文章，比 2021 少了 13 篇。 百度收录依然是0，谷歌在120左右波动。 共收到 9 条来自访客的评论，已经凉透啦。 （不过有很大一部分原因是</description>
+    </item>
+    
+    <item>
+      <title>Home Assistant避坑</title>
+      <link>https://blog.anhe.one/p/home-assistant-2022/</link>
+      <pubDate>Mon, 11 Jul 2022 17:32:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/home-assistant-2022/</guid>
+      <description>折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的</description>
+    </item>
+    
+    <item>
+      <title>2021年总结</title>
+      <link>https://blog.anhe.one/p/2021/</link>
+      <pubDate>Sun, 09 Jan 2022 17:01:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/2021/</guid>
+      <description>&lt;p&gt;迟来了一个多星期的总结，也并没有更多的内容。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>掌阅 F1 使用体验</title>
+      <link>https://blog.anhe.one/p/655/</link>
+      <pubDate>Sat, 02 Oct 2021 15:04:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/655/</guid>
+      <description>&lt;p&gt;因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>《朔与茉莉》摘选</title>
+      <link>https://blog.anhe.one/p/657/</link>
+      <pubDate>Sat, 02 Oct 2021 13:07:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/657/</guid>
+      <description>&lt;p&gt;在阅读本书时记录的一些不错的句子，主要为环境描写&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>《解忧杂货店》阅读记录</title>
+      <link>https://blog.anhe.one/p/651/</link>
+      <pubDate>Thu, 30 Sep 2021 20:17:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/651/</guid>
+      <description>&lt;p&gt;因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>德业 DYD-612S 除湿机短评</title>
+      <link>https://blog.anhe.one/p/650/</link>
+      <pubDate>Thu, 30 Sep 2021 19:07:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/650/</guid>
+      <description>&lt;p&gt;为了不让书受潮，所以买了台除湿机回来。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>坚果 R2 使用体验</title>
+      <link>https://blog.anhe.one/p/607/</link>
+      <pubDate>Sat, 01 May 2021 23:59:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/607/</guid>
+      <description>&lt;p&gt;说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三星Buds Pro使用体验</title>
+      <link>https://blog.anhe.one/p/567/</link>
+      <pubDate>Sun, 07 Feb 2021 13:53:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/567/</guid>
+      <description>&lt;p&gt;最新的三星耳机！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2020年总结</title>
+      <link>https://blog.anhe.one/p/535/</link>
+      <pubDate>Sat, 09 Jan 2021 15:13:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/535/</guid>
+      <description>&lt;p&gt;相比上一年的2019总结，感觉能说的事少了很多。
+实际上去年只是一时兴起，今年也不过是水篇文章。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>海贝WH3使用体验</title>
+      <link>https://blog.anhe.one/p/503/</link>
+      <pubDate>Wed, 05 Aug 2020 11:32:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/503/</guid>
+      <description>&lt;p&gt;看中音质，图个方便。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>聊聊B站会员购/早划算/魔力赏</title>
+      <link>https://blog.anhe.one/p/497/</link>
+      <pubDate>Sat, 01 Aug 2020 10:36:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/497/</guid>
+      <description>&lt;p&gt;直接说结论吧，大部分情况下，我并不建议你继续使用会员购。
+删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小米手环5使用体验</title>
+      <link>https://blog.anhe.one/p/481/</link>
+      <pubDate>Tue, 28 Jul 2020 13:55:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/481/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HOI4打不开的解决方案</title>
+      <link>https://blog.anhe.one/p/449/</link>
+      <pubDate>Sun, 28 Jun 2020 15:50:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/449/</guid>
+      <description>最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用 最后发现只要改下硬盘的所有者就可以了 具体方法如下： 计算机-右键磁盘-属</description>
+    </item>
+    
+    <item>
+      <title>俺修罗短评</title>
+      <link>https://blog.anhe.one/p/418/</link>
+      <pubDate>Tue, 05 May 2020 17:58:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/418/</guid>
+      <description>&lt;p&gt;由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【B站早划算】期望越大，失望越大</title>
+      <link>https://blog.anhe.one/p/302/</link>
+      <pubDate>Mon, 09 Mar 2020 11:05:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/302/</guid>
+      <description>&lt;p&gt;若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。
 不过，在此我需要提醒您，我并不建议您购买B站早划算，虽一开始还算良心，但到如今，早划算已不减免全部尾款，更弄出了验证码这种恶心的操作，加上质量本身不过关的问题，建议各位不要购买B站早划算商品。&lt;/p&gt;
 &lt;p&gt;老实说，我甚至不建议你继续使用会员购，我在B站600买的毛绒玩具（初音fufu）到处开线，刀疤脸，客服告诉我正常，不给予更换，成功更换的都是找消协什么的才弄好&amp;hellip;我就直接认栽了&lt;/p&gt;
-&lt;p&gt;魔力赏那个建议也别碰，B站会在首页搞各种中奖的人钓你上钩，实际上你会发现你连毛也抽不到（我1k抽了个300块钱的粘土人..）&lt;/p&gt;
-&lt;p&gt;第一波是亚丝娜，蕾姆，萌王，当时不知道可以购物车下单的我选择了两个手机同时抢，可惜的是两个支付时间差了一秒，与蕾姆免单失之交臂。&lt;/p&gt;
-&lt;p&gt;第二波是路人女主的一众周边，有了上一次的教训，用购物车成功下单支付的我只抢到了一副挂画&amp;hellip;毕竟其它的都是只有前五名的大佬才能拥有的。&lt;/p&gt;
-&lt;p&gt;第三波有了前两次的经验，决定使用当时更快的一加后置指纹来抢爱丽丝手办，但意外总是多于好运，在下单卡了五秒的我又一次失去了免单的机会。&lt;/p&gt;
-&lt;p&gt;第四波，也是最后一波，毕竟我已经花的一分不剩了..三个初音手办下单时出现了拼图验证，就这样，支付成功时间18秒的我彻底自闭了&amp;hellip;.之后看到余额还有20的我又去抢了一次初音项链，结果还是六秒钟..最后的希望也破灭了。&lt;/p&gt;
-&lt;p&gt;其实早在下单之前，我就已经知道了早划算中的景品做工实在令人堪忧，同学说&amp;quot;白给我我都不要&amp;quot;，我自己也这么觉得，但当时的我觉得十四块钱要什么自行车呢？又怎会去想没有抢到该怎么办..&lt;/p&gt;
-&lt;p&gt;这次过后，我已决定不再碰早划算这种东西了，我深知&amp;quot;期望越大，失望越大&amp;quot;的道理，却还是自负的认为没人抢的过我；魔力赏也是如此，明知出手办的概率微乎其微，却还是砸了300多进去抽三个钥匙扣，回过神来对自己真的很无语。&lt;/p&gt;
-&lt;p&gt;不得不感叹心态真的很重要啊，早上起来看到自己什么都没抢到的那种失落感可以让人难过一整天，看到自己原价买的手办原来可以优惠好几百后的后悔感也十分打击人。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>浅谈《妄想破绽》</title>
-        <link>https://blog.anhe.one/p/230/</link>
-        <pubDate>Sat, 29 Feb 2020 15:18:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/230/</guid>
-        <description>&lt;p&gt;玩通四条线后，很想写篇文章吐槽吐槽。&lt;/p&gt;
-&lt;h2 id=&#34;游戏背景&#34;&gt;游戏背景&lt;/h2&gt;
-&lt;p&gt;20XX年，随着科技的不断发展，地球资源逐渐枯竭，政治形势紧张。这时，一家以生物科技起家的新能源公司【瑞恩梅克生物科技】，研发出了【分子重构技术】。
-这一技术的问世彻底改变了世界。
-为了争夺这个可以点石成金的尖端科技，人类开始了漫长的战争。
-最终，【瑞恩梅克生物科技】将【分子重构技术】投入战争，彻底摧毁其他势力，取得了最终的胜利。
-他们运用【分子重构技术】建立起【新都市】。P.S 说到底就是个伪乌托邦&amp;hellip;
-若干年后，在人类世界最后的净土上，一个看似普通的学生，化作了网络世界的“幽灵”，无意中碰触了这个世界的“禁忌”……&lt;/p&gt;
-&lt;h2 id=&#34;评价&#34;&gt;评价&lt;/h2&gt;
-&lt;p&gt;P.S 剧情评价部分含有轻微剧透
-立绘，UI，中文 CV ，角色设定（不包括男主）我个人感觉可以打个 9分 甚至更高，但剧情和设定&amp;hellip;5分？感觉还是有点高
-先从我喜欢的司鲸线来说吧，初期的养成系统根本没什么成就感，因为你把行动点全都花掉不去养成也不会影响后面的剧情（私奔线除外）
-独立事件也莫名其妙，男主害死了委托人之后就不了了之了&amp;hellip;
-私奔线简直短的要命，而且所有角色都死了，根本没有救他们的剧情，既然不愿意给她们单做一条线，又何必着重去描写对男主的感情呢？
-这游戏关键的地方不让玩家自行选择，反倒是鸡毛蒜皮的小事会让玩家一个一个选，选完之后也都会并到一条线上，以至于男主对妹妹的态度会让我后悔给男主用我的ID&amp;hellip;.
-然后是男主是真的狗，我玩爱抖露的时候发现男主对她的态度比妹妹不知道好了多少，在旧区绑架的时候也多出来了向爱抖露寻求安慰的选项，别说了，编剧地址给我！
-然后因为“金沙萨日落”揭露了男主身份，男主创造的假人的态度一夜之间变的也太离谱了吧？？可怜的苏打&amp;hellip;.
-当你以为故事刚刚开始的时候&amp;hellip;游戏结束了&amp;hellip;剧情还要等到重构篇才能看到..淦！！还好制作组说重构篇不再另行收费，不然我对这游戏的好感都要归零了。
-其他线就没什么好说的了，&lt;del&gt;我就喜欢司鲸&lt;/del&gt;，除了独立事件以外的大量剧情都是重复的，实在没什么再看一遍的欲望&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;如果你就是冲着立绘去的，那就完全没问题，这个立绘我还是挺喜欢的（我还拿来当头像了hhhh）
-顺便附一张妹妹的CG&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.ahblog.net/bg.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;CG&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;如果你是为了剧情去的..建议不要浪费这20块钱了，真的没什么看的。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>坚果Pro3使用体验</title>
-        <link>https://blog.anhe.one/p/223/</link>
-        <pubDate>Wed, 26 Feb 2020 12:28:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/223/</guid>
-        <description>&lt;p&gt;之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh&lt;/p&gt;
-&lt;h2 id=&#34;缺点&#34;&gt;缺点&lt;/h2&gt;
-&lt;p&gt;游戏模式没有适配 例如少女前线&lt;/p&gt;
-&lt;p&gt;长截屏不知道截到哪了&lt;/p&gt;
-&lt;p&gt;一步3.0无法单独开两个应用了 在分屏模式下，除了正在使用的应用看不清其它应用 上面还莫名其妙空了一块，发布四五个月后也没有新的更新&lt;/p&gt;
-&lt;p&gt;闪念胶囊做代办并不方便 整理起来并没有滴答清单方便&lt;/p&gt;
-&lt;p&gt;没有保留锤子的锁屏样式&lt;/p&gt;
-&lt;p&gt;通知栏通知被水滴隔断 或许做成浮动通知会更好&lt;/p&gt;
-&lt;p&gt;杀后台问题严重 尤其是部分游戏和下载软件 虽然关闭耗电优化有明显缓解 但是否可以把耗电优化做的不那么激进&lt;/p&gt;
-&lt;p&gt;没有Nfc 发热频繁 充电速度慢 18w的充电真的是一言难尽&lt;/p&gt;
-&lt;p&gt;负一屏还不支持微信快捷支付&lt;/p&gt;
-&lt;p&gt;tnt部分应用还是有适配问题&lt;/p&gt;
-&lt;p&gt;返回桌面的动画很奇怪&lt;/p&gt;
-&lt;p&gt;部分常用应用的图标并未适配&lt;/p&gt;
-&lt;p&gt;无线tnt画质很糊 延迟也很高&lt;/p&gt;
-&lt;p&gt;大爆炸炸声音准确率有待优化&lt;/p&gt;
-&lt;p&gt;相机我不是很了解，但具体效果和加5的成像效果&amp;hellip;基本一致&lt;/p&gt;
-&lt;h2 id=&#34;优点&#34;&gt;优点&lt;/h2&gt;
-&lt;p&gt;输入法很不错，比如说有验证码的功能，还有外接键盘的样式。&lt;/p&gt;
-&lt;p&gt;我自己很喜欢锤子的拟物风。&lt;/p&gt;
-&lt;p&gt;4000毫安时的电池让续航一直维持在七小时以上。&lt;/p&gt;
-&lt;p&gt;便签大爆炸很适合编辑&lt;/p&gt;
-&lt;p&gt;细节动画很多，系统应用的动画也很舒适&lt;/p&gt;
-&lt;p&gt;tnt的使用很舒服，不知道怎么夸，毕竟tnt的存在就是个优点。&lt;/p&gt;
-&lt;p&gt;tnt联动 拖拽图片直接放到桌面 然后拖拽到snapseed直接修改 体验很不错&lt;/p&gt;
-&lt;p&gt;大爆炸炸录屏功能 支持直接生成gif 比b站那鸡肋的五秒gif好用多了&lt;/p&gt;
-&lt;p&gt;大爆炸翻译功能 逛外网看到不懂的直接长按机翻&lt;/p&gt;
-&lt;p&gt;大爆炸炸图片功能 一些不让复制的文字 或者别人发的图片也能直接识别文字&lt;/p&gt;
-&lt;p&gt;听力无障碍功能 虽然现在很少使用了 但是我之前是会用那个功能打电话玩的hhh&lt;/p&gt;
-&lt;p&gt;大爆炸炸声音功能 准确率如果是标准普通话很不错 如果不是..那就尴尬了 希望早日支持日语&lt;/p&gt;
-&lt;p&gt;闪念胶囊 很少用到 但有时候也可以派上用场 记mad里没看过的番 记一些使用体验什么的 也可以当备忘录用 但当待办事项用实在是不方便管理&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>第一次去漫展</title>
-        <link>https://blog.anhe.one/p/169/</link>
-        <pubDate>Sun, 19 Jan 2020 21:35:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/169/</guid>
-        <description>&lt;p&gt;感觉这是一件有必要记录下来的事（严肃脸&lt;/p&gt;
-&lt;p&gt;[PAGE1]&lt;/p&gt;
-&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
-&lt;p&gt;其实一直都很想去漫展啦，但是一直不知道怎么去，&lt;del&gt;多亏了哔哩哔哩会员购才知道怎么买票&lt;/del&gt;，去年看到刚好放假第一天就有一个漫展，就定了放假第二天的票（好像并没有什么关联&lt;/p&gt;
-&lt;h2 id=&#34;坐地铁和验票&#34;&gt;坐地铁和验票&lt;/h2&gt;
-&lt;p&gt;坐地铁还好，快到漫展的时候就可以看到好多coser了，最多的还要属汉服和鬼灭（我都不懂
-下了地铁，几个黄牛在地铁站门口开始卖票hhh不过估计卖的挺贵的。
-（话说这么多痛车的嘛？？大部分都是Fate go lovelive和初音）（在第二页可以看到我拍的痛车）
-然后到了漫展门口，尴尬的事情就来了，先是发现我买的预售票居然要多绕几百米，然后再回来&amp;hellip;啊..为了省15块钱我也是拼了
-进去之后，我非常熟练的拿着电子票二维码递给了验票小姐姐“这个要先去那边兑换实体票哦” 淦！
-你以为事情到这里就结束了？我拿着哔哩哔哩的二维码排着队到了喵特app的兑票处&amp;hellip;.最后几经波折，终于拿到了实体票。
-（等同学的时候看到一堆人拿着枪和警棍，中间的拿着个铁箱子
-“他们也是coser吗？”
-“不，他们身后写着武装押运” awsl）&lt;/p&gt;
-&lt;h2 id=&#34;漫展里面&#34;&gt;漫展里面&lt;/h2&gt;
-&lt;p&gt;进去之后emm&amp;hellip;没有想象的那么大，人还有点多&amp;hellip;有点挤..咳咳，这不是重点，重点是内容
-直接走到最里边！看到了个小哥在唱天气之子（我突然想三刷了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/idotqzz.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;天气之子主题曲&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;然后看到了一面墙&amp;hellip;.都是大佬..（好像是前一天漫展画的，不过上面的米老鼠和老八什么鬼啊？！&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/IMG_20200119_103644_15R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;大佬们画的墙&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;回到漫展入口处，一大圈的扭蛋机皮卡丘、我的英雄学院、V家、杀戮天使、点兔、RE0、异世界四重奏等等，我掏出了手机买了八个币（我失了智吗？？？一个币十块钱哎
-最后我抽到了什么..一个和真（没看过，一个贝蒂（我抽的时候最不想要这个，一个美智留（我想要加藤惠啊啊
-于是第一笔智商税就成功交完了..现在我望着这三个小挂件不免产生了一个疑问，这玩意，真值80块钱？&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/IMG_20200119_220745_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;智商税&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;接下来就是砸金蛋，哦，我万万没有想到这是我在这次漫展中最赚的东西了&amp;hellip;一个三等奖一个四等奖..拿了一个辉夜的笔盒和岛风的钱包&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/IMG_20200119_221307_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;血赚（大雾&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;坑爹的来了！！开福袋！！我脑子真是进了水！！那家店是卖国漫周边的！！给了我一堆凹凸世界的周边，还有一张jojo（..我也没看过
-说实话 我感觉风铃是这两个福袋里最值钱的玩意了
-有好多东西我忘了扔哪了，于是就没拍上，但是这重要吗？重要的是我根本都不认识..&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/IMG_20200119_221636_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;血亏（确信&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;嗯&amp;hellip;我再次被金蛋吸引了（不是因为我喜欢砸蛋
-这次..四等奖和五等奖&amp;hellip;哇..请问这个漫展是不是根本就没有一等奖啊？？
-这次拿到了个明日方舟的应援礼盒..一看就是没有授权的盗版..里面基本都是几块钱的玩意
-然后拿到了个德克萨斯的立牌（这个我觉得很不错&lt;/p&gt;
-&lt;p&gt;[PIC1]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/IMG_20200119_222110_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;德克萨斯！&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC1]&lt;/p&gt;
-&lt;p&gt;最后在ido官方那里抽了个奖&amp;hellip;非酋..给了我个徽章&lt;/p&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;还阔以吧，虽然交了不少智商税，但还是挺开心的，也第一次看到不少coser哈哈哈，不过一个都没敢拍，但是我懂你们啊，你们想要看痛车对吧（别打我
-↓多图警告&lt;/p&gt;
-&lt;p&gt;[/PAGE1]&lt;/p&gt;
-&lt;p&gt;[PAGE2]&lt;/p&gt;
-&lt;h2 id=&#34;痛车来啦&#34;&gt;痛车来啦！！&lt;/h2&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_153424_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;好多初音！！&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_153428_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;广角！&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_153414_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;豪 华 痛 车&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121906_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Fate GO&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121925_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;又是初音&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121911_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;玉藻前..我之前还以为阿福&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121914_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;无码撸~&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121925_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;又是初音&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/IMG_20200119_121900_5R.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;我抽卡抽到这个了..但是这是谁鸭&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;
-&lt;p&gt;之后就去电影院看了一场紫罗兰剧场版~不过剧情的话还是没有动漫好看的&lt;/p&gt;
-&lt;p&gt;[/PAGE2]&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>再见，2019</title>
-        <link>https://blog.anhe.one/p/2019/</link>
-        <pubDate>Tue, 31 Dec 2019 23:57:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/2019/</guid>
-        <description>&lt;p&gt;2019的最后三分钟，愿2020的我能做出些许改变。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
-&lt;p&gt;在 &lt;strong&gt;2019&lt;/strong&gt; 年：
-我一共发布了 &lt;strong&gt;15&lt;/strong&gt; 篇文章，其中 &lt;strong&gt;2&lt;/strong&gt; 篇因为特殊原因而被删除。
-百度收录从 &lt;strong&gt;10&lt;/strong&gt; 涨到 &lt;strong&gt;69&lt;/strong&gt; 收录。
-本博客共收到 &lt;strong&gt;9&lt;/strong&gt; 条来自访客的评论。
-我发布了简和主题的三个版本，虽然&lt;strong&gt;并非全部原创&lt;/strong&gt;，但也投入了&lt;strong&gt;我的一番心意&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;学业&#34;&gt;学业&lt;/h2&gt;
-&lt;p&gt;在 &lt;strong&gt;2019&lt;/strong&gt; 年：
-我的成绩从 &lt;strong&gt;222&lt;/strong&gt; 分涨到 &lt;strong&gt;445&lt;/strong&gt; 分。
-考上了一所虽然垫底，但还不错的高中。
-遗憾的是，在 &lt;strong&gt;2019&lt;/strong&gt; 年的最后，我依旧&lt;strong&gt;没有跟上课程进度&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;开心的事&#34;&gt;开心的事&lt;/h2&gt;
-&lt;p&gt;在 &lt;strong&gt;2019&lt;/strong&gt; 年：
-有了能够&lt;strong&gt;自由支配的生活费&lt;/strong&gt;，&lt;strong&gt;买了不少想要的东西&lt;/strong&gt;。
-搞到了不少新的电子产品，其中就有我正在撰写本文的电脑。
-入坑了&lt;strong&gt;耳机坑&lt;/strong&gt;，&lt;strong&gt;轻小说坑&lt;/strong&gt;等等&amp;hellip;书架还差一点就塞满了，可惜在年末时我拿到了一台 &lt;strong&gt;kindle&lt;/strong&gt; ，就此也与实体书告别了。
-在 &lt;strong&gt;2019&lt;/strong&gt; 的最后一天，拿到了一笔巨款。&lt;/p&gt;
-&lt;h2 id=&#34;伤心的事&#34;&gt;伤心的事&lt;/h2&gt;
-&lt;p&gt;家里条件日益衰退，&lt;strong&gt;也是时候要节俭点了&lt;/strong&gt;。
-考上了&lt;strong&gt;不怎么样的高中&lt;/strong&gt;，一本率居然只有 &lt;strong&gt;0.01%&lt;/strong&gt; 。
-&lt;strong&gt;浪费了不少钱在无用的地方&lt;/strong&gt;，现在后悔也来不及了..
-在 &lt;strong&gt;2019&lt;/strong&gt; 的最后一天，陪伴我两年的&lt;strong&gt;5T摔碎了&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;网易云音乐&#34;&gt;网易云音乐&lt;/h2&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/02e736405bab50c631a1475a4628883.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;第一首&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/420b456605bc37db28f8550bd56346e.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;总时长&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/91dc6aa4c5963cfb64bf3b3697be393.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;最小众&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;
-&lt;h2 id=&#34;随手拍&#34;&gt;随手拍&lt;/h2&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/305e2eb63c66aa04f93f78f12943625.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;结冰咯&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/e2da7d1caf30ac365d13a7fc8fb50c7.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;雪&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/2019123101.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;鸟巢冰雪嘉年华&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;
-&lt;p&gt;[PIC2]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/0a4e6b79f04e1e1c4eb2ee6ef6bf27a.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;什么鬼公园&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/884a38c3870bb4fe339da9dc852e927.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;护城河&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC2]&lt;/p&gt;
-&lt;p&gt;[PIC3]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/329cf89f736c6e9814c97a89ff15ea8.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;景山公园&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/f7cf4fc245dd1d2b9ff5ceb7d2773d3.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;骑车&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fly.ahblog.net/blog/typecho/eb0a1dcdcb6ce46cb2cf278e6b792c7.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;一朵花&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;[/PIC3]&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>刘步蟾是否倒置了人字阵型？</title>
-        <link>https://blog.anhe.one/p/85/</link>
-        <pubDate>Sat, 23 Nov 2019 00:08:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/85/</guid>
-        <description>&lt;p&gt;在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中有这一说法，所以，希望能够找到有关于甲午海战的历史文献，了解当时的真相。&lt;/p&gt;
-&lt;h2 id=&#34;网络资料&#34;&gt;网络资料&lt;/h2&gt;
-&lt;p&gt;作为甲午战争中的一个重要人物，刘步蟾投学福建船政学堂，赴欧学习枪炮水雷技术，在北洋舰队历练，一路走来，一生的功名都付与海疆。刘步蟾为人称道也引起后人争议的是他在甲午战争中的表现。1894年9月17日，北洋舰队与日本联合舰队鏖战黄海，丁汝昌负伤后，刘步蟾代为督战，表现优异，发炮连伤日本数舰，特别是重创敌旗舰“松岛”号，使其丧失战斗力而驶逃。&lt;/p&gt;
-&lt;p&gt;刘步蟾曾经因此而背负“恶名”，成为中国近代海军将领中一个突出的反面典型。后世史家对他多有苛责，如蒋廷黻在《中国近代史大纲》中称，黄海海战接仗之初，刘下令将阵势“完全倒置，定远、镇远两铁甲舰居后，两翼的弱小船只反居先。刘实胆怯，倒置的原故想图自全”。史学大家范文澜在《中国近代史》一书，将刘步蟾称之为“卑污的懦夫”，罪名是“擅自改阵”，“违反议定的阵势”，“企图居中躲避炮火”。1962年《甲午风云》公映，影片将刘步蟾塑造成一个胆小怕事的反面典型。&lt;/p&gt;
-&lt;p&gt;随着时代的推进，学术氛围趋于正常和自由，经过多年的讨论，刘步蟾的“恶名”才摘掉。甲午中日战争研究专家戚其章先生，通过在威海卫的实地调查和较为系统的史料梳理，撰文澄清“恶名”缘起甲午战争时曾任“定远”舰副管驾英国人泰莱的污蔑。二人之间的恩怨则是由于刘步蟾多次谏言泰莱的为人有问题以至于阻碍了后者的升迁。此外，戚其章还否认了刘步蟾有怯战和冒功之事。而此后发表的一系列文章也开始倾向于对刘步蟾采取肯定态度。&lt;/p&gt;
-&lt;h2 id=&#34;相关链接&#34;&gt;相关链接&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/26054467/answer/132111583&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;知乎-为什么甲午战争刘步蟾突然下令把人字阵船队完全倒置？&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;今在读蒋廷黼先生的《中国近代史》中也发现这一说法，文中说“刘实胆怯，倒置的缘故想图自全”，故而也上知乎一寻究竟&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhidao.baidu.com/question/552573389916168572.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;百度知道-为什么甲午战争刘步蟾突然下令把人字阵船队完全倒置?&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;定远，镇远转为居后，弱船居前？是刘步蟾的命令，还是李鸿章怕北洋水师损失命令刘步蟾这样做的？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://history.sina.com.cn/his/zl/2014-07-18/163895672.shtml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;新浪专栏-刘步蟾：甲午将领寂寞身后事&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;转眼间，今年又是一个甲午年，一百多年以来，围绕相关历史人物的争论却从未冷却，围绕人物、事件的争论欲说还休，难以盖棺论定。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-        </item>
-        <item>
-        <title>入手的第一款Galgame</title>
-        <link>https://blog.anhe.one/p/7/</link>
-        <pubDate>Fri, 24 Aug 2018 17:48:00 +0000</pubDate>
-        
-        <guid>https://blog.anhe.one/p/7/</guid>
-        <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
-&lt;p&gt;2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能背出来了&amp;hellip;但在最近不知怎么的突然想玩Galgame了，这时我又想起了这款游戏&amp;hellip;都在我淘宝收藏夹放了两年了&lt;/p&gt;
-&lt;h2 id=&#34;开箱&#34;&gt;开箱&lt;/h2&gt;
-&lt;p&gt;下单以后过了三天吧，圆通快递送到了 :idea: 一开始担心会不会破损买了运费险 看来是浪费钱了&amp;hellip;
-&lt;img src=&#34;https://fly.ahblog.net/poxiazi01.jpg&#34; height=&#34;400&#34; width=&#34;300&#34;&gt;
-打开后赠品可以说是非常多了 除了原声音乐和游戏盘以外还有明信片 书签之类的赠品，不过错过了初回版还是有点可惜的
-&lt;img src=&#34;https://fly.ahblog.net/poxiazi02.jpg&#34; height=&#34;400&#34; width=&#34;300&#34;&gt;
-在回忆缺页里还有番外，很舒服 :razz:&lt;/p&gt;
-&lt;h2 id=&#34;剧情&#34;&gt;剧情&lt;/h2&gt;
-&lt;p&gt;剧情分三条线，分别是佑萌，连橙，林璃，不过我现在玩了一下午还没玩到第一条，但是剧情我倒是比较熟悉了&lt;/p&gt;
-&lt;p&gt;一份工作，让主人公秦幽羽的父亲从此失踪，紧接着又是母亲的突然离去。幼小的幽羽，瞬间失去了父母。亲情，从渴望，变成了永远的失去。患上抑郁症的秦幽羽，浑浑噩噩地度过每一天，有时甚至想离开这个世界。虽然从未放弃过寻找，可是事情却毫无进展。直到那天…
-“我，有你父母的消息”
-这些人，都把主人公秦幽羽给洗脑了，虽然后来抑郁症好了，但是初中的记忆也消失了。
-后来，到了高中，才开始发现三位女主角林璃、连橙和余佑萌的故事，在帮助她们的同时，也有了主人公秦幽羽自己调查自己故事的机会……&lt;/p&gt;
-&lt;p&gt;不过如果不看一眼介绍，前几章感觉就是校园日常了，具体攻略什么的在百度上也有，剧情我在这里剧透也不好..就是简简单单的开个箱水一篇吧 :cool:&lt;/p&gt;
-&lt;h2 id=&#34;体验&#34;&gt;体验&lt;/h2&gt;
-&lt;p&gt;在当时看完剧情之后的一段时间内给我带来了不少的影响吧，林璃在面临抉择时，一个硬币反映出了内心的想法 :eek: 不管连橙线还是佑萌线 结局都很感人&amp;hellip;
-我个人比较倾向于happy end不管是什么方面 比如前几个星期刚看完罪恶王冠..抑郁了半个月 :cry: 如果男主最后跟女主一起死的话我倒是能接受啊..
-..还有我和她的世界末日..bad end是不是有点多 :lol: 嘛 不管怎么说 从剧情还是画面都很好 只是一些酱油角色的配音听起来确实有点尬
-现在有些人看见国产就劝退 根本不管做的好不好..可能是我就接触了几个galgame吧 我觉得忘却之匣做的已经很好了&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
+&lt;p&gt;魔力赏那个建议也别碰，B站会在首页搞各种中奖的人钓你上钩，实际上你会发现你连毛也抽不到（我1k抽了个300块钱的粘土人..）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>浅谈《妄想破绽》</title>
+      <link>https://blog.anhe.one/p/230/</link>
+      <pubDate>Sat, 29 Feb 2020 15:18:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/230/</guid>
+      <description>&lt;p&gt;玩通四条线后，很想写篇文章吐槽吐槽。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>坚果Pro3使用体验</title>
+      <link>https://blog.anhe.one/p/223/</link>
+      <pubDate>Wed, 26 Feb 2020 12:28:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/223/</guid>
+      <description>&lt;p&gt;之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第一次去漫展</title>
+      <link>https://blog.anhe.one/p/169/</link>
+      <pubDate>Sun, 19 Jan 2020 21:35:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/169/</guid>
+      <description>&lt;p&gt;感觉这是一件有必要记录下来的事（严肃脸&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>再见，2019</title>
+      <link>https://blog.anhe.one/p/2019/</link>
+      <pubDate>Tue, 31 Dec 2019 23:57:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/2019/</guid>
+      <description>&lt;p&gt;2019的最后三分钟，愿2020的我能做出些许改变。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>刘步蟾是否倒置了人字阵型？</title>
+      <link>https://blog.anhe.one/p/85/</link>
+      <pubDate>Sat, 23 Nov 2019 00:08:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/85/</guid>
+      <description>&lt;p&gt;在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中有这一说法，所以，希望能够找到有关于甲午海战的历史文献，了解当时的真相。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>入手的第一款Galgame</title>
+      <link>https://blog.anhe.one/p/7/</link>
+      <pubDate>Fri, 24 Aug 2018 17:48:00 +0000</pubDate>
+      
+      <guid>https://blog.anhe.one/p/7/</guid>
+      <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+&lt;p&gt;2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能背出来了&amp;hellip;但在最近不知怎么的突然想玩Galgame了，这时我又想起了这款游戏&amp;hellip;都在我淘宝收藏夹放了两年了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜索 - 安和Blog</title>
+    <link rel="stylesheet" href="/css/jianhe.css?v=1736334510">
+    <link rel="stylesheet" href="/css/1.0.css?v=1736334510">
+    <link rel="stylesheet" href="/css/timeline.css?v=1736334510">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
+    <link rel="stylesheet" href="/css/post.css?v=1736334510">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+    <style>
+        body {
+            text-shadow: black 0.1em 0.1em 0.2em;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #262525;
+        }
+        .main {
+            flex: 1;
+            background-color: #262525;
+            display: flex;
+            justify-content: center;
+        }
+        .main-container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-right: 20px;
+            padding-left:20px;
+        }
+        .boxa {
+            display: flex;
+            position: relative;
+            margin-top: 20px;
+        }
+        .sidebar-container {
+            width: 170px;
+            flex-shrink: 0;
+            padding-top: 60px;
+        }
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            width: 100%;
+        }
+        .box {
+            flex: 1;
+            margin: 0 !important;
+            padding-left: 20px;
+            max-width: calc(100% - 150px);
+        }
+        @media (max-width: 1024px) {
+            .sidebar-container {
+                display: none;
+            }
+            .box {
+                max-width: 100%;
+                padding-left: 0;
+            }
+            .pctitle {
+                display: none !important;
+            }
+            .peside {
+                display: block !important;
+            }
+            .tag-list {
+                text-align: left;
+            }
+            .tag-list a {
+                display: inline-block !important;
+                margin-right: 10px;
+                padding: 5px;
+            }
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        @media (min-width: 1025px) {
+            .peside {
+                display: none !important;
+            }
+            .pctitle {
+                display: block !important;
+            }
+            .tag-list a {
+                display: block;
+            }
+        }
+        @media (max-width: 768px) {
+            .main {
+                padding: 0;
+            }
+            .main-container {
+                padding: 0 10px;
+            }
+        }
+         
+        .box {
+            margin-right: 0 !important;
+        }
+        @media only screen and (max-width: 1500px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 1000px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 650px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        .social-links {
+            margin: 25px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.9) !important;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+            padding: 6px 12px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .social-link:hover {
+            color: #fff !important;
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        .social-link i {
+            margin-right: 8px;
+            font-size: 1.1em;
+        }
+        @media (max-width: 650px) {
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        .peside {
+            width: 100%;
+        }
+        .cardshow {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: 8000px) {
+            .cardboxshow {
+                float: left;
+                width: calc(50% - 10px);
+            }
+            .cardboxshow:nth-child(2n) {
+                margin-right: 0;
+            }
+            .cardboxshow:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+        @media only screen and (max-width: 1024px) {
+            .cardboxshow {
+                float: none;
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        .lazyloaded {
+            opacity: 1 !important;
+            min-height: 200px;
+            position: relative;
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .titlecard {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        .titlecard a {
+            text-decoration: none;
+            color: #fff !important;
+        }
+        .titlecard a:hover {
+            color: rgba(255, 255, 255, 0.8) !important;
+        }
+        .titlecard hr {
+            border: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 15px 0;
+        }
+        .petitle {
+            display: block !important;
+        }
+        .petitle h1 {
+            margin: 0;
+        }
+        .petitle p {
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+        .tag-list {
+            margin-top: 15px;
+        }
+        .tag-list a {
+            color: rgba(255, 255, 255, 0.8) !important;
+            text-decoration: none;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+        .tag-list a:hover {
+            color: #fff !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="main-container">
+            <div class="peside">
+                <div class="cardshow">
+                    <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+                        <div class="titlecard">
+                            <a href="https://blog.anhe.one">
+                                <div class="petitle">
+                                    <h1>安和Blog</h1>
+                                    <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                                </div>
+                            </a>
+                            <div class="social-links">
+                                
+                                <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                    <i class="ri-github-fill"></i>
+                                    <span>Github</span>
+                                </a>
+                                
+                                
+                                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                    <i class="ri-code-box-fill"></i>
+                                    <span>Greasyfork</span>
+                                </a>
+                                
+                                
+                                <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                    <i class="ri-mail-fill"></i>
+                                    <span>Email</span>
+                                </a>
+                                
+                            </div>
+                            <hr>
+                            <div class="tag-list">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/about/">关于</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/links/">友人</a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxa">
+                <div class="sidebar-container">
+                    <div class="sidebar">
+                        <div class="side-bar" style="margin-top:25px;">
+    <div class="nav" style="padding-top: 5px;padding-right: 10px;padding-left: 10px;">
+        <a href="https://blog.anhe.one">
+            <img class="logo2" style="margin-top: 27px;" src="/images/avatar.jpg" alt="安和Blog">
+            <hr>
+            <div class="tag-list displaynone">
+                
+                
+                
+                
+                
+                
+                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/about/">关于</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/links/">友人</a>
+                
+                
+            </div>
+            <hr>
+            <div class="tag-list displaynone">
+                
+                <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                
+                <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                
+                <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="peside">
+    <div class="cardshow">
+        <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+            <div class="titlecard">
+                <a href="https://blog.anhe.one">
+                    <div class="petitle">
+                        <h1>安和Blog</h1>
+                        <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                    </div>
+                </a>
+                <hr>
+                <div class="tag-list">
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/archives/">归档</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/about/">关于</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/search/">搜索</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/links/">友人</a>
+                    
+                    
+                </div>
+                <hr>
+                <div class="tag-list displaynone">
+                    
+                    <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pctitle">
+                        <h1 style="color:#fff;margin-top:0px;margin-bottom:0px;">安和Blog</h1>
+                        <p style="color:#fff; margin-top:0px;">看似寻常最奇崛，成如容易却艰辛。</p>
+                        <div class="social-links">
+                            
+                            <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                <i class="ri-github-fill"></i>
+                                <span>Github</span>
+                            </a>
+                            
+                            
+                            <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                <i class="ri-code-box-fill"></i>
+                                <span>Greasyfork</span>
+                            </a>
+                            
+                            
+                            <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                <i class="ri-mail-fill"></i>
+                                <span>Email</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="输入关键词搜索..." autocomplete="off" />
+        <button id="search-button">搜索</button>
+    </div>
+    <div id="search-results" class="search-results">
+        
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script src="/js/search.js"></script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    <div class="footer-card">
+        <div class="footer-content">
+            <span class="site-name">安和Blog</span>
+            <span class="divider">·</span>
+            <span class="copyright">© 2025</span>
+            <span class="divider">·</span>
+            <span class="theme-info">Theme by JianHe</span>
+            <span class="divider">·</span>
+            <span class="built-info">Built with Hugo</span>
+            
+            <span class="divider">·</span>
+            <span class="runtime" id="runtime"></span>
+            
+            
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.staticfile.org/lazysizes/5.2.0/lazysizes.min.js"></script> 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages = document.getElementsByClassName("lazyload");
+    for (var i = 0; i < lazyloadImages.length; i++) {
+        lazyloadImages[i].style.opacity = "1";
+    }
+
+    function updateRuntime() {
+        var runtimeElement = document.getElementById('runtime');
+        if (runtimeElement) {
+            var startTime = new Date('2017-06-30');
+            var currentTime = new Date();
+            var timeDiff = currentTime - startTime;
+            
+            var years = Math.floor(timeDiff / (365 * 24 * 60 * 60 * 1000));
+            var days = Math.floor((timeDiff % (365 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+            
+            runtimeElement.textContent = `本站已运行 ${years}年${days}天`;
+        }
+    }
+    
+    if (document.getElementById('runtime')) {
+        updateRuntime();
+        setInterval(updateRuntime, 86400000); 
+    }
+});
+</script>
+
+<style>
+footer {
+    padding: 1rem 0;
+    background-color: #262525;
+}
+
+.footer-card {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.divider {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.site-name {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.built-info, .runtime, .theme-info, .copyright {
+    color: rgba(255, 255, 255, 0.71) !important;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .divider {
+        display: none;
+    }
+}
+</style> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html> 

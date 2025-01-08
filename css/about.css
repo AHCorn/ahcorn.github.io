@@ -1,0 +1,384 @@
+.about-container {
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
+}
+
+.about-mobile-header {
+    display: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-mobile-header .about-avatar {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+}
+
+.about-mobile-header .about-avatar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.about-mobile-header .about-avatar a:hover {
+    transform: scale(1.05);
+}
+
+.about-mobile-header .about-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-mobile-header h1 {
+    font-size: 1.8em;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+.about-mobile-header p {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.about-content {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-top: 40px;
+    flex: 1;
+    position: relative;
+}
+
+.about-content::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        transparent 100%
+    );
+}
+
+.about-content h2 {
+    font-size: 1.8em;
+    margin: 1.5em 0 1em;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.about-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #64b5f6, transparent);
+}
+
+.about-content p {
+    margin-bottom: 1.5em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.about-skills h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.about-skills h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #64b5f6, transparent);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+
+.skill-item {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    will-change: transform, box-shadow;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+.skill-item:hover {
+    transform: translateY(-3px) translateZ(0);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skill-item:hover::after {
+    opacity: 1;
+}
+
+.skill-item i {
+    font-size: 2em;
+    margin-bottom: 8px;
+    color: #64b5f6;
+}
+
+.skill-item span {
+    font-size: 0.85em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.github-section {
+    margin: 40px 0;
+}
+
+.github-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.github-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #64b5f6, transparent);
+}
+
+.github-calendar {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-bottom: 40px;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(100, 181, 246, 0.5) rgba(255, 255, 255, 0.1);
+}
+
+/* 自定义滚动条样式 - Webkit浏览器 */
+.github-calendar::-webkit-scrollbar {
+    height: 8px;
+}
+
+.github-calendar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.github-calendar::-webkit-scrollbar-thumb {
+    background: rgba(100, 181, 246, 0.5);
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.github-calendar::-webkit-scrollbar-thumb:hover {
+    background: rgba(100, 181, 246, 0.7);
+}
+
+.github-chart {
+    width: 100%;
+    height: auto;
+    display: block;
+    min-width: 700px;
+    border-radius: 8px;
+}
+
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.repo-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.repo-name {
+    margin: 0;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.repo-stats {
+    display: flex;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.repo-stats i {
+    margin-right: 4px;
+}
+
+.repo-description {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 8px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    flex: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.repo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: auto;
+}
+
+.repo-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9em;
+}
+
+.language-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.repo-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.repo-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .about-mobile-header {
+        display: block;
+    }
+    
+    .about-container {
+        margin: 20px;
+        max-width: 100%;
+    }
+    
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 10px;
+    }
+
+    .repo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .github-calendar {
+        padding: 15px;
+    }
+
+    .github-chart {
+        min-width: 600px;
+        border-radius: 6px;
+    }
+} 
+
+.about-mobile-header .mobile-social-links {
+    margin: 15px 0;
+}
+
+.about-mobile-header .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.about-mobile-header .social-links a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-mobile-header .social-links a:hover {
+    color: #64b5f6;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+} 

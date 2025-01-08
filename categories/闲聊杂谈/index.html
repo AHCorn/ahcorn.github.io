@@ -1,678 +1,1048 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='安和,安和Blog,Blog,安和博客,博客'>
-<title>Category: 闲聊杂谈 - 安和Blog</title>
-
-<link rel='canonical' href='https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/'>
-
-<link rel="stylesheet" href="/scss/style.min.6e34ab5df8e78439255f32faf23c4626a09028e3a966d0710aa65442ef90253a.css"><meta property='og:title' content='Category: 闲聊杂谈 - 安和Blog'>
-<meta property='og:description' content='安和,安和Blog,Blog,安和博客,博客'>
-<meta property='og:url' content='https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/'>
-<meta property='og:site_name' content='安和Blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-08-18T00:00:00&#43;00:00 '/>
-<meta name="twitter:title" content="Category: 闲聊杂谈 - 安和Blog">
-<meta name="twitter:description" content="安和,安和Blog,Blog,安和博客,博客"><link rel="alternate" type="application/rss&#43;xml" href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/index.xml">
-    </head>
-    <body class="">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>闲聊杂谈 - 安和Blog</title>
+    <link rel="stylesheet" href="/css/jianhe.css?v=1736334511">
+    <link rel="stylesheet" href="/css/1.0.css?v=1736334511">
+    <link rel="stylesheet" href="/css/timeline.css?v=1736334511">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
+    <link rel="stylesheet" href="/css/post.css?v=1736334511">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+    <style>
+        body {
+            text-shadow: black 0.1em 0.1em 0.2em;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #262525;
         }
-    })();
-</script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
+        .main {
+            flex: 1;
+            background-color: #262525;
+            display: flex;
+            justify-content: center;
+        }
+        .main-container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-right: 20px;
+            padding-left:20px;
+        }
+        .boxa {
+            display: flex;
+            position: relative;
+            margin-top: 20px;
+        }
+        .sidebar-container {
+            width: 170px;
+            flex-shrink: 0;
+            padding-top: 60px;
+        }
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            width: 100%;
+        }
+        .box {
+            flex: 1;
+            margin: 0 !important;
+            padding-left: 20px;
+            max-width: calc(100% - 150px);
+        }
+        @media (max-width: 1024px) {
+            .sidebar-container {
+                display: none;
+            }
+            .box {
+                max-width: 100%;
+                padding-left: 0;
+            }
+            .pctitle {
+                display: none !important;
+            }
+            .peside {
+                display: block !important;
+            }
+            .tag-list {
+                text-align: left;
+            }
+            .tag-list a {
+                display: inline-block !important;
+                margin-right: 10px;
+                padding: 5px;
+            }
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        @media (min-width: 1025px) {
+            .peside {
+                display: none !important;
+            }
+            .pctitle {
+                display: block !important;
+            }
+            .tag-list a {
+                display: block;
+            }
+        }
+        @media (max-width: 768px) {
+            .main {
+                padding: 0;
+            }
+            .main-container {
+                padding: 0 10px;
+            }
+        }
+         
+        .box {
+            margin-right: 0 !important;
+        }
+        @media only screen and (max-width: 1500px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 1000px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        @media only screen and (max-width: 650px) {
+            .box {
+                margin-right: 0 !important;
+            }
+        }
+        .social-links {
+            margin: 25px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.9) !important;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+            padding: 6px 12px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .social-link:hover {
+            color: #fff !important;
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        .social-link i {
+            margin-right: 8px;
+            font-size: 1.1em;
+        }
+        @media (max-width: 650px) {
+            .social-links {
+                justify-content: flex-start;
+            }
+        }
+        .peside {
+            width: 100%;
+        }
+        .cardshow {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: 8000px) {
+            .cardboxshow {
+                float: left;
+                width: calc(50% - 10px);
+            }
+            .cardboxshow:nth-child(2n) {
+                margin-right: 0;
+            }
+            .cardboxshow:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+        @media only screen and (max-width: 1024px) {
+            .cardboxshow {
+                float: none;
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        .lazyloaded {
+            opacity: 1 !important;
+            min-height: 200px;
+            position: relative;
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .titlecard {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        .titlecard a {
+            text-decoration: none;
+            color: #fff !important;
+        }
+        .titlecard a:hover {
+            color: rgba(255, 255, 255, 0.8) !important;
+        }
+        .titlecard hr {
+            border: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 15px 0;
+        }
+        .petitle {
+            display: block !important;
+        }
+        .petitle h1 {
+            margin: 0;
+        }
+        .petitle p {
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+        .tag-list {
+            margin-top: 15px;
+        }
+        .tag-list a {
+            color: rgba(255, 255, 255, 0.8) !important;
+            text-decoration: none;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+        .tag-list a:hover {
+            color: #fff !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="main-container">
+            <div class="peside">
+                <div class="cardshow">
+                    <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+                        <div class="titlecard">
+                            <a href="https://blog.anhe.one">
+                                <div class="petitle">
+                                    <h1>安和Blog</h1>
+                                    <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                                </div>
+                            </a>
+                            <div class="social-links">
+                                
+                                <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                    <i class="ri-github-fill"></i>
+                                    <span>Github</span>
+                                </a>
+                                
+                                
+                                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                    <i class="ri-code-box-fill"></i>
+                                    <span>Greasyfork</span>
+                                </a>
+                                
+                                
+                                <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                    <i class="ri-mail-fill"></i>
+                                    <span>Email</span>
+                                </a>
+                                
+                            </div>
+                            <hr>
+                            <div class="tag-list">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/about/">关于</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                                
+                                
+                                
+                                <a href="https://blog.anhe.one/page/links/">友人</a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxa">
+                <div class="sidebar-container">
+                    <div class="sidebar">
+                        <div class="side-bar" style="margin-top:25px;">
+    <div class="nav" style="padding-top: 5px;padding-right: 10px;padding-left: 10px;">
+        <a href="https://blog.anhe.one">
+            <img class="logo2" style="margin-top: 27px;" src="/images/avatar.jpg" alt="安和Blog">
+            <hr>
+            <div class="tag-list displaynone">
+                
+                
+                
+                
+                
+                
+                <a href="https://blog.anhe.one/page/archives/">归档</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/about/">关于</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/search/">搜索</a>
+                
+                
+                
+                <a href="https://blog.anhe.one/page/links/">友人</a>
+                
+                
+            </div>
+            <hr>
+            <div class="tag-list displaynone">
+                
+                <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                
+                <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                
+                <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                
+                <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                
+            </div>
+        </a>
+    </div>
+</div>
 
-    <header>
-        
-            
-            <figure class="site-avatar">
-                <a href="/">
-                
-                    
-                    
-                    
-                        
-                        <img src="/img/avatar_hub84b9cbdc1df2fd5489fb9f8afe1c9bb_105672_300x0_resize_box_3.png" width="300"
-                            height="300" class="site-logo" loading="lazy" alt="Avatar">
-                    
-                
+<div class="peside">
+    <div class="cardshow">
+        <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
+            <div class="titlecard">
+                <a href="https://blog.anhe.one">
+                    <div class="petitle">
+                        <h1>安和Blog</h1>
+                        <p>看似寻常最奇崛，成如容易却艰辛。</p>
+                    </div>
                 </a>
-                
-            </figure>
-            
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/">安和Blog</a></h1>
-            <h2 class="site-description">看似寻常最奇崛，成如容易却艰辛。</h2>
-        </div>
-    </header><ol class="social-menu">
-            
-                <li>
-                    <a 
-                        href='https://github.com/ahcorn'
-                        target="_blank"
-                        title="GitHub"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
-            
-        </ol><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/%E5%85%B3%E4%BA%8E/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/%E5%8F%8B%E4%BA%BA/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>友人</span>
-            </a>
-        </li>
-        
-
-        <div class="menu-bottom-section">
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
-    </ol>
-</aside>
-
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                <form action="/search/" class="search-form widget" >
-        <p>
-            <label>搜索</label>
-            <input name="keyword" required placeholder="输入关键词..." />
-        
-            <button title="搜索">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-            </button>
-        </p>
-    </form>
-            
-        
-            
-                <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">归档</h2>
-
-        
-        
-        
-        
-        
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/archives/#2024">
-                        
-                            <span class="year">2024</span>
-                            <span class="count">2</span>
-                        
-                    </a> 
+                <hr>
+                <div class="tag-list">
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/archives/">归档</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/about/">关于</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/search/">搜索</a>
+                    
+                    
+                    
+                    <a href="https://blog.anhe.one/page/links/">友人</a>
+                    
+                    
                 </div>
-            <div class="archives-year">
-                    <a href="/archives/#2023">
-                        
-                            <span class="year">2023</span>
-                            <span class="count">1</span>
-                        
-                    </a> 
+                <hr>
+                <div class="tag-list displaynone">
+                    
+                    <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
+                    
+                    <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
+                    
                 </div>
-            <div class="archives-year">
-                    <a href="/archives/#2022">
-                        
-                            <span class="year">2022</span>
-                            <span class="count">4</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#2021">
-                        
-                            <span class="year">2021</span>
-                            <span class="count">13</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#2020">
-                        
-                            <span class="year">2020</span>
-                            <span class="count">24</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#2019">
-                        
-                            <span class="year">更多</span>
-                        
-                    </a> 
-                </div>
-            
-        </div>
-    </section>
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">分类</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/" class="font_size_32">
-                折腾网站
-            </a>
-        
-            <a href="/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/" class="font_size_22">
-                闲聊杂谈
-            </a>
-        
-            <a href="/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/" class="font_size_10">
-                折腾手机
-            </a>
-        
-            <a href="/categories/acgn%E7%9F%AD%E8%AF%84/" class="font_size_7">
-                ACGN短评
-            </a>
-        
-            <a href="/categories/%E5%85%AC%E5%91%8A/" class="font_size_1">
-                公告
-            </a>
-        
-            <a href="/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/" class="font_size_1">
-                折腾电脑
-            </a>
-        
-    </div>
-</section>
-
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">标签云</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/%E7%9F%AD%E8%AF%84/" class="font_size_7">
-                短评
-            </a>
-        
-            <a href="/tags/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/" class="font_size_7">
-                闲聊杂谈
-            </a>
-        
-            <a href="/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/" class="font_size_3">
-                轻小说
-            </a>
-        
-            <a href="/tags/root/" class="font_size_2">
-                Root
-            </a>
-        
-            <a href="/tags/%E5%B0%8F%E5%8A%9F%E8%83%BD/" class="font_size_2">
-                小功能
-            </a>
-        
-            <a href="/tags/%E5%B9%B2%E8%B4%A7/" class="font_size_2">
-                干货
-            </a>
-        
-            <a href="/tags/%E6%90%9E%E6%9C%BA/" class="font_size_2">
-                搞机
-            </a>
-        
-            <a href="/tags/%E7%95%AA%E5%89%A7/" class="font_size_2">
-                番剧
-            </a>
-        
-            <a href="/tags/%E7%9C%81%E7%94%B5/" class="font_size_2">
-                省电
-            </a>
-        
-            <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" class="font_size_2">
-                软件推荐
-            </a>
-        
-    </div>
-</section>
-            
-        
-    </aside>
-
-
-            <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                Categories
-            
-        </h3>
-
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count"></h3>
-                <h1 class="section-term">闲聊杂谈</h1>
-                
             </div>
         </div>
-    </header>
-    
-    <section class="article-list--compact">
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pctitle">
+                        <h1 style="color:#fff;margin-top:0px;margin-bottom:0px;">安和Blog</h1>
+                        <p style="color:#fff; margin-top:0px;">看似寻常最奇崛，成如容易却艰辛。</p>
+                        <div class="social-links">
+                            
+                            <a href="https://github.com/AHCorn" class="social-link" target="_blank">
+                                <i class="ri-github-fill"></i>
+                                <span>Github</span>
+                            </a>
+                            
+                            
+                            <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
+                                <i class="ri-code-box-fill"></i>
+                                <span>Greasyfork</span>
+                            </a>
+                            
+                            
+                            <a href="mailto:ayanee@protonmail.com" class="social-link">
+                                <i class="ri-mail-fill"></i>
+                                <span>Email</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+<div class="box">
+    <div style="display: flex;flex-wrap: wrap;gap: 20px;">
         
-            <article>
-    <a href="/p/2023/">
-        <div class="article-details">
-            <h2 class="article-title">2023年度总结</h2>
-            <footer class="article-time">
-                <time datetime='2024-01-09T00:00:00Z'>Jan 09, 2024</time>
-            </footer>
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/2023/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('https://blog.anhe.one/p/2023/Cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2024年01月09日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">2023年度总结</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">再不写的话，是不是就赶不上了？</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
         </div>
-            <div class="article-image">
-                <img src="/p/2023/Cover_huf4d319da7c2ec5b7ec95be2eec15c574_118141_120x120_fill_q75_box_smart1.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="2023年度总结"
-                        loading="lazy">
-                
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/2022/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('https://blog.anhe.one/p/2022/banner.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2023年01月07日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">2022年度总结</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">又是迟来了一个星期的总结...</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/home-assistant-2022/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('https://blog.anhe.one/p/home-assistant-2022/ha.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2022年07月11日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">Home Assistant避坑</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的docker …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/2021/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('https://blog.anhe.one/p/2021/banner.webp') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2022年01月09日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">2021年总结</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">迟来了一个多星期的总结，也并没有更多的内容。
+博客 一共发布了 14 篇文章，比 2019 多了 9 篇。 因为更换域名，所有的收录都已经归零了。 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/655/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年10月02日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">掌阅 F1 使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。
+显示效果 虽然整体来说很不错，但是不得不提的一点是它的屏幕是一块完整的玻璃， …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/657/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年10月02日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">《朔与茉莉》摘选</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">在阅读本书时记录的一些不错的句子，主要为环境描写
+我感到了几分空虚，不仅仅是这份寒冷。
+我急匆匆地离开灯火辉煌一片圣诞装扮的车站，向自己的公寓走去。
+随着离城市 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/651/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年09月30日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">《解忧杂货店》阅读记录</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。
+9月7日 今天读了六十多页的《解忧杂货店》，一开始因为排版和字体的原因实在有些读不下去，但习惯 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/650/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年09月30日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">德业 DYD-612S 除湿机短评</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">为了不让书受潮，所以买了台除湿机回来。
+效果 这款除湿机效果实在是不太理想，在高风模式下也仅能将湿度保持在 60% 上下，但比较意外的是水满的却很快，2.5L的 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/607/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年05月01日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">坚果 R2 使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。
+印象最深刻 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/567/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年02月07日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">三星Buds Pro使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">最新的三星耳机！
+前言 虽说耳机上个月 25 号就已经拿到了，但还是拖到了现在才把这篇使用体验写出来。
+起因就是之前的海贝 WH3 已经没法再正常使用了，不知道 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/535/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2021年01月09日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">2020年总结</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">相比上一年的2019总结，感觉能说的事少了很多。 实际上去年只是一时兴起，今年也不过是水篇文章。
+博客 一共发布了 24 篇文章，比 2019 多了 9 篇。  …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/503/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年08月05日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">海贝WH3使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">看中音质，图个方便。
+前言 本文并非专业测评，产品不购自海贝官方店铺，仅供参考。 自去年2K整了个氧气耳机之后也算是入了耳机坑，但整体来讲还是个小白，所以本文只 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/497/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年08月01日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">聊聊B站会员购/早划算/魔力赏</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">直接说结论吧，大部分情况下，我并不建议你继续使用会员购。 删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。
+前言 如果 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/481/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年07月28日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">小米手环5使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">前言 智能手表我已经买了不少了，中兴ZW10，MOTO360一代，三星gear sport以及三星gearS3，其中最让我满意的是ZW10，如果你在18年那会看 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/449/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年06月28日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">HOI4打不开的解决方案</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用 最后发现只要改下硬盘的所有者就可以了 具体方法如下： 计算机-右键磁盘-属性-安全-高 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/418/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年05月05日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">俺修罗短评</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。
+前言 这部番剧的名字我早有耳闻，但也是迟迟没有去看。 最近想找一些比较甜的番吃狗粮，在看到了白 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/302/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年03月09日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">【B站早划算】期望越大，失望越大</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。 不过，在此我需要提醒您，我并不建议您购买B站早划算，虽一开始还算良心，但到如今，早划算已不减免全 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/230/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年02月29日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">浅谈《妄想破绽》</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">玩通四条线后，很想写篇文章吐槽吐槽。
+游戏背景 20XX年，随着科技的不断发展，地球资源逐渐枯竭，政治形势紧张。这时，一家以生物科技起家的新能源公司【瑞恩梅克生 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/223/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年02月26日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">坚果Pro3使用体验</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh
+缺点 游戏模式没有适配 例如少女前线
+长截屏不知道截到哪了
+一步3.0无法单独开 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/169/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2020年01月19日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">第一次去漫展</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">感觉这是一件有必要记录下来的事（严肃脸
+[PAGE1]
+写在前面 其实一直都很想去漫展啦，但是一直不知道怎么去，多亏了哔哩哔哩会员购才知道怎么买票，去年看到刚好 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/2019/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2019年12月31日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">再见，2019</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">2019的最后三分钟，愿2020的我能做出些许改变。
+博客 在 2019 年： 我一共发布了 15 篇文章，其中 2 篇因为特殊原因而被删除。 百度收录从 10 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/85/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2019年11月23日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">刘步蟾是否倒置了人字阵型？</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+        <div class="cardboxshow" style="width: calc(50% - 10px);">
+            <b>
+                <div class="black" style="overflow: hidden;border-radius: 15px;">
+                    <div class="card" style="height: 200px;margin: 0;padding: 0;border-radius: 15px;overflow: hidden;">
+                        <a href="/p/7/" style="color:white!important;display:block;height:100%;text-decoration:none;position:relative;">
+                            
+                            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+                            
+                            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 1.5rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
+                                <div style="font-size: 0.9em;opacity: 0.8;margin-bottom: 8px;">2018年08月24日</div>
+                                <h2 style="margin: 0 0 10px 0;font-size: 1.4em;line-height: 1.4;text-shadow: 0 1px 3px rgba(0,0,0,0.3);">入手的第一款Galgame</h2>
+                                
+                                    <p style="margin: 0;font-size: 0.95em;line-height: 1.5;opacity: 0.9;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">起因 2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能 …</p>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </b>
+        </div>
+        
+    </div>
+</div>
+
+                </div>
             </div>
-        
-    </a>
-</article>
-        
-            <article>
-    <a href="/p/688/">
-        <div class="article-details">
-            <h2 class="article-title">Home Assistant避坑</h2>
-            <footer class="article-time">
-                <time datetime='2022-07-11T17:32:00Z'>Jul 11, 2022</time>
-            </footer>
         </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/p/672/">
-        <div class="article-details">
-            <h2 class="article-title">2021年总结</h2>
-            <footer class="article-time">
-                <time datetime='2022-01-09T17:01:00Z'>Jan 09, 2022</time>
-            </footer>
+    </div>
+    <footer>
+    <div class="footer-card">
+        <div class="footer-content">
+            <span class="site-name">安和Blog</span>
+            <span class="divider">·</span>
+            <span class="copyright">© 2025</span>
+            <span class="divider">·</span>
+            <span class="theme-info">Theme by JianHe</span>
+            <span class="divider">·</span>
+            <span class="built-info">Built with Hugo</span>
+            
+            <span class="divider">·</span>
+            <span class="runtime" id="runtime"></span>
+            
+            
         </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/p/655/">
-        <div class="article-details">
-            <h2 class="article-title">掌阅 F1 使用体验</h2>
-            <footer class="article-time">
-                <time datetime='2021-10-02T15:04:00Z'>Oct 02, 2021</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/p/657/">
-        <div class="article-details">
-            <h2 class="article-title">《朔与茉莉》摘选</h2>
-            <footer class="article-time">
-                <time datetime='2021-10-02T13:07:00Z'>Oct 02, 2021</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-    </section>
-    <nav class='pagination'>
-        
-        
-
-        
-            
-                <span class='page-link current'>1</span>
-                
-            
-            
-                    <a class='page-link' href='/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/page/2/'>2</a>
-                
-            
-            
-                    
-                        
-                        <span class='page-link dots'>&hellip;</span>
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    <a class='page-link' href='/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/page/5/'>5</a>
-                
-            
-    </nav>
-
-<footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2017 - 
-        
-        2024 安和
-    </section>
-    
-    <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.18.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
+    </div>
 </footer>
 
-
-            </main>
-        </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script src="https://cdn.staticfile.org/lazysizes/5.2.0/lazysizes.min.js"></script> 
 <script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages = document.getElementsByClassName("lazyload");
+    for (var i = 0; i < lazyloadImages.length; i++) {
+        lazyloadImages[i].style.opacity = "1";
+    }
 
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
+    function updateRuntime() {
+        var runtimeElement = document.getElementById('runtime');
+        if (runtimeElement) {
+            var startTime = new Date('2017-06-30');
+            var currentTime = new Date();
+            var timeDiff = currentTime - startTime;
+            
+            var years = Math.floor(timeDiff / (365 * 24 * 60 * 60 * 1000));
+            var days = Math.floor((timeDiff % (365 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+            
+            runtimeElement.textContent = `本站已运行 ${years}年${days}天`;
+        }
+    }
+    
+    if (document.getElementById('runtime')) {
+        updateRuntime();
+        setInterval(updateRuntime, 86400000); 
+    }
+});
 </script>
-
-
-
-<script
-	src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
-	integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
-	crossorigin="anonymous"></script>
-<link
-	rel="stylesheet"
-	href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
-	integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
-	crossorigin="anonymous" />
-<script>
-	NProgress.start();
-	document.addEventListener("readystatechange", () => {
-		if (document.readyState === "interactive") NProgress.inc(0.8);
-		if (document.readyState === "complete") NProgress.done();
-	});
-</script>
-
-
-
-
-<a href="#" id="back-to-top" title="返回顶部"></a>
-
 
 <style>
-	#back-to-top {
-		display: none;
-		position: fixed;
-		bottom: 20px;
-		right: 55px;
-		width: 55px;
-		height: 55px;
-		border-radius: 7px;
-		background-color: var(--back-to-top-background);
-		box-shadow: var(--shadow-l2);
-		font-size: 30px;
-		text-align: center;
-		line-height: 50px;
-		cursor: pointer;
-	}
+footer {
+    padding: 1rem 0;
+    background-color: #262525;
+}
 
-	#back-to-top:before {
-		content: " ";
-		display: inline-block;
-		position: relative;
-		top: 0;
-		transform: rotate(135deg);
-		height: 10px;
-		width: 10px;
-		border-width: 0 0 2px 2px;
-		border-color: var(--back-to-top-color);
-		border-style: solid;
-	}
+.footer-card {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
 
-	#back-to-top:hover:before {
-		border-color: #2674e0;
-	}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
 
-	 
-	@media screen and (max-width: 768px) {
-		#back-to-top {
-			bottom: 20px;
-			right: 20px;
-			width: 40px;
-			height: 40px;
-			font-size: 10px;
-		}
-	}
+.divider {
+    color: rgba(255, 255, 255, 0.3);
+}
 
-	 
-	@media screen and (min-width: 1024px) {
-		#back-to-top {
-			bottom: 20px;
-			right: 40px;
-		}
-	}
+.site-name {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
 
-	 
-	@media screen and (min-width: 1280px) {
-		#back-to-top {
-			bottom: 20px;
-			right: 55px;
-		}
-	}
+.built-info, .runtime, .theme-info, .copyright {
+    color: rgba(255, 255, 255, 0.71) !important;
+}
 
-	 
-	@media screen and (min-width: 1536px) {
-		#back-to-top {
-			visibility: hidden;
-		}
-	}
-</style>
-
-
-<script>
-	function backToTop() {
-		document.documentElement.scrollIntoView({
-			behavior: "smooth",
-		});
-	}
-
-	window.onload = function () {
-		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
-		let totopBtn = this.document.getElementById("back-to-top");
-		if (scrollTop > 0) {
-			totopBtn.style.display = "inline";
-		} else {
-			totopBtn.style.display = "none";
-		}
-	};
-
-	window.onscroll = function () {
-		let scrollTop = this.document.documentElement.scrollTop || this.document.body.scrollTop;
-		let totopBtn = this.document.getElementById("back-to-top");
-		if (scrollTop < 200) {
-			totopBtn.style.display = "none";
-		} else {
-			totopBtn.style.display = "inline";
-			totopBtn.addEventListener("click", backToTop, false);
-		}
-	};
-</script>
-
-    </body>
-</html>
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .divider {
+        display: none;
+    }
+}
+</style> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html> 
