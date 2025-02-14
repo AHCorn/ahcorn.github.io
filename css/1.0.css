@@ -454,6 +454,9 @@ a {
 }
 
 @media (max-width: 1300px) {
+    .main {
+        padding: 0 !important;
+    }
     .cardw {
         padding: 0 !important;
         width: 100% !important;
