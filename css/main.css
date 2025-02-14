@@ -39,6 +39,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.post-card-image.lazy-load {
+    opacity: 0;
+}
+
+.post-card-image.loaded {
     opacity: 1;
 }
 

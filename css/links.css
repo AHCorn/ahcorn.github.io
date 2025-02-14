@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
-    padding: 25px;
     margin-bottom: 40px;
     max-width: 1400px;
     margin-left: auto;
@@ -13,7 +12,6 @@
     position: relative;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    padding: 25px;
     display: flex;
     align-items: center;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -132,7 +130,6 @@
     .friend-links-grid {
         grid-template-columns: 1fr;
         gap: 20px;
-        padding: 15px;
     }
     
     .friend-link-card {
@@ -155,7 +152,6 @@
 }
 
 .info-cards {
-    padding: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
@@ -164,9 +160,9 @@
 
 .site-info-card,
 .link-info-card {
+    padding: 25px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
