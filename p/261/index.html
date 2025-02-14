@@ -7,14 +7,14 @@
     <title>更换Typecho的Gravatar头像源 - 安和Blog</title>
     
     
-    <link rel="stylesheet" href="/css/layout.css?v=1739553101">
+    <link rel="stylesheet" href="/css/layout.css?v=1739553943">
     <link rel="stylesheet" href="/css/components.css">
-    <link rel="stylesheet" href="/css/sidebar.css?v=1739553101">
+    <link rel="stylesheet" href="/css/sidebar.css?v=1739553943">
     
     
-    <link rel="stylesheet" href="/css/jianhe.css?v=1739553101">
-    <link rel="stylesheet" href="/css/main.css?v=1739553101">
-    <link rel="stylesheet" href="/css/1.0.css?v=1739553101">
+    <link rel="stylesheet" href="/css/jianhe.css?v=1739553943">
+    <link rel="stylesheet" href="/css/main.css?v=1739553943">
+    <link rel="stylesheet" href="/css/1.0.css?v=1739553943">
     
     
     
@@ -24,7 +24,7 @@
     
     
    
-    <link rel="stylesheet" href="/css/timeline.css?v=1739553101">
+    <link rel="stylesheet" href="/css/timeline.css?v=1739553943">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
 
     
-    <script src="/js/lazyload.js?v=1739553101"></script>
+    <script src="/js/lazyload.js?v=1739553943"></script>
 
     <link rel="stylesheet" href="/css/mobile-menu.css">
 
@@ -80,6 +80,26 @@
             opacity: 0;
         }
 
+         
+        .mobile-header-title {
+            display: flex;
+            align-items: center;
+        }
+        
+        .mobile-avatar {
+            display: flex;
+            align-items: center;
+        }
+        
+        .mobile-site-title {
+            display: flex;
+            align-items: center;
+        }
+        
+        .mobile-site-title h1 {
+            margin: 0;
+        }
+
     </style>
 </head>
 <body>
@@ -112,81 +132,79 @@
             <h1>安和Blog</h1>
             <p>看似寻常最奇崛，成如容易却艰辛。</p>
         </div>
-        <div class="mobile-menu-content">
-            <ul class="mobile-menu-nav">
-                
-                
-                
-                
-                
-                
-                <li>
-                    <a href="https://blog.anhe.one/page/archives/">
-                        <svg class="icon-svg">
-                            <use xlink:href="#icon-page"></use>
-                        </svg>
-                        归档
-                    </a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href="https://blog.anhe.one/page/about/">
-                        <svg class="icon-svg">
-                            <use xlink:href="#icon-page"></use>
-                        </svg>
-                        关于
-                    </a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href="https://blog.anhe.one/page/search/">
-                        <svg class="icon-svg">
-                            <use xlink:href="#icon-page"></use>
-                        </svg>
-                        搜索
-                    </a>
-                </li>
-                
-                
-                
-                <li>
-                    <a href="https://blog.anhe.one/page/links/">
-                        <svg class="icon-svg">
-                            <use xlink:href="#icon-page"></use>
-                        </svg>
-                        友人
-                    </a>
-                </li>
-                
-                
-            </ul>
-            <div class="mobile-social-links">
-                
-                <a href="https://github.com/AHCorn" target="_blank">
+        <ul class="mobile-menu-nav">
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="https://blog.anhe.one/page/archives/">
                     <svg class="icon-svg">
-                        <use xlink:href="#icon-github"></use>
+                        <use xlink:href="#icon-page"></use>
                     </svg>
+                    归档
                 </a>
-                
-                
-                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" target="_blank">
+            </li>
+            
+            
+            
+            <li>
+                <a href="https://blog.anhe.one/page/about/">
                     <svg class="icon-svg">
-                        <use xlink:href="#icon-code-box"></use>
+                        <use xlink:href="#icon-page"></use>
                     </svg>
+                    关于
                 </a>
-                
-                
-                <a href="mailto:ayanee@protonmail.com">
+            </li>
+            
+            
+            
+            <li>
+                <a href="https://blog.anhe.one/page/search/">
                     <svg class="icon-svg">
-                        <use xlink:href="#icon-mail"></use>
+                        <use xlink:href="#icon-page"></use>
                     </svg>
+                    搜索
                 </a>
-                
-            </div>
+            </li>
+            
+            
+            
+            <li>
+                <a href="https://blog.anhe.one/page/links/">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-page"></use>
+                    </svg>
+                    友人
+                </a>
+            </li>
+            
+            
+        </ul>
+        <div class="mobile-social-links">
+            
+            <a href="https://github.com/AHCorn" target="_blank">
+                <svg class="icon-svg">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            
+            
+            <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" target="_blank">
+                <svg class="icon-svg">
+                    <use xlink:href="#icon-code-box"></use>
+                </svg>
+            </a>
+            
+            
+            <a href="mailto:ayanee@protonmail.com">
+                <svg class="icon-svg">
+                    <use xlink:href="#icon-mail"></use>
+                </svg>
+            </a>
+            
         </div>
     </div>
 
@@ -755,7 +773,7 @@ footer {
 </style> 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
-    <script src="/js/article.js?v=1739553101"></script>
+    <script src="/js/article.js?v=1739553943"></script>
     
     <script src="/js/main.js"></script>
     <script>
