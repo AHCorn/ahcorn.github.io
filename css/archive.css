@@ -44,7 +44,7 @@
 .year-title::before {
     content: '';
     position: absolute;
-    left: -30px;
+    left: -35px;
     top: 50%;
     transform: translateY(-50%);
     width: 8px;

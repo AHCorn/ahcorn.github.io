@@ -382,3 +382,16 @@
     background: rgba(255, 255, 255, 0.15);
     transform: translateY(-2px);
 } 
+.skill-item .icon-svg {
+    width: 2em;
+    height: 2em;
+    margin-bottom: 0.3em;
+    vertical-align: middle;
+}
+.skill-item span {
+vertical-align: middle;
+}
+
+.mobile-header-title img {
+    display: none;
+}

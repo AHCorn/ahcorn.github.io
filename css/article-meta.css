@@ -25,30 +25,6 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.category-link, .tag-link {
-    display: inline-block;
-    padding: 0.2rem 0.8rem;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    margin-right: 0.5rem;
-}
-
-.category-link {
-    background: rgba(var(--primary-color-rgb), 0.6);
-}
-
-.tag-link {
-    background: rgba(255, 255, 255, 0.1);
-    font-size: 0.9rem;
-}
-
-.category-link:hover, .tag-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
 .timeliness {
     padding: 0.3rem 1rem;
     border-radius: 20px;

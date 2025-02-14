@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.post-content img').forEach(img => {
         if (!img.closest('a')) {  // 如果图片不在链接内
             img.setAttribute('data-fancybox', 'gallery');
-            img.setAttribute('data-src', img.src);
             img.style.cursor = 'pointer';
         }
     });
@@ -16,10 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
             img.style.width = '100%';
             img.style.height = 'auto';
             img.style.objectFit = 'contain';
-            // 移除可能影响布局的margin和padding
             img.style.margin = '0';
             img.style.padding = '0';
-            // 确保td没有额外的padding影响布局
             td.style.padding = '0';
         }
     });

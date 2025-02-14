@@ -31,10 +31,7 @@ img {
     -webkit-appearance: button;
     font: inherit
 }
-.peside {
-    display: block;
-    margin-bottom: 40px;
-}
+
 .side-bar {
     float: left;
     position: fixed
@@ -49,9 +46,8 @@ img {
 	padding: 5px;
 }
 .logo2 {
-    width:130px;
+    width: 130px;
     height: 130px;
-    background: #FFF;
     margin-bottom: 15px;
     border-style: solid;
     border-width: 1px;
@@ -62,6 +58,8 @@ img {
     border-radius: 500px;
     margin-left: 25px;
 }
+
+
 .side-bar {
     top: 35px;
     overflow-x: hidden;
@@ -132,17 +130,16 @@ a {
     box-sizing: border-box
 }
 body {
-    background: #454545;
     line-height: 1.7
 }
 a {
     text-decoration: none
 }
-body {
-    color: #6f6b6b
-}
 .main {
     margin: 0 auto 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
 }
 .petitle {
     display: block;
@@ -170,12 +167,13 @@ a {
 .box {
     margin-left: 180px;
     margin-right: 5%;
+    min-height: 100vh;
 }
     .pebr{
     	display: none;
     }
 .pctitle{
-    margin-top:50px;
+    margin-top:58px;
 }
 @media only screen and (max-width:650px) {
     .boxa {
@@ -195,7 +193,8 @@ a {
     	display: none;
     }
     .box {
-        margin-left: 0px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .tag-list a:after {content: "  ";}
  .petitle h1 {
@@ -214,8 +213,7 @@ a {
     }
     .main {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px
+        padding: 0 10px;
     }
 
     .pctitle {
@@ -224,10 +222,6 @@ a {
     .tag-list {
         text-align: justify;
         padding: 8px 0;
-    }
-    .box {
-        margin-right: 0;
-        margin-left: 0;
     }
     .peside {
         display: block;
@@ -293,6 +287,37 @@ a {
     }
     .side-bar {
         top: 5px!important;
+    }
+    
+    .about-mobile-header .social-links {
+        justify-content: center;
+        margin: 25px 0;
+        gap: 12px;
+    }
+    
+    .about-mobile-header .social-links a {
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        margin: 0;
+    }
+    
+    .about-mobile-header .social-links a:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: translateY(-2px);
+    }
+    
+    .about-mobile-header .social-links span {
+        display: none;
+    }
+    
+    .about-mobile-header .social-links .icon-svg {
+        width: 20px;
+        height: 20px;
+        margin: 0;
     }
 }
 
@@ -389,4 +414,54 @@ a {
     color: #cbcbcb;
     font-size: 0.8em;
     margin-left: 8px;
+}
+
+/* 图片懒加载样式 */
+.lazy-image {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.lazy-image.loaded {
+    opacity: 1;
+}
+
+/* 背景图片懒加载样式 */
+[style*="background-image"].lazy-loading,
+[style*="background:url"].lazy-loading,
+[style*="background: url"].lazy-loading {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+[style*="background-image"].loaded,
+[style*="background:url"].loaded,
+[style*="background: url"].loaded {
+    opacity: 1;
+}
+
+/* 代码块样式 */
+pre {
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 0;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    line-height: 1.5;
+}
+
+code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
 }

@@ -1,302 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nexmoe修改记录 - 安和Blog</title>
-    <link rel="stylesheet" href="/css/jianhe.css?v=1736334510">
-    <link rel="stylesheet" href="/css/1.0.css?v=1736334510">
-    <link rel="stylesheet" href="/css/timeline.css?v=1736334510">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    
+    <link rel="stylesheet" href="/css/layout.css?v=1739553101">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/sidebar.css?v=1739553101">
+    
+    
+    <link rel="stylesheet" href="/css/jianhe.css?v=1739553101">
+    <link rel="stylesheet" href="/css/main.css?v=1739553101">
+    <link rel="stylesheet" href="/css/1.0.css?v=1739553101">
     
     
     
     
+    
+    
+    
+    
+   
+    <link rel="stylesheet" href="/css/timeline.css?v=1739553101">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
-    <link rel="stylesheet" href="/css/post.css?v=1736334510">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     
-    <style>
-        body {
-            text-shadow: black 0.1em 0.1em 0.2em;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-color: #262525;
-        }
-        .main {
-            flex: 1;
-            background-color: #262525;
-            display: flex;
-            justify-content: center;
-        }
-        .main-container {
-            width: 100%;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding-right: 20px;
-            padding-left:20px;
-        }
-        .boxa {
-            display: flex;
-            position: relative;
-            margin-top: 20px;
-        }
-        .sidebar-container {
-            width: 170px;
-            flex-shrink: 0;
-            padding-top: 60px;
-        }
-        .sidebar {
-            position: sticky;
-            top: 20px;
-            width: 100%;
-        }
-        .box {
-            flex: 1;
-            margin: 0 !important;
-            padding-left: 20px;
-            max-width: calc(100% - 150px);
-        }
-        @media (max-width: 1024px) {
-            .sidebar-container {
-                display: none;
-            }
-            .box {
-                max-width: 100%;
-                padding-left: 0;
-            }
-            .pctitle {
-                display: none !important;
-            }
-            .peside {
-                display: block !important;
-            }
-            .tag-list {
-                text-align: left;
-            }
-            .tag-list a {
-                display: inline-block !important;
-                margin-right: 10px;
-                padding: 5px;
-            }
-            .social-links {
-                justify-content: flex-start;
-            }
-        }
-        @media (min-width: 1025px) {
-            .peside {
-                display: none !important;
-            }
-            .pctitle {
-                display: block !important;
-            }
-            .tag-list a {
-                display: block;
-            }
-        }
-        @media (max-width: 768px) {
-            .main {
-                padding: 0;
-            }
-            .main-container {
-                padding: 0 10px;
-            }
-        }
-         
-        .box {
-            margin-right: 0 !important;
-        }
-        @media only screen and (max-width: 1500px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        @media only screen and (max-width: 1000px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        @media only screen and (max-width: 650px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        .social-links {
-            margin: 25px 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .social-link {
-            display: flex;
-            align-items: center;
-            color: rgba(255, 255, 255, 0.9) !important;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-size: 0.95em;
-            padding: 6px 12px;
-            border-radius: 15px;
-            background: rgba(255, 255, 255, 0.1);
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-        .social-link:hover {
-            color: #fff !important;
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateY(-2px);
-        }
-        .social-link i {
-            margin-right: 8px;
-            font-size: 1.1em;
-        }
-        @media (max-width: 650px) {
-            .social-links {
-                justify-content: flex-start;
-            }
-        }
-        .peside {
-            width: 100%;
-        }
-        .cardshow {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        @media only screen and (max-width: 8000px) {
-            .cardboxshow {
-                float: left;
-                width: calc(50% - 10px);
-            }
-            .cardboxshow:nth-child(2n) {
-                margin-right: 0;
-            }
-            .cardboxshow:nth-child(2n+1) {
-                clear: both;
-            }
-        }
-        @media only screen and (max-width: 1024px) {
-            .cardboxshow {
-                float: none;
-                width: 100%;
-                margin-right: 0;
-            }
-        }
-        .lazyloaded {
-            opacity: 1 !important;
-            min-height: 200px;
-            position: relative;
-            background-size: cover;
-            border-radius: 15px;
-        }
-        .titlecard {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 15px;
-            color: #fff;
-        }
-        .titlecard a {
-            text-decoration: none;
-            color: #fff !important;
-        }
-        .titlecard a:hover {
-            color: rgba(255, 255, 255, 0.8) !important;
-        }
-        .titlecard hr {
-            border: none;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            margin: 15px 0;
-        }
-        .petitle {
-            display: block !important;
-        }
-        .petitle h1 {
-            margin: 0;
-        }
-        .petitle p {
-            margin: 10px 0;
-            opacity: 0.8;
-        }
-        .tag-list {
-            margin-top: 15px;
-        }
-        .tag-list a {
-            color: rgba(255, 255, 255, 0.8) !important;
-            text-decoration: none;
-            padding: 5px 0;
-            transition: color 0.3s ease;
-        }
-        .tag-list a:hover {
-            color: #fff !important;
-        }
-    </style>
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+
+    
+    <script src="/js/lazyload.js?v=1739553101"></script>
+
+    <link rel="stylesheet" href="/css/mobile-menu.css">
+
+    <style>
+        .icon-svg {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            fill: currentColor;
+            vertical-align: -0.125em;
+            overflow: visible;
+        }
+        .icon-svg.icon-lg {
+            width: 1.33333em;
+            height: 1.33333em;
+        }
+        .icon-svg.icon-2x {
+            width: 2em;
+            height: 2em;
+        }
+        .icon-svg.icon-3x {
+            width: 3em;
+            height: 3em;
+        }
+        .social-link .icon-svg {
+            margin-right: 0.5em;
+        }
+
+         
+        .lazy-image {
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        .lazy-image.loaded {
+            opacity: 1;
+        }
+
+         
+        [style*="background-image"].lazy-image:not(.loaded),
+        [style*="background:url"].lazy-image:not(.loaded),
+        [style*="background: url"].lazy-image:not(.loaded) {
+            opacity: 0;
+        }
+
+    </style>
 </head>
 <body>
+    
+    <div class="mobile-header">
+        <div class="mobile-header-content">
+            <div class="mobile-header-title">
+                <a href="/page/about" class="mobile-avatar">
+                    <img src="/images/avatar.jpg" alt="安和Blog" loading="eager">
+                </a>
+                <a href="https://blog.anhe.one" class="mobile-site-title">
+                    <h1>安和Blog</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="mobile-menu-toggle">
+        <span></span>
+    </div>
+
+    
+    <div class="mobile-menu-overlay"></div>
+
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <img src="/images/avatar.jpg" alt="安和Blog" loading="eager">
+            <h1>安和Blog</h1>
+            <p>看似寻常最奇崛，成如容易却艰辛。</p>
+        </div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-menu-nav">
+                
+                
+                
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/archives/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        归档
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/about/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        关于
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/search/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        搜索
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/links/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        友人
+                    </a>
+                </li>
+                
+                
+            </ul>
+            <div class="mobile-social-links">
+                
+                <a href="https://github.com/AHCorn" target="_blank">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                
+                
+                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" target="_blank">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-code-box"></use>
+                    </svg>
+                </a>
+                
+                
+                <a href="mailto:ayanee@protonmail.com">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-mail"></use>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="icon-github" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </symbol>
+        <symbol id="icon-code-box" viewBox="0 0 24 24">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 5h2v2h-2V8zm0 3h2v2h-2v-2zm-3-3h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z"/>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+        </symbol>
+        <symbol id="icon-git-branch" viewBox="0 0 24 24">
+            <path d="M13 14c-3.36 0-4.46 1.35-5 2.67V9.83c1.21-.51 2-1.7 2-3.08C10 4.77 8.23 3 6 3S2 4.77 2 7c0 1.38.79 2.57 2 3.08V18c0 1.1.9 2 2 2s2-.9 2-2v-1.17c.54-1.32 1.64-2.67 5-2.67 3.36 0 4.46 1.35 5 2.67V14c1.21-.51 2-1.7 2-3.08 0-2.23-1.77-4-4-4s-4 1.77-4 4c0 1.38.79 2.57 2 3.08zM6 5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm10 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"/>
+        </symbol>
+        <symbol id="icon-external-link" viewBox="0 0 24 24">
+            <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+        </symbol>
+        <symbol id="icon-html5" viewBox="0 0 24 24">
+            <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+        </symbol>
+        <symbol id="icon-css3" viewBox="0 0 24 24">
+            <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+        </symbol>
+        <symbol id="icon-code-s" viewBox="0 0 24 24">
+            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+        </symbol>
+        <symbol id="icon-database" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 4.69 2 8v8c0 3.31 4.48 6 10 6s10-2.69 10-6V8c0-3.31-4.48-6-10-6zm0 2c4.42 0 8 1.79 8 4s-3.58 4-8 4-8-1.79-8-4 3.58-4 8-4zm0 14c-4.42 0-8-1.79-8-4v-3.08c2.13 1.66 5.24 2.58 8 2.58s5.87-.92 8-2.58V18c0 2.21-3.58 4-8 4z"/>
+        </symbol>
+        <symbol id="icon-terminal-box" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.11-.9-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.58-2.59L7.5 9l4 4-4 4z"/>
+        </symbol>
+    </svg>
     <div class="main">
         <div class="main-container">
-            <div class="peside">
-                <div class="cardshow">
-                    <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
-                        <div class="titlecard">
-                            <a href="https://blog.anhe.one">
-                                <div class="petitle">
-                                    <h1>安和Blog</h1>
-                                    <p>看似寻常最奇崛，成如容易却艰辛。</p>
-                                </div>
-                            </a>
-                            <div class="social-links">
-                                
-                                <a href="https://github.com/AHCorn" class="social-link" target="_blank">
-                                    <i class="ri-github-fill"></i>
-                                    <span>Github</span>
-                                </a>
-                                
-                                
-                                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
-                                    <i class="ri-code-box-fill"></i>
-                                    <span>Greasyfork</span>
-                                </a>
-                                
-                                
-                                <a href="mailto:ayanee@protonmail.com" class="social-link">
-                                    <i class="ri-mail-fill"></i>
-                                    <span>Email</span>
-                                </a>
-                                
-                            </div>
-                            <hr>
-                            <div class="tag-list">
-                                
-                                
-                                
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/archives/">归档</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/about/">关于</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/search/">搜索</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/links/">友人</a>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="boxa">
                 <div class="sidebar-container">
                     <div class="sidebar">
@@ -348,61 +288,6 @@
     </div>
 </div>
 
-<div class="peside">
-    <div class="cardshow">
-        <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
-            <div class="titlecard">
-                <a href="https://blog.anhe.one">
-                    <div class="petitle">
-                        <h1>安和Blog</h1>
-                        <p>看似寻常最奇崛，成如容易却艰辛。</p>
-                    </div>
-                </a>
-                <hr>
-                <div class="tag-list">
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/archives/">归档</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/about/">关于</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/search/">搜索</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/links/">友人</a>
-                    
-                    
-                </div>
-                <hr>
-                <div class="tag-list displaynone">
-                    
-                    <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
                     </div>
                 </div>
@@ -413,19 +298,25 @@
                         <div class="social-links">
                             
                             <a href="https://github.com/AHCorn" class="social-link" target="_blank">
-                                <i class="ri-github-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-github"></use>
+                                </svg>
                                 <span>Github</span>
                             </a>
                             
                             
                             <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
-                                <i class="ri-code-box-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-code-box"></use>
+                                </svg>
                                 <span>Greasyfork</span>
                             </a>
                             
                             
                             <a href="mailto:ayanee@protonmail.com" class="social-link">
-                                <i class="ri-mail-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-mail"></use>
+                                </svg>
                                 <span>Email</span>
                             </a>
                             
@@ -433,54 +324,55 @@
                     </div>
                     
 <link rel="stylesheet" href="/css/article.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
 <div class="page-container">
     
-    <div class="card" style="height: 300px; margin: 0 0 20px 0; padding: 0; border-radius: 15px; overflow: hidden; display: flex; background: rgba(0, 0, 0, .25);">
-        <div style="position: relative; flex: 1; height: 100%;">
+    <div class="card">
+        <div class="cover-container">
             
-            <div style="position:absolute;top:0;left:0;right:0;bottom:0;background: url('/images/default-cover.jpg') no-repeat center;background-size: cover;"></div>
+            <div class="cover-image" style="background-image: url('/images/default-cover.jpg');"></div>
             <img src="/images/default-cover.jpg" id="coverImage" style="display: none;" crossorigin="anonymous">
             
-            <div style="color:white;opacity: 1!important;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.9) 100%);padding: 2rem;height:100%;display: flex;flex-direction: column;justify-content: flex-end;position:relative;z-index:1;">
-                <h1 style="font-size: 2em; margin: 0 0 15px 0; line-height: 1.3;">Nexmoe修改记录</h1>
-                <div style="width: 100%; padding-right: 2rem;">
+            <div class="cover-content">
+                <h1 class="cover-title">Nexmoe修改记录</h1>
+                <div class="cover-description">
                     
-                    <p style="margin: 0; font-size: 1em; line-height: 1.5; overflow: hidden; word-wrap: break-word; white-space: normal; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;">就是些随便改的东西啦
+                    <p>就是些随便改的东西啦
 前言 自完成折影大佬的 Nexmoe 主题的部分内容移植后我自己又修改了一些，似乎是效果还不错的缘故，已经有好几位博主表示想要了，故今天把整个修改的内容以及代码公布出来，稍后会贴 …</p>
                     
                 </div>
             </div>
         </div>
-        <div id="infoCard" style="width: 300px; padding: 2rem; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
-            <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none;"></div>
-            <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none;"></div>
-            <div style="color: white; position: relative; z-index: 2;">
-                <div style="margin-bottom: 1rem;">
-                    <i class="fas fa-calendar-alt" style="margin-right: 8px;"></i>
+        <div id="infoCard">
+            <div class="overlay"></div>
+            <div class="overlay"></div>
+            <div class="info-content">
+                <div class="info-item">
+                    <i class="fas fa-calendar-alt"></i>
                     发布于 2021年01月31日
                 </div>
-                <div style="margin-bottom: 1rem;" class="mobile-hide">
-                    <i class="fas fa-clock" style="margin-right: 8px;"></i>
+                <div class="info-item mobile-hide">
+                    <i class="fas fa-clock"></i>
                     最后更新于 2021年01月31日
                 </div>
-                <div style="margin-bottom: 1rem;">
-                    <i class="fas fa-folder" style="margin-right: 8px;"></i>
+                <div class="info-item">
+                    <i class="fas fa-folder"></i>
                     归档于：
-                    <div style="display: inline-flex; flex-wrap: wrap; gap: 8px; margin-top: 4px;">
+                    <div class="category-links">
                         
                         
-                        <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99" class="category-link" style="color: #fff!important; text-decoration: none; background: rgba(255, 255, 255, 0.15); padding: 4px 12px; border-radius: 8px; font-size: 0.9em; transition: all 0.2s ease; border: 1px solid rgba(255, 255, 255, 0.2); font-weight: 500; backdrop-filter: blur(4px);">折腾网站</a>
+                        <a href="/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99" class="category-link">折腾网站</a>
                         
                         
                     </div>
                 </div>
-                <div class="mobile-hide">
-                    <i class="fas fa-tags" style="margin-right: 8px;"></i>
+                <div class="info-item mobile-hide">
+                    <i class="fas fa-tags"></i>
                     标签：
-                    <div style="display: inline-flex; flex-wrap: wrap; gap: 8px; margin-top: 4px;">
+                    <div class="tag-links">
                         
-                        <span style="color: rgba(255,255,255,0.5);">暂无标签</span>
+                        <span class="no-tags">暂无标签</span>
                         
                     </div>
                 </div>
@@ -488,1002 +380,10 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const colorThief = new ColorThief();
-            const img = document.getElementById('coverImage');
-            
-            function updateColors(color) {
-                const [r, g, b] = color;
-                const infoCard = document.getElementById('infoCard');
-                
-                
-                const gradient = `
-                    linear-gradient(135deg, 
-                        rgba(${r}, ${g}, ${b}, 0.7) 0%,
-                        rgba(${r}, ${g}, ${b}, 0.4) 100%
-                    )
-                `;
-                
-                
-                infoCard.style.background = gradient;
-                
-                
-                const overlays = infoCard.querySelectorAll('.overlay');
-                overlays[0].style.background = `
-                    linear-gradient(135deg, 
-                        rgba(255, 255, 255, 0.15) 0%,
-                        rgba(255, 255, 255, 0) 100%
-                    )
-                `;
-                overlays[1].style.background = `
-                    linear-gradient(to bottom, 
-                        rgba(0, 0, 0, 0.2) 0%,
-                        rgba(0, 0, 0, 0.4) 100%
-                    )
-                `;
-                
-                
-                document.querySelectorAll('.category-link').forEach(link => {
-                    link.style.background = `rgba(${r}, ${g}, ${b}, 0.4)`;
-                    link.style.borderColor = `rgba(${r}, ${g}, ${b}, 0.6)`;
-                    
-                    
-                    link.addEventListener('mouseover', () => {
-                        link.style.background = `rgba(${r}, ${g}, ${b}, 0.5)`;
-                    });
-                    link.addEventListener('mouseout', () => {
-                        link.style.background = `rgba(${r}, ${g}, ${b}, 0.4)`;
-                    });
-                });
-                
-                
-                document.querySelectorAll('.tag-link').forEach(link => {
-                    link.style.background = `rgba(${r}, ${g}, ${b}, 0.25)`;
-                    link.style.borderColor = `rgba(${r}, ${g}, ${b}, 0.4)`;
-                    
-                    
-                    link.addEventListener('mouseover', () => {
-                        link.style.background = `rgba(${r}, ${g}, ${b}, 0.35)`;
-                    });
-                    link.addEventListener('mouseout', () => {
-                        link.style.background = `rgba(${r}, ${g}, ${b}, 0.25)`;
-                    });
-                });
-            }
-            
-            if (img.complete) {
-                const color = colorThief.getPalette(img, 5)[2]; 
-                updateColors(color);
-            } else {
-                img.addEventListener('load', function() {
-                    const color = colorThief.getPalette(img, 5)[2];
-                    updateColors(color);
-                });
-            }
-        });
-    </script>
-
-    <style>
-        @media (max-width: 768px) {
-            .card {
-                flex-direction: column !important;
-                height: auto !important;
-                width: 100% !important;
-            }
-            .card > div:last-child {
-                width: 100% !important;
-                padding: 1rem !important;
-            }
-            .card > div:first-child {
-                height: 200px !important;
-            }
-            .card > div:first-child > div:first-child {
-                height: 200px !important;
-            }
-            .card > div:first-child > div:last-child {
-                padding: 1rem !important;
-                height: 200px !important;
-            }
-            .card h1 {
-                font-size: 1.3em !important;
-                margin: 0 0 8px 0 !important;
-            }
-            .card p {
-                font-size: 0.85em !important;
-                padding-right: 1rem !important;
-            }
-            .mobile-hide {
-                display: none !important;
-            }
-            .category-link, .tag-link {
-                padding: 3px 10px !important;
-                font-size: 0.85em !important;
-            }
-        }
-    </style>
-
     
-    <div class="article-container" style="display: flex; gap: 20px;">
-        <div class="cardw" style="width: calc(100% - 300px);">
+    <div class="article-container">
+        <div class="cardw">
             <article class="post-content">
-                <style>
-                    .post-content {
-                        color: #fff;
-                        line-height: 1.8;
-                        font-size: 16px;
-                        padding: 2.5rem 3rem;
-                        position: relative;
-                        width: 100%;
-                        background: rgba(0, 0, 0, 0.2);
-                        border-radius: 15px;
-                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-                    }
-
-                    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-                        margin: 2em 0 1em;
-                        position: relative;
-                        font-weight: 600;
-                        letter-spacing: -0.01em;
-                        line-height: 1.4;
-                        color: #fff;
-                    }
-
-                    .post-content h1 { 
-                        font-size: 2.2em; 
-                        margin-top: 0;
-                        margin-bottom: 1em;
-                        color: rgba(255, 255, 255, 0.95);
-                        font-weight: 700;
-                    }
-
-                    .post-content h2 { 
-                        font-size: 1.8em;
-                        padding: 0.8em 0;
-                        margin: 2em 0 1em;
-                        border-bottom: 2px solid rgba(255, 255, 255, 0.15);
-                        color: rgba(255, 255, 255, 0.9);
-                    }
-
-                    .post-content h3 { 
-                        font-size: 1.5em;
-                        color: rgba(255, 255, 255, 0.85);
-                        margin: 1.8em 0 0.8em;
-                    }
-
-                    .post-content h4 { 
-                        font-size: 1.3em;
-                        color: rgba(255, 255, 255, 0.8);
-                        margin: 1.5em 0 0.8em;
-                    }
-
-                    .post-content h5 { 
-                        font-size: 1.1em;
-                        color: rgba(255, 255, 255, 0.75);
-                    }
-
-                    .post-content h6 { 
-                        font-size: 1em;
-                        color: rgba(255, 255, 255, 0.7);
-                    }
-
-                    .post-content p {
-                        margin: 1.8em 0;
-                        letter-spacing: 0.03em;
-                        line-height: 2;
-                        color: rgba(255, 255, 255, 0.9);
-                    }
-
-                    .post-content img {
-                        width: 100%;
-                        height: auto;
-                        display: block;
-                        margin: 2.5em auto;
-                        border-radius: 16px;
-                        cursor: zoom-in;
-                        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-                    }
-
-                    .post-content a:has(img) {
-                        text-decoration: none !important;
-                        border-bottom: none !important;
-                    }
-
-                    .post-content a:has(img)::before {
-                        display: none !important;
-                    }
-
-                    .post-content a:has(img):hover {
-                        text-shadow: none !important;
-                    }
-
-                    .post-content a:has(img) {
-                        padding: 0 !important;
-                    }
-
-                    .post-content img:hover {
-                        transform: scale(1.02) translateY(-8px);
-                        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-                    }
-
-                    .post-content blockquote {
-                        margin: 2.5em 0;
-                        padding: 1.8em 3em 1.8em 5em;
-                        background: rgba(255, 255, 255, 0.08);
-                        border-radius: 12px;
-                        position: relative;
-                        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-                        border-left: 3px solid rgba(255, 255, 255, 0.25);
-                        overflow-wrap: break-word;
-                        word-wrap: break-word;
-                        hyphens: auto;
-                    }
-
-                    .post-content blockquote::before {
-                        content: '"';
-                        position: absolute;
-                        top: 50%;
-                        left: 1em;
-                        transform: translateY(-50%);
-                        font-size: 2em;
-                        color: rgba(255, 255, 255, 0.4);
-                        font-family: Georgia, serif;
-                    }
-
-                    .post-content blockquote p {
-                        margin: 0.8em 0;
-                        color: rgba(255, 255, 255, 0.95);
-                        line-height: 1.8;
-                        font-style: italic;
-                    }
-
-                    .post-content .image-container {
-                        margin: 2.5em 0;
-                        position: relative;
-                        text-align: center;
-                    }
-
-                    .post-content .image-container img {
-                        max-width: 100%;
-                        height: auto;
-                        display: inline-block;
-                        border-radius: 12px;
-                        transition: all 0.3s ease;
-                    }
-
-
-                    .image-caption {
-                        text-align: center;
-                        color: rgba(255, 255, 255, 0.8);
-                        font-size: 0.9em;
-                        font-style: italic;
-                        padding: 0 1em;
-                    }
-
-                    .fancybox__container {
-                        --fancybox-bg: rgba(25, 25, 25, 0.98);
-                    }
-
-                    .fancybox__toolbar {
-                        --carousel-button-bg: rgba(255, 255, 255, 0.15);
-                        --carousel-button-hover-bg: rgba(255, 255, 255, 0.25);
-                    }
-
-                    .fancybox__nav {
-                        --carousel-button-bg: rgba(255, 255, 255, 0.15);
-                        --carousel-button-hover-bg: rgba(255, 255, 255, 0.25);
-                    }
-
-                    .fancybox__caption {
-                        font-size: 1em;
-                        color: #fff;
-                        background: rgba(0, 0, 0, 0.85);
-                        padding: 1em 2em;
-                        border-radius: 8px;
-                        text-align: center;
-                    }
-
-                    .fancybox__content {
-                        padding: 0;
-                        background: none;
-                        border-radius: 12px;
-                    }
-
-                    .fancybox__content img {
-                        border-radius: 8px;
-                    }
-
-                    .post-content pre {
-                        background: rgba(40, 40, 40, 0.6);
-                        padding: 3.5em 2em 2em;
-                        border-radius: 12px;
-                        overflow: hidden;
-                        margin: 2em 0;
-                        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-                        border: 1px solid rgba(255, 255, 255, 0.15);
-                        position: relative;
-                    }
-
-                    .post-content pre code {
-                        background: none !important;
-                        padding: 0 !important;
-                        margin: 0 !important;
-                        border: none !important;
-                        font-size: 0.95em;
-                        line-height: 1.8;
-                        font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
-                        display: block;
-                    }
-
-                    .post-content code {
-                        font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
-                        padding: 0.2em 0.4em;
-                        margin: 0 0.2em;
-                        border-radius: 4px;
-                        font-size: 0.9em;
-                    }
-
-                    .post-content .code-header {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        height: 2.5em;
-                        background: rgba(20, 20, 20, 0.6);
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        padding: 0 1.2em;
-                    }
-
-                    .post-content .code-lang {
-                        font-family: 'JetBrains Mono', monospace;
-                        font-size: 0.85em;
-                        color: rgba(255, 255, 255, 0.6);
-                        font-weight: 500;
-                    }
-
-                    .post-content .copy-button {
-                        background: rgba(255, 255, 255, 0.1);
-                        border: 1px solid rgba(255, 255, 255, 0.2);
-                        color: rgba(255, 255, 255, 0.8);
-                        padding: 0.3em 0.8em;
-                        border-radius: 4px;
-                        font-size: 0.85em;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                        font-family: system-ui, -apple-system, sans-serif;
-                    }
-
-                    .post-content .copy-button:hover {
-                        background: rgba(255, 255, 255, 0.15);
-                        border-color: rgba(255, 255, 255, 0.3);
-                        color: rgba(255, 255, 255, 0.95);
-                    }
-
-                    .post-content .copy-button.copied {
-                        background: rgba(255, 255, 255, 0.2);
-                        color: rgba(255, 255, 255, 0.95);
-                    }
-
-                    .post-content a {
-                        color: rgba(255, 255, 255, 0.9);
-                        text-decoration: none;
-                        position: relative;
-                        padding: 0 4px;
-                        transition: all 0.3s ease;
-                        font-weight: 500;
-                    }
-
-                    .post-content a::before {
-                        content: '';
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 1px;
-                        background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), transparent);
-                        transform: scaleX(0);
-                        transform-origin: left;
-                        transition: transform 0.3s ease;
-                    }
-
-                    .post-content a:hover {
-                        color: #fff;
-                        text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-                    }
-
-                    .post-content a:hover::before {
-                        transform: scaleX(1);
-                    }
-
-                    .post-content ul, .post-content ol {
-                        padding-left: 2.5em;
-                        margin: 2em 0;
-                    }
-
-                    .post-content li {
-                        margin: 1em 0;
-                        line-height: 1.8;
-                        color: rgba(255, 255, 255, 0.9);
-                        position: relative;
-                    }
-
-                    .post-content li::marker {
-                        color: rgba(255, 255, 255, 0.6);
-                    }
-
-                    .post-content table {
-                        width: 100%;
-                        border-collapse: separate;
-                        border-spacing: 0;
-                        margin: 2.5em 0;
-                        border-radius: 12px;
-                        overflow: hidden;
-                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-                        background: rgba(30, 30, 30, 0.4);
-                    }
-
-                    .post-content th, .post-content td {
-                        padding: 1.2em 1.5em;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                        background: rgba(255, 255, 255, 0.02);
-                        transition: all 0.3s ease;
-                    }
-
-                    .post-content th {
-                        background: rgba(255, 255, 255, 0.1);
-                        font-weight: 600;
-                        text-align: left;
-                        color: rgba(255, 255, 255, 0.95);
-                    }
-
-                    .post-content tr:hover td {
-                        background: rgba(255, 255, 255, 0.05);
-                    }
-
-                    .post-content hr {
-                        margin: 3em 0;
-                        border: none;
-                        height: 1px;
-                        background: linear-gradient(90deg, 
-                            rgba(255, 255, 255, 0) 0%,
-                            rgba(255, 255, 255, 0.3) 50%,
-                            rgba(255, 255, 255, 0) 100%
-                        );
-                    }
-
-                    @media (max-width: 768px) {
-                        .post-content {
-                            padding: 1.5rem;
-                            font-size: 15px;
-                            border-radius: 12px;
-                        }
-                        .post-content h1 { font-size: 1.8em; }
-                        .post-content h2 { 
-                            font-size: 1.5em;
-                            padding-left: 0.8em;
-                        }
-                        .post-content h3 { font-size: 1.3em; }
-                        .post-content img {
-                            border-radius: 12px;
-                        }
-                        .post-content blockquote {
-                            padding: 1.5em;
-                        }
-                        .post-content table {
-                            display: block;
-                            overflow-x: auto;
-                            white-space: nowrap;
-                        }
-                    }
-
-                     
-                    .toc-content ul {
-                        list-style: none;
-                        padding: 0;
-                        margin: 0;
-                    }
-                    .toc-content ul ul {
-                        padding-left: 1.2em;
-                        border-left: 1px solid rgba(255, 255, 255, 0.15);
-                        margin-left: 0.3em;
-                    }
-                    .toc-content li {
-                        margin: 0.5em 0;
-                        line-height: 1.4;
-                    }
-                    .toc-content a {
-                        color: rgba(255, 255, 255, 0.8);
-                        text-decoration: none;
-                        transition: all 0.2s ease;
-                        font-size: 0.95em;
-                        display: block;
-                        padding: 0.3em 0.6em;
-                        border-radius: 4px;
-                    }
-                    .toc-content a:hover {
-                        color: #fff;
-                        background: rgba(255, 255, 255, 0.1);
-                    }
-                    .toc-content .active {
-                        color: #fff;
-                        background: rgba(255, 255, 255, 0.15);
-                        font-weight: 500;
-                    }
-                    @media (max-width: 1024px) {
-                        .post-toc {
-                            display: none;
-                        }
-                    }
-
-                     
-                    @media (max-width: 1300px) {
-                        .post-toc {
-                            display: none;
-                        }
-                        .cardw {
-                            width: 100% !important;
-                        }
-                    }
-
-                     
-                    .post-toc::-webkit-scrollbar {
-                        width: 6px;
-                    }
-                    .post-toc::-webkit-scrollbar-track {
-                        background: rgba(0, 0, 0, 0.1);
-                        border-radius: 3px;
-                    }
-                    .post-toc::-webkit-scrollbar-thumb {
-                        background: rgba(255, 255, 255, 0.2);
-                        border-radius: 3px;
-                    }
-                    .post-toc::-webkit-scrollbar-thumb:hover {
-                        background: rgba(255, 255, 255, 0.3);
-                    }
-
-                     
-                    .tags-content a:hover {
-                        background: rgba(255, 255, 255, 0.2) !important;
-                        color: #fff !important;
-                    }
-                    
-                    .related-content a:hover {
-                        background: rgba(255, 255, 255, 0.1) !important;
-                        transform: translateX(5px);
-                    }
-
-                     
-                    @media (max-width: 1300px) {
-                
-                        .cardw {
-                            width: 100% !important;
-                        }
-                    }
-
-                     
-                    .sidebar-tool::-webkit-scrollbar {
-                        width: 6px;
-                    }
-                    .sidebar-tool::-webkit-scrollbar-track {
-                        background: rgba(0, 0, 0, 0.1);
-                        border-radius: 3px;
-                    }
-                    .sidebar-tool::-webkit-scrollbar-thumb {
-                        background: rgba(255, 255, 255, 0.3);
-                        border-radius: 3px;
-                    }
-                    .sidebar-tool::-webkit-scrollbar-thumb:hover {
-                        background: rgba(255, 255, 255, 0.5);
-                    }
-
-                     
-                    .comments-container {
-                        max-width: calc(100% - 300px);
-                        margin-top: 2em;
-                    }
-
-                    .comments {
-                        padding: 2em;
-                        background: rgba(40, 40, 40, 0.4);
-                        border-radius: 15px;
-                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                    .comments-title {
-                        font-size: 1.2em;
-                        font-weight: 600;
-                        margin-bottom: 1.5em;
-                        color: rgba(255, 255, 255, 0.95);
-                        padding-bottom: 0.5em;
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                     
-                    .sidebar-tool {
-                        width: 260px;
-                        flex-shrink: 0;
-                        position: sticky;
-                        top: 20px;
-                        max-height: calc(100vh - 40px);
-                        overflow-y: auto;
-                    }
-
-                    .post-toc, .tags-cloud, .related-posts {
-                        background: rgba(40, 40, 40, 0.4);
-                        border-radius: 15px;
-                        padding: 1.5rem;
-                        margin-bottom: 20px;
-                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                    .toc-title, .tags-title, .related-title {
-                        font-size: 1.1em;
-                        font-weight: 600;
-                        margin-bottom: 1em;
-                        color: rgba(255, 255, 255, 0.95);
-                        padding-bottom: 0.5em;
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                    .tags-content a {
-                        color: rgba(255, 255, 255, 0.8);
-                        text-decoration: none;
-                        background: rgba(255, 255, 255, 0.08);
-                        padding: 4px 12px;
-                        border-radius: 12px;
-                        font-size: 0.9em;
-                        transition: all 0.2s ease;
-                        display: inline-block;
-                        margin: 0.2em;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                    .tags-content a:hover {
-                        background: rgba(255, 255, 255, 0.15) !important;
-                        color: rgba(255, 255, 255, 0.95) !important;
-                        transform: translateY(-1px);
-                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-                    }
-
-                    .related-content a {
-                        display: block;
-                        color: rgba(255, 255, 255, 0.8);
-                        text-decoration: none;
-                        margin-bottom: 12px;
-                        padding: 10px 12px;
-                        border-radius: 8px;
-                        transition: all 0.2s ease;
-                        background: rgba(255, 255, 255, 0.05);
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                    }
-
-                    .related-content a:hover {
-                        background: rgba(255, 255, 255, 0.1) !important;
-                        transform: translateX(5px);
-                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-                    }
-
-                    .related-content .post-date {
-                        font-size: 0.8em;
-                        color: rgba(255, 255, 255, 0.5);
-                        margin-top: 4px;
-                    }
-
-                    @media (max-width: 1300px) {
-                        .sidebar-tool {
-                            display: none;
-                        }
-                        .cardw {
-                            width: 100% !important;
-                        }
-                        .comments-container {
-                            max-width: 100%;
-                        }
-                    }
-
-                     
-                    .sidebar-tool::-webkit-scrollbar {
-                        width: 6px;
-                    }
-
-                    .sidebar-tool::-webkit-scrollbar-track {
-                        background: rgba(0, 0, 0, 0.1);
-                        border-radius: 3px;
-                    }
-
-                    .sidebar-tool::-webkit-scrollbar-thumb {
-                        background: rgba(255, 255, 255, 0.2);
-                        border-radius: 3px;
-                    }
-
-                    .sidebar-tool::-webkit-scrollbar-thumb:hover {
-                        background: rgba(255, 255, 255, 0.3);
-                    }
-
-                     
-                    .post-content .video-container {
-                        position: relative;
-                        width: 100%;
-                        margin: 2.5em 0;
-                        border-radius: 16px;
-                        overflow: hidden;
-                        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-                    }
-
-                    .post-content .video-container video {
-                        width: 100%;
-                        height: auto;
-                        display: block;
-                        border-radius: 16px;
-                    }
-
-                     
-                    .post-content video::-webkit-media-controls-overlay-play-button {
-                        display: block;
-                    }
-
-                    .post-content video::-webkit-media-controls {
-                        display: flex !important;
-                    }
-
-                    .post-content video::-webkit-media-controls-panel {
-                        display: flex !important;
-                        background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
-                    }
-
-                     
-                    @media (max-width: 768px) {
-                        .post-content .video-container {
-                            margin: 1.5em 0;
-                        }
-                    }
-
-                     
-                    .sidebar-tool {
-                        overflow: visible;
-                    }
-                    
-                     
-                    .sidebar-tool::-webkit-scrollbar,
-                    .sidebar-tool::-webkit-scrollbar-track,
-                    .sidebar-tool::-webkit-scrollbar-thumb,
-                    .sidebar-tool::-webkit-scrollbar-thumb:hover {
-                        display: none;
-                    }
-                </style>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-                <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        
-                        const content = document.querySelector('.post-content');
-                        const headings = content.querySelectorAll('h2, h3, h4');
-                        const tocContent = document.querySelector('.toc-content');
-                        
-                        if (headings.length > 0 && tocContent) {
-                            const tocList = document.createElement('ul');
-                            let currentLevel = 2;
-                            let currentUl = tocList;
-                            let levelStack = [tocList];
-
-                            headings.forEach((heading, index) => {
-                                const level = parseInt(heading.tagName.charAt(1));
-                                heading.id = `heading-${index}`;
-
-                                if (level > currentLevel) {
-                                    const ul = document.createElement('ul');
-                                    levelStack[levelStack.length - 1].lastElementChild.appendChild(ul);
-                                    levelStack.push(ul);
-                                    currentUl = ul;
-                                } else if (level < currentLevel) {
-                                    levelStack = levelStack.slice(0, level - 1);
-                                    currentUl = levelStack[levelStack.length - 1];
-                                }
-
-                                const li = document.createElement('li');
-                                const a = document.createElement('a');
-                                a.href = `#heading-${index}`;
-                                a.textContent = heading.textContent;
-                                li.appendChild(a);
-                                currentUl.appendChild(li);
-
-                                currentLevel = level;
-                            });
-
-                            tocContent.appendChild(tocList);
-
-                            
-                            const tocLinks = tocContent.querySelectorAll('a');
-                            const headingElements = Array.from(headings);
-                            
-                            let ticking = false;
-                            window.addEventListener('scroll', () => {
-                                if (!ticking) {
-                                    window.requestAnimationFrame(() => {
-                                        const fromTop = window.scrollY + 100;
-                                        
-                                        let currentHeading = headingElements[0];
-                                        headingElements.forEach(heading => {
-                                            if (heading.offsetTop <= fromTop) {
-                                                currentHeading = heading;
-                                            }
-                                        });
-                                        
-                                        tocLinks.forEach(link => {
-                                            link.classList.remove('active');
-                                            if (currentHeading && link.getAttribute('href') === `#${currentHeading.id}`) {
-                                                link.classList.add('active');
-                                            }
-                                        });
-                                        
-                                        ticking = false;
-                                    });
-                                    ticking = true;
-                                }
-                            });
-
-                            
-                            tocLinks.forEach(link => {
-                                link.addEventListener('click', (e) => {
-                                    e.preventDefault();
-                                    const targetId = link.getAttribute('href').slice(1);
-                                    const target = document.getElementById(targetId);
-                                    if (target) {
-                                        window.scrollTo({
-                                            top: target.offsetTop - 80,
-                                            behavior: 'smooth'
-                                        });
-                                    }
-                                });
-                            });
-                        } else if (tocContent) {
-                            const tocContainer = document.querySelector('.post-toc');
-                            if (tocContainer) {
-                                tocContainer.style.display = 'none';
-                            }
-                        }
-
-                        
-                        Fancybox.bind("[data-fancybox]", {
-                            animated: true,
-                            showClass: "fancybox-fadeIn",
-                            hideClass: "fancybox-fadeOut",
-                            dragToClose: false,
-                            Image: {
-                                zoom: true,
-                                click: true,
-                                wheel: "slide",
-                                fit: "contain"
-                            },
-                            Toolbar: {
-                                display: [
-                                    "zoom",
-                                    "slideshow",
-                                    "fullscreen",
-                                    "close"
-                                ]
-                            },
-                            Thumbs: {
-                                autoStart: false
-                            },
-                            Carousel: {
-                                transition: "slide",
-                                friction: 0.8
-                            }
-                        });
-
-                        
-                        document.querySelectorAll('pre code').forEach(block => {
-                            
-                            if (block.parentElement.querySelector('.code-header')) {
-                                return;
-                            }
-                            
-                            
-                            let language = 'plaintext';
-                            const classNames = block.className.split(' ');
-                            for (const className of classNames) {
-                                if (className.startsWith('language-')) {
-                                    language = className.replace('language-', '');
-                                    break;
-                                }
-                            }
-                            
-                            
-                            const header = document.createElement('div');
-                            header.className = 'code-header';
-                            
-                            
-                            const langSpan = document.createElement('span');
-                            langSpan.className = 'code-lang';
-                            langSpan.textContent = language.toUpperCase();
-                            header.appendChild(langSpan);
-                            
-                            
-                            const copyButton = document.createElement('button');
-                            copyButton.className = 'copy-button';
-                            copyButton.textContent = '复制代码';
-                            copyButton.onclick = async () => {
-                                try {
-                                    await navigator.clipboard.writeText(block.textContent);
-                                    copyButton.textContent = '已复制！';
-                                    copyButton.classList.add('copied');
-                                    setTimeout(() => {
-                                        copyButton.textContent = '复制代码';
-                                        copyButton.classList.remove('copied');
-                                    }, 2000);
-                                } catch (err) {
-                                    copyButton.textContent = '复制失败';
-                                    setTimeout(() => {
-                                        copyButton.textContent = '复制代码';
-                                    }, 2000);
-                                }
-                            };
-                            header.appendChild(copyButton);
-                            
-                            
-                            block.parentElement.insertBefore(header, block);
-                        });
-
-                        
-                        document.querySelectorAll('.post-content img').forEach(img => {
-                            if (!img.closest('.image-container')) {  
-                                const container = document.createElement('div');
-                                container.className = 'image-container';
-                                
-                                
-                                const link = document.createElement('a');
-                                link.href = img.src;
-                                link.setAttribute('data-fancybox', 'gallery');
-                                if (img.alt) {
-                                    link.setAttribute('data-caption', img.alt);
-                                }
-                                
-                                
-                                img.parentNode.insertBefore(container, img);
-                                container.appendChild(link);
-                                link.appendChild(img);
-                                
-                                
-                                if (img.alt) {
-                                    const caption = document.createElement('div');
-                                    caption.className = 'image-caption';
-                                    caption.textContent = img.alt;
-                                    container.appendChild(caption);
-                                }
-                            }
-                        });
-
-                        
-                        function updateArticleHeight() {
-                            const article = document.querySelector('.post-content');
-                            if (article) {
-                                document.documentElement.style.setProperty('--article-height', `${article.offsetHeight}px`);
-                            }
-                        }
-                        
-                        
-                        updateArticleHeight();
-                        window.addEventListener('resize', updateArticleHeight);
-                        
-                        
-                        const observer = new MutationObserver(updateArticleHeight);
-                        const article = document.querySelector('.post-content');
-                        if (article) {
-                            observer.observe(article, { 
-                                childList: true, 
-                                subtree: true, 
-                                attributes: true 
-                            });
-                        }
-                    });
-                </script>
                 <p>就是些随便改的东西啦</p>
 <h2 id="前言">前言</h2>
 <p>自完成折影大佬的 Nexmoe 主题的部分内容移植后我自己又修改了一些，似乎是效果还不错的缘故，已经有好几位博主表示想要了，故今天把整个修改的内容以及代码公布出来，稍后会贴上在 Github 上的完整开源分支。</p>
@@ -2633,424 +1533,237 @@
 <p>因为写的匆忙，所以很多地方可能会出现问题，所以如果有问题希望您可以及时反馈给我，我会第一时间给您答复。</p>
             </article>
         </div>
-        <div class="sidebar-tool" style="width: 280px; flex-shrink: 0; position: sticky; top: 20px;">
+        <div class="sidebar-tool">
             
             
-            <div class="post-toc black" style="background: rgba(0, 0, 0, .25);border-radius: 15px;padding: 1.2rem;margin-bottom: 20px;">
-                <div class="toc-title" style="font-size: 1.1em;font-weight: 600;margin-bottom: 1em;color: rgba(255, 255, 255, 0.95);">目录</div>
-                <div class="toc-content" style="font-size: 0.9em;">
+            <div class="post-toc">
+                <div class="toc-title">目录</div>
+                <div class="toc-content">
                     
                 </div>
             </div>
             
 
-            <div class="tags-cloud black" style="background: rgba(0, 0, 0, .25);border-radius: 15px;padding: 1.2rem;margin-bottom: 20px;">
-                <div class="tags-title" style="font-size: 1.1em;font-weight: 600;margin-bottom: 1em;color: rgba(255, 255, 255, 0.95);">标签云</div>
-                <div class="tags-content" style="display: flex;flex-wrap: wrap;gap: 8px;">
+            <div class="tags-cloud">
+                <div class="tags-title">标签云</div>
+                <div class="tags-content">
                     
                     
                     
-                    <a href="/tags/galgame/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/galgame/">
                         Galgame 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/lg/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/lg/">
                         LG 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/linux/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/linux/">
                         Linux 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/mac-os/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/mac-os/">
                         Mac OS 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/rec/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/rec/">
                         Rec 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/root/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/root/">
                         Root 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/typecho/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/typecho/">
                         typecho 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/windows/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/windows/">
                         Windows 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/xp%E6%A1%86%E6%9E%B6/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/xp%E6%A1%86%E6%9E%B6/">
                         XP框架 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/">
                         临时公告 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E4%B8%BB%E9%A2%98/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E4%B8%BB%E9%A2%98/">
                         主题 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E5%8F%91%E7%83%AD/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E5%8F%91%E7%83%AD/">
                         发热 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E5%B0%8F%E5%8A%9F%E8%83%BD/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E5%B0%8F%E5%8A%9F%E8%83%BD/">
                         小功能 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E5%B9%B2%E8%B4%A7/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E5%B9%B2%E8%B4%A7/">
                         干货 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E6%80%BB%E7%BB%93/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E6%80%BB%E7%BB%93/">
                         总结 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E6%90%9E%E6%9C%BA/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E6%90%9E%E6%9C%BA/">
                         搞机 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E6%97%A0root/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E6%97%A0root/">
                         无Root 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E6%BC%AB%E7%94%BB/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E6%BC%AB%E7%94%BB/">
                         漫画 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E7%95%AA%E5%89%A7/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E7%95%AA%E5%89%A7/">
                         番剧 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E7%9C%81%E7%94%B5/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E7%9C%81%E7%94%B5/">
                         省电 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E7%9F%AD%E8%AF%84/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E7%9F%AD%E8%AF%84/">
                         短评 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(8)</span>
+                        <span class="tag-count">(8)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E7%B3%BB%E7%BB%9F/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E7%B3%BB%E7%BB%9F/">
                         系统 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">
                         软件推荐 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(2)</span>
+                        <span class="tag-count">(2)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/">
                         轻小说 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(4)</span>
+                        <span class="tag-count">(4)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E9%97%B2%E8%81%8A/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E9%97%B2%E8%81%8A/">
                         闲聊 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(1)</span>
+                        <span class="tag-count">(1)</span>
                     </a>
                     
                     
                     
-                    <a href="/tags/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/" 
-                       style="color: rgba(255,255,255,0.8);
-                              text-decoration: none;
-                              background: rgba(255, 255, 255, 0.08);
-                              padding: 4px 10px;
-                              border-radius: 12px;
-                              font-size: 0.9em;
-                              transition: all 0.2s ease;">
+                    <a href="/tags/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">
                         闲聊杂谈 
-                        <span style="color: rgba(255,255,255,0.5);font-size: 0.8em;">(8)</span>
+                        <span class="tag-count">(8)</span>
                     </a>
                     
                 </div>
             </div>
 
-            <div class="related-posts black" style="background: rgba(0, 0, 0, .25);border-radius: 15px;padding: 1.2rem;">
-                <div class="related-title" style="font-size: 1.1em;font-weight: 600;margin-bottom: 1em;color: rgba(255, 255, 255, 0.95);">相关文章</div>
+            <div class="related-posts">
+                <div class="related-title">相关文章</div>
                 <div class="related-content">
                     
                     
                     
                         
-                        
-                        <a href="/p/598/" style="display: block;color: rgba(255,255,255,0.8);text-decoration: none;margin-bottom: 12px;padding: 8px 12px;border-radius: 8px;transition: all 0.2s ease;background: rgba(255,255,255,0.05);">
-                            <div style="font-size: 0.95em;margin-bottom: 4px;">Instantclick无刷新</div>
-                            <div style="font-size: 0.8em;color: rgba(255,255,255,0.5);">2021-04-04</div>
+                        <a href="/p/598/">
+                            <div class="related-post-title">Instantclick无刷新</div>
+                            <div class="post-date">2021-04-04</div>
                         </a>
                         
-                        
-                        
-                        
-                        
-                        <a href="/p/488/" style="display: block;color: rgba(255,255,255,0.8);text-decoration: none;margin-bottom: 12px;padding: 8px 12px;border-radius: 8px;transition: all 0.2s ease;background: rgba(255,255,255,0.05);">
-                            <div style="font-size: 0.95em;margin-bottom: 4px;">为Typecho添加日记功能</div>
-                            <div style="font-size: 0.8em;color: rgba(255,255,255,0.5);">2020-07-29</div>
+                        <a href="/p/488/">
+                            <div class="related-post-title">为Typecho添加日记功能</div>
+                            <div class="post-date">2020-07-29</div>
                         </a>
                         
-                        
-                        
-                        <a href="/p/487/" style="display: block;color: rgba(255,255,255,0.8);text-decoration: none;margin-bottom: 12px;padding: 8px 12px;border-radius: 8px;transition: all 0.2s ease;background: rgba(255,255,255,0.05);">
-                            <div style="font-size: 0.95em;margin-bottom: 4px;">为Typecho添加说说功能</div>
-                            <div style="font-size: 0.8em;color: rgba(255,255,255,0.5);">2020-07-29</div>
+                        <a href="/p/487/">
+                            <div class="related-post-title">为Typecho添加说说功能</div>
+                            <div class="post-date">2020-07-29</div>
                         </a>
                         
-                        
-                        
-                        <a href="/p/350/" style="display: block;color: rgba(255,255,255,0.8);text-decoration: none;margin-bottom: 12px;padding: 8px 12px;border-radius: 8px;transition: all 0.2s ease;background: rgba(255,255,255,0.05);">
-                            <div style="font-size: 0.95em;margin-bottom: 4px;">谈谈网站防御</div>
-                            <div style="font-size: 0.8em;color: rgba(255,255,255,0.5);">2020-04-07</div>
+                        <a href="/p/350/">
+                            <div class="related-post-title">谈谈网站防御</div>
+                            <div class="post-date">2020-04-07</div>
                         </a>
                         
+                        <a href="/p/333/">
+                            <div class="related-post-title">Typecho主题案例—Admin主题</div>
+                            <div class="post-date">2020-03-30</div>
+                        </a>
                         
                     
                 </div>
@@ -3061,9 +1774,9 @@
 
 
 
-<div class="cardw" style="width: calc(100% - 300px); margin-top: 20px;">
-    <div class="comments" style="background: rgba(0, 0, 0, 0.2); border-radius: 15px; padding: 2rem;">
-        <div class="comments-title" style="font-size: 1.2em; font-weight: 600; margin-bottom: 1.5em; color: rgba(255, 255, 255, 0.95); padding-bottom: 0.5em; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">评论</div>
+<div class="comments-container">
+    <div class="comments">
+        <div class="comments-title">评论</div>
         <div id="utterances-container"></div>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
@@ -3109,11 +1822,6 @@
 <script src="https://cdn.staticfile.org/lazysizes/5.2.0/lazysizes.min.js"></script> 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var lazyloadImages = document.getElementsByClassName("lazyload");
-    for (var i = 0; i < lazyloadImages.length; i++) {
-        lazyloadImages[i].style.opacity = "1";
-    }
-
     function updateRuntime() {
         var runtimeElement = document.getElementById('runtime');
         if (runtimeElement) {
@@ -3183,7 +1891,33 @@ footer {
 </style> 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+    <script src="/js/article.js?v=1739553101"></script>
     
     <script src="/js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const menu = document.querySelector('.mobile-menu');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        
+        function toggleMenu() {
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = menu.classList.contains('active') ? 'hidden' : '';
+        }
+        
+        menuToggle.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        
+        
+        const menuItems = document.querySelectorAll('.mobile-menu-nav a');
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+    });
+    </script>
 </body>
 </html> 

@@ -71,7 +71,7 @@
 .timeline-event::before {
     content: '';
     position: absolute;
-    left: -40px;
+    left: -45px;
     top: 50%;
     width: 12px;
     height: 12px;

@@ -1,0 +1,96 @@
+/* 社交链接样式 */
+.social-links {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95em;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.social-link:hover {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.social-link i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+/* 卡片样式 */
+.cardshow {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lazyloaded {
+    opacity: 1 !important;
+    min-height: 200px;
+    position: relative;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.titlecard {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.titlecard a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.titlecard a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.titlecard hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 0;
+}
+
+.petitle {
+    display: block !important;
+}
+
+.petitle h1 {
+    margin: 0;
+}
+
+.petitle p {
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+/* 标签列表样式 */
+.tag-list {
+    margin-top: 15px;
+}
+
+.tag-list a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.tag-list a:hover {
+    color: #fff !important;
+} 

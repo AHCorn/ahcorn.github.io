@@ -1,0 +1,64 @@
+/* 侧边栏样式 */
+.sidebar-container {
+    width: 170px;
+    flex-shrink: 0;
+    padding-top: 60px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 20px;
+    width: 100%;
+}
+
+.box {
+    flex: 1;
+    margin: 0 !important;
+    padding-left: 20px;
+    max-width: calc(100% - 150px);
+}
+
+/* 响应式布局 */
+@media (max-width: 1024px) {
+    .sidebar-container {
+        display: none;
+    }
+    
+    .box {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .pctitle {
+        display: none !important;
+    }
+    
+    .tag-list {
+        text-align: left !important;
+    }
+    
+    .tag-list a {
+        display: inline-block !important;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1025px) {
+    .pctitle {
+        display: block !important;
+    }
+    
+    .tag-list a {
+        display: block;
+    }
+    
+    .mobile-menu-toggle {
+        display: none !important;
+    }
+} 

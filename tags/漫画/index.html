@@ -1,302 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>漫画 - 安和Blog</title>
-    <link rel="stylesheet" href="/css/jianhe.css?v=1736334511">
-    <link rel="stylesheet" href="/css/1.0.css?v=1736334511">
-    <link rel="stylesheet" href="/css/timeline.css?v=1736334511">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    
+    <link rel="stylesheet" href="/css/layout.css?v=1739553101">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/sidebar.css?v=1739553101">
+    
+    
+    <link rel="stylesheet" href="/css/jianhe.css?v=1739553101">
+    <link rel="stylesheet" href="/css/main.css?v=1739553101">
+    <link rel="stylesheet" href="/css/1.0.css?v=1739553101">
     
     
     
     
+    
+    
+    
+    
+   
+    <link rel="stylesheet" href="/css/timeline.css?v=1739553101">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism-okaidia.min.css">
-    <link rel="stylesheet" href="/css/post.css?v=1736334511">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     
-    <style>
-        body {
-            text-shadow: black 0.1em 0.1em 0.2em;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-color: #262525;
-        }
-        .main {
-            flex: 1;
-            background-color: #262525;
-            display: flex;
-            justify-content: center;
-        }
-        .main-container {
-            width: 100%;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding-right: 20px;
-            padding-left:20px;
-        }
-        .boxa {
-            display: flex;
-            position: relative;
-            margin-top: 20px;
-        }
-        .sidebar-container {
-            width: 170px;
-            flex-shrink: 0;
-            padding-top: 60px;
-        }
-        .sidebar {
-            position: sticky;
-            top: 20px;
-            width: 100%;
-        }
-        .box {
-            flex: 1;
-            margin: 0 !important;
-            padding-left: 20px;
-            max-width: calc(100% - 150px);
-        }
-        @media (max-width: 1024px) {
-            .sidebar-container {
-                display: none;
-            }
-            .box {
-                max-width: 100%;
-                padding-left: 0;
-            }
-            .pctitle {
-                display: none !important;
-            }
-            .peside {
-                display: block !important;
-            }
-            .tag-list {
-                text-align: left;
-            }
-            .tag-list a {
-                display: inline-block !important;
-                margin-right: 10px;
-                padding: 5px;
-            }
-            .social-links {
-                justify-content: flex-start;
-            }
-        }
-        @media (min-width: 1025px) {
-            .peside {
-                display: none !important;
-            }
-            .pctitle {
-                display: block !important;
-            }
-            .tag-list a {
-                display: block;
-            }
-        }
-        @media (max-width: 768px) {
-            .main {
-                padding: 0;
-            }
-            .main-container {
-                padding: 0 10px;
-            }
-        }
-         
-        .box {
-            margin-right: 0 !important;
-        }
-        @media only screen and (max-width: 1500px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        @media only screen and (max-width: 1000px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        @media only screen and (max-width: 650px) {
-            .box {
-                margin-right: 0 !important;
-            }
-        }
-        .social-links {
-            margin: 25px 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .social-link {
-            display: flex;
-            align-items: center;
-            color: rgba(255, 255, 255, 0.9) !important;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-size: 0.95em;
-            padding: 6px 12px;
-            border-radius: 15px;
-            background: rgba(255, 255, 255, 0.1);
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-        .social-link:hover {
-            color: #fff !important;
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateY(-2px);
-        }
-        .social-link i {
-            margin-right: 8px;
-            font-size: 1.1em;
-        }
-        @media (max-width: 650px) {
-            .social-links {
-                justify-content: flex-start;
-            }
-        }
-        .peside {
-            width: 100%;
-        }
-        .cardshow {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        @media only screen and (max-width: 8000px) {
-            .cardboxshow {
-                float: left;
-                width: calc(50% - 10px);
-            }
-            .cardboxshow:nth-child(2n) {
-                margin-right: 0;
-            }
-            .cardboxshow:nth-child(2n+1) {
-                clear: both;
-            }
-        }
-        @media only screen and (max-width: 1024px) {
-            .cardboxshow {
-                float: none;
-                width: 100%;
-                margin-right: 0;
-            }
-        }
-        .lazyloaded {
-            opacity: 1 !important;
-            min-height: 200px;
-            position: relative;
-            background-size: cover;
-            border-radius: 15px;
-        }
-        .titlecard {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 15px;
-            color: #fff;
-        }
-        .titlecard a {
-            text-decoration: none;
-            color: #fff !important;
-        }
-        .titlecard a:hover {
-            color: rgba(255, 255, 255, 0.8) !important;
-        }
-        .titlecard hr {
-            border: none;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            margin: 15px 0;
-        }
-        .petitle {
-            display: block !important;
-        }
-        .petitle h1 {
-            margin: 0;
-        }
-        .petitle p {
-            margin: 10px 0;
-            opacity: 0.8;
-        }
-        .tag-list {
-            margin-top: 15px;
-        }
-        .tag-list a {
-            color: rgba(255, 255, 255, 0.8) !important;
-            text-decoration: none;
-            padding: 5px 0;
-            transition: color 0.3s ease;
-        }
-        .tag-list a:hover {
-            color: #fff !important;
-        }
-    </style>
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+
+    
+    <script src="/js/lazyload.js?v=1739553101"></script>
+
+    <link rel="stylesheet" href="/css/mobile-menu.css">
+
+    <style>
+        .icon-svg {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            fill: currentColor;
+            vertical-align: -0.125em;
+            overflow: visible;
+        }
+        .icon-svg.icon-lg {
+            width: 1.33333em;
+            height: 1.33333em;
+        }
+        .icon-svg.icon-2x {
+            width: 2em;
+            height: 2em;
+        }
+        .icon-svg.icon-3x {
+            width: 3em;
+            height: 3em;
+        }
+        .social-link .icon-svg {
+            margin-right: 0.5em;
+        }
+
+         
+        .lazy-image {
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        .lazy-image.loaded {
+            opacity: 1;
+        }
+
+         
+        [style*="background-image"].lazy-image:not(.loaded),
+        [style*="background:url"].lazy-image:not(.loaded),
+        [style*="background: url"].lazy-image:not(.loaded) {
+            opacity: 0;
+        }
+
+    </style>
 </head>
 <body>
+    
+    <div class="mobile-header">
+        <div class="mobile-header-content">
+            <div class="mobile-header-title">
+                <a href="/page/about" class="mobile-avatar">
+                    <img src="/images/avatar.jpg" alt="安和Blog" loading="eager">
+                </a>
+                <a href="https://blog.anhe.one" class="mobile-site-title">
+                    <h1>安和Blog</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="mobile-menu-toggle">
+        <span></span>
+    </div>
+
+    
+    <div class="mobile-menu-overlay"></div>
+
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <img src="/images/avatar.jpg" alt="安和Blog" loading="eager">
+            <h1>安和Blog</h1>
+            <p>看似寻常最奇崛，成如容易却艰辛。</p>
+        </div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-menu-nav">
+                
+                
+                
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/archives/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        归档
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/about/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        关于
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/search/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        搜索
+                    </a>
+                </li>
+                
+                
+                
+                <li>
+                    <a href="https://blog.anhe.one/page/links/">
+                        <svg class="icon-svg">
+                            <use xlink:href="#icon-page"></use>
+                        </svg>
+                        友人
+                    </a>
+                </li>
+                
+                
+            </ul>
+            <div class="mobile-social-links">
+                
+                <a href="https://github.com/AHCorn" target="_blank">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                
+                
+                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" target="_blank">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-code-box"></use>
+                    </svg>
+                </a>
+                
+                
+                <a href="mailto:ayanee@protonmail.com">
+                    <svg class="icon-svg">
+                        <use xlink:href="#icon-mail"></use>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="icon-github" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </symbol>
+        <symbol id="icon-code-box" viewBox="0 0 24 24">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 5h2v2h-2V8zm0 3h2v2h-2v-2zm-3-3h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z"/>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 24 24">
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+        </symbol>
+        <symbol id="icon-git-branch" viewBox="0 0 24 24">
+            <path d="M13 14c-3.36 0-4.46 1.35-5 2.67V9.83c1.21-.51 2-1.7 2-3.08C10 4.77 8.23 3 6 3S2 4.77 2 7c0 1.38.79 2.57 2 3.08V18c0 1.1.9 2 2 2s2-.9 2-2v-1.17c.54-1.32 1.64-2.67 5-2.67 3.36 0 4.46 1.35 5 2.67V14c1.21-.51 2-1.7 2-3.08 0-2.23-1.77-4-4-4s-4 1.77-4 4c0 1.38.79 2.57 2 3.08zM6 5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm10 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"/>
+        </symbol>
+        <symbol id="icon-external-link" viewBox="0 0 24 24">
+            <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+        </symbol>
+        <symbol id="icon-html5" viewBox="0 0 24 24">
+            <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+        </symbol>
+        <symbol id="icon-css3" viewBox="0 0 24 24">
+            <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+        </symbol>
+        <symbol id="icon-code-s" viewBox="0 0 24 24">
+            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
+        </symbol>
+        <symbol id="icon-database" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 4.69 2 8v8c0 3.31 4.48 6 10 6s10-2.69 10-6V8c0-3.31-4.48-6-10-6zm0 2c4.42 0 8 1.79 8 4s-3.58 4-8 4-8-1.79-8-4 3.58-4 8-4zm0 14c-4.42 0-8-1.79-8-4v-3.08c2.13 1.66 5.24 2.58 8 2.58s5.87-.92 8-2.58V18c0 2.21-3.58 4-8 4z"/>
+        </symbol>
+        <symbol id="icon-terminal-box" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.11-.9-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.58-2.59L7.5 9l4 4-4 4z"/>
+        </symbol>
+    </svg>
     <div class="main">
         <div class="main-container">
-            <div class="peside">
-                <div class="cardshow">
-                    <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
-                        <div class="titlecard">
-                            <a href="https://blog.anhe.one">
-                                <div class="petitle">
-                                    <h1>安和Blog</h1>
-                                    <p>看似寻常最奇崛，成如容易却艰辛。</p>
-                                </div>
-                            </a>
-                            <div class="social-links">
-                                
-                                <a href="https://github.com/AHCorn" class="social-link" target="_blank">
-                                    <i class="ri-github-fill"></i>
-                                    <span>Github</span>
-                                </a>
-                                
-                                
-                                <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
-                                    <i class="ri-code-box-fill"></i>
-                                    <span>Greasyfork</span>
-                                </a>
-                                
-                                
-                                <a href="mailto:ayanee@protonmail.com" class="social-link">
-                                    <i class="ri-mail-fill"></i>
-                                    <span>Email</span>
-                                </a>
-                                
-                            </div>
-                            <hr>
-                            <div class="tag-list">
-                                
-                                
-                                
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/archives/">归档</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/about/">关于</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/search/">搜索</a>
-                                
-                                
-                                
-                                <a href="https://blog.anhe.one/page/links/">友人</a>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="boxa">
                 <div class="sidebar-container">
                     <div class="sidebar">
@@ -348,61 +288,6 @@
     </div>
 </div>
 
-<div class="peside">
-    <div class="cardshow">
-        <div class="lazyloaded" style="background: url(https://i.imgtg.com/2022/06/12/1Q5qD.jpg) no-repeat center;background-size: cover;border-radius: 15px;transition: opacity .4s ease-out;opacity: 0;">
-            <div class="titlecard">
-                <a href="https://blog.anhe.one">
-                    <div class="petitle">
-                        <h1>安和Blog</h1>
-                        <p>看似寻常最奇崛，成如容易却艰辛。</p>
-                    </div>
-                </a>
-                <hr>
-                <div class="tag-list">
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/archives/">归档</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/about/">关于</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/search/">搜索</a>
-                    
-                    
-                    
-                    <a href="https://blog.anhe.one/page/links/">友人</a>
-                    
-                    
-                </div>
-                <hr>
-                <div class="tag-list displaynone">
-                    
-                    <a href="https://blog.anhe.one/categories/acgn%E7%9F%AD%E8%AF%84/">ACGN短评</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E5%85%AC%E5%91%8A/">公告</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E6%89%8B%E6%9C%BA/">折腾手机</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%94%B5%E8%84%91/">折腾电脑</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E6%8A%98%E8%85%BE%E7%BD%91%E7%AB%99/">折腾网站</a>
-                    
-                    <a href="https://blog.anhe.one/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">闲聊杂谈</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
                     </div>
                 </div>
@@ -413,19 +298,25 @@
                         <div class="social-links">
                             
                             <a href="https://github.com/AHCorn" class="social-link" target="_blank">
-                                <i class="ri-github-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-github"></use>
+                                </svg>
                                 <span>Github</span>
                             </a>
                             
                             
                             <a href="https://greasyfork.org/zh-CN/users/1252870-ahcorn" class="social-link" target="_blank">
-                                <i class="ri-code-box-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-code-box"></use>
+                                </svg>
                                 <span>Greasyfork</span>
                             </a>
                             
                             
                             <a href="mailto:ayanee@protonmail.com" class="social-link">
-                                <i class="ri-mail-fill"></i>
+                                <svg class="icon-svg">
+                                    <use xlink:href="#icon-mail"></use>
+                                </svg>
                                 <span>Email</span>
                             </a>
                             
@@ -485,11 +376,6 @@
 <script src="https://cdn.staticfile.org/lazysizes/5.2.0/lazysizes.min.js"></script> 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var lazyloadImages = document.getElementsByClassName("lazyload");
-    for (var i = 0; i < lazyloadImages.length; i++) {
-        lazyloadImages[i].style.opacity = "1";
-    }
-
     function updateRuntime() {
         var runtimeElement = document.getElementById('runtime');
         if (runtimeElement) {
@@ -559,7 +445,33 @@ footer {
 </style> 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+    <script src="/js/article.js?v=1739553101"></script>
     
     <script src="/js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const menu = document.querySelector('.mobile-menu');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        
+        function toggleMenu() {
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = menu.classList.contains('active') ? 'hidden' : '';
+        }
+        
+        menuToggle.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        
+        
+        const menuItems = document.querySelectorAll('.mobile-menu-nav a');
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                toggleMenu();
+            });
+        });
+    });
+    </script>
 </body>
 </html> 
