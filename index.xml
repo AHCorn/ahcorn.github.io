@@ -2,335 +2,335 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>安和Blog</title>
-    <link>https://blog.anhe.one/</link>
+    <link>https://blog.ahcorn.com/</link>
     <description>Recent content on 安和Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>安和</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ahcorn.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>微软账户登录时闪退 解决方案</title>
-      <link>https://blog.anhe.one/p/system-error1/</link>
+      <link>https://blog.ahcorn.com/p/system-error1/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/system-error1/</guid>
+      <guid>https://blog.ahcorn.com/p/system-error1/</guid>
       <description>我个人的网络环境是良好的，所以请在确保这一前提下，查看以下报错信息是否和我的一致。 我原先使用23H2版本，下载了24H2镜像，选择了只保留文</description>
     </item>
     
     <item>
       <title>2023年度总结</title>
-      <link>https://blog.anhe.one/p/2023/</link>
+      <link>https://blog.ahcorn.com/p/2023/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/2023/</guid>
+      <guid>https://blog.ahcorn.com/p/2023/</guid>
       <description>2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。 至于为什么一月九号才写年终总结&amp;hellip;以前或</description>
     </item>
     
     <item>
       <title>临时公告</title>
-      <link>https://blog.anhe.one/p/test/</link>
+      <link>https://blog.ahcorn.com/p/test/</link>
       <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/test/</guid>
+      <guid>https://blog.ahcorn.com/p/test/</guid>
       <description>抱歉各位，由于服务器到期， nekocoffee.com 域名也将在下月到期并涨价的缘故，目前决定将博客迁至 Github Pages ，使用 Hugo 来继续维护，评论区什么的还没搞好，文章、友链还需要</description>
     </item>
     
     <item>
       <title>2022年度总结</title>
-      <link>https://blog.anhe.one/p/2022/</link>
+      <link>https://blog.ahcorn.com/p/2022/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/2022/</guid>
+      <guid>https://blog.ahcorn.com/p/2022/</guid>
       <description>博客 一共发布了 4 篇文章，比 2021 少了 13 篇。 百度收录依然是0，谷歌在120左右波动。 共收到 9 条来自访客的评论，已经凉透啦。 （不过有很大一部分原因是</description>
     </item>
     
     <item>
       <title>《异世界咖啡厅》短评</title>
-      <link>https://blog.anhe.one/p/novel-coffee/</link>
+      <link>https://blog.ahcorn.com/p/novel-coffee/</link>
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/novel-coffee/</guid>
+      <guid>https://blog.ahcorn.com/p/novel-coffee/</guid>
       <description>每个人都曾有过这样的时刻吧，当翻过书的最后一页时，独自感受着那内心中五味杂陈的情感。 其中自然有着对故事的共情，也有着莫名的寂寞。 《解忧杂货店</description>
     </item>
     
     <item>
       <title>Home Assistant避坑</title>
-      <link>https://blog.anhe.one/p/home-assistant-2022/</link>
+      <link>https://blog.ahcorn.com/p/home-assistant-2022/</link>
       <pubDate>Mon, 11 Jul 2022 17:32:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/home-assistant-2022/</guid>
+      <guid>https://blog.ahcorn.com/p/home-assistant-2022/</guid>
       <description>折腾了两天，搭建Home Assistant时还是有不少地方踩坑。 官方文档其实相当完备，例如Mac os就只能选择虚拟机的方式来安装运行，原生的</description>
     </item>
     
     <item>
       <title>《野良与皇女与流浪猫之心》短评</title>
-      <link>https://blog.anhe.one/p/galgame-nora/</link>
+      <link>https://blog.ahcorn.com/p/galgame-nora/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/galgame-nora/</guid>
+      <guid>https://blog.ahcorn.com/p/galgame-nora/</guid>
       <description>野良与流浪猫之心这部作品我其实只是通过一首角色曲才了解到的，好听的配乐、感兴趣的设定——以及实际上并没有那么好的剧情。 在玩之前也大抵了解了下</description>
     </item>
     
     <item>
       <title>《86-不存在的战区》短评</title>
-      <link>https://blog.anhe.one/p/anime-86/</link>
+      <link>https://blog.ahcorn.com/p/anime-86/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/anime-86/</guid>
+      <guid>https://blog.ahcorn.com/p/anime-86/</guid>
       <description>这是一部久违、亦或许是第一部，我看的战争向的动画作品，虽然整体上并没有过多的”整体“感，但却依然做出了精彩的战争一隅。 早在三年前，我就拿到了</description>
     </item>
     
     <item>
       <title>2021年总结</title>
-      <link>https://blog.anhe.one/p/2021/</link>
+      <link>https://blog.ahcorn.com/p/2021/</link>
       <pubDate>Sun, 09 Jan 2022 17:01:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/2021/</guid>
+      <guid>https://blog.ahcorn.com/p/2021/</guid>
       <description>&lt;p&gt;迟来了一个多星期的总结，也并没有更多的内容。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《快跟超可爱的我交往吧》短评</title>
-      <link>https://blog.anhe.one/p/novel-kawaii/</link>
+      <link>https://blog.ahcorn.com/p/novel-kawaii/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/novel-kawaii/</guid>
+      <guid>https://blog.ahcorn.com/p/novel-kawaii/</guid>
       <description>两人的对话是我看过的恋爱轻小说中最好玩的了，然后女主在被告白的时候说的那段话我反复看了好几遍才大概明白什么意思，可见作品还是有一定思想深度的</description>
     </item>
     
     <item>
       <title>掌阅 F1 使用体验</title>
-      <link>https://blog.anhe.one/p/655/</link>
+      <link>https://blog.ahcorn.com/p/655/</link>
       <pubDate>Sat, 02 Oct 2021 15:04:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/655/</guid>
+      <guid>https://blog.ahcorn.com/p/655/</guid>
       <description>&lt;p&gt;因为 Kindle 便携性较差的缘故，于是买了台便携的水墨屏手机。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《朔与茉莉》摘选</title>
-      <link>https://blog.anhe.one/p/657/</link>
+      <link>https://blog.ahcorn.com/p/657/</link>
       <pubDate>Sat, 02 Oct 2021 13:07:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/657/</guid>
+      <guid>https://blog.ahcorn.com/p/657/</guid>
       <description>&lt;p&gt;在阅读本书时记录的一些不错的句子，主要为环境描写&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《解忧杂货店》阅读记录</title>
-      <link>https://blog.anhe.one/p/651/</link>
+      <link>https://blog.ahcorn.com/p/651/</link>
       <pubDate>Thu, 30 Sep 2021 20:17:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/651/</guid>
+      <guid>https://blog.ahcorn.com/p/651/</guid>
       <description>&lt;p&gt;因为考场自习、午休时间的延长的缘故，有了更多的时间在校内读书了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>德业 DYD-612S 除湿机短评</title>
-      <link>https://blog.anhe.one/p/650/</link>
+      <link>https://blog.ahcorn.com/p/650/</link>
       <pubDate>Thu, 30 Sep 2021 19:07:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/650/</guid>
+      <guid>https://blog.ahcorn.com/p/650/</guid>
       <description>&lt;p&gt;为了不让书受潮，所以买了台除湿机回来。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《拖油瓶》短评</title>
-      <link>https://blog.anhe.one/p/novel-tsurego/</link>
+      <link>https://blog.ahcorn.com/p/novel-tsurego/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/novel-tsurego/</guid>
+      <guid>https://blog.ahcorn.com/p/novel-tsurego/</guid>
       <description>短评 《继母的拖油瓶是我的前女友》目前更新至第六卷，男女主仍没有在一起，而新出的几卷也都得到了&amp;quot;胃疼&amp;quot;的评价。 在糖里混玻璃</description>
     </item>
     
     <item>
       <title>《政宗君的复仇》漫画短评</title>
-      <link>https://blog.anhe.one/p/comic-masamune/</link>
+      <link>https://blog.ahcorn.com/p/comic-masamune/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/comic-masamune/</guid>
+      <guid>https://blog.ahcorn.com/p/comic-masamune/</guid>
       <description>短评 今天看完了《政宗君的复仇》，总体来讲还可以吧，但与其说结局是皆大欢喜，倒不如说一切才刚刚开始，几经波折但也都算合理，动画最后几集的争议部</description>
     </item>
     
     <item>
       <title>坚果 R2 使用体验</title>
-      <link>https://blog.anhe.one/p/607/</link>
+      <link>https://blog.ahcorn.com/p/607/</link>
       <pubDate>Sat, 01 May 2021 23:59:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/607/</guid>
+      <guid>https://blog.ahcorn.com/p/607/</guid>
       <description>&lt;p&gt;说起坚果R2，很多人关注的其实是它搭载的Smartisan 8.0和 TNT 系统，但对于用了一年多坚果 Pro3 的我来说，我更关注的是它的配置。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Instantclick无刷新</title>
-      <link>https://blog.anhe.one/p/598/</link>
+      <link>https://blog.ahcorn.com/p/598/</link>
       <pubDate>Sun, 04 Apr 2021 14:01:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/598/</guid>
+      <guid>https://blog.ahcorn.com/p/598/</guid>
       <description>&lt;p&gt;在实现全站无刷新的过程中出现了一些可能很常见的问题，因此在这里记录一下&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《转生猪公爵》短评</title>
-      <link>https://blog.anhe.one/p/novel-pig/</link>
+      <link>https://blog.ahcorn.com/p/novel-pig/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/novel-pig/</guid>
+      <guid>https://blog.ahcorn.com/p/novel-pig/</guid>
       <description>前五卷 猪公爵这部小说怎么说呢，看了一天了一直到现在，看完了第五卷，也就是第五卷开始猪公爵完全瘦下来了&amp;hellip; 剧情方面我比较在意的是前</description>
     </item>
     
     <item>
       <title>三星Buds Pro使用体验</title>
-      <link>https://blog.anhe.one/p/567/</link>
+      <link>https://blog.ahcorn.com/p/567/</link>
       <pubDate>Sun, 07 Feb 2021 13:53:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/567/</guid>
+      <guid>https://blog.ahcorn.com/p/567/</guid>
       <description>&lt;p&gt;最新的三星耳机！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nexmoe修改记录</title>
-      <link>https://blog.anhe.one/p/552/</link>
+      <link>https://blog.ahcorn.com/p/552/</link>
       <pubDate>Sun, 31 Jan 2021 16:43:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/552/</guid>
+      <guid>https://blog.ahcorn.com/p/552/</guid>
       <description>&lt;p&gt;就是些随便改的东西啦&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2020年总结</title>
-      <link>https://blog.anhe.one/p/535/</link>
+      <link>https://blog.ahcorn.com/p/535/</link>
       <pubDate>Sat, 09 Jan 2021 15:13:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/535/</guid>
+      <guid>https://blog.ahcorn.com/p/535/</guid>
       <description>&lt;p&gt;相比上一年的2019总结，感觉能说的事少了很多。
 实际上去年只是一时兴起，今年也不过是水篇文章。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>海贝WH3使用体验</title>
-      <link>https://blog.anhe.one/p/503/</link>
+      <link>https://blog.ahcorn.com/p/503/</link>
       <pubDate>Wed, 05 Aug 2020 11:32:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/503/</guid>
+      <guid>https://blog.ahcorn.com/p/503/</guid>
       <description>&lt;p&gt;看中音质，图个方便。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>聊聊B站会员购/早划算/魔力赏</title>
-      <link>https://blog.anhe.one/p/497/</link>
+      <link>https://blog.ahcorn.com/p/497/</link>
       <pubDate>Sat, 01 Aug 2020 10:36:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/497/</guid>
+      <guid>https://blog.ahcorn.com/p/497/</guid>
       <description>&lt;p&gt;直接说结论吧，大部分情况下，我并不建议你继续使用会员购。
 删评&amp;hellip;客服踢皮球&amp;hellip;种种问题下，于我而言，B站会员购的体验极差。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>为Typecho添加日记功能</title>
-      <link>https://blog.anhe.one/p/488/</link>
+      <link>https://blog.ahcorn.com/p/488/</link>
       <pubDate>Wed, 29 Jul 2020 10:02:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/488/</guid>
+      <guid>https://blog.ahcorn.com/p/488/</guid>
       <description></description>
     </item>
     
     <item>
       <title>为Typecho添加说说功能</title>
-      <link>https://blog.anhe.one/p/487/</link>
+      <link>https://blog.ahcorn.com/p/487/</link>
       <pubDate>Wed, 29 Jul 2020 09:50:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/487/</guid>
+      <guid>https://blog.ahcorn.com/p/487/</guid>
       <description></description>
     </item>
     
     <item>
       <title>小米手环5使用体验</title>
-      <link>https://blog.anhe.one/p/481/</link>
+      <link>https://blog.ahcorn.com/p/481/</link>
       <pubDate>Tue, 28 Jul 2020 13:55:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/481/</guid>
+      <guid>https://blog.ahcorn.com/p/481/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HOI4打不开的解决方案</title>
-      <link>https://blog.anhe.one/p/449/</link>
+      <link>https://blog.ahcorn.com/p/449/</link>
       <pubDate>Sun, 28 Jun 2020 15:50:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/449/</guid>
+      <guid>https://blog.ahcorn.com/p/449/</guid>
       <description>最近换了个用户之后发现启动器打不开了，环境也都安装了，重装游戏也没有用 最后发现只要改下硬盘的所有者就可以了 具体方法如下： 计算机-右键磁盘-属</description>
     </item>
     
     <item>
       <title>俺修罗短评</title>
-      <link>https://blog.anhe.one/p/418/</link>
+      <link>https://blog.ahcorn.com/p/418/</link>
       <pubDate>Tue, 05 May 2020 17:58:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/418/</guid>
+      <guid>https://blog.ahcorn.com/p/418/</guid>
       <description>&lt;p&gt;由于我并没有看完这部番，相对于赞赏，我更偏向于指出我弃番的原因。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>《记录的地平线》安利</title>
-      <link>https://blog.anhe.one/p/anime-loghorizon/</link>
+      <link>https://blog.ahcorn.com/p/anime-loghorizon/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/anime-loghorizon/</guid>
+      <guid>https://blog.ahcorn.com/p/anime-loghorizon/</guid>
       <description>介绍 记录的地平线是主角团公会的名字，我个人认为是取于城惠“放荡者的茶会”时和伙伴们一起看风景的那一段。 “幻境神话”一款老牌MMORPG游戏，</description>
     </item>
     
     <item>
       <title>谈谈网站防御</title>
-      <link>https://blog.anhe.one/p/350/</link>
+      <link>https://blog.ahcorn.com/p/350/</link>
       <pubDate>Tue, 07 Apr 2020 15:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/350/</guid>
+      <guid>https://blog.ahcorn.com/p/350/</guid>
       <description>&lt;p&gt;建站三四年了，从来没被打过一次hhh 但是上个月在紫罗兰售后群把博客地址发出去后，陆陆续续的攻击就没停过。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho主题案例—Admin主题</title>
-      <link>https://blog.anhe.one/p/333/</link>
+      <link>https://blog.ahcorn.com/p/333/</link>
       <pubDate>Mon, 30 Mar 2020 14:02:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/333/</guid>
+      <guid>https://blog.ahcorn.com/p/333/</guid>
       <description>&lt;p&gt;看起来很难，但实际上手后你才会发现，这一切都很简单。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho常见问题</title>
-      <link>https://blog.anhe.one/p/faq/</link>
+      <link>https://blog.ahcorn.com/p/faq/</link>
       <pubDate>Wed, 25 Mar 2020 19:28:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/faq/</guid>
+      <guid>https://blog.ahcorn.com/p/faq/</guid>
       <description>&lt;p&gt;我会每日更新一下来自百度统计的奇奇怪怪的问题的答案hhhh&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>更换Typecho的Gravatar头像源</title>
-      <link>https://blog.anhe.one/p/261/</link>
+      <link>https://blog.ahcorn.com/p/261/</link>
       <pubDate>Tue, 17 Mar 2020 10:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/261/</guid>
+      <guid>https://blog.ahcorn.com/p/261/</guid>
       <description>&lt;p&gt;使用官方头像源会拖慢国内的访问速度&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>博客CDN推荐</title>
-      <link>https://blog.anhe.one/p/256/</link>
+      <link>https://blog.ahcorn.com/p/256/</link>
       <pubDate>Mon, 16 Mar 2020 23:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/256/</guid>
+      <guid>https://blog.ahcorn.com/p/256/</guid>
       <description>&lt;p&gt;以下仅为个人意见，带有很多我的主观观点，仅供参考，请以自己的实际体验为准。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>【B站早划算】期望越大，失望越大</title>
-      <link>https://blog.anhe.one/p/302/</link>
+      <link>https://blog.ahcorn.com/p/302/</link>
       <pubDate>Mon, 09 Mar 2020 11:05:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/302/</guid>
+      <guid>https://blog.ahcorn.com/p/302/</guid>
       <description>&lt;p&gt;若您想知道是看下单时间，还是支付时间，答案是看支付成功的时间。
 不过，在此我需要提醒您，我并不建议您购买B站早划算，虽一开始还算良心，但到如今，早划算已不减免全部尾款，更弄出了验证码这种恶心的操作，加上质量本身不过关的问题，建议各位不要购买B站早划算商品。&lt;/p&gt;
 &lt;p&gt;老实说，我甚至不建议你继续使用会员购，我在B站600买的毛绒玩具（初音fufu）到处开线，刀疤脸，客服告诉我正常，不给予更换，成功更换的都是找消协什么的才弄好&amp;hellip;我就直接认栽了&lt;/p&gt;
@@ -339,165 +339,165 @@
     
     <item>
       <title>Typecho登陆后显示内容</title>
-      <link>https://blog.anhe.one/p/245/</link>
+      <link>https://blog.ahcorn.com/p/245/</link>
       <pubDate>Mon, 09 Mar 2020 09:08:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/245/</guid>
+      <guid>https://blog.ahcorn.com/p/245/</guid>
       <description>&lt;p&gt;硬核实现，只能加在content输出的下方或上方。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>浅谈《妄想破绽》</title>
-      <link>https://blog.anhe.one/p/230/</link>
+      <link>https://blog.ahcorn.com/p/230/</link>
       <pubDate>Sat, 29 Feb 2020 15:18:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/230/</guid>
+      <guid>https://blog.ahcorn.com/p/230/</guid>
       <description>&lt;p&gt;玩通四条线后，很想写篇文章吐槽吐槽。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho首页样式</title>
-      <link>https://blog.anhe.one/p/228/</link>
+      <link>https://blog.ahcorn.com/p/228/</link>
       <pubDate>Sat, 29 Feb 2020 15:04:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/228/</guid>
+      <guid>https://blog.ahcorn.com/p/228/</guid>
       <description>&lt;p&gt;基于紫罗兰主题修改，其它主题也可以使用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>坚果Pro3使用体验</title>
-      <link>https://blog.anhe.one/p/223/</link>
+      <link>https://blog.ahcorn.com/p/223/</link>
       <pubDate>Wed, 26 Feb 2020 12:28:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/223/</guid>
+      <guid>https://blog.ahcorn.com/p/223/</guid>
       <description>&lt;p&gt;之前觉得写的太乱了就没打算发的，现在想想再不发可能就没人再去关注这手机了hhh&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nexmoe移植记录</title>
-      <link>https://blog.anhe.one/p/255/</link>
+      <link>https://blog.ahcorn.com/p/255/</link>
       <pubDate>Sun, 23 Feb 2020 12:38:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/255/</guid>
+      <guid>https://blog.ahcorn.com/p/255/</guid>
       <description>&lt;p&gt;我就是 copy 怪hhh，大部分样式来自 Hexo 版本&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho无插件实现目录</title>
-      <link>https://blog.anhe.one/p/251/</link>
+      <link>https://blog.ahcorn.com/p/251/</link>
       <pubDate>Sat, 22 Feb 2020 06:26:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/251/</guid>
+      <guid>https://blog.ahcorn.com/p/251/</guid>
       <description>&lt;p&gt;对网上的版本进行了个小修改~&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho快速实现灯箱</title>
-      <link>https://blog.anhe.one/p/206/</link>
+      <link>https://blog.ahcorn.com/p/206/</link>
       <pubDate>Fri, 31 Jan 2020 12:05:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/206/</guid>
+      <guid>https://blog.ahcorn.com/p/206/</guid>
       <description>&lt;p&gt;实现方法和一些注意事项。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>提升Typecho的访问速度</title>
-      <link>https://blog.anhe.one/p/188/</link>
+      <link>https://blog.ahcorn.com/p/188/</link>
       <pubDate>Sat, 25 Jan 2020 21:16:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/188/</guid>
+      <guid>https://blog.ahcorn.com/p/188/</guid>
       <description>&lt;p&gt;对首屏速度优化的一些经验。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho优化</title>
-      <link>https://blog.anhe.one/p/186/</link>
+      <link>https://blog.ahcorn.com/p/186/</link>
       <pubDate>Sat, 25 Jan 2020 20:34:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/186/</guid>
+      <guid>https://blog.ahcorn.com/p/186/</guid>
       <description>&lt;p&gt;从首屏速度到访客体验，总结下这三年从优化到写主题的一些小经验。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>第一次去漫展</title>
-      <link>https://blog.anhe.one/p/169/</link>
+      <link>https://blog.ahcorn.com/p/169/</link>
       <pubDate>Sun, 19 Jan 2020 21:35:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/169/</guid>
+      <guid>https://blog.ahcorn.com/p/169/</guid>
       <description>&lt;p&gt;感觉这是一件有必要记录下来的事（严肃脸&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>再见，2019</title>
-      <link>https://blog.anhe.one/p/2019/</link>
+      <link>https://blog.ahcorn.com/p/2019/</link>
       <pubDate>Tue, 31 Dec 2019 23:57:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/2019/</guid>
+      <guid>https://blog.ahcorn.com/p/2019/</guid>
       <description>&lt;p&gt;2019的最后三分钟，愿2020的我能做出些许改变。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Magisk模块推荐</title>
-      <link>https://blog.anhe.one/p/108/</link>
+      <link>https://blog.ahcorn.com/p/108/</link>
       <pubDate>Sat, 28 Dec 2019 17:56:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/108/</guid>
+      <guid>https://blog.ahcorn.com/p/108/</guid>
       <description></description>
     </item>
     
     <item>
       <title>一加5T个人养老方案</title>
-      <link>https://blog.anhe.one/p/104/</link>
+      <link>https://blog.ahcorn.com/p/104/</link>
       <pubDate>Sat, 28 Dec 2019 17:26:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/104/</guid>
+      <guid>https://blog.ahcorn.com/p/104/</guid>
       <description>&lt;p&gt;养老啦养老啦，准备再用一年左右就换了（不过我最近看坚果pro3有点心动&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Data分区EXT4转F2FS</title>
-      <link>https://blog.anhe.one/p/102/</link>
+      <link>https://blog.ahcorn.com/p/102/</link>
       <pubDate>Sat, 28 Dec 2019 17:09:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/102/</guid>
+      <guid>https://blog.ahcorn.com/p/102/</guid>
       <description>&lt;p&gt;说起来很沙雕hhh..光转个分区我就研究了好久，实际上只需要点两下就转换好了，根本没有这么麻烦&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>刘步蟾是否倒置了人字阵型？</title>
-      <link>https://blog.anhe.one/p/85/</link>
+      <link>https://blog.ahcorn.com/p/85/</link>
       <pubDate>Sat, 23 Nov 2019 00:08:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/85/</guid>
+      <guid>https://blog.ahcorn.com/p/85/</guid>
       <description>&lt;p&gt;在阅读蒋廷黻先生的《中国近代史》时发现，甲午海战部分蒋廷黻先生称刘步蟾因为胆怯，倒置原定的人字阵型以求自保，但我在询问老师、在网上搜寻后，发现仅有蒋廷黻先生书中有这一说法，所以，希望能够找到有关于甲午海战的历史文献，了解当时的真相。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>服务器选购指南</title>
-      <link>https://blog.anhe.one/p/84/</link>
+      <link>https://blog.ahcorn.com/p/84/</link>
       <pubDate>Wed, 13 Nov 2019 01:22:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/84/</guid>
+      <guid>https://blog.ahcorn.com/p/84/</guid>
       <description>&lt;p&gt;&lt;strong&gt;全文速览：根据自己的情况和目的选择低高配的服务器 例如小型个人博客选择 1H0.5G 资源站选择  2H4G100M 等；购买时选择靠谱的服务商，例如国内阿里云腾讯云，海外搬瓦工；多家比价，在优惠力度大时购买，例如国内新用户福利或者各种节日的优惠海外搬瓦工的黑色星期五；在资金不足配置跟不上需求时通过优化网站程序，套 CDN，来减少成本，不过治标不治本，需求量大时依旧凉凉。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;本文为重置之前的服务器选购指南，试图更加准确的告诉各位如何选择适合自己的服务器。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>主题“简和”正式发布</title>
-      <link>https://blog.anhe.one/p/82/</link>
+      <link>https://blog.ahcorn.com/p/82/</link>
       <pubDate>Sat, 19 Oct 2019 21:40:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/82/</guid>
+      <guid>https://blog.ahcorn.com/p/82/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;时隔一年，本主题分为极简版和普通版发布。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>侧边栏增加个人介绍</title>
-      <link>https://blog.anhe.one/p/76/</link>
+      <link>https://blog.ahcorn.com/p/76/</link>
       <pubDate>Sat, 03 Aug 2019 13:19:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/76/</guid>
+      <guid>https://blog.ahcorn.com/p/76/</guid>
       <description>&lt;p&gt;&lt;strong&gt;本样式基于Violet主题的基础上修改，理论上兼容类似样式的侧边栏，小细节还是需要各位自行修改&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;由于本人技术欠佳，本功能是靠着非常沙雕的方式实现的，所以很容易出现适配上的问题，即便是在Violet主题上使用，个性签名也要限制在11个字以内。&lt;/p&gt;
 &lt;p&gt;如果您不是Typecho用户，请自行修改PHP调用。&lt;/p&gt;</description>
@@ -505,28 +505,28 @@
     
     <item>
       <title>归档</title>
-      <link>https://blog.anhe.one/page/archives/</link>
+      <link>https://blog.ahcorn.com/page/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/archives/</guid>
+      <guid>https://blog.ahcorn.com/page/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站常见问题解决方案</title>
-      <link>https://blog.anhe.one/p/74/</link>
+      <link>https://blog.ahcorn.com/p/74/</link>
       <pubDate>Thu, 14 Mar 2019 21:10:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/74/</guid>
+      <guid>https://blog.ahcorn.com/p/74/</guid>
       <description>&lt;p&gt;一些常见问题的解决方案，持续更新中（咕咕咕&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>什么是适合自己的服务器？</title>
-      <link>https://blog.anhe.one/p/72/</link>
+      <link>https://blog.ahcorn.com/p/72/</link>
       <pubDate>Mon, 11 Mar 2019 13:35:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/72/</guid>
+      <guid>https://blog.ahcorn.com/p/72/</guid>
       <description>&lt;h2 id=&#34;注意&#34;&gt;注意&lt;/h2&gt;
 &lt;p&gt;阅读本文前，请您注意以下几点:&lt;/p&gt;
 &lt;ol&gt;
@@ -537,58 +537,58 @@
     
     <item>
       <title>玩机达到极致省电</title>
-      <link>https://blog.anhe.one/p/63/</link>
+      <link>https://blog.ahcorn.com/p/63/</link>
       <pubDate>Sun, 10 Mar 2019 21:14:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/63/</guid>
+      <guid>https://blog.ahcorn.com/p/63/</guid>
       <description>&lt;h2 id=&#34;碎碎念&#34;&gt;碎碎念&lt;/h2&gt;
 &lt;p&gt;说起来已经有3个月没有更新过文章了吧，尽量保持干货以后就感觉不想更新文章了hhh，不提这些，主要是我现在莫得网了，为了省点流量，就先本地攒几篇文章吧。关于在酷安的这个标题我想了很久[受虐滑稽]最后就这样吧&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>主题“简和”开发日志</title>
-      <link>https://blog.anhe.one/p/14/</link>
+      <link>https://blog.ahcorn.com/p/14/</link>
       <pubDate>Sun, 21 Oct 2018 20:40:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/14/</guid>
+      <guid>https://blog.ahcorn.com/p/14/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typecho优化【主题】</title>
-      <link>https://blog.anhe.one/p/13/</link>
+      <link>https://blog.ahcorn.com/p/13/</link>
       <pubDate>Mon, 24 Sep 2018 12:49:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/13/</guid>
+      <guid>https://blog.ahcorn.com/p/13/</guid>
       <description>&lt;p&gt;更新频率变慢..提高文章质量，详情请看上篇公告，本文整合最简洁的主题优化方式，简短干货，上篇优化文章太多太长了..有酷友说太乱了&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Typecho全站启用HTTPS</title>
-      <link>https://blog.anhe.one/p/11/</link>
+      <link>https://blog.ahcorn.com/p/11/</link>
       <pubDate>Sat, 01 Sep 2018 13:58:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/11/</guid>
+      <guid>https://blog.ahcorn.com/p/11/</guid>
       <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;因为我自己用的谷歌浏览器..每次都看到博客前面不安全三个字有点难受..于是就去七牛弄了个免费的SSL证书，又去又拍云强制了https访问，但访问时却发现并不是显示安全，提示页面内还有不安全的内容..&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何正确食用应用管理XP？</title>
-      <link>https://blog.anhe.one/p/9/</link>
+      <link>https://blog.ahcorn.com/p/9/</link>
       <pubDate>Mon, 27 Aug 2018 21:49:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/9/</guid>
+      <guid>https://blog.ahcorn.com/p/9/</guid>
       <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;用了这么久的XP框架..这么久的应用管理XP，但你真的会用它吗？本文讲逐步讲解应用管理XP的实用功能&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Xposed会影响性能及耗电？</title>
-      <link>https://blog.anhe.one/p/8/</link>
+      <link>https://blog.ahcorn.com/p/8/</link>
       <pubDate>Sun, 26 Aug 2018 16:47:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/8/</guid>
+      <guid>https://blog.ahcorn.com/p/8/</guid>
       <description>&lt;h2 id=&#34;前戏&#34;&gt;前戏&lt;/h2&gt;
 &lt;p&gt;我们在玩机的时候都会接触到Xposed，也就是XP框架，还是个小白的时候，认为框架很好用，但是时间长了就产生了另外一个问题，XP框架用久了，会不会影响系统的运行速度及耗电等等？
 当我们每次向别人问这个问题时，每个人的答案都不一样，有的说用了应用控制器，绿色守护等等的应用后反而更加省电了，而有些用户说自从用了框架以后出现了发热，卡顿等现象
@@ -597,20 +597,20 @@
     
     <item>
       <title>入手的第一款Galgame</title>
-      <link>https://blog.anhe.one/p/7/</link>
+      <link>https://blog.ahcorn.com/p/7/</link>
       <pubDate>Fri, 24 Aug 2018 17:48:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/7/</guid>
+      <guid>https://blog.ahcorn.com/p/7/</guid>
       <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;2016年的时候看上了一款Galgame 回忆忘却之匣&amp;hellip;那个时候算超穷的 :cry: ，实体版买不起，于是就看视频看了三遍左右，剧情基本都能背出来了&amp;hellip;但在最近不知怎么的突然想玩Galgame了，这时我又想起了这款游戏&amp;hellip;都在我淘宝收藏夹放了两年了&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MacOS丢失管理员权限</title>
-      <link>https://blog.anhe.one/p/6/</link>
+      <link>https://blog.ahcorn.com/p/6/</link>
       <pubDate>Wed, 22 Aug 2018 23:09:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/6/</guid>
+      <guid>https://blog.ahcorn.com/p/6/</guid>
       <description>&lt;p&gt;因为自己想改个用户名..结果改了之后就失去管理权限了,所以找了以下两个办法来恢复
 P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&lt;/p&gt;
 &lt;p&gt;若您是双系统用户，请确认您是从Mac启动&lt;/p&gt;</description>
@@ -618,19 +618,19 @@ P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&
     
     <item>
       <title>在Linux下刷入Rec</title>
-      <link>https://blog.anhe.one/p/4/</link>
+      <link>https://blog.ahcorn.com/p/4/</link>
       <pubDate>Wed, 22 Aug 2018 21:43:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/4/</guid>
+      <guid>https://blog.ahcorn.com/p/4/</guid>
       <description>&lt;p&gt;因为刷官方包没有刷root，REC没了，然而我只有这台LINUX..于是在这里分享一下Linux下刷入Rec的方法吧&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>没有Root如何达到省电效果?</title>
-      <link>https://blog.anhe.one/p/3/</link>
+      <link>https://blog.ahcorn.com/p/3/</link>
       <pubDate>Wed, 22 Aug 2018 14:51:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/3/</guid>
+      <guid>https://blog.ahcorn.com/p/3/</guid>
       <description>&lt;p&gt;在上一篇文章后，出现了另一个问题，那就是总会有些神机不能Root对吧 那么这里就再来一篇吧&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本人小白，若有错误望大佬指出&lt;/p&gt;
@@ -639,10 +639,10 @@ P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&
     
     <item>
       <title>LG G5韩版发热解決方案</title>
-      <link>https://blog.anhe.one/p/lg1/</link>
+      <link>https://blog.ahcorn.com/p/lg1/</link>
       <pubDate>Wed, 22 Aug 2018 14:15:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/lg1/</guid>
+      <guid>https://blog.ahcorn.com/p/lg1/</guid>
       <description>&lt;p&gt;lg g5韩版日常发热解决方案&lt;/p&gt;
 &lt;p&gt;韩版不能Root的问题在买的时候并没有在意，到手后才感到不适，发热很严重问题十分严重，难道就没有什么解决的方案？&lt;/p&gt;
 &lt;p&gt;摸索了一个多月后，终于解决了日常发热的问题&lt;/p&gt;</description>
@@ -650,10 +650,10 @@ P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&
     
     <item>
       <title>如何解决耗电崩的问题？</title>
-      <link>https://blog.anhe.one/p/1/</link>
+      <link>https://blog.ahcorn.com/p/1/</link>
       <pubDate>Sat, 10 Mar 2018 09:48:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/1/</guid>
+      <guid>https://blog.ahcorn.com/p/1/</guid>
       <description>&lt;h2 id=&#34;设备要求&#34;&gt;设备要求:&lt;/h2&gt;
 &lt;p&gt;1.已Root&lt;/p&gt;
 &lt;p&gt;2.已安装XP框架&lt;/p&gt;
@@ -662,28 +662,28 @@ P.S 如果你是双系统 请切换到默认启动MACOS后再使用以下方法&
     
     <item>
       <title>关于</title>
-      <link>https://blog.anhe.one/page/about/</link>
+      <link>https://blog.ahcorn.com/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/about/</guid>
+      <guid>https://blog.ahcorn.com/page/about/</guid>
       <description>关于我 🌱 2017 年时因为做博客开始接触前端，不过至今水平依然很差 :( 🎓 2022 级计算机科学与技术专业 💻 最近在学习 Python 和 Javascript ✏️ 使用 Hugo 构建了 安和Blog 个人经历</description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://blog.anhe.one/page/search/</link>
+      <link>https://blog.ahcorn.com/page/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/search/</guid>
+      <guid>https://blog.ahcorn.com/page/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>友人</title>
-      <link>https://blog.anhe.one/page/links/</link>
+      <link>https://blog.ahcorn.com/page/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/links/</guid>
+      <guid>https://blog.ahcorn.com/page/links/</guid>
       <description>由于本站多次的域名更换，导致SEO和访客数量相差百倍，所以如果本站在更换域名后未达到贵站的SEO要求，您可以通知我进行友链的删除，抱歉给诸位</description>
     </item>
     

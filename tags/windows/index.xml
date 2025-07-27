@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on 安和Blog</title>
-    <link>https://blog.anhe.one/tags/windows/</link>
+    <link>https://blog.ahcorn.com/tags/windows/</link>
     <description>Recent content in Windows on 安和Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>安和</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ahcorn.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>微软账户登录时闪退 解决方案</title>
-      <link>https://blog.anhe.one/p/system-error1/</link>
+      <link>https://blog.ahcorn.com/p/system-error1/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/p/system-error1/</guid>
+      <guid>https://blog.ahcorn.com/p/system-error1/</guid>
       <description>我个人的网络环境是良好的，所以请在确保这一前提下，查看以下报错信息是否和我的一致。 我原先使用23H2版本，下载了24H2镜像，选择了只保留文</description>
     </item>
     

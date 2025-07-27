@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on 安和Blog</title>
-    <link>https://blog.anhe.one/page/</link>
+    <link>https://blog.ahcorn.com/page/</link>
     <description>Recent content in Pages on 安和Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>安和</copyright>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.anhe.one/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ahcorn.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>归档</title>
-      <link>https://blog.anhe.one/page/archives/</link>
+      <link>https://blog.ahcorn.com/page/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/archives/</guid>
+      <guid>https://blog.ahcorn.com/page/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>https://blog.anhe.one/page/about/</link>
+      <link>https://blog.ahcorn.com/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/about/</guid>
+      <guid>https://blog.ahcorn.com/page/about/</guid>
       <description>关于我 🌱 2017 年时因为做博客开始接触前端，不过至今水平依然很差 :( 🎓 2022 级计算机科学与技术专业 💻 最近在学习 Python 和 Javascript ✏️ 使用 Hugo 构建了 安和Blog 个人经历</description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://blog.anhe.one/page/search/</link>
+      <link>https://blog.ahcorn.com/page/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/search/</guid>
+      <guid>https://blog.ahcorn.com/page/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>友人</title>
-      <link>https://blog.anhe.one/page/links/</link>
+      <link>https://blog.ahcorn.com/page/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.anhe.one/page/links/</guid>
+      <guid>https://blog.ahcorn.com/page/links/</guid>
       <description>由于本站多次的域名更换，导致SEO和访客数量相差百倍，所以如果本站在更换域名后未达到贵站的SEO要求，您可以通知我进行友链的删除，抱歉给诸位</description>
     </item>
     
