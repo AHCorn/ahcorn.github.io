@@ -1,0 +1,75 @@
+---
+title: "关于"
+layout: "about"
+name: "安和"
+description: "会一些开发和运维的菜狗"
+avatar: "/images/avatar.jpg"
+github_username: "AHCorn"
+featured_repos: ["Bilibili-Auto-Quality",  "krau/Gopeed-Chrome-Extension","Bilibili-Batch-Unsubscribe","typecho-theme-Jian","Bilibili-Favlist-Export","HTML-Music-Player"]
+skills:
+  - name: "HTML5"
+    icon: "html5"
+  - name: "CSS3"
+    icon: "css3"
+  - name: "JavaScript"
+    icon: "code-s"
+  - name: "MySQL"
+    icon: "database"
+  - name: "PHP"
+    icon: "code-box"
+  - name: "Python"
+    icon: "terminal-box"
+---
+
+## 关于我
+
+- 🌱 2017 年时因为做博客开始接触前端，不过至今水平依然很差 :(
+
+- 🎓 2022 级计算机科学与技术专业
+ 
+- 💻 最近在学习 Python 和 Javascript
+  
+- ✏️ 使用 [Hugo](https://gohugo.io) 构建了 [安和Blog](https://ahcorn.github.io)  
+
+
+## 个人经历
+
+一条简陋的时间线，一个还待完善的人生。
+
+{{< timeline >}}
+[2014]
+爱拍播客
+视频剪辑
+[2015]
+我的世界服务器
+[2016]
+卡盟
+网络攻防
+[2017]
+博客建站
+手机刷机
+[2018]
+<a href="/p/14">前端开发起步</a>
+<a href="/p/13"> Typecho 管理</a>
+[2019]
+<a href="/p/84">服务器运维</a>
+<a href="/p/63">玩机进阶</a>
+[2020]
+SEO优化
+百度权重1
+<a href="https://github.com/theme-nexmoe/typecho-theme-nexmoe">首次 PR</a>
+<a href="/p/255/">前端进阶</a>
+[2021]
+文学
+[2022]
+计算机科学与技术专业
+[2023]
+个人网络环境搭建
+Java & Vue
+[2024]
+<a href="https://github.com/AHCorn/Bilibili-Auto-Quality">脚本制作</a>
+Java Web 应用
+综合理论
+[2025]
+重构简和主题
+{{< /timeline >}}

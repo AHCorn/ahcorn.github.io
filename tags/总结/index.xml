@@ -1,30 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>总结 on 安和Blog</title>
-    <link>https://blog.ahcorn.com/tags/%E6%80%BB%E7%BB%93/</link>
-    <description>Recent content in 总结 on 安和Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>安和</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ahcorn.com/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2023年度总结</title>
-      <link>https://blog.ahcorn.com/p/2023/</link>
-      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ahcorn.com/p/2023/</guid>
-      <description>2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。 至于为什么一月九号才写年终总结&amp;hellip;以前或</description>
-    </item>
-    
-    <item>
-      <title>2022年度总结</title>
-      <link>https://blog.ahcorn.com/p/2022/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ahcorn.com/p/2022/</guid>
-      <description>博客 一共发布了 4 篇文章，比 2021 少了 13 篇。 百度收录依然是0，谷歌在120左右波动。 共收到 9 条来自访客的评论，已经凉透啦。 （不过有很大一部分原因是</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>总结 on 安和Blog</title><link>https://blog.ahcorn.com/tags/%E6%80%BB%E7%BB%93/</link><description>Recent content in 总结 on 安和Blog</description><generator>Hugo</generator><language>zh-cn</language><copyright>安和</copyright><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ahcorn.com/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>2023年度总结</title><link>https://blog.ahcorn.com/p/2023/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>https://blog.ahcorn.com/p/2023/</guid><description>&lt;style&gt;
+.table-wrapper {
+ margin-left: calc((var(--card-padding)) * -1)!important;
+ margin-right: calc((var(--card-padding)) * -1)!important;
+ width: calc(100% + var(--card-padding) * 2)!important;
+ }
+.article-content th, .article-content td {
+ padding: 2px!important;
+ border: none!important;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+
+
+&lt;div class="music-player" id="music-1772573634183913000" data-playing="false"&gt;
+ 
+ &lt;div class="music-cover"&gt;
+ 
+ &lt;img src="music.webp" alt="明日への旅路（明日的旅途）" loading="lazy" draggable="false" /&gt;
+ 
+ &lt;button class="music-play-btn" type="button" aria-label="播放"&gt;
+ &lt;svg class="music-icon music-icon--play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"&gt;
+ &lt;path d="M8 5v14l11-7z"/&gt;
+ &lt;/svg&gt;
+ &lt;svg class="music-icon music-icon--pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"&gt;
+ &lt;rect x="6" y="4" width="4" height="16" rx="1"/&gt;
+ &lt;rect x="14" y="4" width="4" height="16" rx="1"/&gt;
+ &lt;/svg&gt;
+ &lt;/button&gt;
+ &lt;/div&gt;
+
+ 
+ &lt;div class="music-body"&gt;
+ &lt;div class="music-meta"&gt;
+ &lt;span class="music-title"&gt;明日への旅路（明日的旅途）&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ &lt;div class="music-controls"&gt;
+ &lt;div class="music-progress" role="slider" tabindex="0"
+ aria-label="播放进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"&gt;
+ &lt;div class="music-progress-fill"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="music-time"&gt;
+ &lt;span class="music-current"&gt;0:00&lt;/span&gt;
+ &lt;span class="music-duration"&gt;0:00&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;audio src="%e6%98%8e%e6%97%a5%e3%81%b8%e3%81%ae%e6%97%85%e8%b7%af.mp3" preload="metadata"&gt;&lt;/audio&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2023 年可以说是什么也没做的一年，倒是电子设备经历了次换代，然后&amp;hellip;又换回去了。&lt;/p&gt;</description></item><item><title>2022年度总结</title><link>https://blog.ahcorn.com/p/2022/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.ahcorn.com/p/2022/</guid><description>&lt;h2 id="博客"&gt;博客&lt;/h2&gt;
+&lt;p&gt;一共发布了 4 篇文章，比 2021 少了 13 篇。
+百度收录依然是0，谷歌在120左右波动。
+共收到 9 条来自访客的评论，已经凉透啦。
+（不过有很大一部分原因是有半年多评论系统都无法正常评论）
+主题最近有新写一个Demo，但还只有首页&lt;/p&gt;</description></item><item><title>2021年总结</title><link>https://blog.ahcorn.com/p/2021/</link><pubDate>Sun, 09 Jan 2022 17:01:00 +0000</pubDate><guid>https://blog.ahcorn.com/p/2021/</guid><description>&lt;p&gt;迟来了一个多星期的总结，也并没有更多的内容。&lt;/p&gt;</description></item></channel></rss>

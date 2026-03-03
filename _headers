@@ -1,0 +1,37 @@
+# HTTP 缓存策略（Cloudflare Pages / Netlify 通用格式）
+# 指纹化资源（CSS/JS/字体）永久缓存，HTML 不缓存确保更新即时生效
+
+# HTML 页面：不缓存（确保 SPA 路由拿到最新 HTML）
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 指纹化 CSS/JS：文件名含哈希，可永久缓存
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 自托管字体：长期缓存 + 允许跨域加载
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# PhotoSwipe 等 vendor 资源：指纹化，永久缓存
+/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 站点级图片（头像、默认封面等）
+/images/*
+  Cache-Control: public, max-age=604800
+
+# 文章内图片（Hugo 处理后含哈希的走永久缓存，原图走短缓存）
+/p/*
+  Cache-Control: public, max-age=86400
+
+# RSS / JSON 搜索索引
+/index.xml
+  Cache-Control: public, max-age=3600
+
+/index.json
+  Cache-Control: public, max-age=3600
